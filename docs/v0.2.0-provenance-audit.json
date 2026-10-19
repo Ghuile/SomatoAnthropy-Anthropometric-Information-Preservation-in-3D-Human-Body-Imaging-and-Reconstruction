@@ -1,0 +1,13 @@
+{
+  "tag": "v0.2.0",
+  "observed_tag_commit": "c0cd2154d5761999774a4c7fa797545fc261937c",
+  "release_description_commit": "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b",
+  "archive_url": "https://github.com/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3D-Human-Body-Imaging-and-Reconstruction/releases/download/v0.2.0/somatoanthropy-v0.2.0.zip",
+  "archive_sha256": "e91a3883359b43795f9ea351878d89c106d24c23ed23ed9e4c795bc81708a77e",
+  "archive_files": 257,
+  "exact_matching_commits": [
+    "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b"
+  ],
+  "status": "superseded by v0.2.1",
+  "interpretation": "The downloadable v0.2.0 archive exactly matches 5c1553b, while the observed tag points to c0cd215. Cite the archive by its checksum and original commit; do not treat the tag as identifying those archive bytes. Existing archive and tag are retained without further retargeting."
+}

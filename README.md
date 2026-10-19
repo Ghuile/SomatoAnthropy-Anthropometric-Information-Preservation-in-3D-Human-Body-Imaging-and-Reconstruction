@@ -2,6 +2,9 @@
 
 **Anthropometric Information Preservation in 3D Human-Body Imaging and Reconstruction**
 
+Corrected software release: [v0.2.1](https://github.com/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3D-Human-Body-Imaging-and-Reconstruction/releases/tag/v0.2.1).
+See the [release provenance](docs/release-v0.2.1.md) for the superseded v0.2.0 archive/tag discrepancy and matching data snapshot.
+
 ## Overview
 
 SomatoAnthropy studies what native MHR reconstruction preserves from existing body

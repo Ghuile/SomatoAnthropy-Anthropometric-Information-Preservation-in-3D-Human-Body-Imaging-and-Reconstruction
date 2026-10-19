@@ -48,6 +48,15 @@ def test_private_package_uses_allowlist_and_rejects_tampering(tmp_path):
     result = BUILD["build_package"](release, package, COMMIT, archive)
     assert result["aggregate_tables"] == 47 and result["csv_tables"] == 6
     assert result["uploaded"] is False
+    assert all(
+        (package / name).read_bytes() == (release / name).read_bytes()
+        for name in BUILD["SUPPLEMENTARY"]
+    )
+    assert (
+        yaml.safe_load((package / "CITATION.cff").read_text("utf-8"))["version"]
+        == "0.2.1-companion." + COMMIT[:12]
+    )
+    assert not list(package.rglob("*.glb"))
     assert not (package / "cohort-ledger.json").exists()
     assert all(
         b"EXCLUDE_THIS_INVENTED_RECORD" not in p.read_bytes()

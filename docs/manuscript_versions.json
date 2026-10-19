@@ -8,10 +8,23 @@
     {
       "version": "0.2.0",
       "tag": "v0.2.0",
-      "commit_resolution": "git rev-parse v0.2.0^{commit}",
       "manuscript_sha256": "b3d71f06ed6c9b03c9549b63415c858eab3e89b078dfd6e896e5bd601ad135b7",
       "supplement_sha256": "1222a237feb0022b5c8292e98e7436c944ea49f856f99392ed0655c28bb8150c",
-      "meaning": "Audit evidence extension and exact current manuscript SVG generation; source manuscript files not changed by this release"
+      "meaning": "Audit evidence extension and exact current manuscript SVG generation; source manuscript files not changed by this release",
+      "archive_commit": "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b",
+      "archive_sha256": "e91a3883359b43795f9ea351878d89c106d24c23ed23ed9e4c795bc81708a77e",
+      "observed_tag_commit": "c0cd2154d5761999774a4c7fa797545fc261937c",
+      "status": "superseded; original manuscript hash pins retained",
+      "provenance_audit": "docs/v0.2.0-provenance-audit.json"
+    },
+    {
+      "version": "0.2.1",
+      "tag": "v0.2.1",
+      "commit_resolution": "git rev-parse v0.2.1^{commit}",
+      "data_repository": "https://huggingface.co/datasets/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3DHumanBody-Imaging-and-Reconstruction",
+      "data_tag": "v0.2.1",
+      "data_package": "releases/v0.2.1",
+      "meaning": "Corrected software/data release; full commit binding is in the published release receipt. No manuscript sources or scientific results are changed by release preparation."
     }
   ]
 }

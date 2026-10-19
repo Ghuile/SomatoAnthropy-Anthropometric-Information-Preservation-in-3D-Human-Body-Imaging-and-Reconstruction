@@ -25,6 +25,8 @@ DOCUMENTS = (
     "docs/claim-pipeline-provenance.json",
     "docs/third_party.md",
     "docs/audit-update.md",
+    "docs/release-v0.2.1.md",
+    "docs/v0.2.0-provenance-audit.json",
     "docs/manuscript-figure-provenance.json",
     "configs/control_audit_204.json",
     "third_party/MHR-assets-Apache-2.0.txt",
@@ -32,6 +34,31 @@ DOCUMENTS = (
     "third_party/clad-body-Apache-2.0.txt",
     "LICENSES/MIT.txt",
     "LICENSES/CC-BY-4.0.txt",
+)
+SUPPLEMENTARY = (
+    "supplementary/manuscript-evidence/FILE_MANIFEST.json",
+    "supplementary/manuscript-evidence/README.md",
+    "supplementary/manuscript-evidence/evidence/articulation_associations.json",
+    "supplementary/manuscript-evidence/evidence/development_and_rank_manifest.json",
+    "supplementary/manuscript-evidence/evidence/development_control_comparison.csv",
+    "supplementary/manuscript-evidence/evidence/development_cross_path_paired_effects.csv",
+    "supplementary/manuscript-evidence/evidence/development_cross_path_summary.csv",
+    "supplementary/manuscript-evidence/evidence/development_paired_effects.csv",
+    "supplementary/manuscript-evidence/evidence/extent_agreement.json",
+    "supplementary/manuscript-evidence/evidence/height_rank_correlations.csv",
+    "supplementary/manuscript-evidence/evidence/native_control_bounds.csv",
+    "supplementary/manuscript-evidence/evidence/native_control_sparse_mappings.csv",
+    "supplementary/manuscript-evidence/evidence/native_controls_9_and_zero_domains.json",
+    "supplementary/manuscript-evidence/evidence/specification_manifest.json",
+    "supplementary/manuscript-evidence/evidence/t90_reference_130.csv",
+    "supplementary/manuscript-evidence/evidence/t90_reference_130.json",
+    "supplementary/manuscript-evidence/evidence/t90_reference_sparse16.csv",
+    "supplementary/manuscript-evidence/evidence/template_control_provenance.json",
+    "supplementary/manuscript-evidence/evidence/waist_fallback_strata.json",
+    "supplementary/manuscript-evidence/figures/waist/mesh_io.py",
+    "supplementary/manuscript-evidence/figures/waist/render_waist_figure.py",
+    "supplementary/manuscript-evidence/figures/waist/waist_figure_provenance.json",
+    "supplementary/manuscript-evidence/figures/waist/waist_illustration_data.json",
 )
 CSV_TABLES = (
     "E2-2-height-all-arms",
@@ -96,14 +123,18 @@ def dataset_card(commit, tables):
         front
         + f"""# SomatoAnthropy companion dataset
 
-Prepared locally for private review. This package has not been uploaded by its
-builder. Keep any remote repository private until publication is authorised.
+Prepared from the exact software revision below. The builder performs no upload;
+remote publication and its revision are recorded separately by the publisher.
+Public release of the curated companion was authorised on 19 October 2026.
 
 ## Contents and provenance
 
 This is an aggregate research companion with 47 canonical JSON tables, six
 convenience CSV tables, a data dictionary, approved illustrations, complete
-model-control metadata and an entirely invented example. It contains no
+model-control metadata, 23 supplementary manuscript-evidence files and an
+entirely invented example. The supplementary files include aggregate tables,
+fixed native specifications and saved generated-surface illustration inputs and
+MIT rendering scripts; see supplementary/manuscript-evidence/README.md. It contains no
 participant records, meshes, fitted participant parameters, individual vectors,
 private cohort membership, model binaries or private correspondence.
 
@@ -161,7 +192,7 @@ matching GitHub software snapshot; see PACKAGE.md for exact commands.
 ## Licensing and citation
 
 Project-owned aggregate data, documentation and original illustrations: CC BY 4.0
-(LICENSE and LICENSES/CC-BY-4.0.txt). Invented example code: MIT
+(LICENSE and LICENSES/CC-BY-4.0.txt). Invented example and supplementary rendering code: MIT
 (LICENSES/MIT.txt). MHR-derived control metadata and template illustrations retain
 the upstream MHR notices in third_party/. No third-party dataset is relicensed.
 The earlier v0.2.0 release's permissions remain unchanged.
@@ -191,7 +222,7 @@ def build_package(root: Path, output: Path, commit: str, archive: Path | None = 
         raise ValueError("AGGREGATE_PATH_NOT_ALLOWED")
     illustrations = [f"results/manuscript-figures/Figure{i}.svg" for i in range(1, 7)]
     illustrations.append("results/template/template-controls.png")
-    copies = list(DOCUMENTS) + names + illustrations
+    copies = list(DOCUMENTS) + list(SUPPLEMENTARY) + names + illustrations
     payloads, receipts = {}, {}
     for name in copies:
         if name not in source_manifest:
@@ -210,18 +241,18 @@ def build_package(root: Path, output: Path, commit: str, archive: Path | None = 
 
 Project-owned aggregate data, research documentation and original illustrations:
 CC BY 4.0, in ../LICENSE and ../LICENSES/CC-BY-4.0.txt.
-Invented example code: MIT, in ../LICENSES/MIT.txt.
+Invented example and supplementary rendering code: MIT, in ../LICENSES/MIT.txt.
 MHR-derived control metadata and template illustrations retain the MHR notices
 in ../third_party/.
 No source dataset, model binary or participant record is supplied or relicensed.
 
 The source software's separate scope is documented in
 [the matching GitHub snapshot]({REPOSITORY}/blob/{commit}/docs/licensing.md).
-Historical CC BY permissions remain available. Preparing this private companion
+Historical CC BY permissions remain available. Preparing this companion
 does not publish it or change remote access settings.
 """.encode()
     payloads["NOTICE"] = (
-        "Project-owned data/documentation: CC BY 4.0. Invented example code: MIT.\n"
+        "Project-owned data/documentation: CC BY 4.0. Invented example and supplementary rendering code: MIT.\n"
         "Copyright (c) 2026 Vasileios Nikolaou, Daqing Chen and Perry Xiao.\n"
         "MHR-derived control metadata and template illustrations retain MHR notices.\n"
         "Source datasets are excluded and are not relicensed. See README.md and LICENSES/.\n"
@@ -241,7 +272,7 @@ does not publish it or change remote access settings.
             participant_data_included=False,
             model_binaries_included=False,
             uploaded=False,
-            preparation_status="local private package; no remote visibility changed",
+            preparation_status="local package; builder has no upload operation or visibility change",
         )
     )
     payloads["PACKAGE.md"] = f"""# Package verification
@@ -260,15 +291,21 @@ claim display from the source software checkout:
 python scripts/reproduce_audit_claims.py frozen --output reproduced/claims.json
 ```
 
-The package builder has no network or upload operation. Keep this package and
-any future Hub repository private until publication is authorised. Source input
+The package builder has no network or upload operation. Public hosting of the
+curated companion is authorised; remote revision receipts are separate. Source input
 hashes and the exact software commit are in SOURCE.json. Figures are the
-approved aggregate/schematic vectors and generic template illustration; no
-participant-derived imagery is included. Reproduction of fitting requires
+approved aggregate/schematic vectors and generic template illustration; the
+supplement also contains saved contours/profiles from two separately hosted
+generated model surfaces outside evaluation cohorts. No meshes are packaged. Reproduction of fitting requires
 separately authorised inputs and is outside this package.
 """.encode()
     citation = yaml.safe_load((root / "CITATION.cff").read_text("utf-8"))
-    citation.update(type="dataset", version=f"0.2.0-companion.{commit[:12]}", license="CC-BY-4.0")
+    citation.update(
+        type="dataset",
+        version=f"{citation['version']}-companion.{commit[:12]}",
+        license="CC-BY-4.0",
+    )
+    citation["url"] = DATASET + "/tree/v0.2.1"
     citation["message"] = "Please cite the accompanying manuscript and matching GitHub snapshot."
     citation["abstract"] = "Aggregate research evidence and invented examples; no participant data."
     payloads["CITATION.cff"] = yaml.safe_dump(citation, sort_keys=False).encode()
@@ -315,6 +352,7 @@ def verify_package(root: Path, package: Path):
     }
     copied = (
         set(DOCUMENTS)
+        | set(SUPPLEMENTARY)
         | names
         | {
             *(f"results/manuscript-figures/Figure{i}.svg" for i in range(1, 7)),

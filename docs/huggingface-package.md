@@ -1,8 +1,9 @@
-# Private Hugging Face companion
+# Versioned Hugging Face companion
 
 The companion is prepared locally. The builder performs no upload, creates no
-remote repository and changes no remote visibility. Keep the package and any
-future Hub repository private until the author authorises publication.
+remote repository and changes no remote visibility. Public hosting of the curated
+companion is authorised. Version v0.2.1 adds the 23 approved supplementary
+manuscript-evidence files and the release provenance records; no meshes are added.
 
 ```text
 python scripts/prepare_huggingface.py --source-commit FULL_GITHUB_COMMIT_SHA --output reproduced/huggingface --archive reproduced/huggingface-private.zip
@@ -35,6 +36,7 @@ paths are excluded. Aggregate statements about cohorts do not expose membership.
 Dataset provider terms remain separate from project licences. The package is an
 aggregate companion, with no individual-level fitting or clinical ground truth.
 
-Project-owned data/docs are CC BY 4.0; the invented example code is MIT.
+Project-owned data/docs are CC BY 4.0; the invented example and supplementary
+rendering code are MIT.
 Template-derived illustrations retain their MHR Apache-2.0 asset notice.
 The existing v0.2.0 tag/archive and deferred Zenodo status are preserved.

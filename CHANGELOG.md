@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.1 — 19 October 2026
+
+Corrects the v0.2.0 archive/tag provenance record, fixes supplementary renderer
+lint, and verifies the previously incomplete historical manifest using an exact
+commit-pinned receipt. Adds the 23 approved supplementary evidence files to the
+checksummed Hugging Face package and derives its version from CITATION.cff.
+Scientific inputs, aggregates and calculations are unchanged. Software remains
+MIT, documentation/aggregates CC BY 4.0, with upstream notices retained.
+See docs/release-v0.2.1.md and the published release receipt for full revisions.
+
+
 ## Public repository availability — 19 October 2026
 
 The author authorised public access to the curated GitHub repository and Hugging
