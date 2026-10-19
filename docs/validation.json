@@ -111,5 +111,50 @@
       "commit": "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b",
       "conclusion": "success"
     }
-  ]
+  ],
+  "claim_pipeline_extension": {
+    "date": "2026-10-19",
+    "numerical_anchors": 253,
+    "reconstructed_display_cells": 86,
+    "aggregate_files": 47,
+    "original_record_replay": "Passed, six claim groups; 4 correlations and 20 mechanism summaries; tolerance 1e-12",
+    "saved_probe_controls_reproduced": 204,
+    "loaded_native_model_controls_reproduced": 204,
+    "native_query_ast_equal": true,
+    "new_geometry_forwards": 0,
+    "new_fits": 0,
+    "individual_records_or_model_binaries_redistributed": false,
+    "limits": "The frozen route reconstructs displays from aggregates. Original-record replay needs separately authorised inputs. Group-arm n=4 remains exploratory. Zenodo deferred.",
+    "local_checks": {
+      "public_tests": [
+        {
+          "python": "3.11.17",
+          "passed": 150,
+          "skipped": 1,
+          "optional_comparator": "pinned source present"
+        },
+        {
+          "python": "3.12.14",
+          "passed": 149,
+          "skipped": 2,
+          "independent_environment": true
+        }
+      ],
+      "optional_skips": [
+        "Torch optimizer fixture absent in both review environments",
+        "Optional pinned comparator absent in Python 3.12"
+      ],
+      "ruff_check": "passed",
+      "ruff_format": "170 Python files passed",
+      "dependency_check": "pip check passed in independent Python 3.12 environment",
+      "original_algorithm_definition_asts_equal": 323,
+      "additional_reference_definition_asts_equal": 8,
+      "native_query_ast_equal": true,
+      "known_private_identifiers_checked": 2698,
+      "identifier_matches": 0,
+      "source_research_head_and_index_unchanged": true,
+      "original_experiment_reports_unchanged": 12,
+      "content_manifest_and_internal_artifact_hashes": "passed"
+    }
+  }
 }

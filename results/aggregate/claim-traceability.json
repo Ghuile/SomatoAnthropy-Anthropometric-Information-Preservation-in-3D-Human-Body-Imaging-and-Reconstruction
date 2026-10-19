@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "spearman": [
+    {
+      "partition": "heldout",
+      "collection": "SMPL-NICP",
+      "condition": "B",
+      "state": "canonical",
+      "n": 12,
+      "spearman": 0.8391608391608393
+    },
+    {
+      "partition": "heldout",
+      "collection": "SMPL-NICP",
+      "condition": "C",
+      "state": "canonical",
+      "n": 12,
+      "spearman": 0.9860139860139862
+    },
+    {
+      "partition": "heldout",
+      "collection": "CAESAR-NICP",
+      "condition": "B",
+      "state": "canonical",
+      "n": 12,
+      "spearman": 0.8111888111888113
+    },
+    {
+      "partition": "heldout",
+      "collection": "CAESAR-NICP",
+      "condition": "C",
+      "state": "canonical",
+      "n": 12,
+      "spearman": 0.9790209790209792
+    }
+  ],
+  "canonical_P_fallback": {
+    "people": 149,
+    "body_observations": 298,
+    "fallback_observations": 229,
+    "nonfallback_observations": 69,
+    "fallback_people": 119,
+    "nonfallback_people": 39,
+    "both_strata_people": 9,
+    "incomplete_people_excluded": 0
+  },
+  "cohort_build_and_provider_categories": {
+    "people": 150,
+    "selection_counts": [
+      {
+        "selection": "RETAINED",
+        "people": 109,
+        "female_source_category": 79,
+        "male_source_category": 30
+      },
+      {
+        "selection": "REPLACEMENT",
+        "people": 1,
+        "female_source_category": 1,
+        "male_source_category": 0
+      },
+      {
+        "selection": "ADDITIONAL",
+        "people": 40,
+        "female_source_category": 0,
+        "male_source_category": 40
+      }
+    ],
+    "female_source_category": 80,
+    "male_source_category": 70
+  },
+  "mechanism_groups": {
+    "G1": [
+      "scale_spine_length",
+      "scale_neck_length"
+    ],
+    "G2": [
+      "scale_uplegs",
+      "scale_lowlegs",
+      "scale_foot_length"
+    ],
+    "G3": [
+      "scale_uparms",
+      "scale_lowarms"
+    ],
+    "G4": [
+      "scale_shoulder_width",
+      "scale_hip_width"
+    ]
+  },
+  "development_mechanisms": [
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "B",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.5133413324691853,
+      "canonical_to_source_sd_ratio": 0.18644841768739295,
+      "fitted_height_mae_cm": 3.74634119319915,
+      "surface_mean_cm": 0.4486599771618021
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "B",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.5071352116096167,
+      "canonical_to_source_sd_ratio": 0.1954468101103815,
+      "fitted_height_mae_cm": 3.8211681653976584,
+      "surface_mean_cm": 0.4523219202284182
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "C",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.883039033244805,
+      "canonical_to_source_sd_ratio": 0.6419521372037942,
+      "fitted_height_mae_cm": 1.0425322063446032,
+      "surface_mean_cm": 0.34799912907003294
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "C",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.8323714715721038,
+      "canonical_to_source_sd_ratio": 0.5799035108088579,
+      "fitted_height_mae_cm": 1.49522374796868,
+      "surface_mean_cm": 0.35365055255550554
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "G1",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.7436962845549889,
+      "canonical_to_source_sd_ratio": 0.4801663827628963,
+      "fitted_height_mae_cm": 2.213359533977517,
+      "surface_mean_cm": 0.423882645528056
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "G1",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.6709986548581708,
+      "canonical_to_source_sd_ratio": 0.4411976023936753,
+      "fitted_height_mae_cm": 2.691515520954134,
+      "surface_mean_cm": 0.4215173303760464
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "G2",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.7901610578047202,
+      "canonical_to_source_sd_ratio": 0.5720922552382697,
+      "fitted_height_mae_cm": 1.5768180732727046,
+      "surface_mean_cm": 0.39869859422704396
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "G2",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.748234135873585,
+      "canonical_to_source_sd_ratio": 0.5112063045182857,
+      "fitted_height_mae_cm": 1.9388876368522645,
+      "surface_mean_cm": 0.4094193191341803
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "G3",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.5171263000435363,
+      "canonical_to_source_sd_ratio": 0.18423633536263678,
+      "fitted_height_mae_cm": 3.7300479059219285,
+      "surface_mean_cm": 0.43293030513489283
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "G3",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.5123619315364121,
+      "canonical_to_source_sd_ratio": 0.1923967827308117,
+      "fitted_height_mae_cm": 3.7952639271736146,
+      "surface_mean_cm": 0.43763473289824817
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "G4",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.517314150296521,
+      "canonical_to_source_sd_ratio": 0.18896396311805574,
+      "fitted_height_mae_cm": 3.72791709947586,
+      "surface_mean_cm": 0.43602736001665077
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "G4",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.5167402170680495,
+      "canonical_to_source_sd_ratio": 0.1952474232192871,
+      "fitted_height_mae_cm": 3.767356078815453,
+      "surface_mean_cm": 0.4366505736905879
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "noG1",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.7952435553204382,
+      "canonical_to_source_sd_ratio": 0.5577783506342423,
+      "fitted_height_mae_cm": 1.5356748347282476,
+      "surface_mean_cm": 0.3745915881878752
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "noG1",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.7627189511418113,
+      "canonical_to_source_sd_ratio": 0.5137641325842867,
+      "fitted_height_mae_cm": 1.8402293135643006,
+      "surface_mean_cm": 0.3770190146263637
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "noG2",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.7546964737706018,
+      "canonical_to_source_sd_ratio": 0.5001196327368269,
+      "fitted_height_mae_cm": 2.163383112120627,
+      "surface_mean_cm": 0.3932807619198794
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "noG2",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.6957032119371477,
+      "canonical_to_source_sd_ratio": 0.4607181466122404,
+      "fitted_height_mae_cm": 2.5397539310455315,
+      "surface_mean_cm": 0.3869909069339047
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "R025",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.890387110554624,
+      "canonical_to_source_sd_ratio": 0.6475709575768515,
+      "fitted_height_mae_cm": 1.0058076687335955,
+      "surface_mean_cm": 0.34535623080493855
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "R025",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.8379296314193181,
+      "canonical_to_source_sd_ratio": 0.5876499771097394,
+      "fitted_height_mae_cm": 1.4990094773769371,
+      "surface_mean_cm": 0.3504344319515335
+    },
+    {
+      "partition": "development",
+      "collection": "SMPL-NICP",
+      "condition": "R4",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.841159501250226,
+      "canonical_to_source_sd_ratio": 0.6150429012843838,
+      "fitted_height_mae_cm": 1.2333699111938472,
+      "surface_mean_cm": 0.35661464971326856
+    },
+    {
+      "partition": "development",
+      "collection": "CAESAR-NICP",
+      "condition": "R4",
+      "people": 4,
+      "fitted_to_source_sd_ratio": 0.8087587930808041,
+      "canonical_to_source_sd_ratio": 0.5607108839597323,
+      "fitted_height_mae_cm": 1.581489429616937,
+      "surface_mean_cm": 0.3589972530075375
+    }
+  ],
+  "control_domains": {
+    "audited_controls": 204,
+    "released_controls": 9,
+    "zero_domain_count": 37,
+    "zero_domain_claims": [
+      {
+        "index": 147,
+        "name": "scale_hip_height",
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "index": 148,
+        "name": "scale_hip_depth",
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "index": 152,
+        "name": "scale_ankle_height",
+        "minimum": -0.0,
+        "maximum": 0.0
+      }
+    ]
+  }
+}

@@ -5,8 +5,10 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from somatoanthropy.claims import compare_claims, frozen_claims
 
-def read(root: Path, name: str) -> list[dict]:
+
+def read(root: Path, name: str) -> list[dict] | dict:
     return json.loads((root / "results/aggregate" / (name + ".json")).read_text("utf-8"))
 
 
@@ -238,6 +240,59 @@ def check_anchors(root: Path) -> list[dict]:
             r["people"],
             0,
         )
+    claims = read(root, "claim-traceability")
+    compare_claims(frozen_claims(root), claims)
+    for row, expected in zip(
+        claims["spearman"],
+        [0.8391608391608393, 0.9860139860139862, 0.8111888111888113, 0.9790209790209792],
+        strict=True,
+    ):
+        check(
+            "Heldout canonical Spearman " + row["collection"] + row["condition"],
+            row["spearman"],
+            expected,
+            1e-14,
+        )
+        check("Spearman people", row["n"], 12, 0)
+    fallback = claims["canonical_P_fallback"]
+    for key, expected in [
+        ("people", 149),
+        ("body_observations", 298),
+        ("fallback_observations", 229),
+        ("nonfallback_observations", 69),
+        ("fallback_people", 119),
+        ("nonfallback_people", 39),
+        ("both_strata_people", 9),
+    ]:
+        check("Canonical P " + key, fallback[key], expected, 0)
+    cohort = claims["cohort_build_and_provider_categories"]
+    check(
+        "Frozen source categories",
+        [cohort["female_source_category"], cohort["male_source_category"]],
+        [80, 70],
+        0,
+    )
+    check(
+        "Frozen cohort selection stages",
+        [r["people"] for r in cohort["selection_counts"]],
+        [109, 1, 40],
+        0,
+    )
+    domains = claims["control_domains"]
+    check(
+        "Full control audit",
+        [domains["audited_controls"], domains["released_controls"]],
+        [204, 9],
+        0,
+    )
+    for row in domains["zero_domain_claims"]:
+        check("Zero-domain " + row["name"], [row["minimum"], row["maximum"]], [0, 0], 0)
+    full_audit = json.loads((root / "configs/control_audit_204.json").read_text("utf-8"))
+    config = json.loads((root / "configs/control_release.json").read_text("utf-8"))
+    if [r for r in full_audit if r["released"]] != config["parameter_audit"]:
+        raise ValueError("FULL_AND_RELEASED_CONTROL_AUDITS_DISAGREE")
+    for row in claims["development_mechanisms"]:
+        check("Development-only mechanism people", row["people"], 4, 0)
     return checked
 
 

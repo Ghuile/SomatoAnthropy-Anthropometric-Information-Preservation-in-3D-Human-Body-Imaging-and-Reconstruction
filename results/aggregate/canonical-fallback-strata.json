@@ -1,0 +1,20 @@
+[
+  {
+    "fallback": true,
+    "people": 119,
+    "observations": 229,
+    "total_people": 149,
+    "state": "canonical",
+    "method": "P",
+    "unit": "people and observations"
+  },
+  {
+    "fallback": false,
+    "people": 39,
+    "observations": 69,
+    "total_people": 149,
+    "state": "canonical",
+    "method": "P",
+    "unit": "people and observations"
+  }
+]

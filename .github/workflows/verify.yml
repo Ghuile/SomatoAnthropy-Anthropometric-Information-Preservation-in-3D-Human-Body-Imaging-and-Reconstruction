@@ -31,3 +31,4 @@ jobs:
       - run: python scripts/reproduce_figures.py --output reproduced/figures
       - run: python scripts/reproduce_manuscript_figures.py --output reproduced/manuscript
       - run: python scripts/check_manuscript_figures.py --input reproduced/manuscript
+      - run: python scripts/reproduce_audit_claims.py frozen --output reproduced/audit/claims.json

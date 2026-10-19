@@ -1,0 +1,15 @@
+{
+  "input_root": "../local",
+  "cohort_manifest": "cohort-manifest.json",
+  "waist_pairs": "waist-paired.json",
+  "height_records": "individual-height.csv",
+  "geometry_records": "individual-geometry.csv",
+  "parameter_audit": "parameter-control-manifest.json",
+  "files": {
+    "cohort-manifest.json": "REPLACE_WITH_LOCAL_SHA256",
+    "waist-paired.json": "REPLACE_WITH_LOCAL_SHA256",
+    "individual-height.csv": "REPLACE_WITH_LOCAL_SHA256",
+    "individual-geometry.csv": "REPLACE_WITH_LOCAL_SHA256",
+    "parameter-control-manifest.json": "REPLACE_WITH_LOCAL_SHA256"
+  }
+}

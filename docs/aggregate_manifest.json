@@ -761,5 +761,17 @@
     "sha256": "022da0af211dfa592da10a18200bfd47fba84c5da7e29e7a14d5ccc296c282ab",
     "estimand": "Exact frozen rows selected by original manuscript figure generator",
     "unit": "panel_a cm; panel_b response pp"
+  },
+  {
+    "file": "results/aggregate/canonical-fallback-strata.json",
+    "sha256": "ee1821be0019afa594262b3c3643b3310314865727f5f6ca4c877e8c7a76df95",
+    "estimand": "Saved canonical P-body fallback flag on the complete 149-person paired NICP cohort; overlapping participant strata",
+    "unit": "counts; dimensionless Spearman/SD ratios; engineering cm for extent/surface error"
+  },
+  {
+    "file": "results/aggregate/claim-traceability.json",
+    "sha256": "ae3be547371349c8a45388e25d6d9cd29f72adc89cdbf7d9699f9f30cf05abf6",
+    "estimand": "Six manuscript claim summaries, reconstructed from the explicitly named frozen result tables and full model-control metadata",
+    "unit": "counts; dimensionless Spearman/SD ratios; engineering cm for extent/surface error"
   }
 ]

@@ -1,5 +1,14 @@
 # Changelog
 
+## Claim pipelines — 19 October 2026
+
+Adds the participant-free full 204-control audit, canonical fallback stratum
+counts and a six-claim traceability table. Adds public aggregate reproduction,
+licensed original-record replay, saved-native-probe replay and a direct native
+model-metadata audit. CI checks the public claim route. Existing numerical
+results and the nine released controls are preserved. GitHub stays private;
+Zenodo remains deferred.
+
 ## After 0.2.0 — availability clarification
 
 The authors deferred Zenodo archival and retained private GitHub visibility.

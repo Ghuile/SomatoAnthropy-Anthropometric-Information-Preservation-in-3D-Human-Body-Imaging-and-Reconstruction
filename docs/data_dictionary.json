@@ -11,6 +11,22 @@
       "description": "Original 95% participant-bootstrap interval for comparator-minus-P advantage.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "G1": {
+      "description": "Original spine and neck control group.",
+      "units": "control-name list"
+    },
+    "G2": {
+      "description": "Original leg and foot control group.",
+      "units": "control-name list"
+    },
+    "G3": {
+      "description": "Original upper-arm and forearm control group.",
+      "units": "control-name list"
+    },
+    "G4": {
+      "description": "Original shoulder-width and hip-width control group.",
+      "units": "control-name list"
+    },
     "actual_preference": {
       "description": "Stratum/definition metadata: actual preference. Its value names the saved analysis convention; see the table estimand and audit methods.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
@@ -35,6 +51,10 @@
       "description": "E2-1 source, historical A, locked B, released C or contextual comparator arm.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "audited_controls": {
+      "description": "Number of all model parameters inspected, including unreleased and fixed-domain controls.",
+      "units": "controls"
+    },
     "before_cm": {
       "description": "Mean of participant regional foot RMS before correction, converted from working m to cm.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
@@ -58,6 +78,14 @@
     "body_pairs": {
       "description": "Paired body observations nested within participants.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "both_strata_people": {
+      "description": "Unique complete people with fallback on one pathway and no fallback on the other; overlap of the two person strata.",
+      "units": "people"
+    },
+    "canonical_P_fallback": {
+      "description": "Canonical reconstructed P-selector fallback summary on complete paired NICP people; source-side flags are separate.",
+      "units": "nested counts"
     },
     "canonical_sd": {
       "description": "Between-person canonical extent SD.",
@@ -94,6 +122,10 @@
     "cohort": {
       "description": "Eligibility-defined population for this calculation.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "cohort_build_and_provider_categories": {
+      "description": "Frozen distinct-person selection-stage and provider-category totals, before the 149-person paired analysis filter.",
+      "units": "nested counts"
     },
     "collection": {
       "description": "Source representation pathway or paired-pathway aggregate.",
@@ -147,6 +179,10 @@
       "description": "Saved condition difference, e.g. C-B is released minus locked; repeat labels preserve their own order.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "control_domains": {
+      "description": "Complete native model-control audit summary, separate from the nine released controls.",
+      "units": "nested metadata and counts"
+    },
     "controlled": {
       "description": "Stratum/definition metadata: controlled. Its value names the saved analysis convention; see the table estimand and audit methods.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
@@ -174,6 +210,10 @@
     "denominator": {
       "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "development_mechanisms": {
+      "description": "Four-person development summaries for B, C, G1–G4, noG1/noG2 and R025/R4, separately by linked pathway.",
+      "units": "nested counts, ratios and cm"
     },
     "difference_sd": {
       "description": "Sample SD (ddof=1) of target-minus-source paired differences.",
@@ -235,9 +275,21 @@
       "description": "Provenance or frozen display metadata: explanation. No participant record is identified.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "fallback": {
+      "description": "Saved reconstructed P-side selector fallback flag; true and false define the two overlapping-person strata.",
+      "units": "boolean"
+    },
     "fallback_count": {
       "description": "Number with the table's declared reconstructed-measurement fallback.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fallback_observations": {
+      "description": "Canonical body/pathway observations with saved P fallback true; two observations per complete person.",
+      "units": "body observations"
+    },
+    "fallback_people": {
+      "description": "Unique complete people with at least one canonical pathway using P fallback.",
+      "units": "people"
     },
     "female_source_category": {
       "description": "Count of provider female-labelled source records, not inferred biological sex.",
@@ -246,6 +298,10 @@
     "first": {
       "description": "First method/policy in the saved comparison.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fitted_height_mae_cm": {
+      "description": "Mean absolute fitted-versus-source vertical-extent difference within the declared development arm/pathway.",
+      "units": "engineering cm"
     },
     "fitted_sd": {
       "description": "Between-person fitted extent SD.",
@@ -279,9 +335,17 @@
       "description": "Provenance or frozen display metadata: id. No participant record is identified.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "incomplete_people_excluded": {
+      "description": "Otherwise eligible people excluded because one of the two canonical NICP pathways is missing.",
+      "units": "people"
+    },
     "independent_unit": {
       "description": "Unit resampled or summarised for inference; linked records stay within person.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "index": {
+      "description": "Zero-based native model-parameter index.",
+      "units": "integer index"
     },
     "interval": {
       "description": "Frozen uncertainty construction and exploratory status.",
@@ -336,8 +400,8 @@
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
     "maximum": {
-      "description": "Saved maximum of the declared outcome, at the named observation/person level.",
-      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+      "description": "Authored maximum for the named control in the zero-domain claim table; other tables use the maximum of their named outcome.",
+      "units": "control parameter or table-specific outcome"
     },
     "mean": {
       "description": "Arithmetic mean of the named statistic; independent unit and aggregation are defined by the table/stratum.",
@@ -387,6 +451,10 @@
       "description": "Arithmetic mean of the complete target values.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "mechanism_groups": {
+      "description": "Original E2-2 groups of released control names; G1 axial, G2 lower limb, G3 arm, G4 widths.",
+      "units": "control-name lists"
+    },
     "median": {
       "description": "Median of the named statistic over the table's declared independent units.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
@@ -412,8 +480,8 @@
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
     "minimum": {
-      "description": "Saved minimum of the declared outcome, at the named observation/person level.",
-      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+      "description": "Authored minimum for the named control in the zero-domain claim table; other tables use the minimum of their named outcome.",
+      "units": "control parameter or table-specific outcome"
     },
     "missing": {
       "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
@@ -435,6 +503,10 @@
       "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "name": {
+      "description": "Native control name.",
+      "units": "string"
+    },
     "negative_fraction": {
       "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
@@ -446,6 +518,14 @@
     "non_dominated": {
       "description": "Frozen descriptive membership on the complete three-objective policy grid; not statistical dominance.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "nonfallback_observations": {
+      "description": "Canonical body/pathway observations with saved P fallback false.",
+      "units": "body observations"
+    },
+    "nonfallback_people": {
+      "description": "Unique complete people with at least one canonical pathway without P fallback.",
+      "units": "people"
     },
     "observation_median": {
       "description": "Saved observation median of the declared outcome, at the named observation/person level.",
@@ -639,6 +719,10 @@
       "description": "Stratum/definition metadata: region. Its value names the saved analysis convention; see the table estimand and audit methods.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "released_controls": {
+      "description": "Number of controls in the released fitting set.",
+      "units": "controls"
+    },
     "replicates": {
       "description": "Frozen bootstrap draws; not additional participants.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
@@ -654,6 +738,10 @@
     "rule": {
       "description": "Stratum/definition metadata: rule. Its value names the saved analysis convention; see the table estimand and audit methods.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "schema_version": {
+      "description": "Version of the compiled claim JSON schema.",
+      "units": "integer version"
     },
     "sd": {
       "description": "Sample standard deviation for the declared independent-unit statistic.",
@@ -694,6 +782,10 @@
     "selection": {
       "description": "Frozen retained/replacement/additional source-selection stage.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "selection_counts": {
+      "description": "Counts by retained, replacement and additional frozen selection stage.",
+      "units": "people"
     },
     "site": {
       "description": "Stratum/definition metadata: site. Its value names the saved analysis convention; see the table estimand and audit methods.",
@@ -775,6 +867,10 @@
       "description": "Stratum/definition metadata: subset. Its value names the saved analysis convention; see the table estimand and audit methods.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
     },
+    "surface_mean_cm": {
+      "description": "Arithmetic mean of the saved per-person surface mean discrepancies for the declared development arm/pathway.",
+      "units": "engineering cm"
+    },
     "text_y_precision": {
       "description": "Number of serialized decimal places in metre OBJ y coordinates.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
@@ -814,6 +910,14 @@
     "variation": {
       "description": "Stratum/definition metadata: variation. Its value names the saved analysis convention; see the table estimand and audit methods.",
       "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "zero_domain_claims": {
+      "description": "Three specifically questioned unreleased controls with authored minimum=maximum=0; nonzero transform columns do not override these limits.",
+      "units": "model metadata"
+    },
+    "zero_domain_count": {
+      "description": "Count of all audited controls whose authored minimum and maximum both equal zero (37); distinct from the three named exclusions.",
+      "units": "controls"
     }
   },
   "tables": [
@@ -877,6 +981,20 @@
       ]
     },
     {
+      "file": "results/aggregate/canonical-fallback-strata.json",
+      "estimand": "Saved canonical P-body fallback flag on the complete 149-person paired NICP cohort; overlapping participant strata",
+      "units": "counts; dimensionless Spearman/SD ratios; engineering cm for extent/surface error",
+      "fields": [
+        "fallback",
+        "method",
+        "observations",
+        "people",
+        "state",
+        "total_people",
+        "unit"
+      ]
+    },
+    {
       "file": "results/aggregate/canonical-offset-minus-P.json",
       "estimand": "Paired-person difference of absolute canonical cross-path q disagreement, offset minus P, H2",
       "units": "equation-response pp",
@@ -890,6 +1008,53 @@
         "mode",
         "people",
         "second"
+      ]
+    },
+    {
+      "file": "results/aggregate/claim-traceability.json",
+      "estimand": "Six manuscript claim summaries, reconstructed from the explicitly named frozen result tables and full model-control metadata",
+      "units": "counts; dimensionless Spearman/SD ratios; engineering cm for extent/surface error",
+      "fields": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "audited_controls",
+        "body_observations",
+        "both_strata_people",
+        "canonical_P_fallback",
+        "canonical_to_source_sd_ratio",
+        "cohort_build_and_provider_categories",
+        "collection",
+        "condition",
+        "control_domains",
+        "development_mechanisms",
+        "fallback_observations",
+        "fallback_people",
+        "female_source_category",
+        "fitted_height_mae_cm",
+        "fitted_to_source_sd_ratio",
+        "incomplete_people_excluded",
+        "index",
+        "male_source_category",
+        "maximum",
+        "mechanism_groups",
+        "minimum",
+        "n",
+        "name",
+        "nonfallback_observations",
+        "nonfallback_people",
+        "partition",
+        "people",
+        "released_controls",
+        "schema_version",
+        "selection",
+        "selection_counts",
+        "spearman",
+        "state",
+        "surface_mean_cm",
+        "zero_domain_claims",
+        "zero_domain_count"
       ]
     },
     {

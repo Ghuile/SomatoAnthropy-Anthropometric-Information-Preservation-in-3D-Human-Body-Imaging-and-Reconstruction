@@ -203,6 +203,15 @@ def artifact_provenance(root: Path) -> dict[str, int]:
         outputs = json.loads(manuscript.read_text("utf-8"))["outputs"]
         figure_count += len(outputs)
         checks.extend(outputs.items())
+    claims = root / "docs/claim-pipeline-provenance.json"
+    if claims.exists():
+        lineage = json.loads(claims.read_text("utf-8"))
+        checks.extend(
+            (r["file"], r["sha256"])
+            for r in lineage["public_inputs"] + lineage["outputs"] + lineage["algorithms"]
+        )
+        query = lineage["native_query"]
+        checks.append((query["released_file"], query["released_sha256"]))
     for name, digest in checks:
         path = (root / name).resolve()
         if not path.is_relative_to(root.resolve()):

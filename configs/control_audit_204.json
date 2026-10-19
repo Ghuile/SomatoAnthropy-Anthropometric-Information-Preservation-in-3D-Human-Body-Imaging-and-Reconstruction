@@ -1,0 +1,5688 @@
+[
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "root"
+      }
+    ],
+    "bounds": null,
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 0,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "root_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ty",
+        "coefficient": 10.0,
+        "joint": "root"
+      }
+    ],
+    "bounds": null,
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 1,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "root_ty",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 10.0,
+        "joint": "root"
+      }
+    ],
+    "bounds": null,
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 2,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "root_tz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "root"
+      }
+    ],
+    "bounds": null,
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 3,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "root_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "root"
+      }
+    ],
+    "bounds": null,
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 4,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "root_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "root"
+      }
+    ],
+    "bounds": null,
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 5,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "root_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "c_spine0"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=6, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 6,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine0_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 0.009999999776482582,
+        "joint": "c_spine0"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.11999999731779099,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.2199999988079071,
+        "joint": "c_spine2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.9,
+      "minimum": -0.9,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=7, min=-0.9, max=0.9)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 7,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine_twist0",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "c_spine0"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=8, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 8,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine0_ry_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 0.2199999988079071,
+        "joint": "c_spine0"
+      },
+      {
+        "channel": "ry",
+        "coefficient": 0.14000000059604645,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "ry",
+        "coefficient": 0.10999999940395355,
+        "joint": "c_spine2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.7,
+      "minimum": -0.7,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=9, min=-0.7, max=0.7)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 9,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine_lean0",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "c_spine0"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=10, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 10,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine0_rz_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 0.1599999964237213,
+        "joint": "c_spine0"
+      },
+      {
+        "channel": "rz",
+        "coefficient": 0.41999998688697815,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "rz",
+        "coefficient": 0.05999999865889549,
+        "joint": "c_spine2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=11, min=-0.5, max=1.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 11,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine_bend0",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "c_spine1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=12, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 12,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine1_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 0.07000000029802322,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.41999998688697815,
+        "joint": "c_spine2"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.1599999964237213,
+        "joint": "c_spine3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.9,
+      "minimum": -0.9,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=13, min=-0.9, max=0.9)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 13,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine_twist1",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "c_spine1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=14, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 14,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine1_ry_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 0.07999999821186066,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "ry",
+        "coefficient": 0.23000000417232513,
+        "joint": "c_spine2"
+      },
+      {
+        "channel": "ry",
+        "coefficient": 0.2199999988079071,
+        "joint": "c_spine3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.7,
+      "minimum": -0.7,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=15, min=-0.7, max=0.7)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 15,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine_lean1",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "c_spine1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=16, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 16,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine1_rz_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 0.2199999988079071,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "rz",
+        "coefficient": 0.12999999523162842,
+        "joint": "c_spine2"
+      },
+      {
+        "channel": "rz",
+        "coefficient": 0.009999999776482582,
+        "joint": "c_spine3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=17, min=-0.5, max=1.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 17,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine_bend1",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "c_spine2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=18, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 18,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine2_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "c_spine2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=19, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 19,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine2_ry_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "c_spine2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=20, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 20,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine2_rz_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "c_spine3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=21, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 21,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine3_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "c_spine3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=22, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 22,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine3_ry_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "c_spine3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=23, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 23,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine3_rz_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "c_neck"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.5,
+        "joint": "c_neck_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -1.0,
+        "joint": "c_neck_twist0_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=24, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 24,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "neck_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "c_neck"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=25, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 25,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "neck_lean",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "c_neck"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.6,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=26, min=-0.6, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 26,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "neck_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "c_head"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=27, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 27,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "head_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "c_head"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=28, min=-0.3, max=0.3)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 28,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "head_lean",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "c_head"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.4,
+      "minimum": -0.4,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=29, min=-0.4, max=0.4)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 29,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "head_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_clavicle"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": -0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=30, min=-0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 30,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_clavicle_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_clavicle"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=31, min=-0, max=0.5)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 31,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_clavicle_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_clavicle"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=32, min=-0.3, max=0.3)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 32,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_clavicle_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_uparm"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -1.0,
+        "joint": "r_uparm_twist0_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.75,
+        "joint": "r_uparm_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.5,
+        "joint": "r_uparm_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.25,
+        "joint": "r_uparm_twist3_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.8,
+      "minimum": -1.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=33, min=-1.5, max=1.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 33,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_uparm_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_uparm"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.2,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=34, min=-1, max=1.2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 34,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_uparm_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_uparm"
+      }
+    ],
+    "bounds": {
+      "maximum": 2.0,
+      "minimum": -1.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=35, min=-1.2, max=2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 35,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_uparm_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_lowarm"
+      }
+    ],
+    "bounds": {
+      "maximum": 2.0,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=36, min=-0.5, max=2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 36,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_elbow_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_wrist_twist"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.20000000298023224,
+        "joint": "r_lowarm_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.4000000059604645,
+        "joint": "r_lowarm_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.6000000238418579,
+        "joint": "r_lowarm_twist3_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.800000011920929,
+        "joint": "r_lowarm_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -2.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=37, min=-2.2, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 37,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_lowarm_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_wrist"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.5,
+      "minimum": -1.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=38, min=-1.2, max=1.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 38,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_wrist_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_wrist"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.5,
+      "minimum": -2.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=39, min=-2.2, max=1.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 39,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_wrist_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_clavicle"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": -0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=40, min=-0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 40,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_clavicle_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_clavicle"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=41, min=-0, max=0.5)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 41,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_clavicle_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_clavicle"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=42, min=-0.3, max=0.3)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 42,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_clavicle_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_uparm"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -1.0,
+        "joint": "l_uparm_twist0_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.75,
+        "joint": "l_uparm_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.5,
+        "joint": "l_uparm_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.25,
+        "joint": "l_uparm_twist3_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.8,
+      "minimum": -1.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=43, min=-1.5, max=1.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 43,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_uparm_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_uparm"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.2,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=44, min=-1, max=1.2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 44,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_uparm_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_uparm"
+      }
+    ],
+    "bounds": {
+      "maximum": 2.0,
+      "minimum": -1.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=45, min=-1.2, max=2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 45,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_uparm_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_lowarm"
+      }
+    ],
+    "bounds": {
+      "maximum": 2.0,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=46, min=-0.5, max=2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 46,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_elbow_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_wrist_twist"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.20000000298023224,
+        "joint": "l_lowarm_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.4000000059604645,
+        "joint": "l_lowarm_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.6000000238418579,
+        "joint": "l_lowarm_twist3_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.800000011920929,
+        "joint": "l_lowarm_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -2.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=47, min=-2.2, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 47,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_lowarm_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_wrist"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.5,
+      "minimum": -1.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=48, min=-1.2, max=1.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 48,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_wrist_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_wrist"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.5,
+      "minimum": -2.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=49, min=-2.2, max=1.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 49,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_wrist_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_upleg"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -1.0,
+        "joint": "r_upleg_twist0_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.75,
+        "joint": "r_upleg_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.5,
+        "joint": "r_upleg_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.25,
+        "joint": "r_upleg_twist3_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -1.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=50, min=-1.5, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 50,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_upleg_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.6,
+      "minimum": -1.6,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=51, min=-1.6, max=0.6)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 51,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_upleg_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -2.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=52, min=-2.5, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 52,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_upleg_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_lowleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 2.8,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=53, min=0, max=2.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 53,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_knee_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_foot"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.20000000298023224,
+        "joint": "r_lowleg_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.4000000059604645,
+        "joint": "r_lowleg_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.6000000238418579,
+        "joint": "r_lowleg_twist3_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.800000011920929,
+        "joint": "r_lowleg_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.2,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=54, min=-1, max=1.2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 54,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_lowleg_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_talocrural"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=55, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 55,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_foot_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_subtalar"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.6,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=56, min=-1, max=0.6)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 56,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_foot_lean0",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_transversetarsal"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=57, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 57,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_foot_lean1",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_ball"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.7,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=58, min=-0.7, max=0.3)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 58,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_ball_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_upleg"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -1.0,
+        "joint": "l_upleg_twist0_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.75,
+        "joint": "l_upleg_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.5,
+        "joint": "l_upleg_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": -0.25,
+        "joint": "l_upleg_twist3_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -1.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=59, min=-1.5, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 59,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_upleg_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.6,
+      "minimum": -1.6,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=60, min=-1.6, max=0.6)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 60,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_upleg_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -2.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=61, min=-2.5, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 61,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_upleg_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_lowleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 2.8,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=62, min=0, max=2.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 62,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_knee_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_foot"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.20000000298023224,
+        "joint": "l_lowleg_twist1_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.4000000059604645,
+        "joint": "l_lowleg_twist2_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.6000000238418579,
+        "joint": "l_lowleg_twist3_proc"
+      },
+      {
+        "channel": "rx",
+        "coefficient": 0.800000011920929,
+        "joint": "l_lowleg_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.2,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=63, min=-1, max=1.2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 63,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_lowleg_twist",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_talocrural"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=64, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 64,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_foot_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_subtalar"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.6,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=65, min=-1, max=0.6)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 65,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_foot_lean0",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_transversetarsal"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=66, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 66,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_foot_lean1",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_ball"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.7,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=67, min=-0.7, max=0.3)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 67,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_ball_bend",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_thumb0"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=68, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 68,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_thumb0_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_thumb0"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=69, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 69,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_thumb0_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=70, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 70,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_thumb1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=71, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 71,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_thumb1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=72, min=-0.2, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 72,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_thumb1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_thumb2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=73, min=-0.3, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 73,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_thumb2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_thumb3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=74, min=-0.3, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 74,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_thumb3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=75, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 75,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_index1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=76, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 76,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_ring1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=77, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 77,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_pinky1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=78, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 78,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_middle1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.78,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=79, min=-0.78, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 79,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_index1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_index2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=80, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 80,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_index2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_index3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=81, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 81,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_index3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.78,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=82, min=-0.78, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 82,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_middle1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_middle2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=83, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 83,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_middle2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_middle3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=84, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 84,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_middle3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.78,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=85, min=-0.78, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 85,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_ring1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_ring2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=86, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 86,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_ring2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_ring3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=87, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 87,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_ring3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=88, min=-1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 88,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_pinky1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_pinky2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=89, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 89,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_pinky2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_pinky3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=90, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 90,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_pinky3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=91, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 91,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_index1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=92, min=-0.3, max=0.3)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 92,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_ring1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=93, min=-0.3, max=0.3)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 93,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_pinky1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=94, min=-0.3, max=0.3)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 94,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_middle1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_thumb0"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=95, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 95,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_thumb0_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_thumb0"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=96, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 96,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_thumb0_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=97, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 97,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_thumb1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=98, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 98,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_thumb1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=99, min=-0.2, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 99,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_thumb1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_thumb2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=100, min=-0.3, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 100,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_thumb2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_thumb3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=101, min=-0.3, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 101,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_thumb3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=102, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 102,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_index1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=103, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 103,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_ring1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=104, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 104,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_pinky1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.8,
+      "minimum": -0.8,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=105, min=-0.8, max=0.8)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 105,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_middle1_ry",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.78,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=106, min=-0.78, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 106,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_index1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_index2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=107, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 107,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_index2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_index3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=108, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 108,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_index3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.78,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=109, min=-0.78, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 109,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_middle1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_middle2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=110, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 110,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_middle2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_middle3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=111, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 111,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_middle3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.78,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=112, min=-0.78, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 112,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_ring1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_ring2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=113, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 113,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_ring2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_ring3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=114, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 114,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_ring3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=115, min=-1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 115,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_pinky1_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_pinky2"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=116, min=-0.2, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 116,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_pinky2_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_pinky3"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.57,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=117, min=-0.1, max=1.57)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 117,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_pinky3_rz",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=118, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 118,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_index1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=119, min=-0.3, max=0.3)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 119,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_ring1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=120, min=-0.3, max=0.3)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 120,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_pinky1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.3,
+      "minimum": -0.3,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=121, min=-0.3, max=0.3)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 121,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_middle1_rx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_foot"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=122, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 122,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_foot_ry_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "l_subtalar"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=123, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 123,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_subtalar_rz_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_talocrural"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=124, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 124,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_talocrural_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "l_ball"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=125, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 125,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "l_ball_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_foot"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=126, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 126,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_foot_ry_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rz",
+        "coefficient": 1.0,
+        "joint": "r_subtalar"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=127, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 127,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_subtalar_rz_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_talocrural"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=128, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 128,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_talocrural_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "rx",
+        "coefficient": 1.0,
+        "joint": "r_ball"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=129, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": null,
+    "historical_status": "ORIGINAL_PERMISSION_RETAINED",
+    "index": 129,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "r_ball_rx_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 2.2100000381469727,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.2300000190734863,
+        "joint": "c_spine2"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 3.7100000381469727,
+        "joint": "c_spine3"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.850000023841858,
+        "joint": "c_neck"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.850000023841858,
+        "joint": "c_neck_twist0_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=130, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 130,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "spine_length_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "c_neck_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "c_head"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=131, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 131,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "neck_length_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -8.359999656677246,
+        "joint": "r_uparm"
+      },
+      {
+        "channel": "ty",
+        "coefficient": -5.440000057220459,
+        "joint": "r_uparm"
+      },
+      {
+        "channel": "tz",
+        "coefficient": -0.6299999952316284,
+        "joint": "r_uparm"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 8.359999656677246,
+        "joint": "l_uparm"
+      },
+      {
+        "channel": "ty",
+        "coefficient": 5.440000057220459,
+        "joint": "l_uparm"
+      },
+      {
+        "channel": "tz",
+        "coefficient": 0.6299999952316284,
+        "joint": "l_uparm"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=132, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 132,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "shoulder_width_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_lowarm"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_wrist_twist"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "r_lowarm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.0,
+        "joint": "r_lowarm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -3.0,
+        "joint": "r_lowarm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -4.0,
+        "joint": "r_lowarm_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -1.25,
+        "joint": "r_uparm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.5,
+        "joint": "r_uparm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -3.75,
+        "joint": "r_uparm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_uparm_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_lowarm"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_wrist_twist"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "l_lowarm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.0,
+        "joint": "l_lowarm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 3.0,
+        "joint": "l_lowarm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 4.0,
+        "joint": "l_lowarm_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.25,
+        "joint": "l_uparm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.5,
+        "joint": "l_uparm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 3.75,
+        "joint": "l_uparm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_uparm_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=133, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 133,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "arm_length_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_upleg"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=134, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 134,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "hip_width_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_lowleg"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_foot"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "l_lowleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.0,
+        "joint": "l_lowleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 3.0,
+        "joint": "l_lowleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 4.0,
+        "joint": "l_lowleg_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.25,
+        "joint": "l_upleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.5,
+        "joint": "l_upleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 3.75,
+        "joint": "l_upleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_upleg_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_lowleg"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_foot"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "r_lowleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.0,
+        "joint": "r_lowleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -3.0,
+        "joint": "r_lowleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -4.0,
+        "joint": "r_lowleg_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -1.25,
+        "joint": "r_upleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.5,
+        "joint": "r_upleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -3.75,
+        "joint": "r_upleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_upleg_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=135, min=0, max=0)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 135,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "leg_length_flexible",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_eye_null"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_eye_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=136, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 136,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_eye_width",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ty",
+        "coefficient": 1.0,
+        "joint": "r_eye_null"
+      },
+      {
+        "channel": "ty",
+        "coefficient": 1.0,
+        "joint": "l_eye_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=137, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 137,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_eye_height",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 1.0,
+        "joint": "r_eye_null"
+      },
+      {
+        "channel": "tz",
+        "coefficient": 1.0,
+        "joint": "l_eye_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=138, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 138,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_eye_depth",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 2.2100000381469727,
+        "joint": "c_spine1"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.2300000190734863,
+        "joint": "c_spine2"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 3.7100000381469727,
+        "joint": "c_spine3"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.850000023841858,
+        "joint": "c_neck"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 1.850000023841858,
+        "joint": "c_neck_twist0_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.1,
+      "minimum": -1.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=139, min=-1.1, max=1.1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 139,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_spine_length",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "c_neck_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "c_head"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.4,
+      "minimum": -0.4,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=140, min=-0.4, max=0.4)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 140,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_neck_length",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -8.359999656677246,
+        "joint": "r_uparm"
+      },
+      {
+        "channel": "ty",
+        "coefficient": -5.440000057220459,
+        "joint": "r_uparm"
+      },
+      {
+        "channel": "tz",
+        "coefficient": -0.6299999952316284,
+        "joint": "r_uparm"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 8.359999656677246,
+        "joint": "l_uparm"
+      },
+      {
+        "channel": "ty",
+        "coefficient": 5.440000057220459,
+        "joint": "l_uparm"
+      },
+      {
+        "channel": "tz",
+        "coefficient": 0.6299999952316284,
+        "joint": "l_uparm"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.2,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=141, min=-0.2, max=0.2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 141,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_shoulder_width",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_lowarm"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.5,
+        "joint": "r_uparm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_uparm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -7.5,
+        "joint": "r_uparm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_uparm_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_lowarm"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.5,
+        "joint": "l_uparm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_uparm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 7.5,
+        "joint": "l_uparm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_uparm_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=142, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 142,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_uparms",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_wrist_twist"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.0,
+        "joint": "r_lowarm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -4.0,
+        "joint": "r_lowarm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -6.0,
+        "joint": "r_lowarm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -8.0,
+        "joint": "r_lowarm_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_wrist_twist"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.0,
+        "joint": "l_lowarm_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 4.0,
+        "joint": "l_lowarm_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 6.0,
+        "joint": "l_lowarm_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 8.0,
+        "joint": "l_lowarm_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=143, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 143,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_lowarms",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "scale",
+        "coefficient": 1.0,
+        "joint": "r_wrist"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.2,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=144, min=-0.2, max=0.2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 144,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_hands",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "scale",
+        "coefficient": 1.0,
+        "joint": "l_wrist"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.2,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=145, min=-0.2, max=0.2)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 145,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_hands",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_upleg"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=146, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 146,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_hip_width",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ty",
+        "coefficient": 10.0,
+        "joint": "l_upleg"
+      },
+      {
+        "channel": "ty",
+        "coefficient": 10.0,
+        "joint": "r_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=147, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 147,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_hip_height",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 10.0,
+        "joint": "l_upleg"
+      },
+      {
+        "channel": "tz",
+        "coefficient": 10.0,
+        "joint": "r_upleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=148, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 148,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_hip_depth",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_lowleg"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.5,
+        "joint": "l_upleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 5.0,
+        "joint": "l_upleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 7.5,
+        "joint": "l_upleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_upleg_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_lowleg"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.5,
+        "joint": "r_upleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -5.0,
+        "joint": "r_upleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -7.5,
+        "joint": "r_upleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_upleg_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=149, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 149,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_uplegs",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_foot"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 2.0,
+        "joint": "l_lowleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 4.0,
+        "joint": "l_lowleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 6.0,
+        "joint": "l_lowleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 8.0,
+        "joint": "l_lowleg_twist4_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_foot"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -2.0,
+        "joint": "r_lowleg_twist1_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -4.0,
+        "joint": "r_lowleg_twist2_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -6.0,
+        "joint": "r_lowleg_twist3_proc"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -8.0,
+        "joint": "r_lowleg_twist4_proc"
+      }
+    ],
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=150, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 150,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_lowlegs",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "l_lowleg"
+      },
+      {
+        "channel": "ry",
+        "coefficient": 1.0,
+        "joint": "r_lowleg"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": 0.0,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=151, min=0, max=0)",
+      "weight": 0.1
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 151,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_knee_knock",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "l_subtalar"
+      },
+      {
+        "channel": "ty",
+        "coefficient": -1.0,
+        "joint": "l_subtalar"
+      },
+      {
+        "channel": "tz",
+        "coefficient": 1.1699999570846558,
+        "joint": "l_subtalar"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "r_subtalar"
+      },
+      {
+        "channel": "ty",
+        "coefficient": 1.0,
+        "joint": "r_subtalar"
+      },
+      {
+        "channel": "tz",
+        "coefficient": -1.1699999570846558,
+        "joint": "r_subtalar"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.0,
+      "minimum": -0.0,
+      "source": "ParameterLimit(type=MinMax, weight=10, param=152, min=-0, max=0)",
+      "weight": 10.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 152,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_ankle_height",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 9.3100004196167,
+        "joint": "l_talocrural"
+      },
+      {
+        "channel": "ty",
+        "coefficient": 1.6100000143051147,
+        "joint": "l_talocrural"
+      },
+      {
+        "channel": "tz",
+        "coefficient": 0.10000000149011612,
+        "joint": "l_talocrural"
+      },
+      {
+        "channel": "tx",
+        "coefficient": 10.0,
+        "joint": "l_ball"
+      },
+      {
+        "channel": "ty",
+        "coefficient": 1.7400000095367432,
+        "joint": "l_ball"
+      },
+      {
+        "channel": "tz",
+        "coefficient": -0.10999999940395355,
+        "joint": "l_ball"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -9.3100004196167,
+        "joint": "r_talocrural"
+      },
+      {
+        "channel": "ty",
+        "coefficient": -1.6100000143051147,
+        "joint": "r_talocrural"
+      },
+      {
+        "channel": "tz",
+        "coefficient": -0.10000000149011612,
+        "joint": "r_talocrural"
+      },
+      {
+        "channel": "tx",
+        "coefficient": -10.0,
+        "joint": "r_ball"
+      },
+      {
+        "channel": "ty",
+        "coefficient": -1.7400000095367432,
+        "joint": "r_ball"
+      },
+      {
+        "channel": "tz",
+        "coefficient": 0.10999999940395355,
+        "joint": "r_ball"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.1,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=153, min=-0.1, max=0.1)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 153,
+    "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+    "name": "scale_foot_length",
+    "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+    "released": true,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=154, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 154,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_index1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=155, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 155,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_middle1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=156, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 156,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_ring1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=157, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 157,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_pinky1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=158, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 158,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_thumb1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 1.0,
+        "joint": "r_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=159, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 159,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_index1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 1.0,
+        "joint": "r_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=160, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 160,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_middle1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 1.0,
+        "joint": "r_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=161, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 161,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_ring1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 1.0,
+        "joint": "r_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=162, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 162,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_pinky1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": 1.0,
+        "joint": "r_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=163, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 163,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_thumb1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_index2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=164, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 164,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_index2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_middle2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=165, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 165,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_middle2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_ring2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=166, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 166,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_ring2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_pinky2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=167, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 167,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_pinky2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_thumb2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=168, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 168,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_thumb2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_index3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=169, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 169,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_index3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_middle3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=170, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 170,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_middle3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_ring3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=171, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 171,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_ring3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_pinky3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=172, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 172,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_pinky3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_thumb3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=173, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 173,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_thumb3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_index_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=174, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 174,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_index_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_middle_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=175, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 175,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_middle_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_ring_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=176, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 176,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_ring_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_pinky_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=177, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 177,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_pinky_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": 1.0,
+        "joint": "r_thumb_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=178, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 178,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_r_thumb_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=179, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 179,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_index1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=180, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 180,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_middle1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=181, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 181,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_ring1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=182, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 182,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_pinky1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=183, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 183,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_thumb1_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": -1.0,
+        "joint": "l_index1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=184, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 184,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_index1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": -1.0,
+        "joint": "l_middle1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=185, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 185,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_middle1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": -1.0,
+        "joint": "l_ring1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=186, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 186,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_ring1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": -1.0,
+        "joint": "l_pinky1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=187, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 187,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_pinky1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tz",
+        "coefficient": -1.0,
+        "joint": "l_thumb1"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=188, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 188,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_thumb1_offset",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_index2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=189, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 189,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_index2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_middle2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=190, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 190,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_middle2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_ring2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=191, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 191,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_ring2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_pinky2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=192, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 192,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_pinky2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_thumb2"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=193, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 193,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_thumb2_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_index3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=194, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 194,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_index3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_middle3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=195, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 195,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_middle3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_ring3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=196, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 196,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_ring3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_pinky3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=197, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 197,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_pinky3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_thumb3"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=198, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 198,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_thumb3_length",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_index_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=199, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 199,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_index_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_middle_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=200, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 200,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_middle_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_ring_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=201, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 201,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_ring_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_pinky_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=202, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 202,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_pinky_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  },
+  {
+    "affected_joint_channels": [
+      {
+        "channel": "tx",
+        "coefficient": -1.0,
+        "joint": "l_thumb_null"
+      }
+    ],
+    "bounds": {
+      "maximum": 0.25,
+      "minimum": -0.25,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=203, min=-0.25, max=0.25)",
+      "weight": 1.0
+    },
+    "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+    "fixed_value": 0,
+    "historical_status": "FIXED_AT_NEUTRAL",
+    "index": 203,
+    "justification": "Excluded articulation, flexible duplicate, zero-domain, eye/hand/finger or alignment control",
+    "name": "scale_l_thumb_null_tx",
+    "parameter_effect": "see exact joint/channel mapping",
+    "released": false,
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+  }
+]

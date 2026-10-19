@@ -76,8 +76,24 @@ licences do not settle participant-data or figure rights. See
 
 This repository provides research source and aggregate verification material.
 Raw datasets, participant records, source-derived meshes, model binaries and
-private correspondence are excluded. The GitHub repository visibility remains separately controlled; the sanitized versioned archive is intended for Zenodo. Project-owned material is licensed under CC BY 4.0; the lead author confirmed LSBU approval on 19 October 2026. Third-party and dataset terms remain separate.
+private correspondence are excluded. GitHub remains private and Zenodo archival is deferred. Project-owned material is licensed under CC BY 4.0; the lead author confirmed LSBU approval on 19 October 2026. Third-party and dataset terms remain separate.
 
+A companion dataset is planned at [Hugging Face](https://huggingface.co/datasets/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3DHumanBody-Imaging-and-Reconstruction). Its dataset card will describe the released contents and access conditions when available.
+
+## Claim audit pipelines
+
+The [claim-to-pipeline guide](docs/claim-pipelines.md) maps the Spearman, fallback,
+cohort-selection, provider-category, mechanism-arm and zero-domain statements to
+their data and implementations. The complete [204-control audit](configs/control_audit_204.json)
+includes excluded controls and their authored bounds.
+
+```text
+python scripts/reproduce_audit_claims.py frozen --output reproduced/audit/claims.json
+```
+
+This public route checks the published summaries. The guide also gives the
+licensed-record replay and native model-metadata audit routes; they export only
+aggregate results or model metadata and perform no fitting.
 
 ## Audit evidence and manuscript figures
 

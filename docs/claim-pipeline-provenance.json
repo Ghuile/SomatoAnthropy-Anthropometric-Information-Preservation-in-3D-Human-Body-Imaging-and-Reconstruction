@@ -1,0 +1,88 @@
+{
+  "prior_reviewer_commit": "92a201d812d5f024376be4ed2a2f315081d3ae17",
+  "initial_snapshot": "3777873d8bf42a67f08528a9a029ba5d01d7f1b4",
+  "first_expanded_aggregate_commit": "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b",
+  "input_records_redistributed": false,
+  "model_binaries_redistributed": false,
+  "fitting_executed": false,
+  "private_source_sha256": {
+    "cohort_manifest": "01cb365f993a0e16413c59564faeb599284bae004013958964bc7ed71610c509",
+    "waist_pairs": "bf25cc3ebe1499697152b00590e563b652e05421687f427e411c992bd1fca683",
+    "height_records": "73cb1c5f9d6c27d7d47544a741ecbadc0dc397b571361a5abef600c9661d527c",
+    "geometry_records": "ff91896277a0d8dd8ef2b4f868ec101018482cd3982624f5b53f8b1587fa04a2",
+    "parameter_audit": "b8b5e677fdb3338765c0fe613d430ab39650d1a176abe3dc132305f3f852c1f4"
+  },
+  "native_probe_sha256": "d755de95256d8d2658278712fbb3fff6e0a7e2f75f2bc9cbb0cfab7eb7012059",
+  "model_revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32",
+  "algorithms": [
+    {
+      "file": "src/somatoanthropy/experiments/e2_1/core.py",
+      "sha256": "10da1b674cc15b944c4ad747f0429427712e73ad8301d38147972cc857cf0e62"
+    },
+    {
+      "file": "src/somatoanthropy/experiments/e2_2/core.py",
+      "sha256": "72303f63d3515478026adfd3a768a15b8362ec9b00b45f5a5f3c903f76b69c96"
+    },
+    {
+      "file": "src/somatoanthropy/experiments/e4/core.py",
+      "sha256": "3aee3c7cf6f9a2f6f74e635e7b4480573651dac6b71c19ede9924cb03484a711"
+    }
+  ],
+  "public_inputs": [
+    {
+      "file": "configs/control_audit_204.json",
+      "sha256": "b8b5e677fdb3338765c0fe613d430ab39650d1a176abe3dc132305f3f852c1f4"
+    },
+    {
+      "file": "results/aggregate/E2-2-height-all-arms.json",
+      "sha256": "0c6487b2c9f08cebf52225ff788431a08e1e1d023244e124765815ee949cdd32"
+    },
+    {
+      "file": "results/aggregate/E2-2-group-arms.json",
+      "sha256": "0caec3feb364c029306088139ca36e9d694fbb1472992c79e4a9f9a8b6cb3ec5"
+    },
+    {
+      "file": "results/aggregate/E2-2-regularization-arms.json",
+      "sha256": "02b41897a6486bced764a7d6ad2dd2d65a68b5cb3c2031e280c96c69e43c6e7f"
+    },
+    {
+      "file": "results/aggregate/NOMO-cohort-selection.json",
+      "sha256": "bd83e46ccf974eda38803cfc7fd67aa69005624921a0a47afd728279495e90b9"
+    },
+    {
+      "file": "results/aggregate/waist-fallback-counts.json",
+      "sha256": "e067186d34370e9f45cd27b93dfaec9604d98d2dc081ee1a1eff52adc9db67bf"
+    },
+    {
+      "file": "results/aggregate/canonical-fallback-strata.json",
+      "sha256": "ee1821be0019afa594262b3c3643b3310314865727f5f6ca4c877e8c7a76df95"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "results/aggregate/claim-traceability.json",
+      "sha256": "ae3be547371349c8a45388e25d6d9cd29f72adc89cdbf7d9699f9f30cf05abf6"
+    }
+  ],
+  "boundaries": [
+    "Public route reconstructs claims from aggregates; it does not recover participant ranks or identities",
+    "Licensed route reads original local records and recomputes ranks and group statistics; only summaries are written",
+    "Native-probe replay uses the original parameter_audit without loading assets or participant data",
+    "Source sex categories are provider labels, not clinical validation; pathways and states remain linked within person"
+  ],
+  "native_query": {
+    "original_file": "scripts/experiments/e2_1_native_probe.py",
+    "original_sha256": "5025bf1b0b1442d1ffd1a31ffd41f61b4c307b002ecf1f33b295778d2aef6e48",
+    "released_file": "src/somatoanthropy/native_probe.py",
+    "released_sha256": "6d75b7029b29581c565878021ade071855dff9e080b4c49cc8a0f8dacd50ffda",
+    "mapping_and_limits_query_ast_equal": true,
+    "adaptation": "Original transform/limits query loop retained; explicit pinned loader replaces private study loader; runtime/resource metadata omitted"
+  },
+  "validation": {
+    "date": "2026-10-19",
+    "original_record_replay": "Six claim groups match frozen scalar summaries to 1e-12, with within-pathway arm/state/person and source-extent linkage checked",
+    "saved_probe_replay": "All 204 controls match",
+    "loaded_native_model_audit": "All 204 controls match using pinned LOD1 CPU model; zero geometry forwards and zero fits",
+    "participant_records_in_outputs": false
+  }
+}

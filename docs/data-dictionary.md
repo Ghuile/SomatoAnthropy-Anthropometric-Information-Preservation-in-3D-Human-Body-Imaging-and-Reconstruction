@@ -8,7 +8,9 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 |---|---|---|
 | agreement-extent-waist.json | engineering cm except correlations/CCC | New descriptive audit extension: CCC population moments, Pearson r, and Bland-Altman target-source bias +/-1.96 sample SD; one value per person per stratum; no confidence intervals |
 | agreement-waist-methods.json | engineering cm except correlations/CCC | New descriptive audit extension on the exact complete 149-person cohort: source versus body waist; state/pathway strata stay separate |
+| canonical-fallback-strata.json | counts; dimensionless Spearman/SD ratios; engineering cm for extent/surface error | Saved canonical P-body fallback flag on the complete 149-person paired NICP cohort; overlapping participant strata |
 | canonical-offset-minus-P.json | equation-response pp | Paired-person difference of absolute canonical cross-path q disagreement, offset minus P, H2 |
+| claim-traceability.json | counts; dimensionless Spearman/SD ratios; engineering cm for extent/surface error | Six manuscript claim summaries, reconstructed from the explicitly named frozen result tables and full model-control metadata |
 | E1-T3-global.json | Saved engineering working metres for geometric discrepancy; explicit cm display fields are separate. | Frozen E1-T3-global; grouped by the row labels. Original estimates/intervals are retained. |
 | E1-T5-correction-comparisons.json | Saved engineering working metres for geometric discrepancy; explicit cm display fields are separate. | Frozen E1-T5-correction-comparisons; grouped by the row labels. Original estimates/intervals are retained. |
 | E2-1-all-paired-effects.json | metric-dependent; cm, ratios or counts | Frozen paired-effect summaries with original intervals; partitions, metric, state and contrast specify denominator/sign |
@@ -57,18 +59,25 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | Field | Meaning |
 |---|---|
 | `CI95` | Original 95% participant-bootstrap interval for comparator-minus-P advantage. |
+| `G1` | Original spine and neck control group. |
+| `G2` | Original leg and foot control group. |
+| `G3` | Original upper-arm and forearm control group. |
+| `G4` | Original shoulder-width and hip-width control group. |
 | `actual_preference` | Stratum/definition metadata: actual preference. Its value names the saved analysis convention; see the table estimand and audit methods. |
 | `after_cm` | Mean of participant regional foot RMS after correction, converted from working m to cm. |
 | `alignment` | Stratum/definition metadata: alignment. Its value names the saved analysis convention; see the table estimand and audit methods. |
 | `all_translation_only` | True when recorded source alignment is translation-only; translation preserves extent. |
 | `anchor_construction` | How linked source extents form the shared/source anchor. |
 | `arm` | E2-1 source, historical A, locked B, released C or contextual comparator arm. |
+| `audited_controls` | Number of all model parameters inspected, including unreleased and fixed-domain controls. |
 | `before_cm` | Mean of participant regional foot RMS before correction, converted from working m to cm. |
 | `bias` | Mean target minus source; in paired-effect tables, mean signed named contrast instead. |
 | `body_fallback_count` | Number of reconstructed bodies whose saved P selector fallback flag is true. |
 | `body_observations` | Linked body/pathway/state observations; not independent people. |
 | `body_only` | Count with body fallback and no source fallback. |
 | `body_pairs` | Paired body observations nested within participants. |
+| `both_strata_people` | Unique complete people with fallback on one pathway and no fallback on the other; overlap of the two person strata. |
+| `canonical_P_fallback` | Canonical reconstructed P-selector fallback summary on complete paired NICP people; source-side flags are separate. |
 | `canonical_sd` | Between-person canonical extent SD. |
 | `canonical_to_source_sd_ratio` | Canonical extent SD divided by source extent SD. |
 | `caption` | Provenance or frozen display metadata: caption. No participant record is identified. |
@@ -78,6 +87,7 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `ci95` | Original exploratory 95% paired-person interval; not Bland–Altman limits. |
 | `clinical_stature_qualified` | Whether independent clinical stature calibration is established; strict equality does not establish it. |
 | `cohort` | Eligibility-defined population for this calculation. |
+| `cohort_build_and_provider_categories` | Frozen distinct-person selection-stage and provider-category totals, before the 149-person paired analysis filter. |
 | `collection` | Source representation pathway or paired-pathway aggregate. |
 | `columns` | Provenance or frozen display metadata: columns. No participant record is identified. |
 | `comparator_MAE` | Comparator mean absolute error against the named dependent source proxy. |
@@ -91,6 +101,7 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `condition` | E2-2 A=historical, B=locked, C=released, D=quarter prior; G1-G4/R4 are development-only mechanisms. |
 | `confidence_intervals_recomputed` | False: the audit agreement extension does not recompute or claim manuscript confidence intervals. |
 | `contrast` | Saved condition difference, e.g. C-B is released minus locked; repeat labels preserve their own order. |
+| `control_domains` | Complete native model-control audit summary, separate from the nine released controls. |
 | `controlled` | Stratum/definition metadata: controlled. Its value names the saved analysis convention; see the table estimand and audit methods. |
 | `controlled_preference` | Stratum/definition metadata: controlled preference. Its value names the saved analysis convention; see the table estimand and audit methods. |
 | `count` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
@@ -98,6 +109,7 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `cross_path_mae_pp` | Canonical absolute q disagreement between linked source pathways, averaged within person then across people. |
 | `dataset` | Source dataset family. |
 | `denominator` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
+| `development_mechanisms` | Four-person development summaries for B, C, G1–G4, noG1/noG2 and R025/R4, separately by linked pathway. |
 | `difference_sd` | Sample SD (ddof=1) of target-minus-source paired differences. |
 | `difference_sd_ddof` | Degrees of freedom removed when computing SD of differences: 1. |
 | `differing_max_cm` | Absolute source-extent disagreement among the 47 strict-ineligible participants: max in engineering cm. |
@@ -113,9 +125,13 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `eligible_people` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `estimand` | The population quantity or descriptive summary targeted by this table/row. |
 | `explanation` | Provenance or frozen display metadata: explanation. No participant record is identified. |
+| `fallback` | Saved reconstructed P-side selector fallback flag; true and false define the two overlapping-person strata. |
 | `fallback_count` | Number with the table's declared reconstructed-measurement fallback. |
+| `fallback_observations` | Canonical body/pathway observations with saved P fallback true; two observations per complete person. |
+| `fallback_people` | Unique complete people with at least one canonical pathway using P fallback. |
 | `female_source_category` | Count of provider female-labelled source records, not inferred biological sex. |
 | `first` | First method/policy in the saved comparison. |
+| `fitted_height_mae_cm` | Mean absolute fitted-versus-source vertical-extent difference within the declared development arm/pathway. |
 | `fitted_sd` | Between-person fitted extent SD. |
 | `fitted_to_source_sd_ratio` | Fitted extent SD divided by source extent SD. |
 | `fraction_abs_gt_1_pp` | Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1. |
@@ -124,7 +140,9 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `height_eligible_people` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `height_policy` | H1 own extent, H2 source anchor, H3 shared anchor conditional on the named eligibility threshold. |
 | `id` | Provenance or frozen display metadata: id. No participant record is identified. |
+| `incomplete_people_excluded` | Otherwise eligible people excluded because one of the two canonical NICP pathways is missing. |
 | `independent_unit` | Unit resampled or summarised for inference; linked records stay within person. |
+| `index` | Zero-based native model-parameter index. |
 | `interval` | Frozen uncertainty construction and exploratory status. |
 | `invalid_source` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `invalid_target` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
@@ -138,7 +156,7 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `mae_ci95` | Original participant-bootstrap interval for MAE. |
 | `male_source_category` | Count of provider male-labelled source records, not inferred biological sex. |
 | `markdown` | Provenance or frozen display metadata: markdown. No participant record is identified. |
-| `maximum` | Saved maximum of the declared outcome, at the named observation/person level. |
+| `maximum` | Authored maximum for the named control in the zero-domain claim table; other tables use the maximum of their named outcome. |
 | `mean` | Arithmetic mean of the named statistic; independent unit and aggregation are defined by the table/stratum. |
 | `mean_absolute` | Mean absolute signed-response difference; distinct from the absolute value of the cohort mean. |
 | `mean_absolute_ci95` | Original participant-bootstrap interval for mean absolute difference. |
@@ -151,21 +169,25 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `mean_engineering_m_text` | Exact original mean display string, in the unit embedded in the key. |
 | `mean_source` | Arithmetic mean of the complete source values. |
 | `mean_target` | Arithmetic mean of the complete target values. |
+| `mechanism_groups` | Original E2-2 groups of released control names; G1 axial, G2 lower limb, G3 arm, G4 widths. |
 | `median` | Median of the named statistic over the table's declared independent units. |
 | `median_absolute` | Median absolute difference. |
 | `median_advantage` | Median comparator-minus-P absolute error difference. |
 | `median_ci95` | Original 95% participant-bootstrap interval for the saved median. |
 | `method` | Saved functional/site definition; historical waist and E2 midpoint are distinct. |
 | `metric` | Named outcome definition; _cm indicates engineering centimetres, ratios/correlations are dimensionless. |
-| `minimum` | Saved minimum of the declared outcome, at the named observation/person level. |
+| `minimum` | Authored minimum for the named control in the zero-domain claim table; other tables use the minimum of their named outcome. |
 | `missing` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `mode` | Measurement functional comparison, e.g. end_to_end versus site controls. |
 | `n` | Independent-unit count defined by the table/metric; do not sum linked pathways or states. |
 | `n_observations` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `n_participants` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
+| `name` | Native control name. |
 | `negative_fraction` | Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1. |
 | `neither` | Count with neither selector fallback flag. |
 | `non_dominated` | Frozen descriptive membership on the complete three-objective policy grid; not statistical dominance. |
+| `nonfallback_observations` | Canonical body/pathway observations with saved P fallback false. |
+| `nonfallback_people` | Unique complete people with at least one canonical pathway without P fallback. |
 | `observation_median` | Saved observation median of the declared outcome, at the named observation/person level. |
 | `observation_negative_fraction` | Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1. |
 | `observation_p90_absolute` | Saved observation p90 absolute of the declared outcome, at the named observation/person level. |
@@ -214,10 +236,12 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `reference` | Named dependent source reference definition. |
 | `reference_mae_pp` | Canonical absolute q deviation from the dependent source coordinate on the stated common cohort. |
 | `region` | Stratum/definition metadata: region. Its value names the saved analysis convention; see the table estimand and audit methods. |
+| `released_controls` | Number of controls in the released fitting set. |
 | `replicates` | Frozen bootstrap draws; not additional participants. |
 | `rmse` | Root mean squared error/difference for the declared metric. |
 | `rows` | Provenance or frozen display metadata: rows. No participant record is identified. |
 | `rule` | Stratum/definition metadata: rule. Its value names the saved analysis convention; see the table estimand and audit methods. |
+| `schema_version` | Version of the compiled claim JSON schema. |
 | `sd` | Sample standard deviation for the declared independent-unit statistic. |
 | `sd_person_mean` | Sample SD across participant-mean observations. |
 | `sd_ratio` | Target/source between-person SD ratio; dimensionless. |
@@ -228,6 +252,7 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `selected_observations` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `selected_people` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `selection` | Frozen retained/replacement/additional source-selection stage. |
+| `selection_counts` | Counts by retained, replacement and additional frozen selection stage. |
 | `site` | Stratum/definition metadata: site. Its value names the saved analysis convention; see the table estimand and audit methods. |
 | `slope` | Target-on-source regression slope for the declared extent table. |
 | `source_and_body` | Count with both source and reconstructed-body selector fallback flags. |
@@ -248,6 +273,7 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `strict_ineligible` | People whose source extents fail the frozen strict threshold (47). |
 | `subjects` | Dataset-local independent participants represented by this row. |
 | `subset` | Stratum/definition metadata: subset. Its value names the saved analysis convention; see the table estimand and audit methods. |
+| `surface_mean_cm` | Arithmetic mean of the saved per-person surface mean discrepancies for the declared development arm/pathway. |
 | `text_y_precision` | Number of serialized decimal places in metre OBJ y coordinates. |
 | `threshold_cm` | Source-extent equality tolerance in engineering cm; not a clinical threshold. |
 | `total_people` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
@@ -258,3 +284,5 @@ Engineering cm/m are working-frame lengths. Equation-response pp describe differ
 | `valid_observations` | Count/denominator for the named eligibility, missingness or sign category; remains specific to this row. |
 | `variant` | Stratum/definition metadata: variant. Its value names the saved analysis convention; see the table estimand and audit methods. |
 | `variation` | Stratum/definition metadata: variation. Its value names the saved analysis convention; see the table estimand and audit methods. |
+| `zero_domain_claims` | Three specifically questioned unreleased controls with authored minimum=maximum=0; nonzero transform columns do not override these limits. |
+| `zero_domain_count` | Count of all audited controls whose authored minimum and maximum both equal zero (37); distinct from the three named exclusions. |
