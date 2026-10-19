@@ -1,6 +1,6 @@
 # Claim-to-pipeline guide
 
-The six questioned claims are pre-existing experimental results or summaries of frozen records. Commit `3777873` omitted their supporting fields/tables. Commit `5c1553b` added the expanded aggregate tables; this update adds a complete model-control audit, explicit claim mapping and runnable replay pipelines. The original research manuscript and frozen experiment results are unchanged. GitHub remains private; Zenodo is deferred.
+The six questioned claims are pre-existing experimental results or summaries of frozen records. Commit `3777873` omitted their supporting fields/tables. Commit `5c1553b` added the expanded aggregate tables; this update adds a complete model-control audit, explicit claim mapping and runnable replay pipelines. The original research manuscript and frozen experiment results are unchanged. The author authorised public GitHub and Hugging Face access on 19 October 2026; Zenodo remains deferred.
 
 | Claim | Definition and population | Released inputs |
 |---|---|---|

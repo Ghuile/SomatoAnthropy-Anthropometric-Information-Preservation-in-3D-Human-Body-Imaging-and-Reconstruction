@@ -1,5 +1,5 @@
 {
-  "github_visibility": "private",
+  "github_visibility": "public",
   "versioned_release": "v0.2.0",
   "release_commit": "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b",
   "zenodo_status": "deferred by the author on 19 October 2026",
@@ -7,5 +7,9 @@
   "zenodo_published": false,
   "doi_status": "reserved in a private draft; unregistered",
   "reserved_doi": "10.5281/zenodo.23464423",
-  "historical_release_note": "The v0.2.0 candidate contains the reserved DOI in its metadata. This is not evidence of a published archive. The existing tag and archive are preserved; current citation metadata omits an active DOI."
+  "historical_release_note": "The v0.2.0 candidate contains the reserved DOI in its metadata. This is not evidence of a published archive. The existing tag and archive are preserved; current citation metadata omits an active DOI.",
+  "huggingface_visibility": "public",
+  "public_visibility_authorised": "Explicit author instruction, 19 October 2026",
+  "huggingface_url": "https://huggingface.co/datasets/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3DHumanBody-Imaging-and-Reconstruction",
+  "historical_status_note": "Earlier private-preparation receipts remain historical; no participant records or model binaries were added for the visibility change."
 }

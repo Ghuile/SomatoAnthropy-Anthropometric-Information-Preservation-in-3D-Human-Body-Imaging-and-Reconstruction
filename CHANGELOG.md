@@ -1,5 +1,12 @@
 # Changelog
 
+## Public repository availability — 19 October 2026
+
+The author authorised public access to the curated GitHub repository and Hugging
+Face companion. MIT software, CC BY 4.0 project documentation/aggregates and
+upstream notices retain their scope. Frozen research results and archived
+snapshots are unchanged. Zenodo archival remains deferred.
+
 ## Software licence split and private dataset package — 19 October 2026
 
 Separates MIT project software from CC BY 4.0 research documentation and

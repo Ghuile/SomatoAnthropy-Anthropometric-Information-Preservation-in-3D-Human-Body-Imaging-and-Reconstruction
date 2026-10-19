@@ -1,7 +1,7 @@
 # Licence scope
 
 The author authorised the following split on 19 October 2026. Repository
-visibility remains private. This licensing change does not publish the work.
+visibility was initially private. The author subsequently authorised public GitHub and Hugging Face access on 19 October 2026; the licence scopes below remain unchanged.
 
 | Material | Licence |
 |---|---|
