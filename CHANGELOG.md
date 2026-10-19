@@ -1,5 +1,12 @@
 # Changelog
 
+## After 0.2.0 — availability clarification
+
+The authors deferred Zenodo archival and retained private GitHub visibility.
+No file was uploaded to Zenodo and nothing was published there. Current citation
+metadata omits the reserved, unregistered DOI. The v0.2.0 tag and candidate archive
+are preserved; their reserved DOI is not an active publication identifier.
+
 ## 0.2.0 — 19 October 2026
 
 Adds twelve abridged register reports with original/released hash mappings, missing cited aggregates and anchor checks, source-waist lineage and fallback counts, mechanism arms, descriptive CCC/correlation/Bland–Altman tables, current manuscript SVG scripts, a template-control rendering script, CC BY 4.0 licensing and push CI. Participant-level vectors remain withheld under unresolved NOMO redistribution terms.

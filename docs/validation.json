@@ -93,10 +93,23 @@
   "audit_extension": "CCC, Pearson correlation and Bland–Altman limits calculated descriptively from frozen pairs; no new manuscript intervals.",
   "participant_difference_vectors": "Withheld: NOMO redistribution/modification terms unresolved; original aggregate intervals and local replay code provided.",
   "workflow": ".github/workflows/verify.yml; observable execution on every push; do not treat this static record as a CI run.",
+  "zenodo_status": "Deferred by the author; no archive uploaded and nothing published; DOI reserved only",
   "limits": [
     "Full participant fitting and original small-n interval replay require separately authorised inputs; no real-data fits launched",
     "Template planes use authored zero articulation and generic topology attachments, not study T90 or participant anatomy",
     "Original reports are abridged for release, with separate hashes",
     "The source reference shares MHR-mapped anchors and is not independent clinical truth"
+  ],
+  "observed_prior_push_ci": [
+    {
+      "url": "https://github.com/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3D-Human-Body-Imaging-and-Reconstruction/actions/runs/39202695533",
+      "commit": "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b",
+      "conclusion": "success"
+    },
+    {
+      "url": "https://github.com/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3D-Human-Body-Imaging-and-Reconstruction/actions/runs/39202609517",
+      "commit": "5c1553ba02de1ba511c5d2165c3918b09c7b7b9b",
+      "conclusion": "success"
+    }
   ]
 }

@@ -94,5 +94,7 @@ python scripts/check_manuscript_figures.py --input reproduced/manuscript
 
 The manuscript SVG route reproduces the six original editorial vectors exactly.
 The existing reproduce_figures.py command generates companion plots. CI runs tests,
-release verification and both routes on every push. The versioned software archive
-is cited by DOI [10.5281/zenodo.23464423](https://doi.org/10.5281/zenodo.23464423).
+release verification and both routes on every push. The repository remains private.
+Zenodo archival is deferred by the authors. A DOI was reserved in an unpublished
+draft, but no archive was uploaded and no DOI has been registered. Cite the
+versioned GitHub release for now; see [release status](docs/release-status.json).

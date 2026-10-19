@@ -1,10 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite this software archive and the accompanying research manuscript."
+message: "Please cite the versioned GitHub release and accompanying manuscript. Zenodo archival is deferred."
 type: software
 title: "SomatoAnthropy: Anthropometric Information Preservation in 3D Human-Body Imaging and Reconstruction"
 version: 0.2.0
 license: CC-BY-4.0
-doi: 10.5281/zenodo.23464423
 date-released: 2026-10-19
 authors:
   - family-names: Nikolaou
