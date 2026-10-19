@@ -3,7 +3,7 @@
   "upload_type": "software",
   "version": "0.2.0",
   "publication_date": "2026-10-19",
-  "license": "cc-by-4.0",
+  "license": "mit",
   "creators": [
     {
       "name": "Nikolaou, Vasileios",
@@ -18,5 +18,5 @@
       "affiliation": "London South Bank University"
     }
   ],
-  "description": "Research software and aggregate evidence; participant records and model binaries excluded. See NOTICE for licence scope."
+  "description": "Research software under MIT; project-owned documentation and aggregates under CC BY 4.0. See NOTICE and docs/licensing.md. Participant records and model binaries excluded. Zenodo archival remains deferred."
 }

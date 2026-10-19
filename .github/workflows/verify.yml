@@ -32,3 +32,6 @@ jobs:
       - run: python scripts/reproduce_manuscript_figures.py --output reproduced/manuscript
       - run: python scripts/check_manuscript_figures.py --input reproduced/manuscript
       - run: python scripts/reproduce_audit_claims.py frozen --output reproduced/audit/claims.json
+      - run: python scripts/prepare_huggingface.py --source-commit "${{ github.sha }}" --output reproduced/huggingface --archive reproduced/huggingface-private.zip
+      - run: python scripts/prepare_huggingface.py --verify reproduced/huggingface
+      - run: python reproduced/huggingface/examples/check_invented.py

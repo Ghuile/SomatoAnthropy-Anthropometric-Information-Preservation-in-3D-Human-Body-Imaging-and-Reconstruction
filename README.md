@@ -76,7 +76,7 @@ licences do not settle participant-data or figure rights. See
 
 This repository provides research source and aggregate verification material.
 Raw datasets, participant records, source-derived meshes, model binaries and
-private correspondence are excluded. GitHub remains private and Zenodo archival is deferred. Project-owned material is licensed under CC BY 4.0; the lead author confirmed LSBU approval on 19 October 2026. Third-party and dataset terms remain separate.
+private correspondence are excluded. GitHub remains private and Zenodo archival is deferred. Project-owned software is licensed under MIT; research documentation and aggregate data are CC BY 4.0. See [licence scope](docs/licensing.md). Third-party and dataset terms remain separate.
 
 A companion dataset is planned at [Hugging Face](https://huggingface.co/datasets/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3DHumanBody-Imaging-and-Reconstruction). Its dataset card will describe the released contents and access conditions when available.
 
@@ -114,3 +114,13 @@ release verification and both routes on every push. The repository remains priva
 Zenodo archival is deferred by the authors. A DOI was reserved in an unpublished
 draft, but no archive was uploaded and no DOI has been registered. Cite the
 versioned GitHub release for now; see [release status](docs/release-status.json).
+
+## Preparing the private Hugging Face companion
+
+The package builder copies only explicitly curated aggregates, documentation,
+approved illustrations and invented examples, and writes checksums and source
+provenance. It performs no upload. See [the package guide](docs/huggingface-package.md).
+
+```text
+python scripts/prepare_huggingface.py --source-commit COMMIT_SHA --output reproduced/huggingface --archive reproduced/huggingface-private.zip
+```

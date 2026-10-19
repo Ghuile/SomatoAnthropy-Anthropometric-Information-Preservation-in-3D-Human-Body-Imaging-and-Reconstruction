@@ -1,9 +1,11 @@
-SomatoAnthropy reviewer release 0.2.0
-Project-owned code, documentation and aggregate research outputs: CC BY 4.0.
-Vasileios Nikolaou confirmed the licence choice and LSBU approval on 19 October 2026.
-This records the researcher's authority statement; it is not a reproduced institutional letter.
-Credit Vasileios Nikolaou, Daqing Chen and Perry Xiao, and cite CITATION.cff.
-Third-party MHR and clad-body material remains under its own Apache-2.0 notices
-in third_party/. The project licence does not relicense source datasets,
-participant geometry or external assets. MHR template illustrations, if rendered,
-derive solely from Meta's licensed template and carry the MHR asset notice.
+SomatoAnthropy reviewer repository
+Project-owned software, scripts, tests, software configuration and CI: MIT.
+Project-owned research documentation, aggregate tables and original illustrations: CC BY 4.0.
+See LICENSES/ and docs/licensing.md for scope. The author authorised this split on 19 October 2026.
+Copyright (c) 2026 Vasileios Nikolaou, Daqing Chen and Perry Xiao.
+Citation is requested in CITATION.cff and is not an extra MIT licence condition.
+Historical v0.2.0 CC BY 4.0 permissions remain available; its tag and archive are unchanged.
+Third-party MHR and clad-body material retains the Apache-2.0 notices in third_party/.
+Template-derived illustrations retain the MHR asset notice.
+The project licences do not relicense source datasets, participant geometry or external assets.
+Participant records, model binaries, private correspondence and private ledgers are excluded.

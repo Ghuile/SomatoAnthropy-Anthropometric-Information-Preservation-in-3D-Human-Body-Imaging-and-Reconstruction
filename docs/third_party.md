@@ -1,7 +1,7 @@
 # Attribution, licences and figure rights
 
-Project-owned code, documentation and aggregate material are licensed under
-CC BY 4.0. The lead author confirmed LSBU approval on 19 October 2026. See LICENSE
+Project-owned software is MIT. Project-owned research documentation and
+aggregate material are CC BY 4.0. See [licence scope](licensing.md), LICENSES/
 and NOTICE. External dependencies and source datasets retain their own terms.
 
 | Dependency | Pinned revision / terms |
@@ -29,4 +29,4 @@ with the asset notice retained. Private correspondence and permission records
 are excluded. GitHub visibility is controlled separately from the Zenodo archive.
 
 
-The 0.2.0 [audit update](audit-update.md) supersedes prior unresolved project-licence and Figure 2 statements: project-owned release material is CC BY 4.0 with LSBU approval reported by the lead author. Current manuscript Figure 2 has no participant imagery. Dataset restrictions and excluded historical imagery remain unchanged.
+The 0.2.0 [audit update](audit-update.md) recorded CC BY 4.0 with LSBU approval reported by the lead author. The current [licence scope](licensing.md) separates MIT software from CC BY 4.0 research documentation and aggregates; historical permissions are preserved. Current manuscript Figure 2 has no participant imagery. Dataset restrictions and excluded historical imagery remain unchanged.

@@ -42,4 +42,4 @@ all possible future sensitive additions. Regenerate and review the manifest
 before any later publication.
 
 
-The 0.2.0 [audit update](audit-update.md) supersedes prior unresolved project-licence and Figure 2 statements: project-owned release material is CC BY 4.0 with LSBU approval reported by the lead author. Current manuscript Figure 2 has no participant imagery. Dataset restrictions and excluded historical imagery remain unchanged.
+The 0.2.0 [audit update](audit-update.md) recorded CC BY 4.0 with LSBU approval reported by the lead author. The current [licence scope](licensing.md) separates MIT software from CC BY 4.0 research documentation and aggregates; historical permissions are preserved. Current manuscript Figure 2 has no participant imagery. Dataset restrictions and excluded historical imagery remain unchanged.

@@ -1,5 +1,14 @@
 # Changelog
 
+## Software licence split and private dataset package — 19 October 2026
+
+Separates MIT project software from CC BY 4.0 research documentation and
+aggregates, retaining upstream notices and historical release permissions. Adds
+a private Hugging Face package builder with a dataset card, original aggregate
+JSON, selected CSV exports, approved illustrations, invented examples and
+checksummed provenance. The builder performs no upload; GitHub remains private
+and Zenodo remains deferred.
+
 ## Claim pipelines — 19 October 2026
 
 Adds the participant-free full 204-control audit, canonical fallback stratum

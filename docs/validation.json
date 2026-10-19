@@ -156,5 +156,50 @@
       "original_experiment_reports_unchanged": 12,
       "content_manifest_and_internal_artifact_hashes": "passed"
     }
+  },
+  "licence_and_private_package_extension": {
+    "date": "2026-10-19",
+    "software_licence": "MIT",
+    "project_docs_and_aggregates_licence": "CC-BY-4.0",
+    "historical_release_and_upstream_notices_preserved": true,
+    "public_tests": [
+      {
+        "python": "3.11.17",
+        "passed": 154,
+        "skipped": 1
+      },
+      {
+        "python": "3.12.14",
+        "passed": 153,
+        "skipped": 2
+      }
+    ],
+    "optional_skips": [
+      "Torch optimizer fixture absent in review environments",
+      "Optional pinned comparator absent in Python 3.12"
+    ],
+    "package_tests": "Four tests passed: licence scope, explicit allowlist, CSV equality, tamper/overwrite protection and Git commit binding",
+    "wheel_metadata": "License-Expression MIT; seven licence/notice files verified byte-for-byte",
+    "content_and_manifest_checks": "Passed",
+    "known_private_identifiers_checked": 2698,
+    "identifier_matches": 0,
+    "original_definition_asts_equal": 323,
+    "additional_reference_definition_asts_equal": 8,
+    "original_reports_unchanged": 12,
+    "source_research_head_and_index_unchanged": true,
+    "numerical_anchors": 253,
+    "aggregate_tables": 47,
+    "csv_exports": 6,
+    "lint_and_format": "Passed",
+    "dependency_check": "pip check passed",
+    "package_builder_network_or_upload_operation": false,
+    "github_visibility": "private",
+    "huggingface_status": "prepared locally; no upload by builder",
+    "zenodo_status": "deferred",
+    "limitations": [
+      "Aggregate companion only; no participant records, per-person vectors, participant geometry or model binaries",
+      "Template-derived metadata and imagery retain upstream notices",
+      "No new fitting, geometry forwarding, selection, split or bootstrap calculation"
+    ]
   }
 }
