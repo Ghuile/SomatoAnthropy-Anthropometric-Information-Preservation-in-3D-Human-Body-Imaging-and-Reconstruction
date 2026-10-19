@@ -9,6 +9,8 @@ JSON, selected CSV exports, approved illustrations, invented examples and
 checksummed provenance. The builder performs no upload; GitHub remains private
 and Zenodo remains deferred.
 
+The dormant .zenodo.json upload metadata was removed at the author's request.
+
 ## Claim pipelines — 19 October 2026
 
 Adds the participant-free full 204-control audit, canonical fallback stratum
