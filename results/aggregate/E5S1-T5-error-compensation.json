@@ -1,0 +1,254 @@
+[
+  {
+    "stratum": "all",
+    "method": "P",
+    "metric": "waist_contribution_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.2693385683939755,
+    "mean_ci95": [
+      -0.4584615755932561,
+      -0.07441713657534706
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "P",
+    "metric": "height_contribution_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.9594241392833002,
+    "mean_ci95": [
+      -1.2199313185634912,
+      -0.705652187398887
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "P",
+    "metric": "actual",
+    "people": 149,
+    "observations": 596,
+    "mean": -1.2287627076772756,
+    "mean_ci95": [
+      -1.5730844154303067,
+      -0.8891792703155856
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "P",
+    "metric": "cancellation_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": 0.6400878019044561,
+    "mean_ci95": [
+      0.5313496596280113,
+      0.7666119953965157
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "P",
+    "metric": "waist_error_cm",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.5770799562161223,
+    "mean_ci95": [
+      -1.0180195238885499,
+      -0.1370005986260981
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "P",
+    "metric": "compensating_distance_cm",
+    "people": 149,
+    "observations": 596,
+    "mean": 5.143236321497678,
+    "mean_ci95": [
+      4.583077356889793,
+      5.738400372480695
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B1",
+    "metric": "waist_contribution_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": 1.1244640381643567,
+    "mean_ci95": [
+      0.8861748944743698,
+      1.3677976581310212
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B1",
+    "metric": "height_contribution_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.8942643430218988,
+    "mean_ci95": [
+      -1.137766661617582,
+      -0.6562047740190607
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B1",
+    "metric": "actual",
+    "people": 149,
+    "observations": 596,
+    "mean": 0.23019969514245775,
+    "mean_ci95": [
+      -0.0029390603766450236,
+      0.4744290602546791
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B1",
+    "metric": "cancellation_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": 1.3659209879804768,
+    "mean_ci95": [
+      1.1363917319406986,
+      1.6064357773917508
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B1",
+    "metric": "waist_error_cm",
+    "people": 149,
+    "observations": 596,
+    "mean": 2.2356576799626855,
+    "mean_ci95": [
+      1.6766985565672357,
+      2.775214614116155
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B1",
+    "metric": "compensating_distance_cm",
+    "people": 149,
+    "observations": 596,
+    "mean": 3.8585522557538625,
+    "mean_ci95": [
+      3.406718685843699,
+      4.355697702492014
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B3_offset",
+    "metric": "waist_contribution_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": 0.6259391315262036,
+    "mean_ci95": [
+      0.47022644439902844,
+      0.7917631220664743
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B3_offset",
+    "metric": "height_contribution_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.9261538684714871,
+    "mean_ci95": [
+      -1.1776842188623307,
+      -0.6807709364638792
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B3_offset",
+    "metric": "actual",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.3002147369452836,
+    "mean_ci95": [
+      -0.5606188613755932,
+      -0.03893794319786922
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B3_offset",
+    "metric": "cancellation_pp",
+    "people": 149,
+    "observations": 596,
+    "mean": 0.9449298620277407,
+    "mean_ci95": [
+      0.785410467468755,
+      1.1171009341843037
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B3_offset",
+    "metric": "waist_error_cm",
+    "people": 149,
+    "observations": 596,
+    "mean": 1.278823707235757,
+    "mean_ci95": [
+      0.9165892843806992,
+      1.6582345825989684
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "method": "B3_offset",
+    "metric": "compensating_distance_cm",
+    "people": 149,
+    "observations": 596,
+    "mean": 3.93404108866815,
+    "mean_ci95": [
+      3.526745291119714,
+      4.356584701052492
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  }
+]

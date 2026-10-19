@@ -1,0 +1,1033 @@
+{
+  "source_revision": "8a4fabb97edd0829ff3afa82cfe7dcf6c75414b9",
+  "source_dirty": true,
+  "modules": [
+    {
+      "source": "src/somatosynth3d/audits/e0/core.py",
+      "source_sha256": "a49082a04ce1785e521641fd2c8503c81b926772d189d87caeed59421ac0ce1e",
+      "destination": "src/somatoanthropy/audits/e0/core.py",
+      "definitions": [
+        "compare_replay",
+        "inspect_parameters",
+        "sha"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/identity.py",
+      "source_sha256": "c83a910bb2721121a0338ab24545f98af831c6cba88b27f34b65a4ace719f91b",
+      "destination": "src/somatoanthropy/data/identity.py",
+      "definitions": [
+        "NAMESPACE",
+        "PATTERN",
+        "SPEC",
+        "dataset_of",
+        "subject_uid"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/mpii_humanshape/loader.py",
+      "source_sha256": "0af6b0b0585e2434b8238c3b85e5c4c5c7e9f4db9a1a469968ec9cc1002cc5a1",
+      "destination": "src/somatoanthropy/data/mpii_humanshape/loader.py",
+      "definitions": [
+        "_immutable",
+        "points_array",
+        "template_arrays"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/mpii_humanshape/mat.py",
+      "source_sha256": "59dd729cea7a6d078c361a155fbb54fb207c9fb81dde842f79f20057fb5031b5",
+      "destination": "src/somatoanthropy/data/mpii_humanshape/mat.py",
+      "definitions": [
+        "MAX_ELEMENT_BYTES",
+        "_elements",
+        "read_numeric_mat"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/nomo/meshes.py",
+      "source_sha256": "189d57c6323959568d71a75ef30cd46759f565f1491766d7772c924b1927743c",
+      "destination": "src/somatoanthropy/data/nomo/meshes.py",
+      "definitions": [
+        "NomoMesh",
+        "read_mesh"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/nomo_completion.py",
+      "source_sha256": "a2cd9be85384f6917583a3dc4a4bd95976bca2bc98bf9f54ec8945c03d5e1e9b",
+      "destination": "src/somatoanthropy/data/nomo_completion.py",
+      "definitions": [
+        "skeleton_points"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/nomo_contact_sections.py",
+      "source_sha256": "72a17d943c981639611db398d8aed38c7eb8787dc28c38d88dfcd525befaced9",
+      "destination": "src/somatoanthropy/data/nomo_contact_sections.py",
+      "definitions": [
+        "IndexedSections",
+        "neck_section",
+        "unavailable"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/nomo_released_metrology.py",
+      "source_sha256": "e1f0b4e10c8d6a43ee4c7a62905dce11611f0d5058e8bbc9b62fbe35ef3ea3bb",
+      "destination": "src/somatoanthropy/data/nomo_released_metrology.py",
+      "definitions": [
+        "differences",
+        "mapped_anchors",
+        "measure",
+        "project_anchors",
+        "source_region_mask"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/data/phase01_nomo.py",
+      "source_sha256": "701d7fc5a7c2e2eb1ab67c1397f2cd02d8b786a7f441e7120b85ba5e2367231d",
+      "destination": "src/somatoanthropy/data/phase01_nomo.py",
+      "definitions": [
+        "NAMESPACE",
+        "atomic_bytes",
+        "atomic_json",
+        "linked_uid"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e1/core.py",
+      "source_sha256": "6e622d6ca41d7501eaeaba5b94fc03f3d29eb2eef485a0ecbf0642071bb8b3c4",
+      "destination": "src/somatoanthropy/experiments/e1/core.py",
+      "definitions": [
+        "COUNT",
+        "REGION_NOTE",
+        "SEED",
+        "TriangleQuery",
+        "VERSION",
+        "_positive",
+        "_stats",
+        "canonical_controls",
+        "checked_pair",
+        "dimensions",
+        "participant_summary",
+        "region_faces",
+        "select_people",
+        "statistics",
+        "surface_pair"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e1/inputs.py",
+      "source_sha256": "85caf68e75850fa0c6c070489f52a82a0c0b6d5a10569109891c401be90f146a",
+      "destination": "src/somatoanthropy/experiments/e1/inputs.py",
+      "definitions": [
+        "canonical_mesh",
+        "pair_meshes"
+      ],
+      "adaptations": [
+        "Remove obsolete sys.path dependency overlay; h5py is an explicit optional dependency."
+      ],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2/core.py",
+      "source_sha256": "1876dd170891eed626e9d7742d99718cc9078c3c25a969fe7584c2048166b76e",
+      "destination": "src/somatoanthropy/experiments/e2/core.py",
+      "definitions": [
+        "PATHWAYS",
+        "VERSION",
+        "assess_site",
+        "external_errors",
+        "height_diagnostics",
+        "midpoint_plane",
+        "paired_error",
+        "physical_cm",
+        "registry",
+        "summarise_errors",
+        "three_way"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2/measure.py",
+      "source_sha256": "dd72d501988fb5b8799728e5b0acf561c5ae84b2b79a9c904064706fc418a790",
+      "destination": "src/somatoanthropy/experiments/e2/measure.py",
+      "definitions": [
+        "compact",
+        "proxy_sites",
+        "section"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2_1/analysis.py",
+      "source_sha256": "0c94fd5fd29dbf81af6a196c5e3c9769a4ae97e4cf76fc684857e332402b5443",
+      "destination": "src/somatoanthropy/experiments/e2_1/analysis.py",
+      "definitions": [
+        "anthropometric_rows",
+        "paired_summary",
+        "ratio_effect",
+        "value"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2_1/core.py",
+      "source_sha256": "557d66d14805b94462b1ada9ea06a32a2526b712f61d3a6787e564c28e164505",
+      "destination": "src/somatoanthropy/experiments/e2_1/core.py",
+      "definitions": [
+        "RELEASE_NAMES",
+        "canonical_controls",
+        "choose_cohort",
+        "parameter_audit",
+        "variation"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2_1/evaluation.py",
+      "source_sha256": "7f8b00f0bae10f4f3efeac59c489bc6589c30bbe5cabdc1393a184b85924eb1a",
+      "destination": "src/somatoanthropy/experiments/e2_1/evaluation.py",
+      "definitions": [
+        "dimensions",
+        "geometry",
+        "measurements",
+        "regions",
+        "summaries"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2_1/optimizer.py",
+      "source_sha256": "3008a99170c76b340cf8c150de56be467e1bf08030113db11e94b8fed0828c6a",
+      "destination": "src/somatoanthropy/experiments/e2_1/optimizer.py",
+      "definitions": [
+        "optimise"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2_2/analysis.py",
+      "source_sha256": "a276fbb3d5c8ca136678cbf8090950d7ed10b3c27727ae05bb5dd287dd7e6a16",
+      "destination": "src/somatoanthropy/experiments/e2_2/analysis.py",
+      "definitions": [
+        "anthro",
+        "grouped_anthropometry",
+        "paired_effects"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e2_2/core.py",
+      "source_sha256": "e7a6533de417daab77f911fbeb1e3cdd74c84bb4148507ecf1c89914a9e99ec9",
+      "destination": "src/somatoanthropy/experiments/e2_2/core.py",
+      "definitions": [
+        "GROUPS",
+        "PERTURBATION",
+        "RANKING",
+        "SEED",
+        "digest",
+        "fit_config",
+        "policies",
+        "rank_candidates",
+        "select_heldout",
+        "starting_controls"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e3/analysis.py",
+      "source_sha256": "efbc5436914198a935ad353951d462f9fe49ab154e1fa4af664ef2dfa1396f87",
+      "destination": "src/somatoanthropy/experiments/e3/analysis.py",
+      "definitions": [
+        "summary_stats"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e3/core.py",
+      "source_sha256": "9c1268ec567925488aa81cf85344dc7c00dbdf32c8f47f41083d237c8d7ccfb4",
+      "destination": "src/somatoanthropy/experiments/e3/core.py",
+      "definitions": [
+        "PROTOCOL",
+        "SEED",
+        "SITES",
+        "VERSION",
+        "angular_distance",
+        "cluster_association",
+        "dispersion",
+        "indexed_difference",
+        "local_plane",
+        "reference_site",
+        "validate_panel"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e3/geometry.py",
+      "source_sha256": "00450ec34efb491d643cd3294c98c00f717e73a20245c49dbbae557de6abcc44",
+      "destination": "src/somatoanthropy/experiments/e3/geometry.py",
+      "definitions": [
+        "region_ids"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e3/measure.py",
+      "source_sha256": "5775844529496f1e75ca88253c69f0f74624c98cef8f95089bd63dfb594d29d4",
+      "destination": "src/somatoanthropy/experiments/e3/measure.py",
+      "definitions": [
+        "common",
+        "fields"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e4/analysis.py",
+      "source_sha256": "eed3ba9615182f33bfd3b5371541dcf492e6e50429ca9e66e1cebdb403275c25",
+      "destination": "src/somatoanthropy/experiments/e4/analysis.py",
+      "definitions": [
+        "comparison_rows",
+        "geometry_analysis",
+        "summarise",
+        "write_csv"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e4/core.py",
+      "source_sha256": "21e112a014c4c155c76b71e64f2a97e8bb7783b3c2b09fa856ef16369483a65d",
+      "destination": "src/somatoanthropy/experiments/e4/core.py",
+      "definitions": [
+        "PRIMARY",
+        "SITES",
+        "UNIT",
+        "bootstrap",
+        "compatible",
+        "describe",
+        "effect",
+        "measurement",
+        "paired_values",
+        "seed_for",
+        "unique_people"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e4/geometry.py",
+      "source_sha256": "392bd15735834b2496aaa29232169014598522b1c939d3085163a07c9f1a1800",
+      "destination": "src/somatoanthropy/experiments/e4/geometry.py",
+      "definitions": [
+        "positive_mesh",
+        "source_centered_fitted",
+        "surface"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e4/inputs.py",
+      "source_sha256": "5fbadffabf5d69ce84a8a5013ce57bcbacbc123bf9bb7c9bb22d88d3cdfd5dd0",
+      "destination": "src/somatoanthropy/experiments/e4/inputs.py",
+      "definitions": [
+        "index_unique",
+        "linked_pair"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5/analysis.py",
+      "source_sha256": "50596574c55bf17b663a0a2d5345f0b1d9ce0c8b690c5067aebfd762f2699e17",
+      "destination": "src/somatoanthropy/experiments/e5/analysis.py",
+      "definitions": [
+        "_association_groups",
+        "associations",
+        "decomposition",
+        "measurement",
+        "reconstruction",
+        "repeated",
+        "waist"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5/core.py",
+      "source_sha256": "1bbd977ae60bcbde2c86be9cbbe13adb20daab4e685a0c8e29efba00d7ce98bb",
+      "destination": "src/somatoanthropy/experiments/e5/core.py",
+      "definitions": [
+        "REGISTRY",
+        "REPLICATES",
+        "SEED",
+        "VERSION",
+        "absolute_eligibility",
+        "circ_response",
+        "circumference",
+        "decompose",
+        "derivatives",
+        "grouped",
+        "positive",
+        "response",
+        "rfm",
+        "seed_for",
+        "summarize",
+        "vector_response"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5/delivery.py",
+      "source_sha256": "6784d0b19c836b55f6c6706c84bb385475401a022b5555d8ee08ed46186168fc",
+      "destination": "src/somatoanthropy/experiments/e5/delivery.py",
+      "definitions": [
+        "anon"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5/inputs.py",
+      "source_sha256": "f6ffb9c044f353eb98477de65bbb0e8c2859aab6dc7017ea920607122fc524ad",
+      "destination": "src/somatoanthropy/experiments/e5/inputs.py",
+      "definitions": [
+        "sha"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5s1/analysis.py",
+      "source_sha256": "abda8eabb3cc31c7a073281b4f907763df04daf65d8c651306d82a153e9c193b",
+      "destination": "src/somatoanthropy/experiments/e5s1/analysis.py",
+      "definitions": [
+        "cohort",
+        "comparison_stats",
+        "comparisons",
+        "compensation",
+        "contours",
+        "participant_means",
+        "policy",
+        "positive",
+        "response_at_anchor",
+        "responses",
+        "reversals",
+        "statistics",
+        "strata"
+      ],
+      "adaptations": [
+        "Replace filesystem-discovery Context type import with explicit RecordStore protocol."
+      ],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5s1/core.py",
+      "source_sha256": "ad6ae84281381b357f73579ff93f6cd41de5b8ffc0b1a827ab7afd57b00dc447",
+      "destination": "src/somatoanthropy/experiments/e5s1/core.py",
+      "definitions": [
+        "CELLS",
+        "DRAWS",
+        "METHODS",
+        "POLICIES",
+        "SEED",
+        "TOL",
+        "VERSION",
+        "complete_people",
+        "coordinate",
+        "evaluate",
+        "preference",
+        "response",
+        "summary"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5s1/inputs.py",
+      "source_sha256": "5043b8a2f01ad32d6d79f8f3232de115e7f27b95796d462c7b54ee625fa0aa97",
+      "destination": "src/somatoanthropy/experiments/e5s1/inputs.py",
+      "definitions": [
+        "sha"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5s2/analysis.py",
+      "source_sha256": "7873e56f1cfeb46c8b882cf017ab4583bf951860abf2051fd1623f2777489618",
+      "destination": "src/somatoanthropy/experiments/e5s2/analysis.py",
+      "definitions": [
+        "cohort",
+        "compare",
+        "consistency",
+        "contrasts",
+        "diversity",
+        "groups",
+        "reference",
+        "repeated",
+        "select"
+      ],
+      "adaptations": [
+        "Replace filesystem-discovery Context type import with explicit RecordStore protocol."
+      ],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5s2/core.py",
+      "source_sha256": "089609bb8d9b3246ac27558ca1954cb0e6efdba984e60a93b47edd4a0fc35b77",
+      "destination": "src/somatoanthropy/experiments/e5s2/core.py",
+      "definitions": [
+        "DRAWS",
+        "HEIGHTS",
+        "METHODS",
+        "MODES",
+        "PATHS",
+        "SEED",
+        "THRESHOLDS",
+        "VERSION",
+        "anchor",
+        "coordinate",
+        "indices",
+        "pareto",
+        "rank",
+        "repeated_person",
+        "stats",
+        "valid"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/e5s2/inputs.py",
+      "source_sha256": "0a7558863699772f21daa2d8c77a0110f546091980568957367348a13d1e1c11",
+      "destination": "src/somatoanthropy/experiments/e5s2/inputs.py",
+      "definitions": [],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/reconciliation/storage.py",
+      "source_sha256": "8c9e1b68b7c5d68638112d4cf5f696a9f4efef8fe2c9a17182639b5899207b7b",
+      "destination": "src/somatoanthropy/experiments/reconciliation/storage.py",
+      "definitions": [
+        "sha"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/waist01/core.py",
+      "source_sha256": "b3e102abad3a99bb3011379cc280d8cdc2e0d0e9b6e1cd8a927590282bd0ce1a",
+      "destination": "src/somatoanthropy/experiments/waist01/core.py",
+      "definitions": [
+        "PHYSICAL_FIELD",
+        "SEED",
+        "UPSTREAM",
+        "VERSION",
+        "advantage",
+        "canonical",
+        "challenge",
+        "descriptors",
+        "eligibility",
+        "errors",
+        "key",
+        "participant_values",
+        "statistics"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/waist01/inputs.py",
+      "source_sha256": "f27b16d34a5659ef2e74031bc9321cecee74e1272e9aeccd08ba1b71d86ba940",
+      "destination": "src/somatoanthropy/experiments/waist01/inputs.py",
+      "definitions": [
+        "compact"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/experiments/waist01/measure.py",
+      "source_sha256": "219b7fdae7f05f9694dba79c9d86e6de3a639cc36c811cc40a61547fd6414129",
+      "destination": "src/somatoanthropy/experiments/waist01/measure.py",
+      "definitions": [
+        "mesh",
+        "one",
+        "saved_waist",
+        "valid_value"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/adaptive_waist.py",
+      "source_sha256": "c66c7c5974ab8613ec219320fb672fbd3aab26c3726f6bd90d7bf0d1259e9fed",
+      "destination": "src/somatoanthropy/geometry/anthropometry/adaptive_waist.py",
+      "definitions": [
+        "VERSION",
+        "prominences",
+        "select_adaptive"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/approved_t90.py",
+      "source_sha256": "380f8505a478d372e4c1f4c67a38a8d64de494eb104cf136d1f3f8a69f9470bd",
+      "destination": "src/somatoanthropy/geometry/anthropometry/approved_t90.py",
+      "definitions": [
+        "measure_approved_sites",
+        "require_t90_parameters"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/engineering_wrap.py",
+      "source_sha256": "9e593798cacf64599c453f36fbb6f4752263fa5c839e1bb16161b44801caded6",
+      "destination": "src/somatoanthropy/geometry/anthropometry/engineering_wrap.py",
+      "definitions": [
+        "ARITHMETIC_M",
+        "RingEngine",
+        "overlap"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/mhr_site_revision2.py",
+      "source_sha256": "40a6355af36c356461b213ac66ada75d2c9210821383193a05be80040cdab452",
+      "destination": "src/somatoanthropy/geometry/anthropometry/mhr_site_revision2.py",
+      "definitions": [
+        "standing_normal"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/mhr_sites.py",
+      "source_sha256": "84fd9b8e6049b48ae5beeb224cf6aa15a7d0326a5fe7b7fc77b82edfb793e80d",
+      "destination": "src/somatoanthropy/geometry/anthropometry/mhr_sites.py",
+      "definitions": [
+        "ATLAS_VERSION",
+        "SiteState",
+        "_failure",
+        "_limb_segments",
+        "_touches_polygon",
+        "anchor_position",
+        "surface_anchor",
+        "topology_hash",
+        "torso_section",
+        "validate_atlas"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/model.py",
+      "source_sha256": "4ec68bf6113fde04c5a69f511efba4f9417ef3d0337691571a466aaf777a5cfa",
+      "destination": "src/somatoanthropy/geometry/anthropometry/model.py",
+      "definitions": [
+        "AnthropometryError",
+        "Plane",
+        "SectionConfig",
+        "Vec3",
+        "portable_json",
+        "vector"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/posterior_hip_fallback.py",
+      "source_sha256": "1171872837e386a34f1f38be1bbf8f679ad7cbf40359a7ed0f253867bc3d8b42",
+      "destination": "src/somatoanthropy/geometry/anthropometry/posterior_hip_fallback.py",
+      "definitions": [
+        "apply_region_policy"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/section.py",
+      "source_sha256": "e5782a3a07a9731caab1334776b6d4b0c1291be85f83c34861968911d921d18b",
+      "destination": "src/somatoanthropy/geometry/anthropometry/section.py",
+      "definitions": [
+        "Node",
+        "Polyline",
+        "SectionResult",
+        "_pair",
+        "_section",
+        "mesh_section",
+        "section_report"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/t90_remeasurement.py",
+      "source_sha256": "f47c99c65b905c3cab7bdd3e2cacf5c5b8acd5fb7cb937af9fe18e6ac0285907",
+      "destination": "src/somatoanthropy/geometry/anthropometry/t90_remeasurement.py",
+      "definitions": [
+        "ARTICULATION_END",
+        "POSE_ID",
+        "cohort_ids",
+        "transfer_t90"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/three_landmark_hip.py",
+      "source_sha256": "adb9d2729ec139fa618b7f0300f7c4a7c39955f02faf871e332b53f1835d462e",
+      "destination": "src/somatoanthropy/geometry/anthropometry/three_landmark_hip.py",
+      "definitions": [
+        "ARITHMETIC_M",
+        "locate_landmarks",
+        "measure_three_landmark_hip",
+        "select_candidate"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/anthropometry/waist_above_abdomen.py",
+      "source_sha256": "efcf7b0f3cfa9e65b4e723ae2c0f438c427ca1e384dd56505ac2214e2ff1c060",
+      "destination": "src/somatoanthropy/geometry/anthropometry/waist_above_abdomen.py",
+      "definitions": [
+        "apply_fallback"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/fit03_anthropometry/core.py",
+      "source_sha256": "2c34321f00be7efb881ed08178a4ff8e686852c445c86ad311e068f02b5763e1",
+      "destination": "src/somatoanthropy/geometry/fit03_anthropometry/core.py",
+      "definitions": [
+        "MeshMetrology",
+        "VERSION",
+        "contains",
+        "hull_points",
+        "perimeter",
+        "project",
+        "simple_polygon"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/fit09_nhanes_mhr/source.py",
+      "source_sha256": "d5f67cfec62413827fc49501118a9045e169a6220dc7e0de9a06d6f37f27e53c",
+      "destination": "src/somatoanthropy/geometry/fit09_nhanes_mhr/source.py",
+      "definitions": [
+        "COMMENTS",
+        "TARGETS",
+        "choose",
+        "eligible_profile",
+        "need"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/hbw_mhr_fit08/selection.py",
+      "source_sha256": "e82ef71c5972d4f14bf7e0cd225b8da0ae26ac4315bbca68f5c4fb451d95d96b",
+      "destination": "src/somatoanthropy/geometry/hbw_mhr_fit08/selection.py",
+      "definitions": [
+        "select"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/integrity/__init__.py",
+      "source_sha256": "026cef1e1108b34d939d71493d6bfc7321a14abdf865a0e50e85770f14d3412c",
+      "destination": "src/somatoanthropy/geometry/integrity/__init__.py",
+      "definitions": [
+        "MeshIntegrityReport",
+        "ValidationConfig",
+        "validate_mesh"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/integrity/intersection.py",
+      "source_sha256": "41b25e1c777154688689bf7cd7ef958d11e9eea47a8f78aad68c83c4730b5c13",
+      "destination": "src/somatoanthropy/geometry/integrity/intersection.py",
+      "definitions": [
+        "Array",
+        "Indices",
+        "Node",
+        "_build",
+        "self_intersections",
+        "triangle_overlap"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/integrity/model.py",
+      "source_sha256": "023da28076bbf67e1494c90d4e86ff56fa13c85374c3ab8e0ae54eb614df25e4",
+      "destination": "src/somatoanthropy/geometry/integrity/model.py",
+      "definitions": [
+        "Component",
+        "MeshIntegrityReport",
+        "VALIDATOR_VERSION",
+        "ValidationConfig"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/integrity/topology.py",
+      "source_sha256": "5f517c1091d196900b258a90a046fbae3de958c8d36aa44b719bdfba3fdfc236",
+      "destination": "src/somatoanthropy/geometry/integrity/topology.py",
+      "definitions": [
+        "Topology",
+        "inspect_topology"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/integrity/validation.py",
+      "source_sha256": "a657c4d0b112cad52ebf97a9b5fa847eefcfb6ffd52f68ae36ee6a2b8f82c4a9",
+      "destination": "src/somatoanthropy/geometry/integrity/validation.py",
+      "definitions": [
+        "Array",
+        "Indices",
+        "_array",
+        "_ids",
+        "_normals",
+        "validate_mesh"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/mpii_mhr_fit01/core.py",
+      "source_sha256": "65fdaca3da3ff86d63677f22d567cc812370dcc437ec9063b52ccc72c17a0d4b",
+      "destination": "src/somatoanthropy/geometry/mpii_mhr_fit01/core.py",
+      "definitions": [
+        "SOURCE_TO_NATIVE_AXES",
+        "source_to_working"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/mpii_mhr_fit01/fit.py",
+      "source_sha256": "dcf6733e8b65edcacc74b115431092dcab53c2bc5ef3f95fbc43bb70b58a9db8",
+      "destination": "src/somatoanthropy/geometry/mpii_mhr_fit01/fit.py",
+      "definitions": [
+        "optimise",
+        "resources"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/mpii_mhr_fit01/metrics.py",
+      "source_sha256": "f62a3d6f0950ad59ef22920731b30ee95d5d14ca687927a535b1bb2d4dc09b5f",
+      "destination": "src/somatoanthropy/geometry/mpii_mhr_fit01/metrics.py",
+      "definitions": [
+        "compare",
+        "distances",
+        "mesh",
+        "samples"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/mpii_mhr_fit01/storage.py",
+      "source_sha256": "7534efc652febddc4187615d1a799aa280dbdfe8b15277717502bd57c97254af",
+      "destination": "src/somatoanthropy/geometry/mpii_mhr_fit01/storage.py",
+      "definitions": [
+        "persist",
+        "write_json",
+        "write_npz"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/nomo_caesar_mhr_fit04/core.py",
+      "source_sha256": "412fc582ced01891ef8b13f14fd265846e61276b6531506ec3cfdcc5fb8c6701",
+      "destination": "src/somatoanthropy/geometry/nomo_caesar_mhr_fit04/core.py",
+      "definitions": [
+        "transform"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/geometry/nomo_caesar_mhr_fit04/source.py",
+      "source_sha256": "8ff8c3d3b06a5c75615e4bccb1ad2ffc8994d86b6582f0c6f7b92c36fd80ccdc",
+      "destination": "src/somatoanthropy/geometry/nomo_caesar_mhr_fit04/source.py",
+      "definitions": [
+        "surface_mask"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/DFAUST_FIT07/__init__.py",
+      "source_sha256": "383bf78743ea608a6c681aff58f415b27d9a9c5c300439e6a3c2b9f202ccddcc",
+      "destination": "src/somatoanthropy/production/DFAUST_FIT07/__init__.py",
+      "definitions": [
+        "core"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/DFAUST_FIT07/core.py",
+      "source_sha256": "feb46b9685eac2bf37aacd1212fd075eeeb5de6c558f4cb85999b51e379cb6e7",
+      "destination": "src/somatoanthropy/production/DFAUST_FIT07/core.py",
+      "definitions": [
+        "identifiers"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/DFAUST_FIT07/frame60.py",
+      "source_sha256": "e4a9daf5a80b77daa5f997bcfbfb419d585e6e87fda0adce5bf1c4931c5dafe2",
+      "destination": "src/somatoanthropy/production/DFAUST_FIT07/frame60.py",
+      "definitions": [
+        "BASELINE",
+        "FAMILIES",
+        "POSE_FEATURES",
+        "family",
+        "motion",
+        "select_panel",
+        "validate_panel"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/FAUST_FIT06/core.py",
+      "source_sha256": "eb325b7e9f981c8d88e19a4496bcc3ce9037d9c35ece982edb965d6625c2d3e9",
+      "destination": "src/somatoanthropy/production/FAUST_FIT06/core.py",
+      "definitions": [
+        "select_candidates"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/HIT_MHR_FIT05/core.py",
+      "source_sha256": "4c2a30404c29045d04dfc90f9cb2e5683c535e3d8b0d860ec0fd8f6be35ca567",
+      "destination": "src/somatoanthropy/production/HIT_MHR_FIT05/core.py",
+      "definitions": [
+        "TASK",
+        "choose"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/MPII_MHR_FIT01/prepare.py",
+      "source_sha256": "ab42170081598690a007944c44c0caa37ef12a797764404342e3bfd08e263aa5",
+      "destination": "src/somatoanthropy/production/MPII_MHR_FIT01/prepare.py",
+      "definitions": [
+        "select"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/NHANES_FIT09/prepare.py",
+      "source_sha256": "1531f403d953a688ea75c16c2567d03af9414740f09ab5ae6dad6417575bed78",
+      "destination": "src/somatoanthropy/production/NHANES_FIT09/prepare.py",
+      "definitions": [
+        "stratified_selection"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/NOMO_PAIRED_NICP/core.py",
+      "source_sha256": "a471d6f123caf21708af55583dc150bfff4198b4b0311f162fa0a393698b9a12",
+      "destination": "src/somatoanthropy/production/NOMO_PAIRED_NICP/core.py",
+      "definitions": [
+        "TASK",
+        "select_additional"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/UCSC_MHR_FIT02/core.py",
+      "source_sha256": "dc91585c618d2e50bf5ebe31673b525958c75ecc898c94e97c057120022d3694",
+      "destination": "src/somatoanthropy/production/UCSC_MHR_FIT02/core.py",
+      "definitions": [
+        "source_key"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/production/UCSC_MHR_FIT02/prepare.py",
+      "source_sha256": "f23113dd828d235ce246531b1b48c540be4ab0970805ec2671b0170ce2af7978",
+      "destination": "src/somatoanthropy/production/UCSC_MHR_FIT02/prepare.py",
+      "definitions": [
+        "select"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    },
+    {
+      "source": "src/somatosynth3d/provenance/hashing.py",
+      "source_sha256": "fda1b8c097146d112dfecdc87875abfbb04d4c042ae564ea799bfe8526ab9259",
+      "destination": "src/somatoanthropy/provenance/hashing.py",
+      "definitions": [
+        "_validate",
+        "sha256_bytes",
+        "sha256_canonical"
+      ],
+      "adaptations": [],
+      "extraction": "Original definition ASTs retained, unused definitions/imports omitted, internal namespace renamed, formatting normalised."
+    }
+  ]
+}

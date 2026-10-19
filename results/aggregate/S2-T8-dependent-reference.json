@@ -1,0 +1,1962 @@
+[
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H1",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.253140558434557,
+    "mean_ci95": [
+      1.0768741528369372,
+      1.4508477001382603
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H1",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.8841403499039024,
+    "mean_ci95": [
+      1.6308050900040718,
+      2.1583339768244008
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H1",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.5686404541692296,
+    "mean_ci95": [
+      1.3902072664867893,
+      1.768353109008147
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H1",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.8371795053145883,
+    "mean_ci95": [
+      1.6185137353372017,
+      2.0915240262647234
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H1",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.3001014030238716,
+    "mean_ci95": [
+      1.1399521570116298,
+      1.4760971558500586
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H2",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 0.9580452160295468,
+    "mean_ci95": [
+      0.8104672669616919,
+      1.1159402828347766
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H2",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 2.202957990058696,
+    "mean_ci95": [
+      1.9243555181849024,
+      2.5007682935640085
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H2",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.5805016030441217,
+    "mean_ci95": [
+      1.3939106384157944,
+      1.7793472572174205
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H2",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.5451645008655395,
+    "mean_ci95": [
+      1.3638028750326763,
+      1.7433050187493815
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H2",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.6158387052227037,
+    "mean_ci95": [
+      1.3997068717932941,
+      1.8483070036601812
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_strict",
+    "stratum": "CAESAR-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 0.7679810942099158,
+    "mean_ci95": [
+      0.636196837343035,
+      0.9178517509126348
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_strict",
+    "stratum": "SMPL-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.7788075948703461,
+    "mean_ci95": [
+      1.483952740205636,
+      2.08050303815234
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_strict",
+    "stratum": "all",
+    "people": 103,
+    "body_observations": 412,
+    "mean": 1.2733943445401312,
+    "mean_ci95": [
+      1.0885092713177993,
+      1.4643119332917327
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_strict",
+    "stratum": "canonical",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.2344992367222285,
+    "mean_ci95": [
+      1.0619049004000405,
+      1.4112187688751052
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_strict",
+    "stratum": "fitted",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.3122894523580328,
+    "mean_ci95": [
+      1.082145485383283,
+      1.5724459281802519
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.001",
+    "stratum": "CAESAR-NICP",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 0.7786463931848433,
+    "mean_ci95": [
+      0.6457710408900917,
+      0.932096841668578
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.001",
+    "stratum": "SMPL-NICP",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.8005788006016417,
+    "mean_ci95": [
+      1.5169383612547953,
+      2.1139275067219003
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.001",
+    "stratum": "all",
+    "people": 104,
+    "body_observations": 416,
+    "mean": 1.2896125968932424,
+    "mean_ci95": [
+      1.1083289275595185,
+      1.4873960592766067
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.001",
+    "stratum": "canonical",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.2516667017077836,
+    "mean_ci95": [
+      1.082778111588552,
+      1.4290644365579264
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.001",
+    "stratum": "fitted",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.3275584920787014,
+    "mean_ci95": [
+      1.0987734376793283,
+      1.5907776585166482
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.01",
+    "stratum": "CAESAR-NICP",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 0.7847586730793533,
+    "mean_ci95": [
+      0.6535844511791965,
+      0.9312259855949008
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.01",
+    "stratum": "SMPL-NICP",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.8512813308504599,
+    "mean_ci95": [
+      1.5582749445418982,
+      2.15558434444637
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.01",
+    "stratum": "all",
+    "people": 109,
+    "body_observations": 436,
+    "mean": 1.3180200019649069,
+    "mean_ci95": [
+      1.1293552994408544,
+      1.5092624777176196
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.01",
+    "stratum": "canonical",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.2888208751182828,
+    "mean_ci95": [
+      1.1143877630217855,
+      1.4680730726170332
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.01",
+    "stratum": "fitted",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.3472191288115303,
+    "mean_ci95": [
+      1.1200528049599796,
+      1.6061307701018415
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.1",
+    "stratum": "CAESAR-NICP",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 0.93689562185899,
+    "mean_ci95": [
+      0.7934265526302996,
+      1.103608990884176
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.1",
+    "stratum": "SMPL-NICP",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 2.11209262989105,
+    "mean_ci95": [
+      1.8345449601933268,
+      2.4110817631390065
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.1",
+    "stratum": "all",
+    "people": 138,
+    "body_observations": 552,
+    "mean": 1.52449412587502,
+    "mean_ci95": [
+      1.33793131626058,
+      1.7303163485971336
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.1",
+    "stratum": "canonical",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.478110148003717,
+    "mean_ci95": [
+      1.2935270776743975,
+      1.677914047030803
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.1",
+    "stratum": "fitted",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.570878103746323,
+    "mean_ci95": [
+      1.353411781877984,
+      1.8145283315449496
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.25",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 0.956939949005463,
+    "mean_ci95": [
+      0.8095303655311802,
+      1.114711822708092
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.25",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 2.20447210904389,
+    "mean_ci95": [
+      1.9258698426226781,
+      2.502975760021053
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.25",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.5807060290246766,
+    "mean_ci95": [
+      1.3941520787208839,
+      1.7795743432451958
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.25",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.54542043905772,
+    "mean_ci95": [
+      1.363932476031981,
+      1.7434716869413829
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.25",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.615991618991633,
+    "mean_ci95": [
+      1.3998791721278492,
+      1.8484500006086584
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H1",
+    "stratum": "CAESAR-NICP",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 2.303037209009149,
+    "mean_ci95": [
+      2.047545094402893,
+      2.5635347055808637
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H1",
+    "stratum": "SMPL-NICP",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.6835777784333243,
+    "mean_ci95": [
+      1.4950819419478552,
+      1.8875341577932923
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H1",
+    "stratum": "all",
+    "people": 148,
+    "body_observations": 592,
+    "mean": 1.9933074937212367,
+    "mean_ci95": [
+      1.8051915590707512,
+      2.190645142201129
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H1",
+    "stratum": "canonical",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 2.3092835143830497,
+    "mean_ci95": [
+      2.0803871795674596,
+      2.5502544779851113
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H1",
+    "stratum": "fitted",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.6773314730594235,
+    "mean_ci95": [
+      1.4910591016190458,
+      1.8672728269173273
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H2",
+    "stratum": "CAESAR-NICP",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.3483704135050778,
+    "mean_ci95": [
+      1.1870703112984924,
+      1.5108793135478422
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H2",
+    "stratum": "SMPL-NICP",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.3668262336025414,
+    "mean_ci95": [
+      1.2239559028674296,
+      1.5145381411969618
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H2",
+    "stratum": "all",
+    "people": 148,
+    "body_observations": 592,
+    "mean": 1.3575983235538096,
+    "mean_ci95": [
+      1.2246148948334852,
+      1.4970831030666476
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H2",
+    "stratum": "canonical",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.293678001069993,
+    "mean_ci95": [
+      1.1621752990487555,
+      1.433912523244362
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H2",
+    "stratum": "fitted",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.421518646037626,
+    "mean_ci95": [
+      1.2761502199895047,
+      1.5684359702841557
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_strict",
+    "stratum": "CAESAR-NICP",
+    "people": 102,
+    "body_observations": 204,
+    "mean": 1.268403440662899,
+    "mean_ci95": [
+      1.0804400728482784,
+      1.4571802632371322
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_strict",
+    "stratum": "SMPL-NICP",
+    "people": 102,
+    "body_observations": 204,
+    "mean": 1.2176324017146596,
+    "mean_ci95": [
+      1.0687491871426875,
+      1.3710922418344649
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_strict",
+    "stratum": "all",
+    "people": 102,
+    "body_observations": 408,
+    "mean": 1.243017921188779,
+    "mean_ci95": [
+      1.0865393134530976,
+      1.4014481232800795
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_strict",
+    "stratum": "canonical",
+    "people": 102,
+    "body_observations": 204,
+    "mean": 1.1795975435619832,
+    "mean_ci95": [
+      1.0301305933758014,
+      1.3306772723234779
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_strict",
+    "stratum": "fitted",
+    "people": 102,
+    "body_observations": 204,
+    "mean": 1.3064382988155754,
+    "mean_ci95": [
+      1.1368428511459296,
+      1.485092714311106
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.001",
+    "stratum": "CAESAR-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.2643436227576523,
+    "mean_ci95": [
+      1.0829827215933965,
+      1.450686713000579
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.001",
+    "stratum": "SMPL-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.2182248740899277,
+    "mean_ci95": [
+      1.0671291679382395,
+      1.3737853689787152
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.001",
+    "stratum": "all",
+    "people": 103,
+    "body_observations": 412,
+    "mean": 1.2412842484237896,
+    "mean_ci95": [
+      1.08942806872045,
+      1.3981897432508765
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.001",
+    "stratum": "canonical",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.1780232927713117,
+    "mean_ci95": [
+      1.0367392075520059,
+      1.3248052519538143
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.001",
+    "stratum": "fitted",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.304545204076268,
+    "mean_ci95": [
+      1.1358534183170124,
+      1.4814009269452173
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.01",
+    "stratum": "CAESAR-NICP",
+    "people": 108,
+    "body_observations": 216,
+    "mean": 1.2799876531345744,
+    "mean_ci95": [
+      1.1100646048030933,
+      1.4637130012119477
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.01",
+    "stratum": "SMPL-NICP",
+    "people": 108,
+    "body_observations": 216,
+    "mean": 1.2542609299179375,
+    "mean_ci95": [
+      1.101411752043208,
+      1.4194954142112572
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.01",
+    "stratum": "all",
+    "people": 108,
+    "body_observations": 432,
+    "mean": 1.2671242915262555,
+    "mean_ci95": [
+      1.1196108062492818,
+      1.426762598043377
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.01",
+    "stratum": "canonical",
+    "people": 108,
+    "body_observations": 216,
+    "mean": 1.2005803563554862,
+    "mean_ci95": [
+      1.0607874220391533,
+      1.3529122098485096
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.01",
+    "stratum": "fitted",
+    "people": 108,
+    "body_observations": 216,
+    "mean": 1.3336682266970252,
+    "mean_ci95": [
+      1.1674439313563933,
+      1.5055973045322284
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.1",
+    "stratum": "CAESAR-NICP",
+    "people": 137,
+    "body_observations": 274,
+    "mean": 1.3220581707281902,
+    "mean_ci95": [
+      1.154070888435575,
+      1.4906419489828446
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.1",
+    "stratum": "SMPL-NICP",
+    "people": 137,
+    "body_observations": 274,
+    "mean": 1.3394354394044279,
+    "mean_ci95": [
+      1.188600654238292,
+      1.4900545551094746
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.1",
+    "stratum": "all",
+    "people": 137,
+    "body_observations": 548,
+    "mean": 1.330746805066309,
+    "mean_ci95": [
+      1.1844386885979186,
+      1.4751129663680107
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.1",
+    "stratum": "canonical",
+    "people": 137,
+    "body_observations": 274,
+    "mean": 1.260715911223368,
+    "mean_ci95": [
+      1.1176515128816478,
+      1.4021883813200935
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.1",
+    "stratum": "fitted",
+    "people": 137,
+    "body_observations": 274,
+    "mean": 1.4007776989092502,
+    "mean_ci95": [
+      1.2406897801761114,
+      1.558842685843517
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.25",
+    "stratum": "CAESAR-NICP",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.3495522791006884,
+    "mean_ci95": [
+      1.1878362737363815,
+      1.5123179543171843
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.25",
+    "stratum": "SMPL-NICP",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.367696686296895,
+    "mean_ci95": [
+      1.224715967518164,
+      1.5154985397992757
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.25",
+    "stratum": "all",
+    "people": 148,
+    "body_observations": 592,
+    "mean": 1.3586244826987919,
+    "mean_ci95": [
+      1.2255520167329486,
+      1.497907518957486
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.25",
+    "stratum": "canonical",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.294642231179316,
+    "mean_ci95": [
+      1.162871860553627,
+      1.4352941242889206
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.25",
+    "stratum": "fitted",
+    "people": 148,
+    "body_observations": 296,
+    "mean": 1.4226067342182678,
+    "mean_ci95": [
+      1.2775993267033057,
+      1.5696644104140363
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.453019463201247,
+    "mean_ci95": [
+      1.278609795814332,
+      1.6426478425307396
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.7858416036673574,
+    "mean_ci95": [
+      1.5682935583852455,
+      2.014699031820801
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.6194305334343022,
+    "mean_ci95": [
+      1.4595159311864137,
+      1.798210994469224
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 2.094155963865833,
+    "mean_ci95": [
+      1.8550090087932896,
+      2.3732473013474458
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.1447051030027715,
+    "mean_ci95": [
+      1.0210164375868005,
+      1.2736177497297645
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H2",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 0.6430283800560849,
+    "mean_ci95": [
+      0.5878678643851931,
+      0.7029362147025695
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H2",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.7156912316799102,
+    "mean_ci95": [
+      1.4884060399058348,
+      1.9567118023019991
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H2",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.1793598058679975,
+    "mean_ci95": [
+      1.0532817425448697,
+      1.310463216472436
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H2",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.1510643211334262,
+    "mean_ci95": [
+      1.0358483940691827,
+      1.2722115516956645
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H2",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.2076552906025688,
+    "mean_ci95": [
+      1.056357533619488,
+      1.3653139866719446
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_strict",
+    "stratum": "CAESAR-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 0.5724425090848458,
+    "mean_ci95": [
+      0.5242445782134769,
+      0.6216765006577453
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_strict",
+    "stratum": "SMPL-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.460368508481205,
+    "mean_ci95": [
+      1.2148788697269028,
+      1.7050564192605273
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_strict",
+    "stratum": "all",
+    "people": 103,
+    "body_observations": 412,
+    "mean": 1.0164055087830257,
+    "mean_ci95": [
+      0.8812101569653217,
+      1.1520051187102889
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_strict",
+    "stratum": "canonical",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 0.9991703406240082,
+    "mean_ci95": [
+      0.8754316572058081,
+      1.1265756415369763
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_strict",
+    "stratum": "fitted",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.033640676942043,
+    "mean_ci95": [
+      0.8777934695113452,
+      1.1959307973090407
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.001",
+    "stratum": "CAESAR-NICP",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 0.5740153012613021,
+    "mean_ci95": [
+      0.525598091405455,
+      0.6253034929041529
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.001",
+    "stratum": "SMPL-NICP",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.4641503229885018,
+    "mean_ci95": [
+      1.2342426048811406,
+      1.7168169156594244
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.001",
+    "stratum": "all",
+    "people": 104,
+    "body_observations": 416,
+    "mean": 1.019082812124902,
+    "mean_ci95": [
+      0.8914693129990671,
+      1.1588378574744032
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.001",
+    "stratum": "canonical",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 0.9995421922106801,
+    "mean_ci95": [
+      0.8786516475556568,
+      1.1354763802136876
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.001",
+    "stratum": "fitted",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.0386234320391237,
+    "mean_ci95": [
+      0.8896278910282418,
+      1.201367340313218
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.01",
+    "stratum": "CAESAR-NICP",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 0.5760333637067765,
+    "mean_ci95": [
+      0.5283346849438435,
+      0.6244823780734841
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.01",
+    "stratum": "SMPL-NICP",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.51233107975117,
+    "mean_ci95": [
+      1.2735580967451352,
+      1.764459156840927
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.01",
+    "stratum": "all",
+    "people": 109,
+    "body_observations": 436,
+    "mean": 1.0441822217289733,
+    "mean_ci95": [
+      0.9131241645404506,
+      1.1808771516751937
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.01",
+    "stratum": "canonical",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.0255900392700366,
+    "mean_ci95": [
+      0.9037675751615913,
+      1.1492382720495309
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.01",
+    "stratum": "fitted",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.0627744041879097,
+    "mean_ci95": [
+      0.9017458099731077,
+      1.2219481092888378
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.1",
+    "stratum": "CAESAR-NICP",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 0.6244678736022495,
+    "mean_ci95": [
+      0.5688618234601736,
+      0.6865322510237136
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.1",
+    "stratum": "SMPL-NICP",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.651651049296539,
+    "mean_ci95": [
+      1.4162163817787161,
+      1.9034255743548494
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.1",
+    "stratum": "all",
+    "people": 138,
+    "body_observations": 552,
+    "mean": 1.1380594614493944,
+    "mean_ci95": [
+      1.008774269915857,
+      1.275056429942043
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.1",
+    "stratum": "canonical",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.104427462330864,
+    "mean_ci95": [
+      0.98455635720574,
+      1.2300417732448756
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.1",
+    "stratum": "fitted",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.1716914605679245,
+    "mean_ci95": [
+      1.020602282199952,
+      1.3329225442182122
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.25",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 0.6429150741926921,
+    "mean_ci95": [
+      0.5877940506277541,
+      0.7026844997666768
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.25",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.7170104257182024,
+    "mean_ci95": [
+      1.4891177521550323,
+      1.9585392422755663
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.25",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.1799627499554473,
+    "mean_ci95": [
+      1.053801159816376,
+      1.3110422964946729
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.25",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.1518543181106728,
+    "mean_ci95": [
+      1.0365558737537908,
+      1.2730926985143218
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.25",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.2080711818002219,
+    "mean_ci95": [
+      1.056581005397991,
+      1.3658303954630917
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H1",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 2.3444087563410974,
+    "mean_ci95": [
+      2.04641010350429,
+      2.65333719918331
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H1",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 2.09682923343664,
+    "mean_ci95": [
+      1.8425160120583113,
+      2.3702132403032996
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H1",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 2.220618994888869,
+    "mean_ci95": [
+      1.9682299574661957,
+      2.4831718244124596
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H1",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 2.4117994519649715,
+    "mean_ci95": [
+      2.099377253521867,
+      2.754811972996491
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H1",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 2.029438537812766,
+    "mean_ci95": [
+      1.7621843337685976,
+      2.301538477360519
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H2",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.329327769036921,
+    "mean_ci95": [
+      1.1520693148643109,
+      1.511910412620585
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H2",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.5521783449111828,
+    "mean_ci95": [
+      1.3761089603239889,
+      1.7452453947751219
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H2",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.4407530569740519,
+    "mean_ci95": [
+      1.2925142512173455,
+      1.604234080468943
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H2",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.2733853933339991,
+    "mean_ci95": [
+      1.1289973596604148,
+      1.4316805765421512
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H2",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.6081207206141048,
+    "mean_ci95": [
+      1.3951452320244213,
+      1.8315409599676795
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_strict",
+    "stratum": "CAESAR-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.246982431635911,
+    "mean_ci95": [
+      1.052263706092751,
+      1.4540325733769524
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_strict",
+    "stratum": "SMPL-NICP",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.4161039436842495,
+    "mean_ci95": [
+      1.2130677263936707,
+      1.6250977915783757
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_strict",
+    "stratum": "all",
+    "people": 103,
+    "body_observations": 412,
+    "mean": 1.3315431876600803,
+    "mean_ci95": [
+      1.1569877734978347,
+      1.5078411845333501
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_strict",
+    "stratum": "canonical",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.11548014486506,
+    "mean_ci95": [
+      0.9663350182261781,
+      1.2766270217305622
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_strict",
+    "stratum": "fitted",
+    "people": 103,
+    "body_observations": 206,
+    "mean": 1.5476062304551002,
+    "mean_ci95": [
+      1.294246649979375,
+      1.8126033580963168
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.001",
+    "stratum": "CAESAR-NICP",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.2522711496221743,
+    "mean_ci95": [
+      1.0576699422474818,
+      1.4611807969714579
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.001",
+    "stratum": "SMPL-NICP",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.4186365591956145,
+    "mean_ci95": [
+      1.2154041027166704,
+      1.639005866210759
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.001",
+    "stratum": "all",
+    "people": 104,
+    "body_observations": 416,
+    "mean": 1.3354538544088945,
+    "mean_ci95": [
+      1.163337758360616,
+      1.5217063050526076
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.001",
+    "stratum": "canonical",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.1232606997416945,
+    "mean_ci95": [
+      0.9742619149248127,
+      1.2847699029899557
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.001",
+    "stratum": "fitted",
+    "people": 104,
+    "body_observations": 208,
+    "mean": 1.5476470090760945,
+    "mean_ci95": [
+      1.2988526481585623,
+      1.8280160822161713
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.01",
+    "stratum": "CAESAR-NICP",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.248401871929671,
+    "mean_ci95": [
+      1.0590091482410533,
+      1.4472248055859078
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.01",
+    "stratum": "SMPL-NICP",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.4551392008804716,
+    "mean_ci95": [
+      1.2500618577888318,
+      1.6589374968519934
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.01",
+    "stratum": "all",
+    "people": 109,
+    "body_observations": 436,
+    "mean": 1.3517705364050712,
+    "mean_ci95": [
+      1.181916154642495,
+      1.5230733542889547
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.01",
+    "stratum": "canonical",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.1380976343504599,
+    "mean_ci95": [
+      0.9880841079052858,
+      1.292471147212223
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.01",
+    "stratum": "fitted",
+    "people": 109,
+    "body_observations": 218,
+    "mean": 1.5654434384596827,
+    "mean_ci95": [
+      1.3114981878312977,
+      1.8202626241770372
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.1",
+    "stratum": "CAESAR-NICP",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.267130250405312,
+    "mean_ci95": [
+      1.096536517257207,
+      1.4498970274411092
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.1",
+    "stratum": "SMPL-NICP",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.505439953452682,
+    "mean_ci95": [
+      1.3226487522875507,
+      1.6958189669627473
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.1",
+    "stratum": "all",
+    "people": 138,
+    "body_observations": 552,
+    "mean": 1.386285101928997,
+    "mean_ci95": [
+      1.2366487830504447,
+      1.5462312807933465
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.1",
+    "stratum": "canonical",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.203918902234017,
+    "mean_ci95": [
+      1.059529003804653,
+      1.353864817395074
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.1",
+    "stratum": "fitted",
+    "people": 138,
+    "body_observations": 276,
+    "mean": 1.5686513016239765,
+    "mean_ci95": [
+      1.3548963874555289,
+      1.8044924545274712
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.25",
+    "stratum": "CAESAR-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.3300472064952806,
+    "mean_ci95": [
+      1.152559498022441,
+      1.5124869923580122
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.25",
+    "stratum": "SMPL-NICP",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.5521500734446303,
+    "mean_ci95": [
+      1.3760616196527244,
+      1.7453342554727422
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.25",
+    "stratum": "all",
+    "people": 149,
+    "body_observations": 596,
+    "mean": 1.4410986399699555,
+    "mean_ci95": [
+      1.2929290804899498,
+      1.6048322527764096
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.25",
+    "stratum": "canonical",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.2740220994175593,
+    "mean_ci95": [
+      1.1293975188700363,
+      1.432143398063295
+    ],
+    "physiological_accuracy": false
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.25",
+    "stratum": "fitted",
+    "people": 149,
+    "body_observations": 298,
+    "mean": 1.6081751805223514,
+    "mean_ci95": [
+      1.3953260575275683,
+      1.8315760405945252
+    ],
+    "physiological_accuracy": false
+  }
+]

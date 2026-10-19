@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying research manuscript; no DOI has been assigned here."
+type: software
+title: "SomatoAnthropy: Anthropometric Information Preservation in 3D Human-Body Imaging and Reconstruction"
+version: 0.1.0
+date-released: 2026-10-19
+authors:
+  - family-names: Nikolaou
+    given-names: Vasileios
+  - family-names: Chen
+    given-names: Daqing
+  - family-names: Xiao
+    given-names: Perry
+repository-code: "https://github.com/Ghuile/SomatoAnthropy-Anthropometric-Information-Preservation-in-3D-Human-Body-Imaging-and-Reconstruction"
+abstract: "Research implementations and aggregate verification accompanying a manuscript prepared for Sensors. This citation does not assert journal acceptance or an open-source licence."

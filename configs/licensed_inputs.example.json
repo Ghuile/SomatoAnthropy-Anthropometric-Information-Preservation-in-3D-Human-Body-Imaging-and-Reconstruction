@@ -1,0 +1,15 @@
+{
+  "input_root": "../data/local",
+  "files": {},
+  "sources": {},
+  "aggregate_sources": {},
+  "seed_records": {},
+  "requirements": [
+    "Separately licensed source assets and frozen participant linkage/selection records",
+    "SHA-256 for every consumed file, with paths relative to input_root",
+    "Frozen fitted parameters, transforms, T90 reference, atlas and region masks",
+    "For native operations: pinned upstream MHR installation and LOD0/LOD1 assets",
+    "For waist: exact pinned clad-body distribution; see environment/README.md",
+    "For E5/S1/S2: version-matched frozen records listed in docs/reproducibility.md"
+  ]
+}

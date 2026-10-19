@@ -1,0 +1,104 @@
+[
+  {
+    "dataset": "NOMO",
+    "pathway": "150-person linked NICP canonical",
+    "state": "canonical",
+    "mode": "end_to_end",
+    "people": 149,
+    "body_pairs": 298,
+    "eligible_people": 150,
+    "ours_MAE": 2.8932836466064003,
+    "comparator_MAE": 3.542673979004409,
+    "mean_advantage": 0.6493903323980087,
+    "CI95": [
+      0.36489664711193354,
+      0.9227801581312939
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "150-person linked NICP canonical",
+    "state": "canonical",
+    "mode": "sensitivity63_raw",
+    "people": 149,
+    "body_pairs": 298,
+    "eligible_people": 150,
+    "ours_MAE": 2.893283646606401,
+    "comparator_MAE": 3.056786535442267,
+    "mean_advantage": 0.163502888835866,
+    "CI95": [
+      -0.09857289778737749,
+      0.44198469830030446
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "150-person linked NICP canonical",
+    "state": "canonical",
+    "mode": "site_raw",
+    "people": 149,
+    "body_pairs": 298,
+    "eligible_people": 150,
+    "ours_MAE": 2.893283646606401,
+    "comparator_MAE": 3.5454116099468873,
+    "mean_advantage": 0.6521279633404867,
+    "CI95": [
+      0.3684894068354346,
+      0.925225231612537
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "150-person linked NICP canonical",
+    "state": "canonical",
+    "mode": "site_tape",
+    "people": 149,
+    "body_pairs": 298,
+    "eligible_people": 150,
+    "ours_MAE": 2.9232053274638066,
+    "comparator_MAE": 3.649811854125253,
+    "mean_advantage": 0.726606526661446,
+    "CI95": [
+      0.44006699436295466,
+      1.0036785433063582
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "150-person linked NICP canonical",
+    "state": "canonical",
+    "mode": "umbilicus_offset_raw",
+    "people": 149,
+    "body_pairs": 298,
+    "eligible_people": 150,
+    "ours_MAE": 2.893283646606401,
+    "comparator_MAE": 2.713898331810087,
+    "mean_advantage": -0.1793853147963137,
+    "CI95": [
+      -0.37709408384028686,
+      -0.0075870785841911014
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "150-person linked NICP canonical",
+    "state": "canonical",
+    "mode": "umbilicus_raw",
+    "people": 149,
+    "body_pairs": 298,
+    "eligible_people": 150,
+    "ours_MAE": 2.893283646606401,
+    "comparator_MAE": 2.7525869151874494,
+    "mean_advantage": -0.14069673141895178,
+    "CI95": [
+      -0.35619358906252485,
+      0.059638465191079064
+    ],
+    "unit": "engineering_cm"
+  }
+]

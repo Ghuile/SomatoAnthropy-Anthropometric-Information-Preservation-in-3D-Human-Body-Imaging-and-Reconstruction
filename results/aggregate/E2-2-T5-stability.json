@@ -1,0 +1,53 @@
+[
+  {
+    "partition": "heldout",
+    "condition": "B",
+    "variation": "sampling_seed",
+    "metric": "canonical_repeat_vertex_rms_cm",
+    "unit": "participant mean over eligible paired source pathways",
+    "n": 4,
+    "mean": 0.0691656772937022,
+    "median": 0.07000272329595075,
+    "sd": 0.012537098510256042,
+    "mae": 0.0691656772937022,
+    "rmse": 0.0700126777433091,
+    "ci95": [
+      0.058404918753915035,
+      0.07992643583348936
+    ]
+  },
+  {
+    "partition": "heldout",
+    "condition": "C",
+    "variation": "sampling_seed",
+    "metric": "canonical_repeat_vertex_rms_cm",
+    "unit": "participant mean over eligible paired source pathways",
+    "n": 4,
+    "mean": 0.4051477122212422,
+    "median": 0.3716663810409909,
+    "sd": 0.13810575194533212,
+    "mae": 0.4051477122212422,
+    "rmse": 0.42243291509823866,
+    "ci95": [
+      0.3005852775614748,
+      0.543191478061261
+    ]
+  },
+  {
+    "partition": "heldout",
+    "condition": "D",
+    "variation": "sampling_seed",
+    "metric": "canonical_repeat_vertex_rms_cm",
+    "unit": "participant mean over eligible paired source pathways",
+    "n": 4,
+    "mean": 0.4085490506829156,
+    "median": 0.38535565829402896,
+    "sd": 0.13167368688887263,
+    "mae": 0.4085490506829156,
+    "rmse": 0.4241648225372929,
+    "ci95": [
+      0.30686750329969026,
+      0.5334239904550275
+    ]
+  }
+]

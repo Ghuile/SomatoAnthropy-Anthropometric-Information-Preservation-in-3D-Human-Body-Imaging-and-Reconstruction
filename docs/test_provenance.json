@@ -1,0 +1,84 @@
+[
+  {
+    "source": "tests/unit/test_e1.py",
+    "sha256": "f76450d313a26985ee65854289736b08341d6aea5e3e4b94e5c77a93a4dfc524",
+    "destination": "tests/test_e1.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  },
+  {
+    "source": "tests/unit/test_e2.py",
+    "sha256": "1c3d248884bc04b2fd64ea53e87608d40c526edbd4682d30f3691ff01ad3c09e",
+    "destination": "tests/test_e2.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  },
+  {
+    "source": "tests/unit/test_e2_1.py",
+    "sha256": "959bfc867e148cd7174509fa9fc7a72f7880b3594ef1ee6bf0d27eb664155e33",
+    "destination": "tests/test_e2_1.py",
+    "adaptations": [
+      "Internal namespace rename",
+      "Skip optional torch fixture when dependency absent"
+    ]
+  },
+  {
+    "source": "tests/unit/test_e2_2.py",
+    "sha256": "e6144e762c63416f9238f530a31205a2a9bb84d75824c1c46a1587c7be9e83e0",
+    "destination": "tests/test_e2_2.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  },
+  {
+    "source": "tests/unit/test_e3.py",
+    "sha256": "c64aeed4abf4bac8c1b9fedf5eae5e42d452d9d3ae73e8ab96d2ac8efbcf1fa1",
+    "destination": "tests/test_e3.py",
+    "adaptations": [
+      "Internal namespace rename",
+      "Replace illustrative provider/selection labels with explicitly invented labels"
+    ]
+  },
+  {
+    "source": "tests/unit/test_e5s1.py",
+    "sha256": "2eda9f14470ce7477f288f07ef8bc226ffc1720779ffac5a81022753aed93492",
+    "destination": "tests/test_e5s1.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  },
+  {
+    "source": "tests/unit/test_e5s2.py",
+    "sha256": "fd04fee45e8723ef70b9065312f61b7fd3cee39bed3065318016846763e06891",
+    "destination": "tests/test_e5s2.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  },
+  {
+    "source": "tests/unit/test_mhr_adaptive_waist.py",
+    "sha256": "d870bea733599735f42bd8afc25f9f5b68c374d02c28c9d0016fd748e04edff0",
+    "destination": "tests/test_mhr_adaptive_waist.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  },
+  {
+    "source": "tests/unit/test_mhr_waist_above_abdomen.py",
+    "sha256": "69594e26a720bd510328ee5329624ace371c043e26952151c68999e607ea9778",
+    "destination": "tests/test_mhr_waist_above_abdomen.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  },
+  {
+    "source": "tests/unit/test_mhr_t90_remeasurement.py",
+    "sha256": "4de49ae84ed4925f3e169281262c9319b2b137b5274486169163cae791d61b9c",
+    "destination": "tests/test_mhr_t90_remeasurement.py",
+    "adaptations": [
+      "Internal namespace rename"
+    ]
+  }
+]

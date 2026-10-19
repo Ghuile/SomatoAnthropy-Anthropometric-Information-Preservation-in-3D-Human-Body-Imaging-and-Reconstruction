@@ -1,0 +1,318 @@
+[
+  {
+    "id": "Table1",
+    "caption": "Principal populations and nested observations.",
+    "columns": [
+      "Analysis",
+      "Participants",
+      "Dependent observations and eligibility"
+    ],
+    "rows": [
+      [
+        "Paired NOMO",
+        "150",
+        "Two sources and fitted/canonical body per pathway"
+      ],
+      [
+        "Source-reference analyses",
+        "149 complete",
+        "596 four-state or 298 canonical observations"
+      ],
+      [
+        "Historical LBFGSB comparison",
+        "60",
+        "Wholly overlapping NOMO subset"
+      ],
+      [
+        "First control-release evaluation",
+        "12",
+        "Two pathways; four separate development participants"
+      ],
+      [
+        "Disjoint internal evaluation",
+        "12",
+        "Two pathways; same four development participants"
+      ],
+      [
+        "D-FAUST repeatability",
+        "10",
+        "Six observations/person; 150 dependent pairs"
+      ],
+      [
+        "Strict shared-source height policy",
+        "103",
+        "Eligible subset of the paired NOMO cohort"
+      ]
+    ],
+    "markdown": "**Table 1. Principal populations and nested observations.**\n\n| Analysis | Participants | Dependent observations and eligibility |\n|---|---:|---|\n| Paired NOMO | 150 | Two sources and fitted/canonical body per pathway |\n| Source-reference analyses | 149 complete | 596 four-state or 298 canonical observations |\n| Historical LBFGSB comparison | 60 | Wholly overlapping NOMO subset |\n| First control-release evaluation | 12 | Two pathways; four separate development participants |\n| Disjoint internal evaluation | 12 | Two pathways; same four development participants |\n| D-FAUST repeatability | 10 | Six observations/person; 150 dependent pairs |\n| Strict shared-source height policy | 103 | Eligible subset of the paired NOMO cohort |\n",
+    "source_sha256": "601134377bb0f7bc5aee819b0b046ecd7e6eeaf8f87ffbc67c0e7ec178b8d3a6"
+  },
+  {
+    "id": "Table2",
+    "caption": "Matched C−B control-release results. There are twelve participants per row; lengths are engineering cm. Brackets contain original exploratory 95% participant-bootstrap CIs.",
+    "columns": [
+      "Evaluation / pathway",
+      "Canonical extent SD ratio B→C",
+      "Canonical extent MAE B→C",
+      "Canonical extent absolute-error change [CI]",
+      "Mean fitted surface-error change [CI]"
+    ],
+    "rows": [
+      [
+        "First / SMPL",
+        "0.1869→0.5861",
+        "7.812→4.343",
+        "−3.469 [−5.197, −1.713]",
+        "−0.1188 [−0.1738, −0.07914]"
+      ],
+      [
+        "First / CAESAR",
+        "0.1790→0.5870",
+        "7.863→4.333",
+        "−3.530 [−5.194, −1.838]",
+        "−0.1147 [−0.1679, −0.07852]"
+      ],
+      [
+        "Disjoint / SMPL",
+        "0.1818→0.5786",
+        "6.854→3.174",
+        "−3.6797 [−5.0596, −2.3812]",
+        "−0.1191 [−0.1413, −0.09566]"
+      ],
+      [
+        "Disjoint / CAESAR",
+        "0.1851→0.5693",
+        "6.859→3.401",
+        "−3.4576 [−4.9300, −2.2273]",
+        "−0.1156 [−0.1398, −0.09276]"
+      ]
+    ],
+    "markdown": "**Table 2. Matched C−B control-release results. There are twelve participants per row; lengths are engineering cm. Brackets contain original exploratory 95% participant-bootstrap CIs.**\n\n| Evaluation / pathway | Canonical extent SD ratio B→C | Canonical extent MAE B→C | Canonical extent absolute-error change [CI] | Mean fitted surface-error change [CI] |\n|---|---|---|---|---|\n| First / SMPL | 0.1869→0.5861 | 7.812→4.343 | −3.469 [−5.197, −1.713] | −0.1188 [−0.1738, −0.07914] |\n| First / CAESAR | 0.1790→0.5870 | 7.863→4.333 | −3.530 [−5.194, −1.838] | −0.1147 [−0.1679, −0.07852] |\n| Disjoint / SMPL | 0.1818→0.5786 | 6.854→3.174 | −3.6797 [−5.0596, −2.3812] | −0.1191 [−0.1413, −0.09566] |\n| Disjoint / CAESAR | 0.1851→0.5693 | 6.859→3.401 | −3.4576 [−4.9300, −2.2273] | −0.1156 [−0.1398, −0.09276] |\n",
+    "source_sha256": "601134377bb0f7bc5aee819b0b046ecd7e6eeaf8f87ffbc67c0e7ec178b8d3a6"
+  },
+  {
+    "id": "Table3",
+    "caption": "Own-source fitted preservation. n is the valid participant count; units are engineering cm.",
+    "columns": [
+      "Digital measurement",
+      "SMPL n",
+      "SMPL MAE",
+      "CAESAR n",
+      "CAESAR MAE"
+    ],
+    "rows": [
+      [
+        "Vertical extent",
+        "150",
+        "4.4604",
+        "150",
+        "4.4971"
+      ],
+      [
+        "Historical waist",
+        "149",
+        "3.4587",
+        "149",
+        "3.9477"
+      ],
+      [
+        "Mapped-umbilical abdomen",
+        "150",
+        "1.4739",
+        "149",
+        "1.4150"
+      ],
+      [
+        "Historical hip",
+        "150",
+        "1.0123",
+        "150",
+        "0.9944"
+      ]
+    ],
+    "markdown": "**Table 3. Own-source fitted preservation. n is the valid participant count; units are engineering cm.**\n\n| Digital measurement | SMPL n | SMPL MAE | CAESAR n | CAESAR MAE |\n|---|---:|---:|---:|---:|\n| Vertical extent | 150 | 4.4604 | 150 | 4.4971 |\n| Historical waist | 149 | 3.4587 | 149 | 3.9477 |\n| Mapped-umbilical abdomen | 150 | 1.4739 | 149 | 1.4150 |\n| Historical hip | 150 | 1.0123 | 150 | 0.9944 |\n",
+    "source_sha256": "601134377bb0f7bc5aee819b0b046ecd7e6eeaf8f87ffbc67c0e7ec178b8d3a6"
+  },
+  {
+    "id": "Table4",
+    "caption": "Canonical waist comparison against the dependent source-waist proxy. Each result uses 149 participant means over 298 pathway observations. Positive advantage favours P; units are engineering cm.",
+    "columns": [
+      "Comparator",
+      "Comparator MAE",
+      "P MAE",
+      "P advantage [95% CI]"
+    ],
+    "rows": [
+      [
+        "Official clad-body B1",
+        "3.543",
+        "2.893",
+        "+0.649 [0.365, 0.923]"
+      ],
+      [
+        "Simple mapped-umbilicus offset",
+        "2.714",
+        "2.893",
+        "−0.179 [−0.377, −0.008]"
+      ]
+    ],
+    "markdown": "**Table 4. Canonical waist comparison against the dependent source-waist proxy. Each result uses 149 participant means over 298 pathway observations. Positive advantage favours P; units are engineering cm.**\n\n| Comparator | Comparator MAE | P MAE | P advantage [95% CI] |\n|---|---:|---:|---|\n| Official clad-body B1 | 3.543 | 2.893 | +0.649 [0.365, 0.923] |\n| Simple mapped-umbilicus offset | 2.714 | 2.893 | −0.179 [−0.377, −0.008] |\n",
+    "source_sha256": "601134377bb0f7bc5aee819b0b046ecd7e6eeaf8f87ffbc67c0e7ec178b8d3a6"
+  },
+  {
+    "id": "Table5",
+    "caption": "Final H2 policy outcomes, with 95% participant-bootstrap CIs. Source-free cross-path comparisons use 150 people; reference endpoints use 149 complete people.",
+    "columns": [
+      "Endpoint and denominator",
+      "P",
+      "B1",
+      "Offset"
+    ],
+    "rows": [
+      [
+        "Canonical cross-path MAE, pp; n=150",
+        "0.3093 [0.2051, 0.4368]",
+        "0.2193 [0.1878, 0.2568]",
+        "0.2032 [0.1720, 0.2396]"
+      ],
+      [
+        "Four-state dependent-source MAE, pp; 149/596",
+        "1.4408 [1.2925, 1.6042]",
+        "1.5805 [1.3939, 1.7793]",
+        "1.1794 [1.0533, 1.3105]"
+      ],
+      [
+        "Canonical dependent-source MAE, pp; 149/298",
+        "1.2734 [1.1290, 1.4317]",
+        "1.5452 [1.3638, 1.7433]",
+        "1.1511 [1.0358, 1.2722]"
+      ],
+      [
+        "Canonical/source SD ratio; n=149 means",
+        "1.0380 [0.9795, 1.1045]",
+        "0.8211 [0.7788, 0.8634]",
+        "0.9237 [0.8925, 0.9575]"
+      ]
+    ],
+    "markdown": "**Table 5. Final H2 policy outcomes, with 95% participant-bootstrap CIs. Source-free cross-path comparisons use 150 people; reference endpoints use 149 complete people.**\n\n| Endpoint and denominator | P | B1 | Offset |\n|---|---|---|---|\n| Canonical cross-path MAE, pp; n=150 | 0.3093 [0.2051, 0.4368] | 0.2193 [0.1878, 0.2568] | 0.2032 [0.1720, 0.2396] |\n| Four-state dependent-source MAE, pp; 149/596 | 1.4408 [1.2925, 1.6042] | 1.5805 [1.3939, 1.7793] | 1.1794 [1.0533, 1.3105] |\n| Canonical dependent-source MAE, pp; 149/298 | 1.2734 [1.1290, 1.4317] | 1.5452 [1.3638, 1.7433] | 1.1511 [1.0358, 1.2722] |\n| Canonical/source SD ratio; n=149 means | 1.0380 [0.9795, 1.1045] | 0.8211 [0.7788, 0.8634] | 0.9237 [0.8925, 0.9575] |\n",
+    "source_sha256": "601134377bb0f7bc5aee819b0b046ecd7e6eeaf8f87ffbc67c0e7ec178b8d3a6"
+  },
+  {
+    "id": "TableS1",
+    "caption": "Stability and additional regularisation effects. Lengths are engineering cm; intervals are exploratory 95% participant-bootstrap intervals.",
+    "columns": [
+      "Endpoint",
+      "Estimate [CI]",
+      "Denominator"
+    ],
+    "rows": [
+      [
+        "D−C SMPL mean surface error",
+        "−0.003082 [−0.006176, −0.0001413]",
+        "12 people"
+      ],
+      [
+        "D−C CAESAR mean surface error",
+        "−0.003619 [−0.006815, −0.0005098]",
+        "12 people"
+      ],
+      [
+        "D−C cross-path canonical indexed RMS",
+        "+0.02775 [−0.009422, 0.06883]",
+        "12 people"
+      ],
+      [
+        "B sampling-repeat canonical RMS",
+        "0.06917 [0.05840, 0.07993]",
+        "4 people"
+      ],
+      [
+        "C sampling-repeat canonical RMS",
+        "0.4051 [0.3006, 0.5432]",
+        "4 people"
+      ],
+      [
+        "D sampling-repeat canonical RMS",
+        "0.4085 [0.3069, 0.5334]",
+        "4 people"
+      ]
+    ],
+    "markdown": "**Table S1. Stability and additional regularisation effects. Lengths are engineering cm; intervals are exploratory 95% participant-bootstrap intervals.**\n\n| Endpoint | Estimate [CI] | Denominator |\n|---|---|---|\n| D−C SMPL mean surface error | −0.003082 [−0.006176, −0.0001413] | 12 people |\n| D−C CAESAR mean surface error | −0.003619 [−0.006815, −0.0005098] | 12 people |\n| D−C cross-path canonical indexed RMS | +0.02775 [−0.009422, 0.06883] | 12 people |\n| B sampling-repeat canonical RMS | 0.06917 [0.05840, 0.07993] | 4 people |\n| C sampling-repeat canonical RMS | 0.4051 [0.3006, 0.5432] | 4 people |\n| D sampling-repeat canonical RMS | 0.4085 [0.3069, 0.5334] | 4 people |\n",
+    "source_sha256": "b8de0ce6be957d15cc1c0f61d513816dac9576b30586ab6584768d391e0524ca"
+  },
+  {
+    "id": "TableS2",
+    "caption": "Common raw-contour within-person repeatability. Median person summaries; n=10. Ranges use E3-T3 B_common_raw_contour_cm / available_at_least_two rows.",
+    "columns": [
+      "Site",
+      "Median person SD, cm",
+      "Median person range, cm [95% CI]"
+    ],
+    "rows": [
+      [
+        "Vertical extent",
+        "0.814",
+        "2.164 [1.572, 2.395]"
+      ],
+      [
+        "Waist",
+        "1.027",
+        "2.973 [1.617, 4.915]"
+      ],
+      [
+        "Abdomen",
+        "1.155",
+        "3.094 [2.158, 4.958]"
+      ],
+      [
+        "Hip",
+        "1.048",
+        "2.708 [2.206, 4.592]"
+      ],
+      [
+        "Chest",
+        "1.993",
+        "5.231 [3.973, 6.459]"
+      ],
+      [
+        "Neck",
+        "0.493",
+        "1.212 [0.790, 1.990]"
+      ]
+    ],
+    "markdown": "**Table S2. Common raw-contour within-person repeatability. Median person summaries; n=10. Ranges use E3-T3 B_common_raw_contour_cm / available_at_least_two rows.**\n\n| Site | Median person SD, cm | Median person range, cm [95% CI] |\n|---|---:|---|\n| Vertical extent | 0.814 | 2.164 [1.572, 2.395] |\n| Waist | 1.027 | 2.973 [1.617, 4.915] |\n| Abdomen | 1.155 | 3.094 [2.158, 4.958] |\n| Hip | 1.048 | 2.708 [2.206, 4.592] |\n| Chest | 1.993 | 5.231 [3.973, 6.459] |\n| Neck | 0.493 | 1.212 [0.790, 1.990] |\n",
+    "source_sha256": "b8de0ce6be957d15cc1c0f61d513816dac9576b30586ab6584768d391e0524ca"
+  },
+  {
+    "id": "TableS3",
+    "caption": "Shared-source height compatibility ladder.",
+    "columns": [
+      "Tolerance, engineering cm",
+      "Eligible people"
+    ],
+    "rows": [
+      [
+        "10⁻⁸, strict",
+        "103"
+      ],
+      [
+        "0.001",
+        "104"
+      ],
+      [
+        "0.01",
+        "109"
+      ],
+      [
+        "0.1",
+        "138"
+      ],
+      [
+        "0.25",
+        "150"
+      ]
+    ],
+    "markdown": "**Table S3. Shared-source height compatibility ladder.**\n\n| Tolerance, engineering cm | Eligible people |\n|---|---:|\n| 10⁻⁸, strict | 103 |\n| 0.001 | 104 |\n| 0.01 | 109 |\n| 0.1 | 138 |\n| 0.25 | 150 |\n",
+    "source_sha256": "b8de0ce6be957d15cc1c0f61d513816dac9576b30586ab6584768d391e0524ca"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "policy": "H3_strict",
+    "threshold_cm": 1e-08,
+    "eligible_people": 103,
+    "total_people": 150,
+    "anchor_construction": "original strict SMPL source",
+    "clinical_stature_qualified": false
+  },
+  {
+    "policy": "H3_t0.001",
+    "threshold_cm": 0.001,
+    "eligible_people": 104,
+    "total_people": 150,
+    "anchor_construction": "symmetric two-path source median",
+    "clinical_stature_qualified": false
+  },
+  {
+    "policy": "H3_t0.01",
+    "threshold_cm": 0.01,
+    "eligible_people": 109,
+    "total_people": 150,
+    "anchor_construction": "symmetric two-path source median",
+    "clinical_stature_qualified": false
+  },
+  {
+    "policy": "H3_t0.1",
+    "threshold_cm": 0.1,
+    "eligible_people": 138,
+    "total_people": 150,
+    "anchor_construction": "symmetric two-path source median",
+    "clinical_stature_qualified": false
+  },
+  {
+    "policy": "H3_t0.25",
+    "threshold_cm": 0.25,
+    "eligible_people": 150,
+    "total_people": 150,
+    "anchor_construction": "symmetric two-path source median",
+    "clinical_stature_qualified": false
+  }
+]

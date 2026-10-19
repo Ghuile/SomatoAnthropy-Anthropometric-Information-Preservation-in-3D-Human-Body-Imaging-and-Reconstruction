@@ -1,0 +1,184 @@
+[
+  {
+    "region": "abdomen_spine01_proxy",
+    "alignment": "saved_floor_frame",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 1.3467835992027164,
+    "median_ci95": [
+      1.0460052102439923,
+      1.708984600748951
+    ],
+    "mean": 1.4321506355230216,
+    "sd": 0.5485640518786608
+  },
+  {
+    "region": "abdomen_spine01_proxy",
+    "alignment": "centroid_translation_only",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 0.7299076242135383,
+    "median_ci95": [
+      0.5819029720353508,
+      0.8816419187513764
+    ],
+    "mean": 0.7887114156440977,
+    "sd": 0.3054797439740791
+  },
+  {
+    "region": "global_surface",
+    "alignment": "saved_floor_frame",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 2.030738412367885,
+    "median_ci95": [
+      1.6813081046139722,
+      2.2345845435921285
+    ],
+    "mean": 1.9713851778778242,
+    "sd": 0.39087964635689715
+  },
+  {
+    "region": "global_surface",
+    "alignment": "centroid_translation_only",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 1.4978339098713749,
+    "median_ci95": [
+      1.295130898813281,
+      1.8084655791964515
+    ],
+    "mean": 1.556086669838941,
+    "sd": 0.3936009197023947
+  },
+  {
+    "region": "lower_limbs",
+    "alignment": "saved_floor_frame",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 2.4136739646541665,
+    "median_ci95": [
+      1.865236516036659,
+      4.022394158575218
+    ],
+    "mean": 2.760432445174034,
+    "sd": 0.9802622872488813
+  },
+  {
+    "region": "lower_limbs",
+    "alignment": "centroid_translation_only",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 2.4914530898610865,
+    "median_ci95": [
+      2.12453539948887,
+      3.7053118198313104
+    ],
+    "mean": 2.7853173916939373,
+    "sd": 0.8251225335222991
+  },
+  {
+    "region": "neck_head",
+    "alignment": "saved_floor_frame",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 0.961964058963406,
+    "median_ci95": [
+      0.7963023897421653,
+      1.3384276927158179
+    ],
+    "mean": 1.0138269465622705,
+    "sd": 0.2904480588133024
+  },
+  {
+    "region": "neck_head",
+    "alignment": "centroid_translation_only",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 0.4575604131558765,
+    "median_ci95": [
+      0.3943318987549248,
+      0.5700012460686038
+    ],
+    "mean": 0.4876554380340016,
+    "sd": 0.12951305367447974
+  },
+  {
+    "region": "pelvis",
+    "alignment": "saved_floor_frame",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 1.6380252300580542,
+    "median_ci95": [
+      1.3991412291403487,
+      1.782241010256973
+    ],
+    "mean": 1.6522680185648178,
+    "sd": 0.33861644873235075
+  },
+  {
+    "region": "pelvis",
+    "alignment": "centroid_translation_only",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 1.1465941606673988,
+    "median_ci95": [
+      0.9037973236824792,
+      1.2314770478520396
+    ],
+    "mean": 1.1089840193800096,
+    "sd": 0.21997636637551948
+  },
+  {
+    "region": "torso",
+    "alignment": "saved_floor_frame",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 1.4154384706214627,
+    "median_ci95": [
+      1.1407245212217791,
+      1.9151128348969153
+    ],
+    "mean": 1.5512333180623283,
+    "sd": 0.5858194098527728
+  },
+  {
+    "region": "torso",
+    "alignment": "centroid_translation_only",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 0.829018935975196,
+    "median_ci95": [
+      0.7179350751508242,
+      0.988276976752142
+    ],
+    "mean": 0.8706912514191446,
+    "sd": 0.22872247212471203
+  },
+  {
+    "region": "upper_limbs",
+    "alignment": "saved_floor_frame",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 1.8463253774073187,
+    "median_ci95": [
+      1.2943197372147623,
+      2.1912309738522535
+    ],
+    "mean": 1.808194409637275,
+    "sd": 0.5357057372311429
+  },
+  {
+    "region": "upper_limbs",
+    "alignment": "centroid_translation_only",
+    "metric": "participant median pairwise indexed RMS cm",
+    "subjects": 10,
+    "median": 1.1004299817615804,
+    "median_ci95": [
+      0.9204078169916081,
+      1.4406362091127005
+    ],
+    "mean": 1.2030615858333262,
+    "sd": 0.36387703347804146
+  }
+]

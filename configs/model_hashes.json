@@ -1,0 +1,19 @@
+{
+  "assets/mhr/v1/code/LICENSE": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+  "assets/mhr/v1/code/mhr/__init__.py": "7a925b8b26a027be07ae001f03933ad0d34d36e6431b4516ca7328d3341cbf73",
+  "assets/mhr/v1/code/mhr/io.py": "ca6b485a449aed75b6ffdc8b09065f95d1eccc955bb1d5781991d11d951a8b69",
+  "assets/mhr/v1/code/mhr/mhr.py": "2da57c370be3f9387370be6cec8542e7de459447ee9ee578bc3c35b9cdeb0a39",
+  "assets/mhr/v1/code/mhr/utils.py": "5be32c278aa8a8cc52f8abf578b34aa863125970ad0d148d1f6ebc913de24be6",
+  "assets/mhr/v1/code/tools/mhr_smpl_conversion/conversion.py": "2a1d7dd7f951b0a5ce75d12a3e5f5b57a31b6da4498267e08dd21918049fe317",
+  "assets/mhr/v1/lod0/LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "assets/mhr/v1/lod0/compact_v6_1.model": "9b4e48e6216296c0a8a47e8e1d210b42ca8b194b9f61409adc5d7a3873dcf08e",
+  "assets/mhr/v1/lod0/corrective-weight-c-order.npy": "59ed7070b573a4fc08b8a1573d475405b0088c5cb4a242dde75109056369b6e2",
+  "assets/mhr/v1/lod0/corrective_activation.npz": "08cce62c1aed80c0ae2a87580c0e7b73b7a1efea56daa0cec25dbed5917e4909",
+  "assets/mhr/v1/lod0/corrective_blendshapes_lod0.npz": "d7a98c2aac98a58ba1d5dc8d581c282ab781c8badc30f438da285c09a3d171fe",
+  "assets/mhr/v1/lod0/lod0.fbx": "f741aff3c3d00f45faececc17e9fb25ea13dd7fce32cb869326a78b48a2e9320",
+  "assets/mhr/v1/lod1/LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "assets/mhr/v1/lod1/compact_v6_1.model": "9b4e48e6216296c0a8a47e8e1d210b42ca8b194b9f61409adc5d7a3873dcf08e",
+  "assets/mhr/v1/lod1/corrective_activation.npz": "08cce62c1aed80c0ae2a87580c0e7b73b7a1efea56daa0cec25dbed5917e4909",
+  "assets/mhr/v1/lod1/corrective_blendshapes_lod1.npz": "1e85a07e4281bd5196ab630fa9c234f3b442b7f87b98be926181d838f9ff5f07",
+  "assets/mhr/v1/lod1/lod1.fbx": "d66fbca815bcde6532f728f1f63071003c5d43ff44f56e263a0807baec1ae055"
+}

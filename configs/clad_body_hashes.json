@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "f878620d5d135c13132ea28c656399ca99c6aa9cc00f9d899301815b9d7ca517",
+  "commit": "a2140a74555a6382e1712ec1a5d8dc939b59e655",
+  "files": {
+    "LICENSE": "4c762cbe180db59efb73eb199056ac40cf650ead6162168e65559bf6a640c53e",
+    "clad_body\\__init__.py": "08abc4f0b4192b190d5d96797128a9f7f73d9aa55be33ad46d84a9051f4fe404",
+    "clad_body\\load\\__init__.py": "4fe13e79a33711cd2436e9b4e0ba34f9019a384dd902e37e2371ea1111ae08fb",
+    "clad_body\\load\\anny.py": "c6bc6c930f1d837d65501695e242d1de6dbe10a2b4b8c5d7a0f5ce6c7b3fc302",
+    "clad_body\\load\\mhr.py": "0c44068882bac37af7683d867a815fc7d4f7fa23bee0d78d4129d6d56b23e484",
+    "clad_body\\measure\\__init__.py": "0456b8ddbc5a4dac030955d9fb2a309c0af003b2b0f224e0f02bf590bb4af4e7",
+    "clad_body\\measure\\_circumferences.py": "445dd23643440b458e3a894cb8fdbe9183eefa7c5d7e87ae6ceadbea98d42629",
+    "clad_body\\measure\\_lengths.py": "066f9e4028af04721ace21c568d594f2183ff8bdaa0f8a226782cb7db7fb69d8",
+    "clad_body\\measure\\_render.py": "957fc53159e690e59953906d8a538c4c3e38dabfe6e3659c198dee5bba171151",
+    "clad_body\\measure\\_slicer.py": "893ed79dd7c0d5e6a70b23bd73d9ea5244bf3558da9081d1850f2ac40e91a9f4",
+    "clad_body\\measure\\_soft_circ.py": "999a33137155fd6640b85bb171cb978357e01fdfc8c266e7d7881fac13364965",
+    "clad_body\\measure\\anny.py": "c61c5af4e7a69e34c4a2c859f873c14c630c041e46e0a836b938f407dbc2f784",
+    "clad_body\\measure\\mhr.py": "30384b949423bc6376309e3174b17fdca7257b46f53d80aa97ac3e0eb5feb7c6",
+    "clad_body\\measure\\registry.py": "983aec3b2f139cd841c92252a1c57bbba252c30fcb0ca8d078cc8ed41bb83a61",
+    "pyproject.toml": "7a92fb847f38df1fd03c146c69e3ab226ae375889c15005c5949675dddd9464d"
+  },
+  "licence": "Apache-2.0; original LICENSE retained",
+  "modified": false,
+  "repository": "https://github.com/datar-psa/clad-body"
+}

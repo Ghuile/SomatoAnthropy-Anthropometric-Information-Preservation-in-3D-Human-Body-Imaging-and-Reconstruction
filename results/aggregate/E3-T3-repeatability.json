@@ -1,0 +1,206 @@
+[
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "height",
+    "subset": "available_at_least_two",
+    "metric": "sd",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 0.8141457903506353,
+    "median_ci95": [
+      0.6378785669161868,
+      1.0219690998534334
+    ],
+    "mean": 0.8686345356764236,
+    "sd": 0.29385687370698504
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "height",
+    "subset": "available_at_least_two",
+    "metric": "range",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 2.1637082099914693,
+    "median_ci95": [
+      1.572390079498291,
+      2.394803464412689
+    ],
+    "mean": 2.147082161158326,
+    "sd": 0.6916216705329937
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "waist",
+    "subset": "available_at_least_two",
+    "metric": "sd",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 1.0272494048984628,
+    "median_ci95": [
+      0.5746285633823802,
+      1.8564036795947094
+    ],
+    "mean": 1.2156084668754985,
+    "sd": 0.6539962078924297
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "waist",
+    "subset": "available_at_least_two",
+    "metric": "range",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 2.97326785653604,
+    "median_ci95": [
+      1.6174889652806996,
+      4.914634520040963
+    ],
+    "mean": 3.346175975321742,
+    "sd": 1.7475644433335542
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "abdomen",
+    "subset": "available_at_least_two",
+    "metric": "sd",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 1.154908147537033,
+    "median_ci95": [
+      0.8534872582548143,
+      1.8177219744611226
+    ],
+    "mean": 1.3537032321170168,
+    "sd": 0.5717171284709566
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "abdomen",
+    "subset": "available_at_least_two",
+    "metric": "range",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 3.093517305442184,
+    "median_ci95": [
+      2.1582008432682187,
+      4.95799725139269
+    ],
+    "mean": 3.5340803684609012,
+    "sd": 1.4770624944767985
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "hip",
+    "subset": "available_at_least_two",
+    "metric": "sd",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 1.047673830378054,
+    "median_ci95": [
+      0.7830127189891554,
+      1.5899726725657597
+    ],
+    "mean": 1.2697579819095384,
+    "sd": 0.7342744763293502
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "hip",
+    "subset": "available_at_least_two",
+    "metric": "range",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 2.7079527214667536,
+    "median_ci95": [
+      2.206228477624279,
+      4.59231785065279
+    ],
+    "mean": 3.35175041746717,
+    "sd": 1.9781985781180191
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "chest",
+    "subset": "available_at_least_two",
+    "metric": "sd",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 1.9932564923569678,
+    "median_ci95": [
+      1.6310281458361693,
+      2.423864338725604
+    ],
+    "mean": 2.0321874465205205,
+    "sd": 0.7344949880562304
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "chest",
+    "subset": "available_at_least_two",
+    "metric": "range",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 5.2311057813933175,
+    "median_ci95": [
+      3.972520684000898,
+      6.459382931017856
+    ],
+    "mean": 5.404212357789045,
+    "sd": 2.043897050140221
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "neck",
+    "subset": "available_at_least_two",
+    "metric": "sd",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 0.493179632451728,
+    "median_ci95": [
+      0.2698996485345293,
+      0.7261934877866772
+    ],
+    "mean": 0.5034449550945468,
+    "sd": 0.2163300088073822
+  },
+  {
+    "method": "B_common_raw_contour_cm",
+    "site": "neck",
+    "subset": "available_at_least_two",
+    "metric": "range",
+    "valid_observations": 60,
+    "selected_observations": 60,
+    "complete_six": 10,
+    "subjects": 10,
+    "median": 1.2115007435685783,
+    "median_ci95": [
+      0.7898997272367012,
+      1.9899561118355962
+    ],
+    "mean": 1.3555142103813769,
+    "sd": 0.6369147550375877
+  }
+]

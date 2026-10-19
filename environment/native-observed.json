@@ -1,0 +1,12 @@
+{
+  "python": "3.12.12",
+  "platform": "Linux x86_64; WSL2 6.6.114.1; glibc 2.39",
+  "torch": "2.8.0",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "pymomentum": "0.1.0",
+  "cuda": null,
+  "device": "cpu",
+  "source": "E2-1 saved native-environment.json; paths excluded",
+  "recreated_in_release_validation": false
+}

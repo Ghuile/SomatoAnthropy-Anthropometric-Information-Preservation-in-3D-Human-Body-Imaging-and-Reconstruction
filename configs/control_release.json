@@ -1,0 +1,954 @@
+{
+  "original_fitting": {
+    "apply_correctives": true,
+    "coverage_thresholds_source_units": [
+      0.005,
+      0.01,
+      0.02,
+      0.05
+    ],
+    "device": "cpu",
+    "dimensions": [
+      45,
+      204,
+      72
+    ],
+    "dtype": "float32",
+    "evaluation_samples": 4096,
+    "evaluation_seed": 41877,
+    "expression_semantics": "neutral zeros; no fitting",
+    "gradient_clip_norm": 1.0,
+    "heatmap_max_source_units": 0.05,
+    "identity_bound": 3.0,
+    "identity_l2_weight": 1e-06,
+    "identity_semantics": "45 independent coefficients per body; body/head/hands; bounded +/-3; no group-derived settings",
+    "lod": 1,
+    "minimum_available_ram_bytes": 2147483648,
+    "minimum_disk_free_bytes": 2147483648,
+    "nearest_neighbour_chunk": 512,
+    "no_vertex_offsets": true,
+    "objective": "equal bidirectional pseudo-Huber area-sampled cloud NN plus identity/pose mean-square priors; discrete NN updates, differentiable selected residuals",
+    "parameter_names": [
+      "root_tx",
+      "root_ty",
+      "root_tz",
+      "root_rx",
+      "root_ry",
+      "root_rz",
+      "spine0_rx_flexible",
+      "spine_twist0",
+      "spine0_ry_flexible",
+      "spine_lean0",
+      "spine0_rz_flexible",
+      "spine_bend0",
+      "spine1_rx_flexible",
+      "spine_twist1",
+      "spine1_ry_flexible",
+      "spine_lean1",
+      "spine1_rz_flexible",
+      "spine_bend1",
+      "spine2_rx_flexible",
+      "spine2_ry_flexible",
+      "spine2_rz_flexible",
+      "spine3_rx_flexible",
+      "spine3_ry_flexible",
+      "spine3_rz_flexible",
+      "neck_twist",
+      "neck_lean",
+      "neck_bend",
+      "head_twist",
+      "head_lean",
+      "head_bend",
+      "r_clavicle_rx",
+      "r_clavicle_ry",
+      "r_clavicle_rz",
+      "r_uparm_twist",
+      "r_uparm_ry",
+      "r_uparm_rz",
+      "r_elbow_bend",
+      "r_lowarm_twist",
+      "r_wrist_ry",
+      "r_wrist_rz",
+      "l_clavicle_rx",
+      "l_clavicle_ry",
+      "l_clavicle_rz",
+      "l_uparm_twist",
+      "l_uparm_ry",
+      "l_uparm_rz",
+      "l_elbow_bend",
+      "l_lowarm_twist",
+      "l_wrist_ry",
+      "l_wrist_rz",
+      "r_upleg_twist",
+      "r_upleg_ry",
+      "r_upleg_rz",
+      "r_knee_bend",
+      "r_lowleg_twist",
+      "r_foot_bend",
+      "r_foot_lean0",
+      "r_foot_lean1",
+      "r_ball_bend",
+      "l_upleg_twist",
+      "l_upleg_ry",
+      "l_upleg_rz",
+      "l_knee_bend",
+      "l_lowleg_twist",
+      "l_foot_bend",
+      "l_foot_lean0",
+      "l_foot_lean1",
+      "l_ball_bend",
+      "r_thumb0_ry",
+      "r_thumb0_rz",
+      "r_thumb1_rx",
+      "r_thumb1_ry",
+      "r_thumb1_rz",
+      "r_thumb2_rz",
+      "r_thumb3_rz",
+      "r_index1_ry",
+      "r_ring1_ry",
+      "r_pinky1_ry",
+      "r_middle1_ry",
+      "r_index1_rz",
+      "r_index2_rz",
+      "r_index3_rz",
+      "r_middle1_rz",
+      "r_middle2_rz",
+      "r_middle3_rz",
+      "r_ring1_rz",
+      "r_ring2_rz",
+      "r_ring3_rz",
+      "r_pinky1_rz",
+      "r_pinky2_rz",
+      "r_pinky3_rz",
+      "r_index1_rx",
+      "r_ring1_rx",
+      "r_pinky1_rx",
+      "r_middle1_rx",
+      "l_thumb0_ry",
+      "l_thumb0_rz",
+      "l_thumb1_rx",
+      "l_thumb1_ry",
+      "l_thumb1_rz",
+      "l_thumb2_rz",
+      "l_thumb3_rz",
+      "l_index1_ry",
+      "l_ring1_ry",
+      "l_pinky1_ry",
+      "l_middle1_ry",
+      "l_index1_rz",
+      "l_index2_rz",
+      "l_index3_rz",
+      "l_middle1_rz",
+      "l_middle2_rz",
+      "l_middle3_rz",
+      "l_ring1_rz",
+      "l_ring2_rz",
+      "l_ring3_rz",
+      "l_pinky1_rz",
+      "l_pinky2_rz",
+      "l_pinky3_rz",
+      "l_index1_rx",
+      "l_ring1_rx",
+      "l_pinky1_rx",
+      "l_middle1_rx",
+      "l_foot_ry_flexible",
+      "l_subtalar_rz_flexible",
+      "l_talocrural_rx_flexible",
+      "l_ball_rx_flexible",
+      "r_foot_ry_flexible",
+      "r_subtalar_rz_flexible",
+      "r_talocrural_rx_flexible",
+      "r_ball_rx_flexible",
+      "spine_length_flexible",
+      "neck_length_flexible",
+      "shoulder_width_flexible",
+      "arm_length_flexible",
+      "hip_width_flexible",
+      "leg_length_flexible",
+      "scale_eye_width",
+      "scale_eye_height",
+      "scale_eye_depth",
+      "scale_spine_length",
+      "scale_neck_length",
+      "scale_shoulder_width",
+      "scale_uparms",
+      "scale_lowarms",
+      "scale_r_hands",
+      "scale_l_hands",
+      "scale_hip_width",
+      "scale_hip_height",
+      "scale_hip_depth",
+      "scale_uplegs",
+      "scale_lowlegs",
+      "scale_knee_knock",
+      "scale_ankle_height",
+      "scale_foot_length",
+      "scale_r_index1_length",
+      "scale_r_middle1_length",
+      "scale_r_ring1_length",
+      "scale_r_pinky1_length",
+      "scale_r_thumb1_length",
+      "scale_r_index1_offset",
+      "scale_r_middle1_offset",
+      "scale_r_ring1_offset",
+      "scale_r_pinky1_offset",
+      "scale_r_thumb1_offset",
+      "scale_r_index2_length",
+      "scale_r_middle2_length",
+      "scale_r_ring2_length",
+      "scale_r_pinky2_length",
+      "scale_r_thumb2_length",
+      "scale_r_index3_length",
+      "scale_r_middle3_length",
+      "scale_r_ring3_length",
+      "scale_r_pinky3_length",
+      "scale_r_thumb3_length",
+      "scale_r_index_null_tx",
+      "scale_r_middle_null_tx",
+      "scale_r_ring_null_tx",
+      "scale_r_pinky_null_tx",
+      "scale_r_thumb_null_tx",
+      "scale_l_index1_length",
+      "scale_l_middle1_length",
+      "scale_l_ring1_length",
+      "scale_l_pinky1_length",
+      "scale_l_thumb1_length",
+      "scale_l_index1_offset",
+      "scale_l_middle1_offset",
+      "scale_l_ring1_offset",
+      "scale_l_pinky1_offset",
+      "scale_l_thumb1_offset",
+      "scale_l_index2_length",
+      "scale_l_middle2_length",
+      "scale_l_ring2_length",
+      "scale_l_pinky2_length",
+      "scale_l_thumb2_length",
+      "scale_l_index3_length",
+      "scale_l_middle3_length",
+      "scale_l_ring3_length",
+      "scale_l_pinky3_length",
+      "scale_l_thumb3_length",
+      "scale_l_index_null_tx",
+      "scale_l_middle_null_tx",
+      "scale_l_ring_null_tx",
+      "scale_l_pinky_null_tx",
+      "scale_l_thumb_null_tx"
+    ],
+    "per_body_timeout_seconds": 1800,
+    "pose_bound_radians": 1.8,
+    "pose_l2_weight": 2e-05,
+    "pose_names": [
+      "root_rx",
+      "root_ry",
+      "root_rz",
+      "spine0_rx_flexible",
+      "spine_twist0",
+      "spine0_ry_flexible",
+      "spine_lean0",
+      "spine0_rz_flexible",
+      "spine_bend0",
+      "spine1_rx_flexible",
+      "spine_twist1",
+      "spine1_ry_flexible",
+      "spine_lean1",
+      "spine1_rz_flexible",
+      "spine_bend1",
+      "spine2_rx_flexible",
+      "spine2_ry_flexible",
+      "spine2_rz_flexible",
+      "spine3_rx_flexible",
+      "spine3_ry_flexible",
+      "spine3_rz_flexible",
+      "neck_twist",
+      "neck_lean",
+      "neck_bend",
+      "head_twist",
+      "head_lean",
+      "head_bend",
+      "r_clavicle_rx",
+      "r_clavicle_ry",
+      "r_clavicle_rz",
+      "r_uparm_twist",
+      "r_uparm_ry",
+      "r_uparm_rz",
+      "r_elbow_bend",
+      "r_lowarm_twist",
+      "r_wrist_ry",
+      "r_wrist_rz",
+      "l_clavicle_rx",
+      "l_clavicle_ry",
+      "l_clavicle_rz",
+      "l_uparm_twist",
+      "l_uparm_ry",
+      "l_uparm_rz",
+      "l_elbow_bend",
+      "l_lowarm_twist",
+      "l_wrist_ry",
+      "l_wrist_rz",
+      "r_upleg_twist",
+      "r_upleg_ry",
+      "r_upleg_rz",
+      "r_knee_bend",
+      "r_lowleg_twist",
+      "r_foot_bend",
+      "r_foot_lean0",
+      "r_foot_lean1",
+      "r_ball_bend",
+      "l_upleg_twist",
+      "l_upleg_ry",
+      "l_upleg_rz",
+      "l_knee_bend",
+      "l_lowleg_twist",
+      "l_foot_bend",
+      "l_foot_lean0",
+      "l_foot_lean1",
+      "l_ball_bend",
+      "l_foot_ry_flexible",
+      "l_ball_rx_flexible",
+      "r_foot_ry_flexible",
+      "r_ball_rx_flexible"
+    ],
+    "replay_atol_native_cm": 1e-05,
+    "retain_best_final_stage": true,
+    "retry_policy": "No automatic full refits; preserve failures. Resume derived artifacts from completed parameters; completed fits never refitted.",
+    "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32",
+    "robust_delta_metres": 0.03,
+    "root_rotation_bound_radians": 0.6,
+    "route": "CONSISTENT_NEUTRAL_NATIVE_MHR_DIRECT_CAESAR_FIT",
+    "sampling": "area-weighted barycentrics redrawn at stage start, fixed within stage; evaluation seeds separate",
+    "scale_policy": "source coordinates unchanged except translation; native cm times 0.01 engineering calibration; physical units unconfirmed; all rig scales fixed",
+    "seed": 20261015,
+    "selection_rule": "lowest regularized pre-step objective in final stage; fixed stage samples",
+    "shared_fitter_argument_names": "historical *_metres names denote FIT04 source working units, not asserted physical metres",
+    "stages": [
+      {
+        "identity_lr": 0.0,
+        "iterations": 80,
+        "name": "B_pose",
+        "pose_lr": 0.015,
+        "samples": 2048,
+        "translation_lr": 0.008
+      },
+      {
+        "identity_lr": 0.04,
+        "iterations": 160,
+        "name": "C_identity_pose",
+        "pose_lr": 0.006,
+        "samples": 4096,
+        "translation_lr": 0.003
+      },
+      {
+        "identity_lr": 0.015,
+        "iterations": 100,
+        "name": "D_fine_surface",
+        "pose_lr": 0.002,
+        "samples": 8192,
+        "translation_lr": 0.001
+      }
+    ],
+    "stopping": "fixed stage budgets; stop on nonfinite gradients, resource exhaustion or timeout",
+    "task": "NOMO-CAESAR-MHR-FIT04",
+    "threads": 1,
+    "trace_every_iteration": true,
+    "working_units": "unchanged NOMO source units; physical mapping unconfirmed"
+  },
+  "continuation": {
+    "checkpoint_every": 10,
+    "identity_lr": 0.015,
+    "initialization": "exact saved original state and translation; reset Adam moments in both arms",
+    "iterations": 100,
+    "objective": "original equal bidirectional pseudo-Huber cloud NN plus original identity/pose priors; extra rig mean-square prior at existing pose-prior strength applied identically in both arms (constant in locked)",
+    "pose_lr": 0.002,
+    "rig_l2_weight": 2e-05,
+    "rig_lr": 0.01,
+    "samples": 8192,
+    "sampling": "original area sampler; identical fixed source cloud and target face/barycentric samples from shared historical initial surface for both arms",
+    "selection": "lowest regularised pre-step objective across the 100 continuation iterations",
+    "source_sampling_seed": 20261018,
+    "target_sampling_seed": 20261019,
+    "timeout_seconds": 1800,
+    "translation_lr": 0.001
+  },
+  "released_indices": [
+    139,
+    140,
+    141,
+    142,
+    143,
+    146,
+    149,
+    150,
+    153
+  ],
+  "control_bounds": {
+    "139": {
+      "maximum": 1.1,
+      "minimum": -1.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=139, min=-1.1, max=1.1)",
+      "weight": 1.0
+    },
+    "140": {
+      "maximum": 0.4,
+      "minimum": -0.4,
+      "source": "ParameterLimit(type=MinMax, weight=0.1, param=140, min=-0.4, max=0.4)",
+      "weight": 0.1
+    },
+    "141": {
+      "maximum": 0.2,
+      "minimum": -0.2,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=141, min=-0.2, max=0.2)",
+      "weight": 1.0
+    },
+    "142": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=142, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "143": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=143, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "146": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=146, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "149": {
+      "maximum": 0.5,
+      "minimum": -0.5,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=149, min=-0.5, max=0.5)",
+      "weight": 1.0
+    },
+    "150": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=150, min=-1, max=1)",
+      "weight": 1.0
+    },
+    "153": {
+      "maximum": 0.1,
+      "minimum": -0.1,
+      "source": "ParameterLimit(type=MinMax, weight=1, param=153, min=-0.1, max=0.1)",
+      "weight": 1.0
+    }
+  },
+  "evaluation": {
+    "lod": 0,
+    "physical_calibration": "UNCONFIRMED; engineering cm only",
+    "samples": 4096,
+    "seed": 2181182026
+  },
+  "model_revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32",
+  "parameter_audit": [
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": 2.2100000381469727,
+          "joint": "c_spine1"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.2300000190734863,
+          "joint": "c_spine2"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 3.7100000381469727,
+          "joint": "c_spine3"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.850000023841858,
+          "joint": "c_neck"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.850000023841858,
+          "joint": "c_neck_twist0_proc"
+        }
+      ],
+      "bounds": {
+        "maximum": 1.1,
+        "minimum": -1.1,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=139, min=-1.1, max=1.1)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 139,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_spine_length",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "c_neck_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "c_head"
+        }
+      ],
+      "bounds": {
+        "maximum": 0.4,
+        "minimum": -0.4,
+        "source": "ParameterLimit(type=MinMax, weight=0.1, param=140, min=-0.4, max=0.4)",
+        "weight": 0.1
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 140,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_neck_length",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": -8.359999656677246,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -5.440000057220459,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -0.6299999952316284,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 8.359999656677246,
+          "joint": "l_uparm"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 5.440000057220459,
+          "joint": "l_uparm"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 0.6299999952316284,
+          "joint": "l_uparm"
+        }
+      ],
+      "bounds": {
+        "maximum": 0.2,
+        "minimum": -0.2,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=141, min=-0.2, max=0.2)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 141,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_shoulder_width",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_lowarm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.5,
+          "joint": "r_uparm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_uparm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -7.5,
+          "joint": "r_uparm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_uparm_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_lowarm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.5,
+          "joint": "l_uparm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_uparm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 7.5,
+          "joint": "l_uparm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_uparm_twist4_proc"
+        }
+      ],
+      "bounds": {
+        "maximum": 1.0,
+        "minimum": -1.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=142, min=-1, max=1)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 142,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_uparms",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_wrist_twist"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.0,
+          "joint": "r_lowarm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -4.0,
+          "joint": "r_lowarm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -6.0,
+          "joint": "r_lowarm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -8.0,
+          "joint": "r_lowarm_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_wrist_twist"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.0,
+          "joint": "l_lowarm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 4.0,
+          "joint": "l_lowarm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 6.0,
+          "joint": "l_lowarm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 8.0,
+          "joint": "l_lowarm_twist4_proc"
+        }
+      ],
+      "bounds": {
+        "maximum": 1.0,
+        "minimum": -1.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=143, min=-1, max=1)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 143,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_lowarms",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_upleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_upleg"
+        }
+      ],
+      "bounds": {
+        "maximum": 0.5,
+        "minimum": -0.5,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=146, min=-0.5, max=0.5)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 146,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_hip_width",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_lowleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.5,
+          "joint": "l_upleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_upleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 7.5,
+          "joint": "l_upleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_upleg_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_lowleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.5,
+          "joint": "r_upleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_upleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -7.5,
+          "joint": "r_upleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_upleg_twist4_proc"
+        }
+      ],
+      "bounds": {
+        "maximum": 0.5,
+        "minimum": -0.5,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=149, min=-0.5, max=0.5)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 149,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_uplegs",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_foot"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.0,
+          "joint": "l_lowleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 4.0,
+          "joint": "l_lowleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 6.0,
+          "joint": "l_lowleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 8.0,
+          "joint": "l_lowleg_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_foot"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.0,
+          "joint": "r_lowleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -4.0,
+          "joint": "r_lowleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -6.0,
+          "joint": "r_lowleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -8.0,
+          "joint": "r_lowleg_twist4_proc"
+        }
+      ],
+      "bounds": {
+        "maximum": 1.0,
+        "minimum": -1.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=150, min=-1, max=1)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 150,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_lowlegs",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    },
+    {
+      "affected_joint_channels": [
+        {
+          "channel": "tx",
+          "coefficient": 9.3100004196167,
+          "joint": "l_talocrural"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 1.6100000143051147,
+          "joint": "l_talocrural"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 0.10000000149011612,
+          "joint": "l_talocrural"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_ball"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 1.7400000095367432,
+          "joint": "l_ball"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -0.10999999940395355,
+          "joint": "l_ball"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -9.3100004196167,
+          "joint": "r_talocrural"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -1.6100000143051147,
+          "joint": "r_talocrural"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -0.10000000149011612,
+          "joint": "r_talocrural"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_ball"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -1.7400000095367432,
+          "joint": "r_ball"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 0.10999999940395355,
+          "joint": "r_ball"
+        }
+      ],
+      "bounds": {
+        "maximum": 0.1,
+        "minimum": -0.1,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=153, min=-0.1, max=0.1)",
+        "weight": 1.0
+      },
+      "canonical_policy": "preserve indices 130:204; replace authored articulation only",
+      "fixed_value": 0,
+      "historical_status": "FIXED_AT_NEUTRAL",
+      "index": 153,
+      "justification": "Verified independent body segment/joint-offset control with nonzero authored domain",
+      "name": "scale_foot_length",
+      "parameter_effect": "local joint rest-translation offsets, not a whole-body scale",
+      "released": true,
+      "revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32"
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "method": "B1",
+    "height_policy": "H1",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.5135069827957477,
+    "mean_ci95": [
+      0.38054293604576,
+      0.6621982514494521
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B1",
+    "height_policy": "H1",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.3728139028958963,
+    "mean_ci95": [
+      1.0138776227783717,
+      1.803948753703268
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B1",
+    "height_policy": "H1",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.3040134891841513,
+    "mean_ci95": [
+      0.19124813550913677,
+      0.42055913925718535
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B1",
+    "height_policy": "H1",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.602698029796511,
+    "mean_ci95": [
+      0.44384400744833336,
+      0.7812399236355904
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B1",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.5205336287497647,
+    "mean_ci95": [
+      0.3827625813352162,
+      0.6544006318838208
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B1",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.3654344365385167,
+    "mean_ci95": [
+      1.0100336817050408,
+      1.7363646695632438
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B1",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.31990607598251247,
+    "mean_ci95": [
+      0.20276868760446606,
+      0.4454901004394612
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B1",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.606558576854402,
+    "mean_ci95": [
+      0.44887903538941337,
+      0.7657379110846629
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "H1",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.5310485558984828,
+    "mean_ci95": [
+      0.38572321401255905,
+      0.7111284012027534
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "H1",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.3851615694986683,
+    "mean_ci95": [
+      1.0180211596947235,
+      1.8186882250408951
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "H1",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.33898828768010886,
+    "mean_ci95": [
+      0.21849536537983372,
+      0.491970192722526
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "H1",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.6234336706334891,
+    "mean_ci95": [
+      0.4486821089141901,
+      0.8415373353736714
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.522168039132493,
+    "mean_ci95": [
+      0.3626882141704323,
+      0.7379778646581912
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.391592651287337,
+    "mean_ci95": [
+      1.0005053188942405,
+      1.8958801434011427
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.35987235611084556,
+    "mean_ci95": [
+      0.20740597253278384,
+      0.5682211692105923
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B2",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.6253048393015438,
+    "mean_ci95": [
+      0.43119753827438567,
+      0.8915447315932533
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.5665906352861214,
+    "mean_ci95": [
+      0.47064586074583764,
+      0.678277938544868
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.4913652943440965,
+    "mean_ci95": [
+      1.2333087068781134,
+      1.7846390384186661
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.3380260583685427,
+    "mean_ci95": [
+      0.2520438647550614,
+      0.43603120651294985
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.6681610661010252,
+    "mean_ci95": [
+      0.555931501055692,
+      0.7988904106189408
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.5339456907350069,
+    "mean_ci95": [
+      0.45732288618793043,
+      0.6126629074451819
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.4075820788907252,
+    "mean_ci95": [
+      1.200333479703677,
+      1.6249699881998276
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.323870777367331,
+    "mean_ci95": [
+      0.24357457461059226,
+      0.4044505757074949
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "B3_offset",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.6224540127917939,
+    "mean_ci95": [
+      0.5302427212562274,
+      0.7165039890802392
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "H1",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.6221875406702904,
+    "mean_ci95": [
+      0.5001943639487365,
+      0.7712135910776113
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "H1",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.612157498414465,
+    "mean_ci95": [
+      1.3177585813058856,
+      1.9356495024716818
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "H1",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.4044982995148283,
+    "mean_ci95": [
+      0.2729032543152417,
+      0.5572361673309613
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "H1",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.732251588521006,
+    "mean_ci95": [
+      0.5812752812800585,
+      0.9159310198919691
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "sd_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.5827204891947397,
+    "mean_ci95": [
+      0.4329909770038229,
+      0.7681530980487096
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "range_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 1.5319588466515017,
+    "mean_ci95": [
+      1.187989580350577,
+      1.9225468089276518
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mad_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.3781430117323167,
+    "mean_ci95": [
+      0.23255348709516077,
+      0.5645935798017514
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  },
+  {
+    "method": "P",
+    "height_policy": "observation_median_counterfactual",
+    "metric": "mean_pairwise_absolute_pp",
+    "people": 10,
+    "body_observations": 60,
+    "selected_people": 10,
+    "selected_observations": 60,
+    "valid_observations": 60,
+    "mean": 0.6843569602070743,
+    "mean_ci95": [
+      0.5062353105270906,
+      0.9091161696461874
+    ],
+    "seed": 51912601,
+    "draws": 4000,
+    "source_height_anchor_available": false
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "state": "canonical",
+    "mode": "end_to_end",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 2.1825750469818903,
+    "comparator_MAE": 2.2149720299081794,
+    "mean_advantage": 0.03239698292628893,
+    "CI95": [
+      -0.32333374203249315,
+      0.37813953491627916
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "state": "canonical",
+    "mode": "site_raw",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 2.182575046981891,
+    "comparator_MAE": 2.2144736647339847,
+    "mean_advantage": 0.03189861775209367,
+    "CI95": [
+      -0.32459456133741427,
+      0.37773467352960566
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "state": "canonical",
+    "mode": "site_tape",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 2.100561639735347,
+    "comparator_MAE": 2.2385870982002736,
+    "mean_advantage": 0.13802545846492695,
+    "CI95": [
+      -0.21179554561749456,
+      0.4822777399065783
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "state": "fitted",
+    "mode": "end_to_end",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 3.947681542044398,
+    "comparator_MAE": 2.415804637642836,
+    "mean_advantage": -1.5318769044015619,
+    "CI95": [
+      -2.2664893059978795,
+      -0.7985949418632999
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "state": "fitted",
+    "mode": "site_raw",
+    "people": 148,
+    "body_pairs": 148,
+    "eligible_people": 150,
+    "ours_MAE": 3.969824533831407,
+    "comparator_MAE": 2.2969116505631777,
+    "mean_advantage": -1.6729128832682298,
+    "CI95": [
+      -2.3422834553102883,
+      -1.020145616594559
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "state": "fitted",
+    "mode": "site_tape",
+    "people": 148,
+    "body_pairs": 148,
+    "eligible_people": 150,
+    "ours_MAE": 3.946121248244792,
+    "comparator_MAE": 2.292606598759327,
+    "mean_advantage": -1.6535146494854644,
+    "CI95": [
+      -2.330631380859993,
+      -0.9832789446497229
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "state": "canonical",
+    "mode": "end_to_end",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 3.6039922462309106,
+    "comparator_MAE": 4.870375928100638,
+    "mean_advantage": 1.2663836818697283,
+    "CI95": [
+      0.8936306266613708,
+      1.6547102990654678
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "state": "canonical",
+    "mode": "site_raw",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 3.6039922462309115,
+    "comparator_MAE": 4.87634955515979,
+    "mean_advantage": 1.2723573089288798,
+    "CI95": [
+      0.8992332360652701,
+      1.6613677654881487
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "state": "canonical",
+    "mode": "site_tape",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 3.745849015192267,
+    "comparator_MAE": 5.061036610050232,
+    "mean_advantage": 1.315187594857965,
+    "CI95": [
+      0.9425178212806986,
+      1.710700583889759
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "state": "fitted",
+    "mode": "end_to_end",
+    "people": 149,
+    "body_pairs": 149,
+    "eligible_people": 150,
+    "ours_MAE": 3.4587222874718244,
+    "comparator_MAE": 5.064539856893933,
+    "mean_advantage": 1.6058175694221077,
+    "CI95": [
+      0.8706635060484367,
+      2.4050594536292653
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "state": "fitted",
+    "mode": "site_raw",
+    "people": 148,
+    "body_pairs": 148,
+    "eligible_people": 150,
+    "ours_MAE": 3.445278427611971,
+    "comparator_MAE": 4.970541306642514,
+    "mean_advantage": 1.525262879030543,
+    "CI95": [
+      0.8011762193331936,
+      2.2908581240436443
+    ],
+    "unit": "engineering_cm"
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "state": "fitted",
+    "mode": "site_tape",
+    "people": 148,
+    "body_pairs": 148,
+    "eligible_people": 150,
+    "ours_MAE": 3.5150564937673563,
+    "comparator_MAE": 5.154709413044176,
+    "mean_advantage": 1.6396529192768197,
+    "CI95": [
+      0.8829474827768845,
+      2.4314952939972687
+    ],
+    "unit": "engineering_cm"
+  }
+]

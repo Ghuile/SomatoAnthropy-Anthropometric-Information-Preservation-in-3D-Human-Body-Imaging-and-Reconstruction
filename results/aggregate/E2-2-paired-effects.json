@@ -1,0 +1,240 @@
+[
+  {
+    "partition": "heldout",
+    "collection": "CAESAR-NICP",
+    "contrast": "C-B",
+    "metric": "surface_mean_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.11560818007414875,
+    "median": -0.10710425821949923,
+    "sd": 0.0431499425215762,
+    "mae": 0.11560818007414875,
+    "rmse": 0.12276811086232528,
+    "ci95": [
+      -0.1398055968390957,
+      -0.09275730369460877
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "CAESAR-NICP",
+    "contrast": "C-B",
+    "metric": "canonical_height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -3.4575925768852236,
+    "median": -3.5527961850166463,
+    "sd": 2.4786114445148435,
+    "mae": 3.467029581610362,
+    "rmse": 4.19362630224389,
+    "ci95": [
+      -4.930023099982339,
+      -2.2272838632607446
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "CAESAR-NICP",
+    "contrast": "C-B",
+    "metric": "canonical_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.38419719842335875,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.27320219704057747,
+      0.47186409399359325
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "SMPL-NICP",
+    "contrast": "C-B",
+    "metric": "surface_mean_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.11912469337722166,
+    "median": -0.11707525855211354,
+    "sd": 0.042272783894787995,
+    "mae": 0.11912469337722166,
+    "rmse": 0.12581242046097002,
+    "ci95": [
+      -0.14126984315236502,
+      -0.095661047484203
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "SMPL-NICP",
+    "contrast": "C-B",
+    "metric": "canonical_height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -3.6796933512449357,
+    "median": -3.599137604236617,
+    "sd": 2.4724184168263763,
+    "mae": 3.6796933512449357,
+    "rmse": 4.375339025119834,
+    "ci95": [
+      -5.059557247216105,
+      -2.3811865697874746
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "SMPL-NICP",
+    "contrast": "C-B",
+    "metric": "canonical_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.3968153401584338,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.29618236493461275,
+      0.4879841980219378
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "CAESAR-NICP",
+    "contrast": "D-C",
+    "metric": "surface_mean_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.003619313895007958,
+    "median": -0.004023717455679948,
+    "sd": 0.005879828014550049,
+    "mae": 0.005542296252206792,
+    "rmse": 0.006692591358701148,
+    "ci95": [
+      -0.006815122842886562,
+      -0.0005098322990911857
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "CAESAR-NICP",
+    "contrast": "D-C",
+    "metric": "canonical_height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.05331019086836856,
+    "median": -0.0559307336807251,
+    "sd": 0.0755600184902255,
+    "mae": 0.07402404623031107,
+    "rmse": 0.0898638774952326,
+    "ci95": [
+      -0.09600966945567102,
+      -0.012954990639680369
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "CAESAR-NICP",
+    "contrast": "D-C",
+    "metric": "canonical_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.006318975491540211,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.0020070525975495164,
+      0.013356002815638325
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "SMPL-NICP",
+    "contrast": "D-C",
+    "metric": "surface_mean_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.0030818458540294697,
+    "median": -0.001822199376619149,
+    "sd": 0.005553204805827956,
+    "mae": 0.004477099687210821,
+    "rmse": 0.006145406185288333,
+    "ci95": [
+      -0.0061758134895007,
+      -0.0001413239631208068
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "SMPL-NICP",
+    "contrast": "D-C",
+    "metric": "canonical_height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.033749720319102984,
+    "median": -0.04279208183288574,
+    "sd": 0.09132034818631772,
+    "mae": 0.07975520604452413,
+    "rmse": 0.09372032391686508,
+    "ci95": [
+      -0.08305213254847957,
+      0.015248672119004186
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "SMPL-NICP",
+    "contrast": "D-C",
+    "metric": "canonical_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.006426047683640873,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.0012162461141279114,
+      0.011576970525771408
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "PAIRED_PATHWAYS",
+    "contrast": "C-B",
+    "metric": "cross_path_rms",
+    "statistic": null,
+    "n": 12,
+    "mean": 0.4808391055313668,
+    "median": 0.4626593416133304,
+    "sd": 0.2615876606495364,
+    "mae": 0.4808391055313668,
+    "rmse": 0.5421549664028669,
+    "ci95": [
+      0.3506385884901261,
+      0.6331471246724953
+    ]
+  },
+  {
+    "partition": "heldout",
+    "collection": "PAIRED_PATHWAYS",
+    "contrast": "D-C",
+    "metric": "cross_path_rms",
+    "statistic": null,
+    "n": 12,
+    "mean": 0.02774819326556197,
+    "median": 0.01484072318376456,
+    "sd": 0.07319118758428296,
+    "mae": 0.051788025064691046,
+    "rmse": 0.07536908964887971,
+    "ci95": [
+      -0.009421502029628657,
+      0.06882605874887936
+    ]
+  }
+]

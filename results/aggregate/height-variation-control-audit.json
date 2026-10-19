@@ -1,0 +1,74 @@
+[
+  {
+    "population": "pathway_all_available",
+    "collection": "SMPL-NICP",
+    "people": 150,
+    "source_sd": 10.784036508974308,
+    "fitted_sd": 6.778698549361821,
+    "canonical_sd": 1.8633821937610318,
+    "fitted_to_source_sd_ratio": 0.6285863872698032,
+    "canonical_to_source_sd_ratio": 0.17279079055512783,
+    "people_with_nonzero_rig_morphology": 0,
+    "unit": "engineering_cm"
+  },
+  {
+    "population": "pathway_all_available",
+    "collection": "CAESAR-NICP",
+    "people": 150,
+    "source_sd": 10.794045797692752,
+    "fitted_sd": 6.74591935837203,
+    "canonical_sd": 1.8541296581567994,
+    "fitted_to_source_sd_ratio": 0.6249667163552319,
+    "canonical_to_source_sd_ratio": 0.1717733732937397,
+    "people_with_nonzero_rig_morphology": 0,
+    "unit": "engineering_cm"
+  },
+  {
+    "population": "pathway_all_available",
+    "collection": "SMPL-LBFGSB",
+    "people": 60,
+    "source_sd": 10.069372368077646,
+    "fitted_sd": 9.863878733965118,
+    "canonical_sd": 10.086496738592828,
+    "fitted_to_source_sd_ratio": 0.9795922102589042,
+    "canonical_to_source_sd_ratio": 1.0017006393138732,
+    "people_with_nonzero_rig_morphology": 60,
+    "unit": "engineering_cm"
+  },
+  {
+    "population": "same_60_people",
+    "collection": "SMPL-NICP",
+    "people": 60,
+    "source_sd": 9.465626937500796,
+    "fitted_sd": 5.318221216743769,
+    "canonical_sd": 1.9527374399592905,
+    "fitted_to_source_sd_ratio": 0.5618456391593155,
+    "canonical_to_source_sd_ratio": 0.2062977394791423,
+    "people_with_nonzero_rig_morphology": 0,
+    "unit": "engineering_cm"
+  },
+  {
+    "population": "same_60_people",
+    "collection": "CAESAR-NICP",
+    "people": 60,
+    "source_sd": 9.466605833919685,
+    "fitted_sd": 5.275288280891616,
+    "canonical_sd": 1.94392779013549,
+    "fitted_to_source_sd_ratio": 0.5572523429664509,
+    "canonical_to_source_sd_ratio": 0.20534580442445646,
+    "people_with_nonzero_rig_morphology": 0,
+    "unit": "engineering_cm"
+  },
+  {
+    "population": "same_60_people",
+    "collection": "SMPL-LBFGSB",
+    "people": 60,
+    "source_sd": 10.069372368077646,
+    "fitted_sd": 9.863878733965118,
+    "canonical_sd": 10.086496738592828,
+    "fitted_to_source_sd_ratio": 0.9795922102589042,
+    "canonical_to_source_sd_ratio": 1.0017006393138732,
+    "people_with_nonzero_rig_morphology": 60,
+    "unit": "engineering_cm"
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H1",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 0.8510963738077385,
+    "sd_ratio_ci95": [
+      0.7741785727267807,
+      0.9672236893515465
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H2",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 0.8211177740361605,
+    "sd_ratio_ci95": [
+      0.77877393823563,
+      0.8633667370525844
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_strict",
+    "cohort": "source_matched",
+    "people": 103,
+    "body_observations": 206,
+    "sd_ratio": 0.8671541037817699,
+    "sd_ratio_ci95": [
+      0.8309885847033973,
+      0.9051889513880399
+    ],
+    "source_sd": 4.641550110840117,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.001",
+    "cohort": "source_matched",
+    "people": 104,
+    "body_observations": 208,
+    "sd_ratio": 0.8641005212663285,
+    "sd_ratio_ci95": [
+      0.8267579220526056,
+      0.9019675980541841
+    ],
+    "source_sd": 4.6469922875271585,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.01",
+    "cohort": "source_matched",
+    "people": 109,
+    "body_observations": 218,
+    "sd_ratio": 0.8589660594028053,
+    "sd_ratio_ci95": [
+      0.8206733098349274,
+      0.8973133550513693
+    ],
+    "source_sd": 4.625418702668518,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.1",
+    "cohort": "source_matched",
+    "people": 138,
+    "body_observations": 276,
+    "sd_ratio": 0.8289337228942499,
+    "sd_ratio_ci95": [
+      0.7847396479555231,
+      0.8728983910822352
+    ],
+    "source_sd": 4.664276913675666,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B1",
+    "height_policy": "H3_t0.25",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 0.8211179137391459,
+    "sd_ratio_ci95": [
+      0.7787736902310014,
+      0.8633669933179557
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H1",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 1.029413819673618,
+    "sd_ratio_ci95": [
+      0.9360705444110018,
+      1.15256525831811
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H2",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 0.9430090959254983,
+    "sd_ratio_ci95": [
+      0.9008544707959417,
+      0.9892941085519319
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_strict",
+    "cohort": "source_matched",
+    "people": 103,
+    "body_observations": 206,
+    "sd_ratio": 0.9508581084015542,
+    "sd_ratio_ci95": [
+      0.9034007107522494,
+      1.0052175044929168
+    ],
+    "source_sd": 4.641550110840117,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.001",
+    "cohort": "source_matched",
+    "people": 104,
+    "body_observations": 208,
+    "sd_ratio": 0.9501262673155999,
+    "sd_ratio_ci95": [
+      0.8999934361813661,
+      1.0040095781671687
+    ],
+    "source_sd": 4.6469922875271585,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.01",
+    "cohort": "source_matched",
+    "people": 109,
+    "body_observations": 218,
+    "sd_ratio": 0.9499942598427715,
+    "sd_ratio_ci95": [
+      0.9011178135926314,
+      1.0017727353115218
+    ],
+    "source_sd": 4.625418702668518,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.1",
+    "cohort": "source_matched",
+    "people": 138,
+    "body_observations": 276,
+    "sd_ratio": 0.9383372095632482,
+    "sd_ratio_ci95": [
+      0.8930559094457735,
+      0.987450918379198
+    ],
+    "source_sd": 4.664276913675666,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B2",
+    "height_policy": "H3_t0.25",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 0.9430090991820457,
+    "sd_ratio_ci95": [
+      0.9008542614479416,
+      0.989294223106239
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H1",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 1.008071953188216,
+    "sd_ratio_ci95": [
+      0.9181235148602671,
+      1.1292977035408795
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H2",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 0.9236908025795478,
+    "sd_ratio_ci95": [
+      0.8924682284662179,
+      0.9575337279184549
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_strict",
+    "cohort": "source_matched",
+    "people": 103,
+    "body_observations": 206,
+    "sd_ratio": 0.9303437317987926,
+    "sd_ratio_ci95": [
+      0.8979739696862793,
+      0.9678467167378215
+    ],
+    "source_sd": 4.641550110840117,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.001",
+    "cohort": "source_matched",
+    "people": 104,
+    "body_observations": 208,
+    "sd_ratio": 0.9313635133163709,
+    "sd_ratio_ci95": [
+      0.8983308334180966,
+      0.9679919322308437
+    ],
+    "source_sd": 4.6469922875271585,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.01",
+    "cohort": "source_matched",
+    "people": 109,
+    "body_observations": 218,
+    "sd_ratio": 0.9267424773166866,
+    "sd_ratio_ci95": [
+      0.8932623037359112,
+      0.9633528732269525
+    ],
+    "source_sd": 4.625418702668518,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.1",
+    "cohort": "source_matched",
+    "people": 138,
+    "body_observations": 276,
+    "sd_ratio": 0.9245600166098111,
+    "sd_ratio_ci95": [
+      0.8951659771260184,
+      0.9587227076974381
+    ],
+    "source_sd": 4.664276913675666,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "B3_offset",
+    "height_policy": "H3_t0.25",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 0.9236905300379076,
+    "sd_ratio_ci95": [
+      0.8924679554801966,
+      0.9575333329462319
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H1",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 1.1498943930103864,
+    "sd_ratio_ci95": [
+      1.0235372042783573,
+      1.3018818906893306
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H2",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 1.0380279107255392,
+    "sd_ratio_ci95": [
+      0.9794630829431759,
+      1.10450336927369
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_strict",
+    "cohort": "source_matched",
+    "people": 103,
+    "body_observations": 206,
+    "sd_ratio": 1.0179187598429622,
+    "sd_ratio_ci95": [
+      0.9553649180666035,
+      1.0911425822069027
+    ],
+    "source_sd": 4.641550110840117,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.001",
+    "cohort": "source_matched",
+    "people": 104,
+    "body_observations": 208,
+    "sd_ratio": 1.0229459167724977,
+    "sd_ratio_ci95": [
+      0.9585836791578927,
+      1.0988307863196254
+    ],
+    "source_sd": 4.6469922875271585,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.01",
+    "cohort": "source_matched",
+    "people": 109,
+    "body_observations": 218,
+    "sd_ratio": 1.0175218856588344,
+    "sd_ratio_ci95": [
+      0.9541643598223125,
+      1.0872859815547897
+    ],
+    "source_sd": 4.625418702668518,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.1",
+    "cohort": "source_matched",
+    "people": 138,
+    "body_observations": 276,
+    "sd_ratio": 1.0346032462173378,
+    "sd_ratio_ci95": [
+      0.9788812615201782,
+      1.0971471904261447
+    ],
+    "source_sd": 4.664276913675666,
+    "seed": 51912601,
+    "draws": 4000
+  },
+  {
+    "mode": "end_to_end",
+    "method": "P",
+    "height_policy": "H3_t0.25",
+    "cohort": "source_matched",
+    "people": 149,
+    "body_observations": 298,
+    "sd_ratio": 1.038027982619494,
+    "sd_ratio_ci95": [
+      0.9794630825140538,
+      1.1045038710929427
+    ],
+    "source_sd": 4.65752817932815,
+    "seed": 51912601,
+    "draws": 4000
+  }
+]

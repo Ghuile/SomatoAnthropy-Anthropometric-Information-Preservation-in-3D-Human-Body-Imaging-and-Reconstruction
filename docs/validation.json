@@ -1,0 +1,58 @@
+{
+  "source_definition_asts_equal": 323,
+  "source_reports_hash_verified": 12,
+  "frozen_replay": {
+    "E5_S1_exact_tables": 19,
+    "E5_S2_exact_tables": 15,
+    "E3_geometry_exact_summaries": 14,
+    "E3_measurement_exact_person_rows": 540,
+    "E3_measurement_exact_aggregate_rows": 432
+  },
+  "real_data_fits_launched": 0,
+  "real_native_forward_runs": 0,
+  "numerical_anchors": 89,
+  "reconstructed_display_cells": 86,
+  "original_algorithm_changes": [
+    "E1 local import overlay removed; normally installed h5py is used"
+  ],
+  "wrappers": [
+    {
+      "file": "src/somatoanthropy/repeated.py",
+      "source": "src/somatosynth3d/experiments/e3/measure.py",
+      "sha256": "5775844529496f1e75ca88253c69f0f74624c98cef8f95089bd63dfb594d29d4",
+      "adaptation": "Retained computation loop; explicit reader replaces workspace and cache handling"
+    },
+    {
+      "file": "src/somatoanthropy/repeated.py",
+      "source": "src/somatosynth3d/experiments/e3/analysis.py",
+      "sha256": "efbc5436914198a935ad353951d462f9fe49ab154e1fa4af664ef2dfa1396f87",
+      "adaptation": "Retained computation loop; explicit reader replaces workspace and cache handling"
+    }
+  ],
+  "limits": [
+    "Native model fitting/regeneration not executed in this release validation",
+    "Exact historical E4 CLI/report-generator bytes unavailable",
+    "Aggregate figures do not recover individual scatter points",
+    "Separate comparator packaging compatibility exception documented in environment/README.md"
+  ],
+  "public_tests": [
+    {
+      "python": "3.11.17",
+      "passed": 136,
+      "skipped": 2
+    },
+    {
+      "python": "3.12.14",
+      "passed": 136,
+      "skipped": 2,
+      "independent_of_research_interpreter": true
+    }
+  ],
+  "optional_checks": {
+    "torch_2_8_0_invented_optimizer_module": "12 passed",
+    "pinned_clad_body_invented_prism": "passed"
+  },
+  "dependency_check": "passed in both public environments",
+  "lint_and_format": "passed",
+  "figure_reproduction": "All six PNG/SVG pairs and captions byte-identical across the two tested Python runtimes"
+}

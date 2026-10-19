@@ -1,0 +1,258 @@
+[
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "B1/H1",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.22666553057934696,
+    "reference_mae_pp": 1.8371795053145883,
+    "sd_ratio": 0.8510963738077385,
+    "sd_ratio_distance": 0.16122990910313004,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H2",
+      "B3_offset/H3_t0.25"
+    ]
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "B1/H2",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.2092746265584113,
+    "reference_mae_pp": 1.5451645008655395,
+    "sd_ratio": 0.8211177740361605,
+    "sd_ratio_distance": 0.19708872788596735,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H2",
+      "B3_offset/H3_t0.25"
+    ]
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "B1/H3_t0.25",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.20928799400259077,
+    "reference_mae_pp": 1.54542043905772,
+    "sd_ratio": 0.8211179137391459,
+    "sd_ratio_distance": 0.1970885577484086,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H2",
+      "B3_offset/H3_t0.25"
+    ]
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "B3_offset/H1",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.20819097309116755,
+    "reference_mae_pp": 2.094155963865833,
+    "sd_ratio": 1.008071953188216,
+    "sd_ratio_distance": 0.008039549232760523,
+    "non_dominated": true,
+    "dominated_by": []
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "B3_offset/H2",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.1960324848292058,
+    "reference_mae_pp": 1.1510643211334262,
+    "sd_ratio": 0.9236908025795478,
+    "sd_ratio_distance": 0.07937789258422497,
+    "non_dominated": true,
+    "dominated_by": []
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "B3_offset/H3_t0.25",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.1965629613275456,
+    "reference_mae_pp": 1.1518543181106728,
+    "sd_ratio": 0.9236905300379076,
+    "sd_ratio_distance": 0.07937818764148839,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H2"
+    ]
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "P/H1",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.32201095680384234,
+    "reference_mae_pp": 2.4117994519649715,
+    "sd_ratio": 1.1498943930103864,
+    "sd_ratio_distance": 0.13967010599344593,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H1",
+      "B3_offset/H2",
+      "B3_offset/H3_t0.25",
+      "P/H2",
+      "P/H3_t0.25"
+    ]
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "P/H2",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.3021476735185309,
+    "reference_mae_pp": 1.2733853933339991,
+    "sd_ratio": 1.0380279107255392,
+    "sd_ratio_distance": 0.037322673327801884,
+    "non_dominated": true,
+    "dominated_by": []
+  },
+  {
+    "comparison_group": "full_source_matched",
+    "policy_id": "P/H3_t0.25",
+    "people": 149,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.302833649072764,
+    "reference_mae_pp": 1.2740220994175593,
+    "sd_ratio": 1.038027982619494,
+    "sd_ratio_distance": 0.037322742587935984,
+    "non_dominated": false,
+    "dominated_by": [
+      "P/H2"
+    ]
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "B1/H1",
+    "people": 103,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.21395118527556267,
+    "reference_mae_pp": 1.764039581743466,
+    "sd_ratio": 0.8982714612733692,
+    "sd_ratio_distance": 0.10728296095734442,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H2",
+      "B3_offset/H3_strict"
+    ]
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "B1/H2",
+    "people": 103,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.19788293682875283,
+    "reference_mae_pp": 1.2344992367222287,
+    "sd_ratio": 0.8671541037817699,
+    "sd_ratio_distance": 0.14253857430320427,
+    "non_dominated": false,
+    "dominated_by": [
+      "B1/H3_strict",
+      "B3_offset/H2",
+      "B3_offset/H3_strict"
+    ]
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "B1/H3_strict",
+    "people": 103,
+    "height_eligible_people": 103,
+    "cross_path_mae_pp": 0.19788293682875222,
+    "reference_mae_pp": 1.2344992367222285,
+    "sd_ratio": 0.8671541037817699,
+    "sd_ratio_distance": 0.14253857430320427,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H2",
+      "B3_offset/H3_strict"
+    ]
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "B3_offset/H1",
+    "people": 103,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.1885876291907877,
+    "reference_mae_pp": 2.005156153029629,
+    "sd_ratio": 1.0093125772412628,
+    "sd_ratio_distance": 0.009269482535736033,
+    "non_dominated": true,
+    "dominated_by": []
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "B3_offset/H2",
+    "people": 103,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.17724133138269768,
+    "reference_mae_pp": 0.9991703406240084,
+    "sd_ratio": 0.9303437317987926,
+    "sd_ratio_distance": 0.0722011570368764,
+    "non_dominated": false,
+    "dominated_by": [
+      "B3_offset/H3_strict"
+    ]
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "B3_offset/H3_strict",
+    "people": 103,
+    "height_eligible_people": 103,
+    "cross_path_mae_pp": 0.17724133138269724,
+    "reference_mae_pp": 0.9991703406240082,
+    "sd_ratio": 0.9303437317987926,
+    "sd_ratio_distance": 0.0722011570368764,
+    "non_dominated": true,
+    "dominated_by": []
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "P/H1",
+    "people": 103,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.32214139587435675,
+    "reference_mae_pp": 2.2410118604054077,
+    "sd_ratio": 1.1222560496422518,
+    "sd_ratio_distance": 0.11534098930226679,
+    "non_dominated": false,
+    "dominated_by": [
+      "B1/H1",
+      "B3_offset/H1",
+      "B3_offset/H2",
+      "B3_offset/H3_strict",
+      "P/H2",
+      "P/H3_strict"
+    ]
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "P/H2",
+    "people": 103,
+    "height_eligible_people": 150,
+    "cross_path_mae_pp": 0.30474636320752807,
+    "reference_mae_pp": 1.11548014486506,
+    "sd_ratio": 1.0179187598429622,
+    "sd_ratio_distance": 0.017760111253240188,
+    "non_dominated": false,
+    "dominated_by": [
+      "P/H3_strict"
+    ]
+  },
+  {
+    "comparison_group": "strict_common",
+    "policy_id": "P/H3_strict",
+    "people": 103,
+    "height_eligible_people": 103,
+    "cross_path_mae_pp": 0.30474636320752757,
+    "reference_mae_pp": 1.11548014486506,
+    "sd_ratio": 1.0179187598429622,
+    "sd_ratio_distance": 0.017760111253240188,
+    "non_dominated": true,
+    "dominated_by": []
+  }
+]

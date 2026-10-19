@@ -1,0 +1,15 @@
+[
+  {
+    "estimand": "mean of four NICP fitted/canonical observations per complete person",
+    "independent_unit": "dataset-local person",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.6519785407196393,
+    "mean_ci95": [
+      -0.8720514366604958,
+      -0.4400866515006125
+    ],
+    "seed": 726430417,
+    "replicates": 2000
+  }
+]

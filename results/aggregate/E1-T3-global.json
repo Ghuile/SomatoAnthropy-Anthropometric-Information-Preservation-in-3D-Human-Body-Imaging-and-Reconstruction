@@ -1,0 +1,1370 @@
+[
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004188711875334169,
+    "median": 0.003843483609681742,
+    "sd": 0.000959196244307429,
+    "mae": 0.004188711875334169,
+    "rmse": 0.004286415619856481,
+    "mean_ci95": [
+      0.003730159605057991,
+      0.004796553451675991
+    ]
+  },
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.003249486515507695,
+    "median": 0.0030126073631594336,
+    "sd": 0.0007733747521044595,
+    "mae": 0.003249486515507695,
+    "rmse": 0.00333128507800514,
+    "mean_ci95": [
+      0.0028707940552140086,
+      0.003766712378580236
+    ]
+  },
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005656087282052409,
+    "median": 0.005360288116953064,
+    "sd": 0.001193099938209087,
+    "mae": 0.005656087282052409,
+    "rmse": 0.00576822867598833,
+    "mean_ci95": [
+      0.005062938486507439,
+      0.006458863264699965
+    ]
+  },
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.011277070670807698,
+    "median": 0.010754893642023797,
+    "sd": 0.0024897762883730203,
+    "mae": 0.011277070670807698,
+    "rmse": 0.011521779822749663,
+    "mean_ci95": [
+      0.010044143856281648,
+      0.012953100998740613
+    ]
+  },
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004326464433074257,
+    "median": 0.003980550756342839,
+    "sd": 0.0010482555537730705,
+    "mae": 0.004326464433074257,
+    "rmse": 0.004439284877778292,
+    "mean_ci95": [
+      0.003828468100688109,
+      0.005041273567492442
+    ]
+  },
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004050959317594081,
+    "median": 0.0037555856232406944,
+    "sd": 0.0008723212987093486,
+    "mae": 0.004050959317594081,
+    "rmse": 0.004134624698345192,
+    "mean_ci95": [
+      0.003630868741945,
+      0.0046301866662976
+    ]
+  },
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9935791015625,
+    "median": 0.99652099609375,
+    "sd": 0.007529362668482353,
+    "mae": 0.9935791015625,
+    "rmse": 0.9936047771793969,
+    "mean_ci95": [
+      0.9885006713867188,
+      0.9971682739257812
+    ]
+  },
+  {
+    "dataset": "DFAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "DFAUST_source_units_conditional_m",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.960696331599274,
+    "median": 0.96165106553027,
+    "sd": 0.006541735830435343,
+    "mae": 0.960696331599274,
+    "rmse": 0.9607163766821143,
+    "mean_ci95": [
+      0.9567865508259092,
+      0.9641192088080532
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005532821174130729,
+    "median": 0.004325727497604241,
+    "sd": 0.0026105813797059206,
+    "mae": 0.005532821174130729,
+    "rmse": 0.006061825778671792,
+    "mean_ci95": [
+      0.004220658596393077,
+      0.007343233581169473
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004247107497671059,
+    "median": 0.0033927020731959285,
+    "sd": 0.0019945204351529463,
+    "mae": 0.004247107497671059,
+    "rmse": 0.00464954005105797,
+    "mean_ci95": [
+      0.003227275751795287,
+      0.005626343939446689
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.007713714005729263,
+    "median": 0.006119044738514793,
+    "sd": 0.004010663967417177,
+    "mae": 0.007713714005729263,
+    "rmse": 0.00860106195046684,
+    "mean_ci95": [
+      0.005689252292664465,
+      0.010498214213089878
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.014312629845147428,
+    "median": 0.011472646152872714,
+    "sd": 0.006183991666489412,
+    "mae": 0.014312629845147428,
+    "rmse": 0.015468320875980506,
+    "mean_ci95": [
+      0.01120028470122917,
+      0.018321732881395044
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005740964146347014,
+    "median": 0.00448878660633846,
+    "sd": 0.0027997626456928706,
+    "mae": 0.005740964146347014,
+    "rmse": 0.006325620373895143,
+    "mean_ci95": [
+      0.004348334863351972,
+      0.007593974304362762
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005324678201914442,
+    "median": 0.004196142173787691,
+    "sd": 0.0024244456725223754,
+    "mae": 0.005324678201914442,
+    "rmse": 0.00580020181468318,
+    "mean_ci95": [
+      0.004117134553580352,
+      0.006982273312884922
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9727783203125,
+    "median": 0.98974609375,
+    "sd": 0.04096804487984496,
+    "mae": 0.9727783203125,
+    "rmse": 0.9735544171237467,
+    "mean_ci95": [
+      0.9475775146484375,
+      0.9930316162109375
+    ]
+  },
+  {
+    "dataset": "FAUST",
+    "pathway": "saved_native",
+    "lod": 1,
+    "unit": "FAUST_source_units_physical_unconfirmed",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9425700046935811,
+    "median": 0.9502905584770553,
+    "sd": 0.02416502164187061,
+    "mae": 0.9425700046935811,
+    "rmse": 0.9428487509626953,
+    "mean_ci95": [
+      0.9268580788893273,
+      0.9547653189340746
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.003502321701893325,
+    "median": 0.0033731119650478106,
+    "sd": 0.0005520551480215705,
+    "mae": 0.003502321701893325,
+    "rmse": 0.003541263291731407,
+    "mean_ci95": [
+      0.0032006010770176596,
+      0.0038450474851841345
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0026109660624156457,
+    "median": 0.002535781233343405,
+    "sd": 0.0003811109103416629,
+    "mae": 0.0026109660624156457,
+    "rmse": 0.002635880261405963,
+    "mean_ci95": [
+      0.0023998729620979447,
+      0.002852303508447769
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004797214973552985,
+    "median": 0.0045902991218495365,
+    "sd": 0.0007189770914799047,
+    "mae": 0.004797214973552985,
+    "rmse": 0.004845462491315621,
+    "mean_ci95": [
+      0.004417600804851912,
+      0.005250051102932571
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.009833975517369855,
+    "median": 0.009171666524944576,
+    "sd": 0.0017657134067596925,
+    "mae": 0.009833975517369855,
+    "rmse": 0.009975622483211741,
+    "mean_ci95": [
+      0.008882163076702214,
+      0.01098454128607533
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.003573440316865094,
+    "median": 0.0033841983835422203,
+    "sd": 0.0005554143672992755,
+    "mae": 0.003573440316865094,
+    "rmse": 0.0036120786682544872,
+    "mean_ci95": [
+      0.0032790413097037834,
+      0.0039368005236444185
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.003431203086921556,
+    "median": 0.003316870437816173,
+    "sd": 0.0005521383222394159,
+    "mae": 0.003431203086921556,
+    "rmse": 0.0034709545773312614,
+    "mean_ci95": [
+      0.003142992744473241,
+      0.003756353238877135
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9970703125,
+    "median": 0.9974365234375,
+    "sd": 0.002290242070226284,
+    "mae": 0.9970703125,
+    "rmse": 0.9970726797765115,
+    "mean_ci95": [
+      0.995654296875,
+      0.9982669067382812
+    ]
+  },
+  {
+    "dataset": "HBW",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HBW_model_linked",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9708954673792821,
+    "median": 0.9720778146419679,
+    "sd": 0.00552944484136675,
+    "mae": 0.9708954673792821,
+    "rmse": 0.9709096383607811,
+    "mean_ci95": [
+      0.9670637137857226,
+      0.9733720276914809
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005399745369135224,
+    "median": 0.005047225550644588,
+    "sd": 0.001586231379914158,
+    "mae": 0.005399745369135224,
+    "rmse": 0.005605512201668928,
+    "mean_ci95": [
+      0.004573965893398715,
+      0.006398843729776717
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0034548164288076867,
+    "median": 0.0034924873018792792,
+    "sd": 0.0005749849176714873,
+    "mae": 0.0034548164288076867,
+    "rmse": 0.0034976139647986053,
+    "mean_ci95": [
+      0.003128650977998965,
+      0.003787429275150579
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.008664321141520097,
+    "median": 0.007234618434331585,
+    "sd": 0.003912295898437336,
+    "mae": 0.008664321141520097,
+    "rmse": 0.00942581105903512,
+    "mean_ci95": [
+      0.006607012537657405,
+      0.011137388399922428
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.01783860436293032,
+    "median": 0.01434460906711912,
+    "sd": 0.00923382403109657,
+    "mae": 0.01783860436293032,
+    "rmse": 0.019873423490447926,
+    "mean_ci95": [
+      0.013207648291902505,
+      0.023740620270366528
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005421914920411795,
+    "median": 0.0053509966028536925,
+    "sd": 0.0016470107814303369,
+    "mae": 0.005421914920411795,
+    "rmse": 0.005642565149550073,
+    "mean_ci95": [
+      0.004560322227523372,
+      0.006459545172426423
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005377575817858653,
+    "median": 0.004867490147327419,
+    "sd": 0.0015966928583151466,
+    "mae": 0.005377575817858653,
+    "rmse": 0.005586842306010909,
+    "mean_ci95": [
+      0.004445097657567378,
+      0.006335754563870583
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.965576171875,
+    "median": 0.977783203125,
+    "sd": 0.03022707872740614,
+    "mae": 0.965576171875,
+    "rmse": 0.9660018904496683,
+    "mean_ci95": [
+      0.9467672729492187,
+      0.9812872314453125
+    ]
+  },
+  {
+    "dataset": "HIT",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m_HIT_model_linked",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9321688938776376,
+    "median": 0.9389913201961272,
+    "sd": 0.015738335030070185,
+    "mae": 0.9321688938776376,
+    "rmse": 0.9322884598575835,
+    "mean_ci95": [
+      0.9222516997667978,
+      0.9405208089973164
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004735365594799623,
+    "median": 0.004060204181914166,
+    "sd": 0.0018214745958613848,
+    "mae": 0.004735365594799623,
+    "rmse": 0.005040801528471792,
+    "mean_ci95": [
+      0.00374596531429535,
+      0.005768344869639098
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.003185137215373735,
+    "median": 0.002713679186856193,
+    "sd": 0.001166142354643417,
+    "mae": 0.003185137215373735,
+    "rmse": 0.0033717945181939413,
+    "mean_ci95": [
+      0.002555203514684025,
+      0.0039166840327485245
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0077783068482872725,
+    "median": 0.00701199845843924,
+    "sd": 0.002957735142822798,
+    "mae": 0.0077783068482872725,
+    "rmse": 0.008268944000517406,
+    "mean_ci95": [
+      0.00612092692589001,
+      0.009423329094809809
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.013454362655498292,
+    "median": 0.011476940646970451,
+    "sd": 0.005892706845267112,
+    "mae": 0.013454362655498292,
+    "rmse": 0.014569539081024463,
+    "mean_ci95": [
+      0.010360720218237975,
+      0.01721564261646012
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004195799970692736,
+    "median": 0.0035627180533115395,
+    "sd": 0.001604090561928945,
+    "mae": 0.004195799970692736,
+    "rmse": 0.0044632424616916945,
+    "mean_ci95": [
+      0.0033169609384436018,
+      0.005198147650025704
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005274931218906512,
+    "median": 0.004717080090174967,
+    "sd": 0.002217552957036069,
+    "mae": 0.005274931218906512,
+    "rmse": 0.00567896877696365,
+    "mean_ci95": [
+      0.004015327048562162,
+      0.006604204785530057
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.97177734375,
+    "median": 0.9810791015625,
+    "sd": 0.024429845159005845,
+    "mae": 0.97177734375,
+    "rmse": 0.9720536720916441,
+    "mean_ci95": [
+      0.956810302734375,
+      0.9846435546875
+    ]
+  },
+  {
+    "dataset": "MPII",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9472798642251886,
+    "median": 0.9561122031145701,
+    "sd": 0.022565491684326124,
+    "mae": 0.9472798642251886,
+    "rmse": 0.9475217266321397,
+    "mean_ci95": [
+      0.9321713553765526,
+      0.9590188556232833
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004351522691128187,
+    "median": 0.0036187205371228433,
+    "sd": 0.0016558513378884681,
+    "mae": 0.004351522691128187,
+    "rmse": 0.004626381849704132,
+    "mean_ci95": [
+      0.0034889118162348774,
+      0.005411504997236043
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0030814011341799346,
+    "median": 0.0027355696154195033,
+    "sd": 0.0009698531253364702,
+    "mae": 0.0030814011341799346,
+    "rmse": 0.0032158337217551864,
+    "mean_ci95": [
+      0.002573226533820843,
+      0.003662612873609974
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0065614730093570325,
+    "median": 0.005455493597882966,
+    "sd": 0.0027846578427308303,
+    "mae": 0.0065614730093570325,
+    "rmse": 0.007073317144275021,
+    "mean_ci95": [
+      0.005115386603964073,
+      0.00828128519885519
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.012454706659759724,
+    "median": 0.009561150825783807,
+    "sd": 0.005941975601837822,
+    "mae": 0.012454706659759724,
+    "rmse": 0.013670994280893236,
+    "mean_ci95": [
+      0.009455534690999527,
+      0.016269629122989862
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004261445752384212,
+    "median": 0.003570884123134468,
+    "sd": 0.0017884631349714191,
+    "mae": 0.004261445752384212,
+    "rmse": 0.0045867919341463555,
+    "mean_ci95": [
+      0.0034098738550971046,
+      0.005467892642648134
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004441599629872161,
+    "median": 0.0037370024228951253,
+    "sd": 0.0016228854307856898,
+    "mae": 0.004441599629872161,
+    "rmse": 0.004700871055601433,
+    "mean_ci95": [
+      0.0035105742814407342,
+      0.005417118694660868
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.97965087890625,
+    "median": 0.9884033203125,
+    "sd": 0.0245071366322011,
+    "mae": 0.97965087890625,
+    "rmse": 0.9799267239508812,
+    "mean_ci95": [
+      0.9630706787109375,
+      0.9917733764648438
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "CAESAR-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9432058980111016,
+    "median": 0.9487529830521557,
+    "sd": 0.014211595793232206,
+    "mae": 0.9432058980111016,
+    "rmse": 0.9433022519597946,
+    "mean_ci95": [
+      0.9342992988590123,
+      0.9509422382891828
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.003322269779364092,
+    "median": 0.003163626952758399,
+    "sd": 0.0004879513214724107,
+    "mae": 0.003322269779364092,
+    "rmse": 0.003354364817635366,
+    "mean_ci95": [
+      0.003049990230220482,
+      0.003612204592633036
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.002413214383535714,
+    "median": 0.0023199941771986496,
+    "sd": 0.00028103762894584266,
+    "mae": 0.002413214383535714,
+    "rmse": 0.0024278977727447268,
+    "mean_ci95": [
+      0.0022586285111784454,
+      0.002585093177692656
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0045894849502931614,
+    "median": 0.004357897231214435,
+    "sd": 0.0007232343890504732,
+    "mae": 0.0045894849502931614,
+    "rmse": 0.004640488475615699,
+    "mean_ci95": [
+      0.004196655858988557,
+      0.005037442999153005
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.00963634870052946,
+    "median": 0.009063271919125732,
+    "sd": 0.0018428263567163911,
+    "mae": 0.00963634870052946,
+    "rmse": 0.009793652248324092,
+    "mean_ci95": [
+      0.008627572339071146,
+      0.010762219895898229
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0033503352067604164,
+    "median": 0.0031925568216987048,
+    "sd": 0.0004968269259683132,
+    "mae": 0.0033503352067604164,
+    "rmse": 0.0033833266606387233,
+    "mean_ci95": [
+      0.0030827978432529613,
+      0.003643087401476022
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.0032942043519677672,
+    "median": 0.0031386436294900564,
+    "sd": 0.00048259479782209716,
+    "mae": 0.0032942043519677672,
+    "rmse": 0.003325866846029744,
+    "mean_ci95": [
+      0.0030279766879639253,
+      0.003585969878199212
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.99766845703125,
+    "median": 0.99859619140625,
+    "sd": 0.002059940291036292,
+    "mae": 0.99766845703125,
+    "rmse": 0.9976703710012228,
+    "mean_ci95": [
+      0.9963623046875,
+      0.99876708984375
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-LBFGSB",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9758798389083585,
+    "median": 0.9772051615350602,
+    "sd": 0.002734531328919499,
+    "mae": 0.9758798389083585,
+    "rmse": 0.9758832870191156,
+    "mean_ci95": [
+      0.9740686441054006,
+      0.9772463219744179
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004257340246074498,
+    "median": 0.0035694863560490515,
+    "sd": 0.0016584039050333299,
+    "mae": 0.004257340246074498,
+    "rmse": 0.004538746427357722,
+    "mean_ci95": [
+      0.0033846361431907356,
+      0.005348966709254017
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.003075860680515223,
+    "median": 0.0027287788288605985,
+    "sd": 0.0009506813502020006,
+    "mae": 0.003075860680515223,
+    "rmse": 0.0032053602687684393,
+    "mean_ci95": [
+      0.0025653281829059594,
+      0.0036411677655749245
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.006299127352415034,
+    "median": 0.00519013675333205,
+    "sd": 0.002833487513741348,
+    "mae": 0.006299127352415034,
+    "rmse": 0.006848707304551608,
+    "mean_ci95": [
+      0.004880488395204151,
+      0.008052821512165879
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.011946520241105459,
+    "median": 0.009259541919564906,
+    "sd": 0.005889635273206311,
+    "mae": 0.011946520241105459,
+    "rmse": 0.013188569640313494,
+    "mean_ci95": [
+      0.009033039861107374,
+      0.015909389008687123
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004264595258673071,
+    "median": 0.003511888892321429,
+    "sd": 0.0018634990426977078,
+    "mae": 0.004264595258673071,
+    "rmse": 0.004616507179049826,
+    "mean_ci95": [
+      0.003363777744627355,
+      0.00550519206305613
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.004250085233475923,
+    "median": 0.003675621847337646,
+    "sd": 0.00153667150156078,
+    "mae": 0.004250085233475923,
+    "rmse": 0.004493155668920035,
+    "mean_ci95": [
+      0.003447013374550123,
+      0.0051573849508899546
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.98232421875,
+    "median": 0.992431640625,
+    "sd": 0.024682081891502183,
+    "mae": 0.98232421875,
+    "rmse": 0.9826032543161287,
+    "mean_ci95": [
+      0.9666375732421875,
+      0.9944342041015625
+    ]
+  },
+  {
+    "dataset": "NOMO",
+    "pathway": "SMPL-NICP",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.953112424833671,
+    "median": 0.9588606723269345,
+    "sd": 0.017253823536361824,
+    "mae": 0.953112424833671,
+    "rmse": 0.9532529671374128,
+    "mean_ci95": [
+      0.9425756800016185,
+      0.9626691836593864
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "symmetric_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.008745510262512305,
+    "median": 0.008718873572487101,
+    "sd": 0.002834263605935841,
+    "mae": 0.008745510262512305,
+    "rmse": 0.009149518835482403,
+    "mean_ci95": [
+      0.007116668410469364,
+      0.01040129820337447
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "median",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.005039264940152922,
+    "median": 0.0049651265286989365,
+    "sd": 0.0009167472438035002,
+    "mae": 0.005039264940152922,
+    "rmse": 0.005113763202884311,
+    "mean_ci95": [
+      0.004533590339583275,
+      0.005610369061250169
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "rms",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.013500014100394248,
+    "median": 0.012735850862152733,
+    "sd": 0.00496198836287058,
+    "mae": 0.013500014100394248,
+    "rmse": 0.014297187708524367,
+    "mean_ci95": [
+      0.01060629474641136,
+      0.01634688267926709
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "p95",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.030702346902313583,
+    "median": 0.027989814064422743,
+    "sd": 0.014305697988163875,
+    "mae": 0.030702346902313583,
+    "rmse": 0.033568166478759376,
+    "mean_ci95": [
+      0.0223091120754467,
+      0.03899485698431484
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "source_to_mhr_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.008670320697210271,
+    "median": 0.008395158354005214,
+    "sd": 0.003270657399676676,
+    "mae": 0.008670320697210271,
+    "rmse": 0.009208796926630894,
+    "mean_ci95": [
+      0.006790836654394259,
+      0.010668290860375162
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "mhr_to_source_mean",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.008820699827814341,
+    "median": 0.008998470713435852,
+    "sd": 0.002409467632721811,
+    "mae": 0.008820699827814341,
+    "rmse": 0.009112064875659336,
+    "mean_ci95": [
+      0.007405119685121145,
+      0.010175030733099498
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "coverage_fraction_at_0p02",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.891455078125,
+    "median": 0.89654541015625,
+    "sd": 0.07500597523799458,
+    "mae": 0.891455078125,
+    "rmse": 0.8942904802155238,
+    "mean_ci95": [
+      0.848968505859375,
+      0.9342294311523437
+    ]
+  },
+  {
+    "dataset": "UCSC",
+    "pathway": "saved_native",
+    "lod": 0,
+    "unit": "engineering_m",
+    "metric": "unoriented_normal_agreement",
+    "participants": 10,
+    "observations": 10,
+    "n": 10,
+    "mean": 0.9201225709770041,
+    "median": 0.9255688391083625,
+    "sd": 0.023766489239935136,
+    "mae": 0.9201225709770041,
+    "rmse": 0.9203987760916702,
+    "mean_ci95": [
+      0.9059181864874897,
+      0.9338690287552746
+    ]
+  }
+]

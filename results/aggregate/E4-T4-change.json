@@ -1,0 +1,278 @@
+[
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "abdomen",
+    "metric": "delta_signed",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 149,
+    "mean": 0.25870256786480167,
+    "median": 0.20667136964657118,
+    "sd": 0.5180234854138495,
+    "mae": 0.41055579497764294,
+    "rmse": 0.577472384229006,
+    "mean_ci95": [
+      0.17863741738217576,
+      0.34290180115698193
+    ],
+    "mean_ci_family": [
+      0.1596302680471342,
+      0.3687607864380037
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "abdomen",
+    "metric": "delta_absolute",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 149,
+    "mean": -0.128811816366163,
+    "median": -0.0743566834501479,
+    "sd": 0.48441281488169813,
+    "mae": 0.3246963236014909,
+    "rmse": 0.4996732815375651,
+    "mean_ci95": [
+      -0.20730492894015923,
+      -0.05739930454306747
+    ],
+    "mean_ci_family": [
+      -0.22754121892488788,
+      -0.032030838425276646
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "chest",
+    "metric": "delta_signed",
+    "denominator": 150,
+    "primary_family": "False",
+    "unit": "engineering_cm",
+    "n": 1,
+    "mean": 6.244937289537276,
+    "median": 6.244937289537276,
+    "sd": null,
+    "mae": 6.244937289537276,
+    "rmse": 6.244937289537276,
+    "mean_ci95": null,
+    "mean_ci_family": null
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "chest",
+    "metric": "delta_absolute",
+    "denominator": 150,
+    "primary_family": "False",
+    "unit": "engineering_cm",
+    "n": 1,
+    "mean": 0.8441326089066621,
+    "median": 0.8441326089066621,
+    "sd": null,
+    "mae": 0.8441326089066621,
+    "rmse": 0.8441326089066621,
+    "mean_ci95": null,
+    "mean_ci_family": null
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "height",
+    "metric": "delta_signed",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 150,
+    "mean": -0.06925422168280268,
+    "median": -0.05434524267906227,
+    "sd": 0.7999314119057381,
+    "mae": 0.5204401460648228,
+    "rmse": 0.8002627542768116,
+    "mean_ci95": [
+      -0.1995427888081727,
+      0.051492384522821136
+    ],
+    "mean_ci_family": [
+      -0.23627770999383862,
+      0.08642148966407905
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "height",
+    "metric": "delta_absolute",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 150,
+    "mean": 0.5000275093664114,
+    "median": 0.3155159389495594,
+    "sd": 0.6067107046672144,
+    "mae": 0.5034281460648155,
+    "rmse": 0.7846473114845374,
+    "mean_ci95": [
+      0.40735367098324454,
+      0.6022789049676449
+    ],
+    "mean_ci_family": [
+      0.3937978493819105,
+      0.6343103987863379
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "hip",
+    "metric": "delta_signed",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 150,
+    "mean": 0.1371959224869023,
+    "median": 0.15910458138699823,
+    "sd": 0.4885464579848642,
+    "mae": 0.3606559848275118,
+    "rmse": 0.5058746667695386,
+    "mean_ci95": [
+      0.050520514222732425,
+      0.21631454013352733
+    ],
+    "mean_ci_family": [
+      0.03338277614665843,
+      0.24007686993485963
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "hip",
+    "metric": "delta_absolute",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 150,
+    "mean": 0.28859025656320997,
+    "median": 0.23092712156250883,
+    "sd": 0.37357422415192565,
+    "mae": 0.332628396450362,
+    "rmse": 0.4710749966416471,
+    "mean_ci95": [
+      0.22899972780489317,
+      0.34635443941336336
+    ],
+    "mean_ci_family": [
+      0.20994555329651876,
+      0.3636709183565739
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "neck",
+    "metric": "delta_signed",
+    "denominator": 150,
+    "primary_family": "False",
+    "unit": "engineering_cm",
+    "n": 100,
+    "mean": -0.1114531000344926,
+    "median": -0.027159733616041848,
+    "sd": 1.9088068786687187,
+    "mae": 1.1939823873818665,
+    "rmse": 1.9025062566414297,
+    "mean_ci95": [
+      -0.48261240255531046,
+      0.2616174870803993
+    ],
+    "mean_ci_family": [
+      -0.5816463495214008,
+      0.37230397455525305
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "neck",
+    "metric": "delta_absolute",
+    "denominator": 150,
+    "primary_family": "False",
+    "unit": "engineering_cm",
+    "n": 100,
+    "mean": -0.24497193775263107,
+    "median": 0.031134237136235754,
+    "sd": 1.6200187961992334,
+    "mae": 0.9834577695133175,
+    "rmse": 1.6304071704101106,
+    "mean_ci95": [
+      -0.5562168476616338,
+      0.06870097586520615
+    ],
+    "mean_ci_family": [
+      -0.6222252509840436,
+      0.1806131257927217
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "waist",
+    "metric": "delta_signed",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 149,
+    "mean": 2.8899555604591876,
+    "median": 2.010880280732721,
+    "sd": 6.3972442369235,
+    "mae": 4.881685671128025,
+    "rmse": 7.000136736174993,
+    "mean_ci95": [
+      1.8708057902101127,
+      3.903474145389036
+    ],
+    "mean_ci_family": [
+      1.4564905528249354,
+      4.148217831338916
+    ]
+  },
+  {
+    "cohort": "primary",
+    "state": "fitted",
+    "rule": "proxy_inclusive",
+    "site": "waist",
+    "metric": "delta_absolute",
+    "denominator": 150,
+    "primary_family": "True",
+    "unit": "engineering_cm",
+    "n": 149,
+    "mean": -0.7940060661361203,
+    "median": -0.392338013735511,
+    "sd": 4.854820729256227,
+    "mae": 3.491583254090649,
+    "rmse": 4.903218007602848,
+    "mean_ci95": [
+      -1.5612904065374271,
+      0.004063472187834194
+    ],
+    "mean_ci_family": [
+      -1.762903595864459,
+      0.21679144208098328
+    ]
+  }
+]

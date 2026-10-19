@@ -1,0 +1,189 @@
+[
+  {
+    "partition": "evaluation",
+    "collection": "CAESAR-NICP",
+    "state": "fitted",
+    "metric": "height_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.3468124749520201,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.2802897795426409,
+      0.3885006436890601
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "CAESAR-NICP",
+    "state": "fitted",
+    "metric": "height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -2.7877797438859893,
+    "median": -3.293935388326645,
+    "sd": 2.1579229699228737,
+    "mae": 2.8706045303901035,
+    "rmse": 3.4699127965793397,
+    "ci95": [
+      -3.9540069534965374,
+      -1.5855913863720514
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "CAESAR-NICP",
+    "state": "canonical",
+    "metric": "height_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.4080677023782478,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.21185691328330658,
+      0.4957514961603309
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "CAESAR-NICP",
+    "state": "canonical",
+    "metric": "height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -3.529959112405779,
+    "median": -4.277977883815765,
+    "sd": 3.1928012081810233,
+    "mae": 3.8078424135843982,
+    "rmse": 4.669592337021718,
+    "ci95": [
+      -5.194246298695614,
+      -1.8380675405263935
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "CAESAR-NICP",
+    "state": "fitted",
+    "metric": "geometry_mean_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.11465814436586645,
+    "median": -0.10126560628551488,
+    "sd": 0.08433916420334608,
+    "mae": 0.11465814436586645,
+    "rmse": 0.14023846406412996,
+    "ci95": [
+      -0.1679121725967317,
+      -0.07851953795880967
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "SMPL-NICP",
+    "state": "fitted",
+    "metric": "height_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.3105008374515408,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.2614768163890236,
+      0.34662735809123046
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "SMPL-NICP",
+    "state": "fitted",
+    "metric": "height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -2.502683327015243,
+    "median": -2.9719192385673523,
+    "sd": 1.8720279856269026,
+    "mae": 2.5793352280219417,
+    "rmse": 3.0782904155893975,
+    "ci95": [
+      -3.5016439695950394,
+      -1.4802611875657246
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "SMPL-NICP",
+    "state": "canonical",
+    "metric": "height_sd_ratio",
+    "statistic": "SD(C)/SD(source) minus SD(B)/SD(source)",
+    "n": 12,
+    "mean": 0.39914650507921734,
+    "median": null,
+    "sd": null,
+    "mae": null,
+    "rmse": null,
+    "ci95": [
+      0.21111995013844415,
+      0.486829105443057
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "SMPL-NICP",
+    "state": "canonical",
+    "metric": "height_absolute_error_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -3.4689799696207118,
+    "median": -4.251428306102753,
+    "sd": 3.1841100473443813,
+    "mae": 3.689393406112996,
+    "rmse": 4.618170535009421,
+    "ci95": [
+      -5.196556408703332,
+      -1.7131708850463303
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "SMPL-NICP",
+    "state": "fitted",
+    "metric": "geometry_mean_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": -0.11876964179330919,
+    "median": -0.09650048724056488,
+    "sd": 0.08736781628578927,
+    "mae": 0.11876964179330919,
+    "rmse": 0.14526964075141824,
+    "ci95": [
+      -0.17383088836783242,
+      -0.0791370859882965
+    ]
+  },
+  {
+    "partition": "evaluation",
+    "collection": "PAIRED_PATHWAYS",
+    "state": "canonical",
+    "metric": "cross_path_vertex_rms_cm",
+    "statistic": null,
+    "n": 12,
+    "mean": 0.47563074966312563,
+    "median": 0.3274387934054108,
+    "sd": 0.4124349875729519,
+    "mae": 0.47563074966312563,
+    "rmse": 0.6181844471931897,
+    "ci95": [
+      0.2823007450598674,
+      0.7211094171915075
+    ]
+  }
+]

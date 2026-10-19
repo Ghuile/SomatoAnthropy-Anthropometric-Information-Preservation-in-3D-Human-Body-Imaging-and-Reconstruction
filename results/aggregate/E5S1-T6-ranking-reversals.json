@@ -1,0 +1,164 @@
+[
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "P",
+    "controlled": "sourceH",
+    "controlled_preference": "P",
+    "count": 38,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "P",
+    "controlled": "sourceH",
+    "controlled_preference": "B1",
+    "count": 8,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "P",
+    "controlled": "sourceH",
+    "controlled_preference": "tie",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "B1",
+    "controlled": "sourceH",
+    "controlled_preference": "P",
+    "count": 44,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "B1",
+    "controlled": "sourceH",
+    "controlled_preference": "B1",
+    "count": 59,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "B1",
+    "controlled": "sourceH",
+    "controlled_preference": "tie",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "tie",
+    "controlled": "sourceH",
+    "controlled_preference": "P",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "tie",
+    "controlled": "sourceH",
+    "controlled_preference": "B1",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "tie",
+    "controlled": "sourceH",
+    "controlled_preference": "tie",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "P",
+    "controlled": "bodyH",
+    "controlled_preference": "P",
+    "count": 38,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "P",
+    "controlled": "bodyH",
+    "controlled_preference": "B1",
+    "count": 8,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "P",
+    "controlled": "bodyH",
+    "controlled_preference": "tie",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "B1",
+    "controlled": "bodyH",
+    "controlled_preference": "P",
+    "count": 44,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "B1",
+    "controlled": "bodyH",
+    "controlled_preference": "B1",
+    "count": 59,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "B1",
+    "controlled": "bodyH",
+    "controlled_preference": "tie",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "tie",
+    "controlled": "bodyH",
+    "controlled_preference": "P",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "tie",
+    "controlled": "bodyH",
+    "controlled_preference": "B1",
+    "count": 0,
+    "denominator": 149
+  },
+  {
+    "stratum": "all",
+    "unit": "participant",
+    "actual_preference": "tie",
+    "controlled": "bodyH",
+    "controlled_preference": "tie",
+    "count": 0,
+    "denominator": 149
+  }
+]

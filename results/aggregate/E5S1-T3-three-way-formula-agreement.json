@@ -1,0 +1,146 @@
+[
+  {
+    "stratum": "all",
+    "first": "P",
+    "second": "B1",
+    "policy": "actual",
+    "positive_favours": "P",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.6519785407196393,
+    "mean_ci95": [
+      -0.861860527300042,
+      -0.4481114647504089
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "P",
+    "second": "B1",
+    "policy": "sourceH",
+    "positive_favours": "P",
+    "people": 149,
+    "observations": 596,
+    "mean": 0.13974854607006915,
+    "mean_ci95": [
+      -0.025859224460202855,
+      0.3232144462997553
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "P",
+    "second": "B1",
+    "policy": "bodyH",
+    "positive_favours": "P",
+    "people": 149,
+    "observations": 596,
+    "mean": 0.15017012121159637,
+    "mean_ci95": [
+      -0.0224522235959685,
+      0.34263555936756424
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "P",
+    "second": "B3_offset",
+    "policy": "actual",
+    "positive_favours": "P",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.6011884614545667,
+    "mean_ci95": [
+      -0.7708481093934482,
+      -0.44085494531921404
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "P",
+    "second": "B3_offset",
+    "policy": "sourceH",
+    "positive_favours": "P",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.26139325110605466,
+    "mean_ci95": [
+      -0.39920102136246016,
+      -0.12834952715384962
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "P",
+    "second": "B3_offset",
+    "policy": "bodyH",
+    "positive_favours": "P",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.27189959120514573,
+    "mean_ci95": [
+      -0.41646435204966686,
+      -0.13457172955728974
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "B1",
+    "second": "B3_offset",
+    "policy": "actual",
+    "positive_favours": "B1",
+    "people": 149,
+    "observations": 596,
+    "mean": 0.0507900792650727,
+    "mean_ci95": [
+      -0.05678196089631774,
+      0.15173789652969732
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "B1",
+    "second": "B3_offset",
+    "policy": "sourceH",
+    "positive_favours": "B1",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.4011417971761238,
+    "mean_ci95": [
+      -0.536270799795645,
+      -0.2816921146434293
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  },
+  {
+    "stratum": "all",
+    "first": "B1",
+    "second": "B3_offset",
+    "policy": "bodyH",
+    "positive_favours": "B1",
+    "people": 149,
+    "observations": 596,
+    "mean": -0.4220697124167422,
+    "mean_ci95": [
+      -0.5643664353259747,
+      -0.29702602646814596
+    ],
+    "seed": 51812601,
+    "draws": 4000
+  }
+]
