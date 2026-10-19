@@ -1,10 +1,8 @@
 # Attribution, licences and figure rights
 
-Project source and aggregate material are supplied for authorised private review.
-No blanket open-source licence is assigned: researcher/institutional authority to
-license the project source remains to be confirmed. This is a distribution-status
-statement, not a substitute copyright grant. Do not infer a project licence from
-an external dependency's licence.
+Project-owned code, documentation and aggregate material are licensed under
+CC BY 4.0. The lead author confirmed LSBU approval on 19 October 2026. See LICENSE
+and NOTICE. External dependencies and source datasets retain their own terms.
 
 | Dependency | Pinned revision / terms |
 |---|---|
@@ -25,6 +23,10 @@ nor Figure 2(b) residual maps is included or described as publication-cleared.
 The released Figure 2 is a schematic and aggregate chart, consistent with the
 current manuscript replacement. All six released illustrations are generated
 from geometric-independent diagrams or cohort aggregates; none contains a
-participant mesh, body rendering, residual-map panel or photograph. Public access
-still requires the authors' final publication decision and resolution of project
-licensing authority. Private correspondence and permission records are excluded.
+participant mesh, body rendering, residual-map panel or photograph. The separate
+template mechanism illustration uses only the native zero-identity MHR template,
+with the asset notice retained. Private correspondence and permission records
+are excluded. GitHub visibility is controlled separately from the Zenodo archive.
+
+
+The 0.2.0 [audit update](audit-update.md) supersedes prior unresolved project-licence and Figure 2 statements: project-owned release material is CC BY 4.0 with LSBU approval reported by the lead author. Current manuscript Figure 2 has no participant imagery. Dataset restrictions and excluded historical imagery remain unchanged.

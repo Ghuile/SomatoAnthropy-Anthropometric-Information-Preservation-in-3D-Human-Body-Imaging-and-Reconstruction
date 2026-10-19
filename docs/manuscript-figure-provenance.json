@@ -1,0 +1,32 @@
+{
+  "source_generators": [
+    {
+      "path": "docs/manuscript/somatoanthropy-sensors-v2/typeset-peer-review-20261019/figures/generate_editorial_figures.py",
+      "sha256": "c0faace01c85c95a30e0815cd3ef9bdcab516499f98e577cedbb5a37bcaf971b"
+    },
+    {
+      "path": "docs/manuscript/somatoanthropy-sensors-v2/typeset-peer-review-20261019/figures/generate_figure1_figure4.py",
+      "sha256": "8f1137e838bd4cfdf9a1bd162907c37dec879b19954af350efc7b2db211364ee"
+    },
+    {
+      "path": "docs/manuscript/somatoanthropy-sensors-v2/typeset-peer-review-20261019/figures/generate_figure2_print.py",
+      "sha256": "ab8c6ff244825f57d235ab05781d52e7fff5614e5ab9e97f0d34fc689c940a49"
+    }
+  ],
+  "adaptations": [
+    "Input paths now reference released aggregate tables",
+    "PDF font registration and local rasterizer removed; SVG drawing primitives and original drawing statements retained",
+    "Output directory is explicit and existing figures are refused"
+  ],
+  "source_manuscript_sha256": "b3d71f06ed6c9b03c9549b63415c858eab3e89b078dfd6e896e5bd601ad135b7",
+  "comparison": "Validate generated SVG bytes against original editorial SVG files; raster paper variants can add typesetting borders and resizing",
+  "outputs": {
+    "results/manuscript-figures/Figure1.svg": "9da76c3a48ad4c2657ddd73cf8b5eebeafbad20cc9576c038f2a12343b52e3f6",
+    "results/manuscript-figures/Figure2.svg": "f7cda4126a7e648e3042699218ccfe8b28e2e88ca9ddcd62183af6223cde54aa",
+    "results/manuscript-figures/Figure3.svg": "7f191c075e0779b5c20e3af8bc7ecc955f4ee3ae2a3872e7321ae93c4fd2714d",
+    "results/manuscript-figures/Figure4.svg": "40ee2abd5a27902737af02a43f43e1912faf510ed2f575e9ebd61570dc310e01",
+    "results/manuscript-figures/Figure5.svg": "180eb8f713995cf308075574bb4a4d8c18afd95979ddae1fc0cec331110d8644",
+    "results/manuscript-figures/Figure6.svg": "66c7d1c1a79c3903a0fcc90972d8cbe2d7b73499bc6a23aad5c4bb81efdade8a"
+  },
+  "verification": "All six SVGs are byte-identical to original editorial generator output before raster typesetting."
+}

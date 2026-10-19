@@ -44,7 +44,7 @@ python scripts/reproduce_figures.py --output reproduced/figures
 The table command reconstructs Tables 1–5 and S1–S3 with the manuscript's saved
 rounding. The figure command plots the frozen aggregate values supporting
 Figures 3–6; Figure 1 is the study diagram. Each output records its source table
-and estimand. Figure 2 body panels are withheld pending publication clearance.
+and estimand. Figure 2 is the current workflow diagram and aggregate fidelity plot, with no participant body panels. Historical participant-derived panels remain excluded.
 See [the output mapping](docs/reproducibility.md).
 
 ## Dataset access
@@ -76,6 +76,23 @@ licences do not settle participant-data or figure rights. See
 
 This repository provides research source and aggregate verification material.
 Raw datasets, participant records, source-derived meshes, model binaries and
-private correspondence are excluded. Public distribution remains subject to
-the authors' final approval and applicable rights clearance. No blanket
-open-source licence is granted while institutional licensing authority is unresolved.
+private correspondence are excluded. The GitHub repository visibility remains separately controlled; the sanitized versioned archive is intended for Zenodo. Project-owned material is licensed under CC BY 4.0; the lead author confirmed LSBU approval on 19 October 2026. Third-party and dataset terms remain separate.
+
+
+## Audit evidence and manuscript figures
+
+See the [audit update](docs/audit-update.md), [register reports](docs/experiments/REGISTER.md),
+[data dictionary](docs/data-dictionary.md) and [changelog](CHANGELOG.md).
+The current manuscript's Figure 2 is a workflow and aggregate plot. Figure 6 is a
+projection of saved three-objective memberships; it displays six policies per panel
+and retains membership from the complete nine-policy grid.
+
+```powershell
+python scripts/reproduce_manuscript_figures.py --output reproduced/manuscript
+python scripts/check_manuscript_figures.py --input reproduced/manuscript
+```
+
+The manuscript SVG route reproduces the six original editorial vectors exactly.
+The existing reproduce_figures.py command generates companion plots. CI runs tests,
+release verification and both routes on every push. The versioned software archive
+is cited by DOI [10.5281/zenodo.23464423](https://doi.org/10.5281/zenodo.23464423).

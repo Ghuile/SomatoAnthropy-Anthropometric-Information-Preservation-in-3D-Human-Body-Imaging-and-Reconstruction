@@ -1,0 +1,56 @@
+{
+  "people": 149,
+  "linked_pathway_state_rows_checked": 596,
+  "checks": [
+    "reference_cm equals saved raw_contour_cm equals released catalog engineering_value_cm",
+    "Saved source detail files checked byte provenance privately; no participant records released"
+  ],
+  "source_detail_stages": {
+    "source-seam-pass": 576,
+    "recovery": 20
+  },
+  "source_flags_definition": "Historical adaptive-selector fallback_applied, retained through fixed-plane contour repairs; not a flag that surface seam recovery occurred",
+  "source_reuse": "Each of 298 source pathway observations occurs in both fitted and canonical comparisons",
+  "lineage": [
+    {
+      "module": "data/nomo_released_metrology.py",
+      "function": "measure: initial adaptive lower-half selector and +0.005 m fallback",
+      "sha256": "e1f0b4e10c8d6a43ee4c7a62905dce11611f0d5058e8bbc9b62fbe35ef3ea3bb"
+    },
+    {
+      "module": "data/nomo_contact_sections.py",
+      "function": "correct_trunk: remeasure raw perimeter at saved plane, retaining selector flags",
+      "sha256": "72a17d943c981639611db398d8aed38c7eb8787dc28c38d88dfcd525befaced9"
+    },
+    {
+      "module": "data/nomo_contact_seams.py",
+      "function": "repair_sources / SourceSeamSections.section: region-guarded source seam pass",
+      "sha256": "2d3e8782bf5139cc7a8d4e6e149424ec22755622b1e38ea24f1e449e7dd44c0b"
+    },
+    {
+      "module": "data/nomo_source_recovery_delivery.py",
+      "function": "prepare: remeasure failed source waist at unchanged plane using SurfaceCycleSections.section",
+      "sha256": "ecc14e9fddc6a47d3d953a0b556361d4c2bd80daf5319e23c2c1647352e37a8b"
+    },
+    {
+      "module": "experiments/e4/inputs.py",
+      "function": "site_record: load details[waist], validate catalog equality",
+      "sha256": "5fbadffabf5d69ce84a8a5013ce57bcbacbc123bf9bb7c9bb22d88d3cdfd5dd0"
+    },
+    {
+      "module": "experiments/e2/measure.py",
+      "function": "record_branch: retain historical source site",
+      "sha256": "dd72d501988fb5b8799728e5b0acf561c5ae84b2b79a9c904064706fc418a790"
+    },
+    {
+      "module": "experiments/waist01/inputs.py",
+      "function": "discover: compact historical source waist",
+      "sha256": "f27b16d34a5659ef2e74031bc9321cecee74e1272e9aeccd08ba1b71d86ba940"
+    },
+    {
+      "module": "experiments/waist01/analysis.py",
+      "function": "paired: valid_value(reference, raw_contour_cm) becomes reference_cm",
+      "sha256": "562aef3f8ca60941d69a012937ae9ff74093d7debf0b028bc87fdef36a218ee7"
+    }
+  ]
+}

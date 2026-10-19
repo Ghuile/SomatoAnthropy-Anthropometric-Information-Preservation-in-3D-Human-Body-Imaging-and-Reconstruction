@@ -2,61 +2,172 @@
   {
     "id": "E0",
     "path": "EXP-E0/e0-unified-20261018-01/E0_Fitting_and_Identity_Qualification_Report.md",
-    "sha256": "5484709d8b506e02ccea186fc99be78a4adac56b3763546c418e854186da0804"
+    "sha256": "88f177e778df07f88c5ed2cab3047aa524d0e657d819b5d6652644919e40d894",
+    "original_sha256": "5484709d8b506e02ccea186fc99be78a4adac56b3763546c418e854186da0804",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "9. Experiment-readiness matrix and next research action",
+      "10. Reproducibility, validation and delivery record"
+    ],
+    "removed_paragraphs": 9
   },
   {
     "id": "E1",
     "path": "EXP-E1/e1-20261018-02/E1_Geometric_Fidelity_and_Reconstruction_Decision_Analysis_Report.md",
-    "sha256": "f06a2a6ad48ea9e0743dc6f8e1ed84f6bcd7f60f2b5d94cd99d20ef86232c7a2"
+    "sha256": "f0a337c5405749af3030d795e532062f8172fe283f28ff9f1bf21543598a7365",
+    "original_sha256": "f06a2a6ad48ea9e0743dc6f8e1ed84f6bcd7f60f2b5d94cd99d20ef86232c7a2",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "20. Successful, difficult and counterexample cases",
+      "25. E5-ready records",
+      "26. Reproducibility and execution",
+      "27. Publication contribution assessment",
+      "28. Recommended next step",
+      "Figures"
+    ],
+    "removed_paragraphs": 1
   },
   {
     "id": "E2",
     "path": "EXP-E2/e2-20261018-01/report03/E2_Anthropometric_Measurement_Preservation_Report.md",
-    "sha256": "f20454b23410b92fc4246201bf41d723e27d11661ae3da8b1e70fd6b42609efa"
+    "sha256": "a7a9700d555b291885600c9e036a45cccfd72dea204132415394c9a99fdf2437",
+    "original_sha256": "f20454b23410b92fc4246201bf41d723e27d11661ae3da8b1e70fd6b42609efa",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "18. Next experiment and reproducibility"
+    ],
+    "removed_paragraphs": 4
   },
   {
     "id": "E2-1",
     "path": "EXP-E2-1/e2-1-20261018-01/E2-1_Rig_Scale_Length_Ablation_Report.md",
-    "sha256": "be5291bb3923be5753b85dd29e5703d7bdbc7e2dae2772207f3b6875fdbedb12"
+    "sha256": "aa72911ecb08cee4fbb8fb6acf785fd80c1b7d80fda7343efb6a75531e40b938",
+    "original_sha256": "be5291bb3923be5753b85dd29e5703d7bdbc7e2dae2772207f3b6875fdbedb12",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "7. Configuration and reproducibility",
+      "19. Recommended next research action",
+      "20. Reproduction and repository state"
+    ],
+    "removed_paragraphs": 1
   },
   {
     "id": "E2-2",
     "path": "EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2_Skeletal_Control_Stability_and_Regularisation_Report.md",
-    "sha256": "0be6227a957b7c99b088940f47063e3800f81e0a0b6e3339873032b35b13df82"
+    "sha256": "83652306c1be88e4baf9768a3297aa57b3a5a7a42e53c7c0a0316184574ae17c",
+    "original_sha256": "0be6227a957b7c99b088940f47063e3800f81e0a0b6e3339873032b35b13df82",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "25. Further testing and production implications",
+      "26. Reproduction, environment and evidence"
+    ],
+    "removed_paragraphs": 1
   },
   {
     "id": "E3",
     "path": "EXP-E3/e3-20261018-04/E3_Pose_Consistency_and_Computational_Anthropometry_Report.md",
-    "sha256": "9d1cb4bf8363386c284a3fbf59460a2b603b7fbdc44df05eb0ea57c00cdbcfdf"
+    "sha256": "cd2169787ab18725861d403f9d7030afe21fcc6df2d25ba724d7fdb2c6550b29",
+    "original_sha256": "9d1cb4bf8363386c284a3fbf59460a2b603b7fbdc44df05eb0ea57c00cdbcfdf",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "D05 hip, D08 chest and D10 fidelity",
+      "Future reconciliation and reproducibility",
+      "Session change record"
+    ],
+    "removed_paragraphs": 9
   },
   {
     "id": "E4",
     "path": "EXP-E4/e4-20261018-03/report02/E4_Source_Representation_Sensitivity_Report.md",
-    "sha256": "3e454fd22c3fda2df0314c71a1b75915bd9c92431098e11b0e9ee97c0d907863"
+    "sha256": "8969f626c1ef240906382482e7a78fc86e095b4fc2db50eee56f2e9abed61ca6",
+    "original_sha256": "3e454fd22c3fda2df0314c71a1b75915bd9c92431098e11b0e9ee97c0d907863",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "12. Conclusions and next experiment",
+      "Reproducibility and delivery"
+    ],
+    "removed_paragraphs": 8
   },
   {
     "id": "WAIST",
     "path": "EXP-WAIST-01/waist01-20261018-02/WAIST01_Source_Anthropometry_Agreement_Report.md",
-    "sha256": "ef91744e7d0a9fdfe56da8b444ef4cfaf91f820dab6ab510b6b56a573d42413e"
+    "sha256": "fc8a1416f3e6330abe5af12895c3ac27b3fb56f51b814b4b91b50fc17b7e6638",
+    "original_sha256": "ef91744e7d0a9fdfe56da8b444ef4cfaf91f820dab6ab510b6b56a573d42413e",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "13. Anatomical visual review",
+      "14. Contrary and failed cases",
+      "17. Manuscript contribution assessment",
+      "18. E5 data readiness",
+      "20. Reproducibility and execution record"
+    ],
+    "removed_paragraphs": 3
   },
   {
     "id": "E5",
     "path": "EXP-E5/e5-20261018-03/E5_Reconstruction_and_Anthropometric_Body_Fat_Propagation_Report.md",
-    "sha256": "385f5053c826906174be387d57280bdef1ed5b656cc79e390c61e6ac350b268e"
+    "sha256": "337f6bf7db0f00bba40db5dc46b99c52e6088863d10b24c4981f8b35dbb810d6",
+    "original_sha256": "385f5053c826906174be387d57280bdef1ed5b656cc79e390c61e6ac350b268e",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "23. High-drift and cancellation examples",
+      "28. Supported manuscript claims",
+      "30. Reproducibility and execution",
+      "31. Recommended manuscript narrative",
+      "32. Scientific conclusion",
+      "Figures and numerical tables"
+    ],
+    "removed_paragraphs": 1
   },
   {
     "id": "S1",
     "path": "EXP-E5-S1/e5s1-20261018-01/E5S1_Height_Controlled_Waist_to_Body_Fat_Agreement_Report.md",
-    "sha256": "ad5f00e3999232fdd3a47b72954811483098ddc9202c321ec68ddd60cfd9dcee"
+    "sha256": "a3e900fbfbc16fce515259857c99a584fff7cf01b6d57c8f644d149908cdbf0c",
+    "original_sha256": "ad5f00e3999232fdd3a47b72954811483098ddc9202c321ec68ddd60cfd9dcee",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "19. Failure, missingness and contrary cases",
+      "22. Supported manuscript claims",
+      "23. Reproducibility and verification",
+      "24. Recommended integration with the SomatoAnthro paper",
+      "Tables and figures"
+    ],
+    "removed_paragraphs": 1
   },
   {
     "id": "S2",
     "path": "EXP-E5-S2/e5s2-20261019-01/publication-final/E5S2_Cross_Representation_Synthetic_BF_Label_Reliability_Report.md",
-    "sha256": "502259f0280ae25de2052dbeb834e9ec5634baa57bd1cab018d34b0e169c0f8d"
+    "sha256": "a7029a5b1661b00115324c544ab2f0752100b2329fb4f5653bfc2b155f82ceec",
+    "original_sha256": "502259f0280ae25de2052dbeb834e9ec5634baa57bd1cab018d34b0e169c0f8d",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "21. Contrary findings and failure cases",
+      "26. Eventual multi-view synthetic image datasets",
+      "27. Publication-ready engineering contributions",
+      "28. SomatoAnthro manuscript narrative",
+      "29. Exact reproduction commands",
+      "30. Manifests and complete deliverables",
+      "31. Remaining limitations and direct answers",
+      "32. Final scientific conclusion",
+      "Scientific figures",
+      "Final validation and publication handoff"
+    ],
+    "removed_paragraphs": 1
   },
   {
     "id": "RECON",
     "path": "EXP-RECON-01/recon-20261018-04/SomatoAnthro_Unified_Scientific_Reconciliation_Report.md",
-    "sha256": "abebc7b139d06035fd66b71d9d9b2e7e2407dde99d49ca1695cc1ba023ac1808"
+    "sha256": "1e659f567073b997fd8cd5e283f68288dcc0360219802441baf78c1ea0554d3d",
+    "original_sha256": "abebc7b139d06035fd66b71d9d9b2e7e2407dde99d49ca1695cc1ba023ac1808",
+    "release_kind": "participant-free abridged scientific excerpts",
+    "omitted_sections": [
+      "19. Potential contributions and bounded prior-art assessment",
+      "22. E5 eligibility and recommendation",
+      "23. Publication scope and readiness",
+      "24. Recommended title and manuscript structure",
+      "25. Prioritised next actions",
+      "26. Reproducibility and evidence manifest"
+    ],
+    "removed_paragraphs": 26
   }
 ]

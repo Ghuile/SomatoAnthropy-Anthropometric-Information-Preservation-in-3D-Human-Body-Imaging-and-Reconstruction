@@ -1,0 +1,17 @@
+{
+  "releases": [
+    {
+      "version": "0.1.0",
+      "commit": "3777873d8bf42a67f08528a9a029ba5d01d7f1b4",
+      "meaning": "Initial curated reviewer snapshot; manuscript hash preserved in paper_tables provenance"
+    },
+    {
+      "version": "0.2.0",
+      "tag": "v0.2.0",
+      "commit_resolution": "git rev-parse v0.2.0^{commit}",
+      "manuscript_sha256": "b3d71f06ed6c9b03c9549b63415c858eab3e89b078dfd6e896e5bd601ad135b7",
+      "supplement_sha256": "1222a237feb0022b5c8292e98e7436c944ea49f856f99392ed0655c28bb8150c",
+      "meaning": "Audit evidence extension and exact current manuscript SVG generation; source manuscript files not changed by this release"
+    }
+  ]
+}

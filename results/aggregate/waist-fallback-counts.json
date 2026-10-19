@@ -1,0 +1,50 @@
+[
+  {
+    "pathway": "SMPL-NICP",
+    "state": "canonical",
+    "people": 149,
+    "source_fallback_count": 56,
+    "body_fallback_count": 113,
+    "source_and_body": 38,
+    "source_only": 18,
+    "body_only": 75,
+    "neither": 18,
+    "unknown_flags": 0
+  },
+  {
+    "pathway": "SMPL-NICP",
+    "state": "fitted",
+    "people": 149,
+    "source_fallback_count": 56,
+    "body_fallback_count": 62,
+    "source_and_body": 23,
+    "source_only": 33,
+    "body_only": 39,
+    "neither": 54,
+    "unknown_flags": 0
+  },
+  {
+    "pathway": "CAESAR-NICP",
+    "state": "canonical",
+    "people": 149,
+    "source_fallback_count": 149,
+    "body_fallback_count": 116,
+    "source_and_body": 116,
+    "source_only": 33,
+    "body_only": 0,
+    "neither": 0,
+    "unknown_flags": 0
+  },
+  {
+    "pathway": "CAESAR-NICP",
+    "state": "fitted",
+    "people": 149,
+    "source_fallback_count": 149,
+    "body_fallback_count": 69,
+    "source_and_body": 69,
+    "source_only": 80,
+    "body_only": 0,
+    "neither": 0,
+    "unknown_flags": 0
+  }
+]

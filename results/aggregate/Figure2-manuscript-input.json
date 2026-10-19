@@ -1,0 +1,47 @@
+[
+  {
+    "pathway": "SMPL-LBFGSB",
+    "metric": "symmetric_mean",
+    "lod": 0,
+    "n_participants": 10,
+    "n_observations": 10,
+    "mean_engineering_m_text": "0.003322269779364092",
+    "mean_ci95_engineering_m_text": "[0.003049990230220482, 0.003612204592633036]",
+    "mean_engineering_cm_text": "0.332226977936409200",
+    "mean_ci95_engineering_cm_text": [
+      "0.304999023022048200",
+      "0.361220459263303600"
+    ],
+    "source_csv_line_one_based": 50
+  },
+  {
+    "pathway": "SMPL-NICP",
+    "metric": "symmetric_mean",
+    "lod": 0,
+    "n_participants": 10,
+    "n_observations": 10,
+    "mean_engineering_m_text": "0.004257340246074498",
+    "mean_ci95_engineering_m_text": "[0.0033846361431907356, 0.005348966709254017]",
+    "mean_engineering_cm_text": "0.425734024607449800",
+    "mean_ci95_engineering_cm_text": [
+      "0.3384636143190735600",
+      "0.534896670925401700"
+    ],
+    "source_csv_line_one_based": 58
+  },
+  {
+    "pathway": "CAESAR-NICP",
+    "metric": "symmetric_mean",
+    "lod": 0,
+    "n_participants": 10,
+    "n_observations": 10,
+    "mean_engineering_m_text": "0.004351522691128187",
+    "mean_ci95_engineering_m_text": "[0.0034889118162348774, 0.005411504997236043]",
+    "mean_engineering_cm_text": "0.435152269112818700",
+    "mean_ci95_engineering_cm_text": [
+      "0.3488911816234877400",
+      "0.541150499723604300"
+    ],
+    "source_csv_line_one_based": 42
+  }
+]

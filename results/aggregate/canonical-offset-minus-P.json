@@ -1,0 +1,16 @@
+[
+  {
+    "direction": "first-minus-second; negative favours first for disagreement",
+    "first": "B3_offset/H2",
+    "interval": "unadjusted exploratory paired-person bootstrap",
+    "mean": -0.1060672543761418,
+    "mean_ci95": [
+      -0.22650864534398923,
+      -0.013129477422057402
+    ],
+    "median": 0.0,
+    "mode": "end_to_end",
+    "people": 150,
+    "second": "P/H2"
+  }
+]

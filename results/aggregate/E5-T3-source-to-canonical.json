@@ -1,0 +1,68 @@
+[
+  {
+    "fraction_abs_gt_1_pp": 0.7046979865771812,
+    "fraction_abs_gt_3_pp": 0.31543624161073824,
+    "fraction_abs_gt_5_pp": 0.09395973154362416,
+    "independent_unit": "dataset-local person",
+    "mean": -1.8798486149285538,
+    "mean_absolute": 2.471841419403246,
+    "mean_absolute_ci95": [
+      2.1297430749037116,
+      2.8863307040662343
+    ],
+    "mean_ci95": [
+      -2.3593437157773436,
+      -1.42808245403855
+    ],
+    "median": -1.6571358040604434,
+    "median_absolute": 1.967645727597076,
+    "method": "historical",
+    "negative_fraction": 0.738255033557047,
+    "observations": 149,
+    "p90_absolute": 4.756154600572078,
+    "p95_absolute": 6.758821821001159,
+    "pathway": "CAESAR-NICP",
+    "people": 149,
+    "positive_fraction": 0.26174496644295303,
+    "proportion_people_mean_negative": 0.738255033557047,
+    "proportion_people_mean_positive": 0.26174496644295303,
+    "quantile_unit": "observations; balanced person weight",
+    "replicates": 2000,
+    "sd_person_mean": 2.8697247441359037,
+    "seed": 726430417,
+    "transition": "source_to_canonical"
+  },
+  {
+    "fraction_abs_gt_1_pp": 0.7181208053691275,
+    "fraction_abs_gt_3_pp": 0.26174496644295303,
+    "fraction_abs_gt_5_pp": 0.09395973154362416,
+    "independent_unit": "dataset-local person",
+    "mean": -0.3169899796071415,
+    "mean_absolute": 2.3517574845266984,
+    "mean_absolute_ci95": [
+      2.0368762112036,
+      2.7198757839867187
+    ],
+    "mean_ci95": [
+      -0.8249331666980345,
+      0.19206668536864707
+    ],
+    "median": -0.09413488103326983,
+    "median_absolute": 1.8287911803542833,
+    "method": "historical",
+    "negative_fraction": 0.5100671140939598,
+    "observations": 149,
+    "p90_absolute": 4.961972652910638,
+    "p95_absolute": 5.696057385990165,
+    "pathway": "SMPL-NICP",
+    "people": 149,
+    "positive_fraction": 0.4899328859060403,
+    "proportion_people_mean_negative": 0.5100671140939598,
+    "proportion_people_mean_positive": 0.4899328859060403,
+    "quantile_unit": "observations; balanced person weight",
+    "replicates": 2000,
+    "sd_person_mean": 3.1638588070618265,
+    "seed": 726430417,
+    "transition": "source_to_canonical"
+  }
+]

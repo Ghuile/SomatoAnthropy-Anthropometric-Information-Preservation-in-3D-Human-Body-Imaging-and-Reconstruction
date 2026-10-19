@@ -88,3 +88,21 @@ frozen records without new fitting. See `validation.json` for measured scope.
 Licensed-data entry-point syntax and default checks are tested; native execution
 is conditional and was not validated against real model assets in the clean
 public environment.
+
+
+The 0.2.0 [audit update](audit-update.md) supersedes prior unresolved project-licence and Figure 2 statements: project-owned release material is CC BY 4.0 with LSBU approval reported by the lead author. Current manuscript Figure 2 has no participant imagery. Dataset restrictions and excluded historical imagery remain unchanged.
+
+
+## Native template mechanism illustration
+
+With the pinned official native runtime and locally supplied LOD0 atlas/masks:
+
+```text
+python scripts/render_mhr_template.py --model-root local_model_root --atlas local/atlas.json --region-masks local/region-masks.npz --output reproduced/template
+```
+
+The model root must contain the assets/mhr/v1 layout described in configs/model_hashes.json. Install the official compatible MHR/PyMomentum runtime separately; review dependencies alone do not provide it. This command has been exercised with the recorded native runtime. It generates only zero-identity/zero-expression native template bodies, at neutral and each separate authored bound. No participant parameters, meshes, fitted poses or study data are accepted. The illustration uses the authored zero articulation, not the study's T90 transfer. Generic local atlas attachments define P and offset sites; B1 uses the pinned 61%-height plane. Local attachment hashes, control labels and template plane heights are saved, with no participant provenance fields. See the MHR Apache-2.0 asset notice in third_party/.
+
+## Local audit-statistic replay
+
+recompute_agreement.py takes an authorised local JSON list with dataset, pathway, state, site, method, unit, and source/target numeric arrays (one pair/person). It writes aggregate CCC, Pearson r and descriptive Bland–Altman limits. recompute_small_n.py takes contrast, seed and differences (one difference/person), invoking the original 2000-draw paired bootstrap. Both require --input and a new --output path. Neither publishes input arrays. These CLI routes were checked with clearly invented values; the release contains no real person arrays. Exact published small-n interval recomputation additionally requires the licensed original vectors in frozen order and the original seed.

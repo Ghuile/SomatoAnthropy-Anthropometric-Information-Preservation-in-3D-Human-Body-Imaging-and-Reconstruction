@@ -1,0 +1,1783 @@
+{
+  "conventions": {
+    "cm": "Engineering centimetres in the saved working frame; clinical calibration is not implied.",
+    "pp": "Differences of q=-20H/W, conventionally in equation-response percentage points; arbitrary absolute zero, not BF%.",
+    "null": "Not estimable/missing; never zero. A single case does not receive a bootstrap interval.",
+    "dependence": "Pathways and states remain linked within participant; observations are not independent people.",
+    "intervals": "Frozen estimates/intervals retain original seeds and exploratory status. New agreement limits are descriptive and distinct from confidence intervals."
+  },
+  "fields": {
+    "CI95": {
+      "description": "Original 95% participant-bootstrap interval for comparator-minus-P advantage.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "actual_preference": {
+      "description": "Stratum/definition metadata: actual preference. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "after_cm": {
+      "description": "Mean of participant regional foot RMS after correction, converted from working m to cm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "alignment": {
+      "description": "Stratum/definition metadata: alignment. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "all_translation_only": {
+      "description": "True when recorded source alignment is translation-only; translation preserves extent.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "anchor_construction": {
+      "description": "How linked source extents form the shared/source anchor.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "arm": {
+      "description": "E2-1 source, historical A, locked B, released C or contextual comparator arm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "before_cm": {
+      "description": "Mean of participant regional foot RMS before correction, converted from working m to cm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "bias": {
+      "description": "Mean target minus source; in paired-effect tables, mean signed named contrast instead.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "body_fallback_count": {
+      "description": "Number of reconstructed bodies whose saved P selector fallback flag is true.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "body_observations": {
+      "description": "Linked body/pathway/state observations; not independent people.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "body_only": {
+      "description": "Count with body fallback and no source fallback.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "body_pairs": {
+      "description": "Paired body observations nested within participants.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "canonical_sd": {
+      "description": "Between-person canonical extent SD.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "canonical_to_source_sd_ratio": {
+      "description": "Canonical extent SD divided by source extent SD.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "caption": {
+      "description": "Provenance or frozen display metadata: caption. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ccc": {
+      "description": "Lin concordance correlation coefficient: 2 population covariance/(population variance source + target + squared mean difference).",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ccc_moment_ddof": {
+      "description": "Moment divisor convention for CCC: zero means divide by n.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ci": {
+      "description": "Original selected confidence interval endpoints; units follow figure panel.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ci95": {
+      "description": "Original exploratory 95% paired-person interval; not Bland–Altman limits.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "clinical_stature_qualified": {
+      "description": "Whether independent clinical stature calibration is established; strict equality does not establish it.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "cohort": {
+      "description": "Eligibility-defined population for this calculation.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "collection": {
+      "description": "Source representation pathway or paired-pathway aggregate.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "columns": {
+      "description": "Provenance or frozen display metadata: columns. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "comparator_MAE": {
+      "description": "Comparator mean absolute error against the named dependent source proxy.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "comparator_P95_AE": {
+      "description": "Comparator P95_AE against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "comparator_RMSE": {
+      "description": "Comparator RMSE against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "comparator_bias": {
+      "description": "Comparator bias against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "comparator_fraction": {
+      "description": "Comparator fraction against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "comparator_median_AE": {
+      "description": "Comparator median_AE against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "comparison_group": {
+      "description": "Common-participant set used for all objectives of a policy comparison.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "complete_six": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "condition": {
+      "description": "E2-2 A=historical, B=locked, C=released, D=quarter prior; G1-G4/R4 are development-only mechanisms.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "confidence_intervals_recomputed": {
+      "description": "False: the audit agreement extension does not recompute or claim manuscript confidence intervals.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "contrast": {
+      "description": "Saved condition difference, e.g. C-B is released minus locked; repeat labels preserve their own order.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "controlled": {
+      "description": "Stratum/definition metadata: controlled. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "controlled_preference": {
+      "description": "Stratum/definition metadata: controlled preference. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "count": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "coverage": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "cross_path_mae_pp": {
+      "description": "Canonical absolute q disagreement between linked source pathways, averaged within person then across people.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "dataset": {
+      "description": "Source dataset family.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "denominator": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "difference_sd": {
+      "description": "Sample SD (ddof=1) of target-minus-source paired differences.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "difference_sd_ddof": {
+      "description": "Degrees of freedom removed when computing SD of differences: 1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "differing_max_cm": {
+      "description": "Absolute source-extent disagreement among the 47 strict-ineligible participants: max in engineering cm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "differing_mean_cm": {
+      "description": "Absolute source-extent disagreement among the 47 strict-ineligible participants: mean in engineering cm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "differing_median_cm": {
+      "description": "Absolute source-extent disagreement among the 47 strict-ineligible participants: median in engineering cm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "differing_min_cm": {
+      "description": "Absolute source-extent disagreement among the 47 strict-ineligible participants: min in engineering cm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "direction": {
+      "description": "Explicit subtraction order and direction of preference.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "discarded_constant_source_draws": {
+      "description": "Bootstrap draws discarded because a ratio denominator had zero source variation.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "dominated_by": {
+      "description": "Saved policy IDs dominating the row on that full point-estimate grid.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "draws": {
+      "description": "Frozen bootstrap draws; not additional observations.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "effect": {
+      "description": "Stratum/definition metadata: effect. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "eligible": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "eligible_people": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "estimand": {
+      "description": "The population quantity or descriptive summary targeted by this table/row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "explanation": {
+      "description": "Provenance or frozen display metadata: explanation. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fallback_count": {
+      "description": "Number with the table's declared reconstructed-measurement fallback.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "female_source_category": {
+      "description": "Count of provider female-labelled source records, not inferred biological sex.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "first": {
+      "description": "First method/policy in the saved comparison.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fitted_sd": {
+      "description": "Between-person fitted extent SD.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fitted_to_source_sd_ratio": {
+      "description": "Fitted extent SD divided by source extent SD.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fraction_abs_gt_1_pp": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fraction_abs_gt_3_pp": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "fraction_abs_gt_5_pp": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "height_eligible_people": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "height_policy": {
+      "description": "H1 own extent, H2 source anchor, H3 shared anchor conditional on the named eligibility threshold.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "id": {
+      "description": "Provenance or frozen display metadata: id. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "independent_unit": {
+      "description": "Unit resampled or summarised for inference; linked records stay within person.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "interval": {
+      "description": "Frozen uncertainty construction and exploratory status.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "invalid_source": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "invalid_target": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "iqr": {
+      "description": "Saved iqr of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "label": {
+      "description": "Provenance or frozen display metadata: label. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "loa_lower": {
+      "description": "Descriptive lower Bland–Altman limit: bias minus 1.96 difference_sd.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "loa_multiplier": {
+      "description": "Normal-theory SD multiplier, 1.96; these limits are not confidence intervals.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "loa_upper": {
+      "description": "Descriptive upper Bland–Altman limit: bias plus 1.96 difference_sd.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "lod": {
+      "description": "Stratum/definition metadata: lod. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mae": {
+      "description": "Mean absolute error/difference for the declared metric; not necessarily physiological accuracy.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mae_ci95": {
+      "description": "Original participant-bootstrap interval for MAE.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "male_source_category": {
+      "description": "Count of provider male-labelled source records, not inferred biological sex.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "markdown": {
+      "description": "Provenance or frozen display metadata: markdown. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "maximum": {
+      "description": "Saved maximum of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean": {
+      "description": "Arithmetic mean of the named statistic; independent unit and aggregation are defined by the table/stratum.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_absolute": {
+      "description": "Mean absolute signed-response difference; distinct from the absolute value of the cohort mean.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_absolute_ci95": {
+      "description": "Original participant-bootstrap interval for mean absolute difference.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_advantage": {
+      "description": "Comparator absolute error minus P absolute error; positive favours P.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_ci95": {
+      "description": "Original 95% participant-bootstrap interval for the saved mean.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_ci95_engineering_cm_text": {
+      "description": "Exact original interval display strings, in the unit embedded in the key; no new conversion or inference.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_ci95_engineering_m_text": {
+      "description": "Exact original interval display strings, in the unit embedded in the key; no new conversion or inference.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_ci_family": {
+      "description": "Label of confidence interval family/coverage.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_engineering_cm_text": {
+      "description": "Exact original mean display string, in the unit embedded in the key.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_engineering_m_text": {
+      "description": "Exact original mean display string, in the unit embedded in the key.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_source": {
+      "description": "Arithmetic mean of the complete source values.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mean_target": {
+      "description": "Arithmetic mean of the complete target values.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "median": {
+      "description": "Median of the named statistic over the table's declared independent units.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "median_absolute": {
+      "description": "Median absolute difference.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "median_advantage": {
+      "description": "Median comparator-minus-P absolute error difference.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "median_ci95": {
+      "description": "Original 95% participant-bootstrap interval for the saved median.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "method": {
+      "description": "Saved functional/site definition; historical waist and E2 midpoint are distinct.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "metric": {
+      "description": "Named outcome definition; _cm indicates engineering centimetres, ratios/correlations are dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "minimum": {
+      "description": "Saved minimum of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "missing": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "mode": {
+      "description": "Measurement functional comparison, e.g. end_to_end versus site controls.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "n": {
+      "description": "Independent-unit count defined by the table/metric; do not sum linked pathways or states.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "n_observations": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "n_participants": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "negative_fraction": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "neither": {
+      "description": "Count with neither selector fallback flag.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "non_dominated": {
+      "description": "Frozen descriptive membership on the complete three-objective policy grid; not statistical dominance.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "observation_median": {
+      "description": "Saved observation median of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "observation_negative_fraction": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "observation_p90_absolute": {
+      "description": "Saved observation p90 absolute of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "observation_p95_absolute": {
+      "description": "Saved observation p95 absolute of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "observation_positive_fraction": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "observation_ties": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "observations": {
+      "description": "Linked observations contributing to person-level aggregation; not independent people.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ours_MAE": {
+      "description": "P mean absolute error against the named dependent source proxy.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ours_P95_AE": {
+      "description": "P P95_AE against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ours_RMSE": {
+      "description": "P RMSE against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ours_bias": {
+      "description": "P bias against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ours_fraction": {
+      "description": "P fraction against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "ours_median_AE": {
+      "description": "P median_AE against the named source proxy; absolute errors where AE appears; fraction is dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "p90_absolute": {
+      "description": "Saved p90 absolute of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "p95_absolute": {
+      "description": "Saved p95 absolute of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "panel_a": {
+      "description": "Figure 5 waist absolute-error advantages in engineering cm.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "panel_b": {
+      "description": "Figure 5 equation-response advantages in pp, with original intervals.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "participant_p90_absolute": {
+      "description": "Saved participant p90 absolute of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "participant_p95_absolute": {
+      "description": "Saved participant p95 absolute of the declared outcome, at the named observation/person level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "participants": {
+      "description": "Dataset-local independent participants represented by this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "partition": {
+      "description": "Development, first evaluation or disjoint heldout evaluation; populations must remain separate.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "pathway": {
+      "description": "Linked source representation route; pathways do not create independent participants.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "pearson": {
+      "description": "Pearson source-target correlation in the frozen height table.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "pearson_r": {
+      "description": "Pearson product-moment correlation; measures association, separately from agreement.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "people": {
+      "description": "Independent dataset-local participants in this specific estimand.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "people_with_nonzero_rig_morphology": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "person_negative_count": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "person_negative_fraction": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "person_positive_count": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "person_positive_fraction": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "person_ties": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "physiological_accuracy": {
+      "description": "False/unqualified: agreement is with a dependent digital proxy, not clinical BF truth.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "policy": {
+      "description": "Named formula-response control (actual, sourceH, bodyH) or height eligibility policy.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "policy_id": {
+      "description": "Waist method/height policy pair.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "population": {
+      "description": "Stratum/definition metadata: population. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "positive_favours": {
+      "description": "Saved sign convention; consult this field before interpreting paired advantages.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "positive_fraction": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "primary_family": {
+      "description": "Stratum/definition metadata: primary family. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "proportion_people_mean_negative": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "proportion_people_mean_positive": {
+      "description": "Proportion in the named sign/threshold category, using the stated participant or observation denominator; range 0–1.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "q05": {
+      "description": "Saved 05th percentile of the named outcome; quantile_unit identifies its level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "q25": {
+      "description": "Saved 25th percentile of the named outcome; quantile_unit identifies its level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "q75": {
+      "description": "Saved 75th percentile of the named outcome; quantile_unit identifies its level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "q95": {
+      "description": "Saved 95th percentile of the named outcome; quantile_unit identifies its level.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "quantile_unit": {
+      "description": "Whether quantiles summarise observations or participant summaries.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "reference": {
+      "description": "Named dependent source reference definition.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "reference_mae_pp": {
+      "description": "Canonical absolute q deviation from the dependent source coordinate on the stated common cohort.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "region": {
+      "description": "Stratum/definition metadata: region. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "replicates": {
+      "description": "Frozen bootstrap draws; not additional participants.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "rmse": {
+      "description": "Root mean squared error/difference for the declared metric.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "rows": {
+      "description": "Provenance or frozen display metadata: rows. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "rule": {
+      "description": "Stratum/definition metadata: rule. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "sd": {
+      "description": "Sample standard deviation for the declared independent-unit statistic.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "sd_person_mean": {
+      "description": "Sample SD across participant-mean observations.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "sd_ratio": {
+      "description": "Target/source between-person SD ratio; dimensionless.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "sd_ratio_ci95": {
+      "description": "Original participant-bootstrap interval for the target/source SD ratio.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "sd_ratio_distance": {
+      "description": "Saved third Pareto objective: absolute natural logarithm of the canonical/source SD ratio.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "second": {
+      "description": "Second method/policy in the saved comparison.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "seed": {
+      "description": "Frozen pseudo-random bootstrap seed; preserving order is required for exact finite-draw replay.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "selected_observations": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "selected_people": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "selection": {
+      "description": "Frozen retained/replacement/additional source-selection stage.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "site": {
+      "description": "Stratum/definition metadata: site. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "slope": {
+      "description": "Target-on-source regression slope for the declared extent table.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_and_body": {
+      "description": "Count with both source and reconstructed-body selector fallback flags.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_csv_line": {
+      "description": "Provenance or frozen display metadata: source csv line. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_csv_line_one_based": {
+      "description": "Provenance or frozen display metadata: source csv line one based. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_fallback_count": {
+      "description": "Number of valid person/source-pathway observations whose saved historical adaptive selector fallback flag is true; reused across states.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_file": {
+      "description": "Provenance or frozen display metadata: source file. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_height_anchor_available": {
+      "description": "Availability of the required source extent anchor.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_only": {
+      "description": "Count with source fallback and no body fallback.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_row": {
+      "description": "Provenance or frozen display metadata: source row. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_sd": {
+      "description": "Between-person SD of the linked source coordinate/extent.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "source_sha256": {
+      "description": "Provenance or frozen display metadata: source sha256. No participant record is identified.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "spearman": {
+      "description": "Spearman source-target rank correlation in the frozen height table.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "state": {
+      "description": "Source, own-pose fitted or canonical reconstructed state.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "statistic": {
+      "description": "Named statistic/contrast applied to the metric.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "stratum": {
+      "description": "Saved pathway/state/pooled comparison group.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "strict_eligible": {
+      "description": "People whose source extents agree under the frozen strict threshold.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "strict_ineligible": {
+      "description": "People whose source extents fail the frozen strict threshold (47).",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "subjects": {
+      "description": "Dataset-local independent participants represented by this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "subset": {
+      "description": "Stratum/definition metadata: subset. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "text_y_precision": {
+      "description": "Number of serialized decimal places in metre OBJ y coordinates.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "threshold_cm": {
+      "description": "Source-extent equality tolerance in engineering cm; not a clinical threshold.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "total_people": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "transition": {
+      "description": "Stratum/definition metadata: transition. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "uncertainty": {
+      "description": "Frozen uncertainty procedure and adjustment/coverage statement.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "unit": {
+      "description": "Recorded working unit; engineering cm/m do not assert independent physical calibration.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "unknown_flags": {
+      "description": "Count without an evaluable saved source/body flag; zero in this complete-cohort audit.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "valid_observations": {
+      "description": "Count/denominator for the named eligibility, missingness or sign category; remains specific to this row.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "variant": {
+      "description": "Stratum/definition metadata: variant. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    },
+    "variation": {
+      "description": "Stratum/definition metadata: variation. Its value names the saved analysis convention; see the table estimand and audit methods.",
+      "units": "Table-dependent outcome unit unless field is a count, ratio, correlation, probability or metadata; explicit unit suffix takes precedence."
+    }
+  },
+  "tables": [
+    {
+      "file": "results/aggregate/agreement-extent-waist.json",
+      "estimand": "New descriptive audit extension: CCC population moments, Pearson r, and Bland-Altman target-source bias +/-1.96 sample SD; one value per person per stratum; no confidence intervals",
+      "units": "engineering cm except correlations/CCC",
+      "fields": [
+        "bias",
+        "ccc",
+        "ccc_moment_ddof",
+        "confidence_intervals_recomputed",
+        "dataset",
+        "difference_sd",
+        "difference_sd_ddof",
+        "independent_unit",
+        "loa_lower",
+        "loa_multiplier",
+        "loa_upper",
+        "mae",
+        "mean_source",
+        "mean_target",
+        "method",
+        "pathway",
+        "pearson_r",
+        "people",
+        "rmse",
+        "site",
+        "state",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/agreement-waist-methods.json",
+      "estimand": "New descriptive audit extension on the exact complete 149-person cohort: source versus body waist; state/pathway strata stay separate",
+      "units": "engineering cm except correlations/CCC",
+      "fields": [
+        "bias",
+        "ccc",
+        "ccc_moment_ddof",
+        "confidence_intervals_recomputed",
+        "dataset",
+        "difference_sd",
+        "difference_sd_ddof",
+        "independent_unit",
+        "loa_lower",
+        "loa_multiplier",
+        "loa_upper",
+        "mae",
+        "mean_source",
+        "mean_target",
+        "method",
+        "pathway",
+        "pearson_r",
+        "people",
+        "reference",
+        "rmse",
+        "site",
+        "state",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/canonical-offset-minus-P.json",
+      "estimand": "Paired-person difference of absolute canonical cross-path q disagreement, offset minus P, H2",
+      "units": "equation-response pp",
+      "fields": [
+        "direction",
+        "first",
+        "interval",
+        "mean",
+        "mean_ci95",
+        "median",
+        "mode",
+        "people",
+        "second"
+      ]
+    },
+    {
+      "file": "results/aggregate/E1-T3-global.json",
+      "estimand": "Frozen E1-T3-global; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Saved engineering working metres for geometric discrepancy; explicit cm display fields are separate.",
+      "fields": [
+        "dataset",
+        "lod",
+        "mae",
+        "mean",
+        "mean_ci95",
+        "median",
+        "metric",
+        "n",
+        "observations",
+        "participants",
+        "pathway",
+        "rmse",
+        "sd",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/E1-T5-correction-comparisons.json",
+      "estimand": "Frozen E1-T5-correction-comparisons; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Saved engineering working metres for geometric discrepancy; explicit cm display fields are separate.",
+      "fields": [
+        "dataset",
+        "effect",
+        "mae",
+        "mean",
+        "mean_ci95",
+        "median",
+        "n",
+        "observations",
+        "participants",
+        "rmse",
+        "sd",
+        "unit",
+        "variant"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-1-all-paired-effects.json",
+      "estimand": "Frozen paired-effect summaries with original intervals; partitions, metric, state and contrast specify denominator/sign",
+      "units": "metric-dependent; cm, ratios or counts",
+      "fields": [
+        "ci95",
+        "collection",
+        "discarded_constant_source_draws",
+        "mae",
+        "mean",
+        "median",
+        "method",
+        "metric",
+        "n",
+        "partition",
+        "q05",
+        "q25",
+        "q75",
+        "q95",
+        "rmse",
+        "sd",
+        "site",
+        "state",
+        "statistic",
+        "uncertainty"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-1-height-all-arms.json",
+      "estimand": "Source-defined between-person extent SD and fitted/source or canonical/source SD ratios; partitions remain separate",
+      "units": "engineering cm; dimensionless ratios",
+      "fields": [
+        "arm",
+        "bias",
+        "collection",
+        "iqr",
+        "mae",
+        "maximum",
+        "mean",
+        "minimum",
+        "n",
+        "partition",
+        "pearson",
+        "rmse",
+        "sd",
+        "sd_ratio",
+        "slope",
+        "source_sd",
+        "spearman",
+        "state"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-1-midpoint-waist-changes.json",
+      "estimand": "Paired change in midpoint waist absolute error; C minus B unless contrast states otherwise; original intervals",
+      "units": "engineering cm",
+      "fields": [
+        "ci95",
+        "collection",
+        "mae",
+        "mean",
+        "median",
+        "method",
+        "metric",
+        "n",
+        "partition",
+        "q05",
+        "q25",
+        "q75",
+        "q95",
+        "rmse",
+        "sd",
+        "site",
+        "state",
+        "uncertainty"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-1-midpoint-waist.json",
+      "estimand": "Midpoint-proxy signed target-source errors and absolute errors by state/arm on valid paired subset; n=1 is a case summary without interval",
+      "units": "engineering cm",
+      "fields": [
+        "arm",
+        "collection",
+        "eligible",
+        "fallback_count",
+        "invalid_source",
+        "invalid_target",
+        "mae",
+        "mean",
+        "median",
+        "median_absolute",
+        "method",
+        "missing",
+        "n",
+        "p95_absolute",
+        "partition",
+        "q05",
+        "q25",
+        "q75",
+        "q95",
+        "rmse",
+        "sd",
+        "site",
+        "state"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-1-paired-effects.json",
+      "estimand": "Frozen paired-effects; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "ci95",
+        "collection",
+        "mae",
+        "mean",
+        "median",
+        "metric",
+        "n",
+        "partition",
+        "rmse",
+        "sd",
+        "state",
+        "statistic"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-1-T4-height.json",
+      "estimand": "Frozen E2-1-T4-height; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "arm",
+        "bias",
+        "collection",
+        "mae",
+        "mean",
+        "n",
+        "partition",
+        "sd",
+        "sd_ratio",
+        "source_sd",
+        "state"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-all-paired-effects.json",
+      "estimand": "Frozen paired-effect summaries with original intervals; partitions, metric, state and contrast specify denominator/sign",
+      "units": "metric-dependent; cm, ratios or counts",
+      "fields": [
+        "ci95",
+        "collection",
+        "contrast",
+        "discarded_constant_source_draws",
+        "mae",
+        "mean",
+        "median",
+        "method",
+        "metric",
+        "n",
+        "partition",
+        "q05",
+        "q25",
+        "q75",
+        "q95",
+        "rmse",
+        "sd",
+        "site",
+        "statistic",
+        "uncertainty"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-group-arms.json",
+      "estimand": "Development-only source-surface fidelity for planned control and rig-prior arms; n=4, no heldout inference for G1-G4/R4",
+      "units": "engineering cm",
+      "fields": [
+        "collection",
+        "condition",
+        "mae",
+        "mean",
+        "median",
+        "metric",
+        "n",
+        "partition",
+        "q05",
+        "q25",
+        "q75",
+        "q95",
+        "rmse",
+        "sd"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-height-all-arms.json",
+      "estimand": "Source-defined between-person extent SD and fitted/source or canonical/source SD ratios; partitions remain separate",
+      "units": "engineering cm; dimensionless ratios",
+      "fields": [
+        "bias",
+        "collection",
+        "condition",
+        "iqr",
+        "mae",
+        "maximum",
+        "mean",
+        "minimum",
+        "n",
+        "partition",
+        "pearson",
+        "rmse",
+        "sd",
+        "sd_ratio",
+        "slope",
+        "source_sd",
+        "spearman",
+        "state"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-midpoint-waist.json",
+      "estimand": "Midpoint-proxy signed target-source errors and absolute errors by state/arm on valid paired subset; n=1 is a case summary without interval",
+      "units": "engineering cm",
+      "fields": [
+        "collection",
+        "condition",
+        "eligible",
+        "invalid_source",
+        "invalid_target",
+        "mae",
+        "mean",
+        "median",
+        "median_absolute",
+        "method",
+        "missing",
+        "n",
+        "p95_absolute",
+        "partition",
+        "q05",
+        "q25",
+        "q75",
+        "q95",
+        "rmse",
+        "sd",
+        "site",
+        "source_fallback_count",
+        "state"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-paired-effects.json",
+      "estimand": "Frozen paired-effects; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "ci95",
+        "collection",
+        "contrast",
+        "mae",
+        "mean",
+        "median",
+        "metric",
+        "n",
+        "partition",
+        "rmse",
+        "sd",
+        "statistic"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-regularization-arms.json",
+      "estimand": "Development-only source-surface fidelity for planned control and rig-prior arms; n=4, no heldout inference for G1-G4/R4",
+      "units": "engineering cm",
+      "fields": [
+        "collection",
+        "condition",
+        "mae",
+        "mean",
+        "median",
+        "metric",
+        "n",
+        "partition",
+        "q05",
+        "q25",
+        "q75",
+        "q95",
+        "rmse",
+        "sd"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-T5-stability.json",
+      "estimand": "Frozen E2-2-T5-stability; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "ci95",
+        "condition",
+        "mae",
+        "mean",
+        "median",
+        "metric",
+        "n",
+        "partition",
+        "rmse",
+        "sd",
+        "unit",
+        "variation"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-2-T7-height.json",
+      "estimand": "Frozen E2-2-T7-height; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "bias",
+        "collection",
+        "condition",
+        "mae",
+        "mean",
+        "n",
+        "partition",
+        "sd",
+        "sd_ratio",
+        "source_sd",
+        "state"
+      ]
+    },
+    {
+      "file": "results/aggregate/E2-T3-preservation.json",
+      "estimand": "Frozen E2-T3-preservation; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "collection",
+        "eligible",
+        "mae",
+        "mae_ci95",
+        "mean",
+        "mean_ci95",
+        "mean_ci_family",
+        "median",
+        "method",
+        "missing",
+        "n",
+        "rmse",
+        "sd",
+        "site",
+        "state",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/E3-T2-geometry.json",
+      "estimand": "Frozen E3-T2-geometry; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for canonical RMS and girths/extents.",
+      "fields": [
+        "alignment",
+        "mean",
+        "median",
+        "median_ci95",
+        "metric",
+        "region",
+        "sd",
+        "subjects"
+      ]
+    },
+    {
+      "file": "results/aggregate/E3-T3-repeatability.json",
+      "estimand": "Frozen E3-T3-repeatability; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for canonical RMS and girths/extents.",
+      "fields": [
+        "complete_six",
+        "mean",
+        "median",
+        "median_ci95",
+        "method",
+        "metric",
+        "sd",
+        "selected_observations",
+        "site",
+        "subjects",
+        "subset",
+        "valid_observations"
+      ]
+    },
+    {
+      "file": "results/aggregate/E4-T4-change.json",
+      "estimand": "Frozen E4-T4-change; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "cohort",
+        "denominator",
+        "mae",
+        "mean",
+        "mean_ci95",
+        "mean_ci_family",
+        "median",
+        "metric",
+        "n",
+        "primary_family",
+        "rmse",
+        "rule",
+        "sd",
+        "site",
+        "state",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/E5-T3-source-to-canonical.json",
+      "estimand": "Mean absolute and signed historical source-to-canonical q response; original 2000-draw person bootstrap",
+      "units": "equation-response pp",
+      "fields": [
+        "fraction_abs_gt_1_pp",
+        "fraction_abs_gt_3_pp",
+        "fraction_abs_gt_5_pp",
+        "independent_unit",
+        "mean",
+        "mean_absolute",
+        "mean_absolute_ci95",
+        "mean_ci95",
+        "median",
+        "median_absolute",
+        "method",
+        "negative_fraction",
+        "observations",
+        "p90_absolute",
+        "p95_absolute",
+        "pathway",
+        "people",
+        "positive_fraction",
+        "proportion_people_mean_negative",
+        "proportion_people_mean_positive",
+        "quantile_unit",
+        "replicates",
+        "sd_person_mean",
+        "seed",
+        "transition"
+      ]
+    },
+    {
+      "file": "results/aggregate/E5-T6S-primary-person-mean.json",
+      "estimand": "Frozen E5-T6S-primary-person-mean; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "estimand",
+        "independent_unit",
+        "mean",
+        "mean_ci95",
+        "observations",
+        "people",
+        "replicates",
+        "seed"
+      ]
+    },
+    {
+      "file": "results/aggregate/E5S1-T3-three-way-formula-agreement.json",
+      "estimand": "Frozen E5S1-T3-three-way-formula-agreement; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "draws",
+        "first",
+        "mean",
+        "mean_ci95",
+        "observations",
+        "people",
+        "policy",
+        "positive_favours",
+        "second",
+        "seed",
+        "stratum"
+      ]
+    },
+    {
+      "file": "results/aggregate/E5S1-T4-pathway-state-effects.json",
+      "estimand": "Saved participant-mean paired method contrasts by pathway/state; original intervals",
+      "units": "equation-response pp",
+      "fields": [
+        "draws",
+        "first",
+        "mean",
+        "mean_absolute",
+        "mean_absolute_ci95",
+        "mean_ci95",
+        "median",
+        "median_absolute",
+        "median_ci95",
+        "observation_median",
+        "observation_negative_fraction",
+        "observation_p90_absolute",
+        "observation_p95_absolute",
+        "observation_positive_fraction",
+        "observation_ties",
+        "observations",
+        "participant_p90_absolute",
+        "participant_p95_absolute",
+        "people",
+        "person_negative_count",
+        "person_negative_fraction",
+        "person_positive_count",
+        "person_positive_fraction",
+        "person_ties",
+        "policy",
+        "positive_favours",
+        "sd_person_mean",
+        "second",
+        "seed",
+        "stratum"
+      ]
+    },
+    {
+      "file": "results/aggregate/E5S1-T5-error-compensation.json",
+      "estimand": "Frozen E5S1-T5-error-compensation; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "draws",
+        "mean",
+        "mean_ci95",
+        "method",
+        "metric",
+        "observations",
+        "people",
+        "seed",
+        "stratum"
+      ]
+    },
+    {
+      "file": "results/aggregate/E5S1-T6-ranking-reversals.json",
+      "estimand": "Frozen E5S1-T6-ranking-reversals; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "actual_preference",
+        "controlled",
+        "controlled_preference",
+        "count",
+        "denominator",
+        "stratum",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/Figure2-manuscript-input.json",
+      "estimand": "Exact frozen rows selected by original manuscript figure generator",
+      "units": "engineering cm/metre strings",
+      "fields": [
+        "lod",
+        "mean_ci95_engineering_cm_text",
+        "mean_ci95_engineering_m_text",
+        "mean_engineering_cm_text",
+        "mean_engineering_m_text",
+        "metric",
+        "n_observations",
+        "n_participants",
+        "pathway",
+        "source_csv_line_one_based"
+      ]
+    },
+    {
+      "file": "results/aggregate/Figure5-manuscript-input.json",
+      "estimand": "Exact frozen rows selected by original manuscript figure generator",
+      "units": "panel_a cm; panel_b response pp",
+      "fields": [
+        "CI95",
+        "body_pairs",
+        "ci",
+        "comparator_MAE",
+        "comparator_P95_AE",
+        "comparator_RMSE",
+        "comparator_bias",
+        "comparator_fraction",
+        "comparator_median_AE",
+        "coverage",
+        "dataset",
+        "draws",
+        "eligible_people",
+        "first",
+        "label",
+        "mean",
+        "mean_absolute",
+        "mean_absolute_ci95",
+        "mean_advantage",
+        "mean_ci95",
+        "median",
+        "median_absolute",
+        "median_advantage",
+        "median_ci95",
+        "mode",
+        "observation_median",
+        "observation_negative_fraction",
+        "observation_p90_absolute",
+        "observation_p95_absolute",
+        "observation_positive_fraction",
+        "observation_ties",
+        "observations",
+        "ours_MAE",
+        "ours_P95_AE",
+        "ours_RMSE",
+        "ours_bias",
+        "ours_fraction",
+        "ours_median_AE",
+        "panel_a",
+        "panel_b",
+        "participant_p90_absolute",
+        "participant_p95_absolute",
+        "pathway",
+        "people",
+        "person_negative_count",
+        "person_negative_fraction",
+        "person_positive_count",
+        "person_positive_fraction",
+        "person_ties",
+        "policy",
+        "positive_favours",
+        "reference",
+        "sd_person_mean",
+        "second",
+        "seed",
+        "source_csv_line",
+        "source_file",
+        "source_row",
+        "state",
+        "stratum",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/height-variation-control-audit.json",
+      "estimand": "Frozen height-variation-control-audit; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "canonical_sd",
+        "canonical_to_source_sd_ratio",
+        "collection",
+        "fitted_sd",
+        "fitted_to_source_sd_ratio",
+        "people",
+        "people_with_nonzero_rig_morphology",
+        "population",
+        "source_sd",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/NOMO-cohort-selection.json",
+      "estimand": "Frozen 150-person selection, provider source sex-category labels; labels not inferred from geometry or independently clinically verified",
+      "units": "people counts",
+      "fields": [
+        "female_source_category",
+        "male_source_category",
+        "people",
+        "selection"
+      ]
+    },
+    {
+      "file": "results/aggregate/paper_tables.json",
+      "estimand": "Frozen paper_tables; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Exact manuscript display strings; units are in table captions/column labels.",
+      "fields": [
+        "caption",
+        "columns",
+        "id",
+        "markdown",
+        "rows",
+        "source_sha256"
+      ]
+    },
+    {
+      "file": "results/aggregate/S2-T10-policy-tradeoffs.json",
+      "estimand": "Frozen S2-T10-policy-tradeoffs; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "comparison_group",
+        "cross_path_mae_pp",
+        "dominated_by",
+        "height_eligible_people",
+        "non_dominated",
+        "people",
+        "policy_id",
+        "reference_mae_pp",
+        "sd_ratio",
+        "sd_ratio_distance"
+      ]
+    },
+    {
+      "file": "results/aggregate/S2-T3-height-eligibility.json",
+      "estimand": "Frozen S2-T3-height-eligibility; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "anchor_construction",
+        "clinical_stature_qualified",
+        "eligible_people",
+        "policy",
+        "threshold_cm",
+        "total_people"
+      ]
+    },
+    {
+      "file": "results/aggregate/S2-T4-canonical-cross-path.json",
+      "estimand": "Frozen S2-T4-canonical-cross-path; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "body_observations",
+        "draws",
+        "height_policy",
+        "mean",
+        "mean_ci95",
+        "method",
+        "mode",
+        "people",
+        "seed"
+      ]
+    },
+    {
+      "file": "results/aggregate/S2-T6-repeated-consistency.json",
+      "estimand": "Frozen S2-T6-repeated-consistency; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "body_observations",
+        "draws",
+        "height_policy",
+        "mean",
+        "mean_ci95",
+        "method",
+        "metric",
+        "people",
+        "seed",
+        "selected_observations",
+        "selected_people",
+        "source_height_anchor_available",
+        "valid_observations"
+      ]
+    },
+    {
+      "file": "results/aggregate/S2-T7-coordinate-diversity.json",
+      "estimand": "Frozen S2-T7-coordinate-diversity; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "body_observations",
+        "cohort",
+        "draws",
+        "height_policy",
+        "method",
+        "mode",
+        "people",
+        "sd_ratio",
+        "sd_ratio_ci95",
+        "seed",
+        "source_sd"
+      ]
+    },
+    {
+      "file": "results/aggregate/S2-T8-dependent-reference.json",
+      "estimand": "Frozen S2-T8-dependent-reference; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Equation-response percentage points (q=-20H/W, arbitrary zero), except SD ratios dimensionless and eligibility thresholds cm.",
+      "fields": [
+        "body_observations",
+        "height_policy",
+        "mean",
+        "mean_ci95",
+        "method",
+        "mode",
+        "people",
+        "physiological_accuracy",
+        "stratum"
+      ]
+    },
+    {
+      "file": "results/aggregate/strict-height-mismatches.json",
+      "estimand": "Strict-height eligibility and summary of absolute released-source extent disagreements among the 47 ineligible people",
+      "units": "engineering cm; counts",
+      "fields": [
+        "all_translation_only",
+        "differing_max_cm",
+        "differing_mean_cm",
+        "differing_median_cm",
+        "differing_min_cm",
+        "explanation",
+        "strict_eligible",
+        "strict_ineligible",
+        "text_y_precision"
+      ]
+    },
+    {
+      "file": "results/aggregate/UCSC-feet-before-after.json",
+      "estimand": "Paired correction diagnostic, descriptive regional RMS means, not pooled vertex RMS",
+      "units": "engineering cm",
+      "fields": [
+        "after_cm",
+        "before_cm",
+        "dataset",
+        "estimand",
+        "people",
+        "variant"
+      ]
+    },
+    {
+      "file": "results/aggregate/W-T4-dataset-agreement.json",
+      "estimand": "Frozen W-T4-dataset-agreement; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "CI95",
+        "body_pairs",
+        "comparator_MAE",
+        "dataset",
+        "eligible_people",
+        "mean_advantage",
+        "mode",
+        "ours_MAE",
+        "pathway",
+        "people",
+        "state",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/W-T5-full-NOMO.json",
+      "estimand": "Frozen W-T5-full-NOMO; grouped by the row labels. Original estimates/intervals are retained.",
+      "units": "Engineering cm for extent/circumference/errors; ratios/correlations dimensionless; counts integer.",
+      "fields": [
+        "CI95",
+        "body_pairs",
+        "comparator_MAE",
+        "dataset",
+        "eligible_people",
+        "mean_advantage",
+        "mode",
+        "ours_MAE",
+        "pathway",
+        "people",
+        "state",
+        "unit"
+      ]
+    },
+    {
+      "file": "results/aggregate/waist-fallback-counts.json",
+      "estimand": "Saved flags on exact 149-person complete paired cohort. Source is reused across body states; state rows are not independent source observations",
+      "units": "counts",
+      "fields": [
+        "body_fallback_count",
+        "body_only",
+        "neither",
+        "pathway",
+        "people",
+        "source_and_body",
+        "source_fallback_count",
+        "source_only",
+        "state",
+        "unknown_flags"
+      ]
+    }
+  ]
+}

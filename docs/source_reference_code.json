@@ -1,0 +1,43 @@
+[
+  {
+    "source": "src/somatosynth3d/data/nomo_contact_sections.py",
+    "source_sha256": "72a17d943c981639611db398d8aed38c7eb8787dc28c38d88dfcd525befaced9",
+    "destination": "src/somatoanthropy/data/nomo_contact_sections.py",
+    "definitions": [
+      "correct_trunk"
+    ],
+    "adaptations": [
+      "Internal namespace rename; execution/delivery IO excluded"
+    ],
+    "sha256": "e1ea6115fd318e936c81c7920b975f3c81eb029fe1c00ffcc97a04e3d6986ff7"
+  },
+  {
+    "source": "src/somatosynth3d/data/nomo_contact_seams.py",
+    "source_sha256": "2d3e8782bf5139cc7a8d4e6e149424ec22755622b1e38ea24f1e449e7dd44c0b",
+    "destination": "src/somatoanthropy/data/nomo_contact_seams.py",
+    "definitions": [
+      "SourceSeamSections"
+    ],
+    "adaptations": [
+      "Internal namespace rename; execution/delivery IO excluded"
+    ],
+    "sha256": "a9cc2172ca1e1782c2afd840b97f9c5b70a1b451177d18be2d74e263493c1374"
+  },
+  {
+    "source": "src/somatosynth3d/data/nomo_source_recovery.py",
+    "source_sha256": "57000b5494a94e0b122d0cf9ffaa8ac9ec7ae5ddbbd070735e952be0a926bae9",
+    "destination": "src/somatoanthropy/data/nomo_source_recovery.py",
+    "definitions": [
+      "cross",
+      "split_trace",
+      "indexed_traces",
+      "SurfaceCycleSections",
+      "recover_hip",
+      "certify_source_segments"
+    ],
+    "adaptations": [
+      "Internal namespace rename; execution/delivery IO excluded"
+    ],
+    "sha256": "aef8f120ff2ea4f80d987769ab1f8d5875ba05e58cea1cd717eebf8cdc22bb37"
+  }
+]

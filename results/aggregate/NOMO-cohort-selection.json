@@ -1,0 +1,20 @@
+[
+  {
+    "selection": "RETAINED",
+    "people": 109,
+    "female_source_category": 79,
+    "male_source_category": 30
+  },
+  {
+    "selection": "REPLACEMENT",
+    "people": 1,
+    "female_source_category": 1,
+    "male_source_category": 0
+  },
+  {
+    "selection": "ADDITIONAL",
+    "people": 40,
+    "female_source_category": 0,
+    "male_source_category": 40
+  }
+]

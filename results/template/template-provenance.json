@@ -1,0 +1,242 @@
+{
+  "model_revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32",
+  "template_only": true,
+  "fitting_executed": false,
+  "articulation": "Authored zero controls; not the study T90 transfer",
+  "measurement": "Released-pose adaptive selector on template; B1 61%-height plane; umbilicus+0.005 m offset",
+  "local_attachment_hashes": {
+    "atlas": "7ab5418e6e8796369b34835d7804a68ec80d8c2e8a6ce0ae8c5a2c553ea14698",
+    "masks": "33517d54892c53f5be49786acaf6852d7750e25c9ded7016c745af23dcea2a8c"
+  },
+  "settings": [
+    {
+      "setting": "neutral",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_spine_length/minimum",
+      "planes_y_m": {
+        "P": 1.0452642888800965,
+        "B1": 0.9855171922221779,
+        "offset": 1.0452642888800965
+      },
+      "P_fallback": true,
+      "height_m": 1.6165292283520103,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_spine_length/maximum",
+      "planes_y_m": {
+        "P": 1.2088946054417815,
+        "B1": 1.1196105328574777,
+        "offset": 1.0748229462113494
+      },
+      "P_fallback": false,
+      "height_m": 1.836354362629354,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_neck_length/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0291994217410685,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.6881394883617757,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_neck_length/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.075928157903254,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.7647439500316977,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_shoulder_width/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_shoulder_width/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_uparms/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_uparms/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_lowarms/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_lowarms/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_hip_width/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_hip_width/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0525638261809946,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.726441795490682,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_uplegs/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.071868908405304,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.6769416475296022,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_uplegs/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0332588207721711,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.7759419393539428,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_lowlegs/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0911046230793,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.6276193618774415,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_lowlegs/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.014023106098175,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.8252642250061035,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_foot_length/minimum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0560869163274766,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.7174083060026168,
+      "identity": "zero template",
+      "expression": "zero"
+    },
+    {
+      "setting": "scale_foot_length/maximum",
+      "planes_y_m": {
+        "P": 1.0600435476166246,
+        "B1": 1.0490408098697663,
+        "offset": 1.0600435476166246
+      },
+      "P_fallback": true,
+      "height_m": 1.7354752838611602,
+      "identity": "zero template",
+      "expression": "zero"
+    }
+  ],
+  "asset_notice": "third_party/MHR-assets-Apache-2.0.txt"
+}

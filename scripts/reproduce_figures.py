@@ -283,7 +283,7 @@ def figures():
         "Figure6",
         fig,
         ["S2-T10-policy-tradeoffs"],
-        "Two-dimensional projection of the saved three-objective comparison. Membership also uses distance of the SD ratio from 1, held in the input table. No statistical dominance or physiological validity is asserted; all objectives within each panel use the same people.",
+        "Companion projection of all nine saved policies per comparison group. Membership retains the full three-objective result, including absolute log(canonical/source SD ratio). The current manuscript displays six of these policies per panel; use reproduce_manuscript_figures.py for that exact display. No statistical dominance or physiological validity is asserted; objectives within each group use the same people.",
     )
 
 

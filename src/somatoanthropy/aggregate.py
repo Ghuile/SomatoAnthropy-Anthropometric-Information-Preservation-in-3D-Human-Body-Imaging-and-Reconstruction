@@ -126,6 +126,118 @@ def check_anchors(root: Path) -> list[dict]:
         raise ValueError("CONDITIONAL_PARETO_FRONT_MISMATCH")
     for r in front:
         check("Pareto n " + r["policy_id"], r["people"], 149, 0)
+    # Additional claims requested in the reviewer audit, checked independently
+    # against manuscript precision or frozen original table values.
+    r = read(root, "canonical-offset-minus-P")[0]
+    check("offset minus P paired H2", r["mean"], -0.1060672543761418, 1e-13)
+    check("offset minus P n", r["people"], 150, 0)
+    check("offset minus P CI", r["mean_ci95"], [-0.22650864534398923, -0.013129477422057402], 1e-13)
+    for path, value in [("SMPL-NICP", 2.3517574845266984), ("CAESAR-NICP", 2.471841419403246)]:
+        r = one(root, "E5-T3-source-to-canonical", pathway=path)
+        check("E5 absolute response " + path, r["mean_absolute"], value, 1e-13)
+        check("E5 absolute response people " + path, r["people"], 149, 0)
+    r = read(root, "UCSC-feet-before-after")[0]
+    check(
+        "UCSC foot RMS means",
+        [r["before_cm"], r["after_cm"]],
+        [2.202066295301777, 2.6016079182633876],
+        1e-12,
+    )
+    check("UCSC feet people", r["people"], 10, 0)
+    r = read(root, "strict-height-mismatches")[0]
+    check(
+        "strict height qualification", [r["strict_eligible"], r["strict_ineligible"]], [103, 47], 0
+    )
+    check(
+        "strict mismatch range",
+        [r["differing_min_cm"], r["differing_max_cm"]],
+        [0.0004, 0.2338],
+        1e-10,
+    )
+    for path, source, canonical, fitted in [
+        ("SMPL-NICP", 56, 113, 62),
+        ("CAESAR-NICP", 149, 116, 69),
+    ]:
+        for state, body in [("canonical", canonical), ("fitted", fitted)]:
+            r = one(root, "waist-fallback-counts", pathway=path, state=state)
+            check(
+                "fallback " + path + state,
+                [
+                    r["people"],
+                    r["source_fallback_count"],
+                    r["body_fallback_count"],
+                    r["unknown_flags"],
+                ],
+                [149, source, body, 0],
+                0,
+            )
+    for path, mean, n in [
+        ("SMPL-NICP", 0.06484068731301885, 11),
+        ("CAESAR-NICP", 0.6200062841980127, 1),
+    ]:
+        r = one(
+            root,
+            "E2-1-midpoint-waist-changes",
+            collection=path,
+            state="fitted",
+            metric="anthropometric_absolute_error_cm",
+            method="E2_midpoint_proxy",
+            site="waist",
+        )
+        check("midpoint change " + path, r["mean"], mean, 1e-12)
+        check("midpoint n " + path, r["n"], n, 0)
+    strata = read(root, "E5S1-T4-pathway-state-effects")
+    pathway_means = {
+        "SMPL-NICP": [-0.21268888353273763, 0.650779645147513, 0.67826344185398],
+        "CAESAR-NICP": [-1.0912681979065408, -0.37128255300737467, -0.37792319943078734],
+    }
+    for path in ["SMPL-NICP", "CAESAR-NICP"]:
+        for policy in ["actual", "sourceH", "bodyH"]:
+            rows = [
+                r
+                for r in strata
+                if r["stratum"] == path
+                and r["first"] == "P"
+                and r["second"] == "B1"
+                and r["policy"] == policy
+            ]
+            if len(rows) != 1:
+                raise ValueError("FIGURE5B_PATHWAY_STRATUM_MISSING")
+            check(
+                "Figure5b " + path + policy,
+                [rows[0]["people"], rows[0]["observations"]],
+                [149, 298],
+                0,
+            )
+            check(
+                "Figure5b estimate " + path + policy,
+                rows[0]["mean"],
+                pathway_means[path][["actual", "sourceH", "bodyH"].index(policy)],
+                1e-13,
+            )
+    for name in ["E2-1-height-all-arms", "E2-2-height-all-arms"]:
+        rows = read(root, name)
+        for path in ["SMPL-NICP", "CAESAR-NICP"]:
+            for state in ["fitted", "canonical"]:
+                selected = [r for r in rows if r["collection"] == path and r["state"] == state]
+                if not selected or any(r["sd_ratio"] is None for r in selected):
+                    raise ValueError("FITTED_CANONICAL_MECHANISM_TABLE_INCOMPLETE")
+    for arm in ["G1", "G2", "G3", "G4", "R4"]:
+        rows = [r for r in read(root, "E2-2-height-all-arms") if r["condition"] == arm]
+        if len(rows) != 4 or {r["partition"] for r in rows} != {"development"}:
+            raise ValueError("DEVELOPMENT_ONLY_ARM_MISMATCH:" + arm)
+        for r in rows:
+            check("mechanism n " + arm + r["collection"] + r["state"], r["n"], 4, 0)
+    for r in read(root, "agreement-extent-waist") + read(root, "agreement-waist-methods"):
+        check("agreement LoA lower", r["loa_lower"], r["bias"] - 1.96 * r["difference_sd"], 1e-12)
+        check("agreement LoA upper", r["loa_upper"], r["bias"] + 1.96 * r["difference_sd"], 1e-12)
+    for r in read(root, "NOMO-cohort-selection"):
+        check(
+            "source category count " + r["selection"],
+            r["female_source_category"] + r["male_source_category"],
+            r["people"],
+            0,
+        )
     return checked
 
 

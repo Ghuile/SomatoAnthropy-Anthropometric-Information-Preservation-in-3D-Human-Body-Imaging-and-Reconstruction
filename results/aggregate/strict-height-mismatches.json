@@ -1,0 +1,15 @@
+[
+  {
+    "all_translation_only": true,
+    "differing_max_cm": 0.23380000000000223,
+    "differing_mean_cm": 0.06162553191489785,
+    "differing_median_cm": 0.04589999999998895,
+    "differing_min_cm": 0.0004000000000132786,
+    "explanation": "Six decimal metre OBJ serialization implies 0.0001 engineering cm text steps; two separately rounded extrema can differ by about 0.0002 cm. Non-strict differences exceed this and double-precision roundoff. Recorded rigid translations preserve height; representation-specific extrema are observed, anatomical/pose/discretisation attribution remains unresolved. No relaxed threshold is clinical.",
+    "strict_eligible": 103,
+    "strict_ineligible": 47,
+    "text_y_precision": [
+      6
+    ]
+  }
+]

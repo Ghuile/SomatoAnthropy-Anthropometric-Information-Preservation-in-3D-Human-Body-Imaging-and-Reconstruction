@@ -203,3 +203,34 @@ def neck_section(engine, joints, allowed):
         iso_conformance_claim=False,
     )
     return q
+
+
+def correct_trunk(engine, previous, masks):
+    """Retain saved site heights; never insert an artificial torso bridge."""
+    import copy
+
+    result = copy.deepcopy(previous)
+    for name in ("chest", "waist", "abdomen", "hip"):
+        old = previous[name]
+        if "plane_origin_m" not in old:
+            continue
+        q = engine.section(
+            old["plane_origin_m"],
+            [0, 1, 0],
+            old["plane_origin_m"],
+            masks["pelvis" if name == "hip" else "torso"],
+        )
+        quantity = "tape_envelope_cm" if name == "hip" else "raw_contour_cm"
+        result[name].update(q, quantity=quantity, engineering_value_cm=q.get(quantity))
+        result[name].update(
+            quality_state="ENGINEERING_INTERPRETATION"
+            if q["geometry_quality"] == "VALID"
+            else "NOT_EVALUABLE",
+            interpretation_status="ENGINEERING_INTERPRETATION",
+            iso_conformance_claim=False,
+            previous_geometry_quality=old["geometry_quality"],
+            previous_reason=old["reason"],
+        )
+        if name == "hip" and q["geometry_quality"] == "VALID":
+            result[name]["points_m"] = q["tape_points_m"]
+    return result

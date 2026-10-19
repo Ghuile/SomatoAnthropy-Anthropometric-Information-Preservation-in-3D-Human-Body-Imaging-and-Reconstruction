@@ -1,0 +1,10 @@
+[
+  {
+    "dataset": "UCSC",
+    "variant": "baseline_lod0",
+    "people": 10,
+    "before_cm": 2.202066295301777,
+    "after_cm": 2.6016079182633876,
+    "estimand": "Mean across people of each saved regional foot RMS; working metres multiplied by 100"
+  }
+]

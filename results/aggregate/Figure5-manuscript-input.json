@@ -1,0 +1,717 @@
+{
+  "panel_a": [
+    {
+      "label": "SMPL-NICP / canonical",
+      "mean": 1.2663836818697283,
+      "ci": [
+        0.8936306266613708,
+        1.6547102990654678
+      ],
+      "people": 149,
+      "observations": 149,
+      "source_file": "docs/experiments/EXP-WAIST-01/waist01-20261018-02/W-T4-dataset-agreement.csv",
+      "source_csv_line": 32,
+      "source_row": {
+        "dataset": "NOMO",
+        "pathway": "SMPL-NICP",
+        "state": "canonical",
+        "mode": "end_to_end",
+        "people": "149",
+        "eligible_people": "150",
+        "body_pairs": "149",
+        "coverage": "0.9933333333333333",
+        "ours_MAE": "3.6039922462309106",
+        "comparator_MAE": "4.870375928100638",
+        "ours_RMSE": "4.641526630769068",
+        "comparator_RMSE": "6.0973631949987315",
+        "ours_bias": "1.89069339201982",
+        "comparator_bias": "3.8863660798684263",
+        "ours_median_AE": "3.0342548694409857",
+        "comparator_median_AE": "3.7832651870143224",
+        "ours_P95_AE": "8.716888228163436",
+        "comparator_P95_AE": "11.605410694012138",
+        "mean_advantage": "1.2663836818697283",
+        "median_advantage": "0.513411399039299",
+        "CI95": "[0.8936306266613708, 1.6547102990654678]",
+        "ours_fraction": "0.6912751677852349",
+        "comparator_fraction": "0.3087248322147651",
+        "unit": "engineering_cm",
+        "reference": "dependent R3 proxy; not physical accuracy"
+      }
+    },
+    {
+      "label": "SMPL-NICP / fitted",
+      "mean": 1.6058175694221077,
+      "ci": [
+        0.8706635060484367,
+        2.4050594536292653
+      ],
+      "people": 149,
+      "observations": 149,
+      "source_file": "docs/experiments/EXP-WAIST-01/waist01-20261018-02/W-T4-dataset-agreement.csv",
+      "source_csv_line": 35,
+      "source_row": {
+        "dataset": "NOMO",
+        "pathway": "SMPL-NICP",
+        "state": "fitted",
+        "mode": "end_to_end",
+        "people": "149",
+        "eligible_people": "150",
+        "body_pairs": "149",
+        "coverage": "0.9933333333333333",
+        "ours_MAE": "3.4587222874718244",
+        "comparator_MAE": "5.064539856893933",
+        "ours_RMSE": "5.180119348440827",
+        "comparator_RMSE": "6.415170681434907",
+        "ours_bias": "0.14814961055479395",
+        "comparator_bias": "4.2063060323426456",
+        "ours_median_AE": "1.877287878217743",
+        "comparator_median_AE": "3.7189565364542005",
+        "ours_P95_AE": "11.041448814073009",
+        "comparator_P95_AE": "11.84151622246533",
+        "mean_advantage": "1.6058175694221077",
+        "median_advantage": "0.8659929547330307",
+        "CI95": "[0.8706635060484367, 2.4050594536292653]",
+        "ours_fraction": "0.6711409395973155",
+        "comparator_fraction": "0.3288590604026846",
+        "unit": "engineering_cm",
+        "reference": "dependent R3 proxy; not physical accuracy"
+      }
+    },
+    {
+      "label": "CAESAR-NICP / canonical",
+      "mean": 0.03239698292628893,
+      "ci": [
+        -0.32333374203249315,
+        0.37813953491627916
+      ],
+      "people": 149,
+      "observations": 149,
+      "source_file": "docs/experiments/EXP-WAIST-01/waist01-20261018-02/W-T4-dataset-agreement.csv",
+      "source_csv_line": 20,
+      "source_row": {
+        "dataset": "NOMO",
+        "pathway": "CAESAR-NICP",
+        "state": "canonical",
+        "mode": "end_to_end",
+        "people": "149",
+        "eligible_people": "150",
+        "body_pairs": "149",
+        "coverage": "0.9933333333333333",
+        "ours_MAE": "2.1825750469818903",
+        "comparator_MAE": "2.2149720299081794",
+        "ours_RMSE": "3.0101452637826727",
+        "comparator_RMSE": "2.9576596316764707",
+        "ours_bias": "-1.6053568775347096",
+        "comparator_bias": "0.2519308766776169",
+        "ours_median_AE": "1.4791366525922882",
+        "comparator_median_AE": "1.6457406570505952",
+        "ours_P95_AE": "6.170657806840488",
+        "comparator_P95_AE": "6.045407473491326",
+        "mean_advantage": "0.03239698292628893",
+        "median_advantage": "0.026551270578437425",
+        "CI95": "[-0.32333374203249315, 0.37813953491627916]",
+        "ours_fraction": "0.5234899328859061",
+        "comparator_fraction": "0.47651006711409394",
+        "unit": "engineering_cm",
+        "reference": "dependent R3 proxy; not physical accuracy"
+      }
+    },
+    {
+      "label": "CAESAR-NICP / fitted",
+      "mean": -1.5318769044015619,
+      "ci": [
+        -2.2664893059978795,
+        -0.7985949418632999
+      ],
+      "people": 149,
+      "observations": 149,
+      "source_file": "docs/experiments/EXP-WAIST-01/waist01-20261018-02/W-T4-dataset-agreement.csv",
+      "source_csv_line": 23,
+      "source_row": {
+        "dataset": "NOMO",
+        "pathway": "CAESAR-NICP",
+        "state": "fitted",
+        "mode": "end_to_end",
+        "people": "149",
+        "eligible_people": "150",
+        "body_pairs": "149",
+        "coverage": "0.9933333333333333",
+        "ours_MAE": "3.947681542044398",
+        "comparator_MAE": "2.415804637642836",
+        "ours_RMSE": "5.53442057835026",
+        "comparator_RMSE": "3.5375972360450065",
+        "ours_bias": "-2.741805949904393",
+        "comparator_bias": "0.598027730962052",
+        "ours_median_AE": "2.4555099713922317",
+        "comparator_median_AE": "1.5830080770928134",
+        "ours_P95_AE": "11.078367579258938",
+        "comparator_P95_AE": "7.600586574744557",
+        "mean_advantage": "-1.5318769044015619",
+        "median_advantage": "-0.6118624166217046",
+        "CI95": "[-2.2664893059978795, -0.7985949418632999]",
+        "ours_fraction": "0.4161073825503356",
+        "comparator_fraction": "0.5838926174496645",
+        "unit": "engineering_cm",
+        "reference": "dependent R3 proxy; not physical accuracy"
+      }
+    },
+    {
+      "label": "Pooled canonical / vs B1",
+      "mean": 0.6493903323980087,
+      "ci": [
+        0.36489664711193354,
+        0.9227801581312939
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-WAIST-01/waist01-20261018-02/W-T5-full-NOMO.csv",
+      "source_csv_line": 2,
+      "source_row": {
+        "dataset": "NOMO",
+        "pathway": "150-person linked NICP canonical",
+        "state": "canonical",
+        "mode": "end_to_end",
+        "people": "149",
+        "eligible_people": "150",
+        "body_pairs": "298",
+        "coverage": "0.9933333333333333",
+        "ours_MAE": "2.8932836466064003",
+        "comparator_MAE": "3.542673979004409",
+        "ours_RMSE": "3.911824636484342",
+        "comparator_RMSE": "4.79195098204133",
+        "ours_bias": "0.1426682572425552",
+        "comparator_bias": "2.0691484782730214",
+        "ours_median_AE": "2.4259219781137134",
+        "comparator_median_AE": "2.9157920081460134",
+        "ours_P95_AE": "5.9786688683269595",
+        "comparator_P95_AE": "7.682021847778584",
+        "mean_advantage": "0.6493903323980087",
+        "median_advantage": "0.14495634935741464",
+        "CI95": "[0.36489664711193354, 0.9227801581312939]",
+        "ours_fraction": "0.7114093959731543",
+        "comparator_fraction": "0.28859060402684567",
+        "unit": "engineering_cm",
+        "reference": "dependent R3 proxy; not physical accuracy"
+      }
+    },
+    {
+      "label": "Pooled canonical / vs offset",
+      "mean": -0.1793853147963137,
+      "ci": [
+        -0.37709408384028686,
+        -0.0075870785841911014
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-WAIST-01/waist01-20261018-02/W-T8-site-contour-ablation.csv",
+      "source_csv_line": 6,
+      "source_row": {
+        "dataset": "NOMO",
+        "pathway": "150-person linked NICP canonical",
+        "state": "canonical",
+        "mode": "umbilicus_offset_raw",
+        "people": "149",
+        "eligible_people": "150",
+        "body_pairs": "298",
+        "coverage": "0.9933333333333333",
+        "ours_MAE": "2.893283646606401",
+        "comparator_MAE": "2.713898331810087",
+        "ours_RMSE": "3.9118246364843428",
+        "comparator_RMSE": "3.657367983276613",
+        "ours_bias": "0.1426682572425547",
+        "comparator_bias": "0.5259719858041642",
+        "ours_median_AE": "2.4259219781137134",
+        "comparator_median_AE": "2.2921833677083754",
+        "ours_P95_AE": "5.978668868326953",
+        "comparator_P95_AE": "5.698937403212385",
+        "mean_advantage": "-0.1793853147963137",
+        "median_advantage": "0.0",
+        "CI95": "[-0.37709408384028686, -0.0075870785841911014]",
+        "ours_fraction": "0.12080536912751678",
+        "comparator_fraction": "0.14093959731543623",
+        "unit": "engineering_cm",
+        "reference": "dependent R3 proxy; not physical accuracy"
+      }
+    }
+  ],
+  "panel_b": [
+    {
+      "label": "All / actual",
+      "policy": "actual",
+      "mean": -0.6519785407196393,
+      "ci": [
+        -0.861860527300042,
+        -0.4481114647504089
+      ],
+      "people": 149,
+      "observations": 596,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T3-three-way-formula-agreement.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": -0.6519785407196393,
+        "mean_absolute": 1.2920216023305295,
+        "mean_absolute_ci95": [
+          1.0996888147374633,
+          1.4930352462899237
+        ],
+        "mean_ci95": [
+          -0.861860527300042,
+          -0.4481114647504089
+        ],
+        "median": -0.2560186379822338,
+        "median_absolute": 0.8076482801638463,
+        "median_ci95": [
+          -0.42292882977997825,
+          -0.1543891359284233
+        ],
+        "observation_median": -0.15339391689836113,
+        "observation_negative_fraction": 0.6057046979865772,
+        "observation_p90_absolute": 3.9203161696100586,
+        "observation_p95_absolute": 5.143842115756586,
+        "observation_positive_fraction": 0.39429530201342283,
+        "observation_ties": 0,
+        "observations": 596,
+        "participant_p90_absolute": 2.990124047861386,
+        "participant_p95_absolute": 3.494397550710848,
+        "people": 149,
+        "person_negative_count": 103,
+        "person_negative_fraction": 0.6912751677852349,
+        "person_positive_count": 46,
+        "person_positive_fraction": 0.3087248322147651,
+        "person_ties": 0,
+        "policy": "actual",
+        "positive_favours": "P",
+        "sd_person_mean": 1.3032114016065905,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "all"
+      }
+    },
+    {
+      "label": "All / sourceH",
+      "policy": "sourceH",
+      "mean": 0.13974854607006915,
+      "ci": [
+        -0.025859224460202855,
+        0.3232144462997553
+      ],
+      "people": 149,
+      "observations": 596,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T3-three-way-formula-agreement.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": 0.13974854607006915,
+        "mean_absolute": 1.1781330764383025,
+        "mean_absolute_ci95": [
+          1.0132207506208208,
+          1.3524937747617647
+        ],
+        "mean_ci95": [
+          -0.025859224460202855,
+          0.3232144462997553
+        ],
+        "median": 0.027209270278210074,
+        "median_absolute": 0.824973959223978,
+        "median_ci95": [
+          -0.031966492468220586,
+          0.08408589988343484
+        ],
+        "observation_median": 0.07630305415051941,
+        "observation_negative_fraction": 0.42449664429530204,
+        "observation_p90_absolute": 3.2181495880744926,
+        "observation_p95_absolute": 4.484167820590295,
+        "observation_positive_fraction": 0.575503355704698,
+        "observation_ties": 0,
+        "observations": 596,
+        "participant_p90_absolute": 2.7803570673606472,
+        "participant_p95_absolute": 3.0508460863222484,
+        "people": 149,
+        "person_negative_count": 67,
+        "person_negative_fraction": 0.44966442953020136,
+        "person_positive_count": 82,
+        "person_positive_fraction": 0.5503355704697986,
+        "person_ties": 0,
+        "policy": "sourceH",
+        "positive_favours": "P",
+        "sd_person_mean": 1.0843684148544817,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "all"
+      }
+    },
+    {
+      "label": "All / bodyH",
+      "policy": "bodyH",
+      "mean": 0.15017012121159637,
+      "ci": [
+        -0.0224522235959685,
+        0.34263555936756424
+      ],
+      "people": 149,
+      "observations": 596,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T3-three-way-formula-agreement.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": 0.15017012121159637,
+        "mean_absolute": 1.2228093265519155,
+        "mean_absolute_ci95": [
+          1.0480441916106726,
+          1.409871099022993
+        ],
+        "mean_ci95": [
+          -0.0224522235959685,
+          0.34263555936756424
+        ],
+        "median": 0.027032340659091103,
+        "median_absolute": 0.8105617270009002,
+        "median_ci95": [
+          -0.03303249099376515,
+          0.08498120421833733
+        ],
+        "observation_median": 0.07646349751674997,
+        "observation_negative_fraction": 0.42449664429530204,
+        "observation_p90_absolute": 3.418462451672575,
+        "observation_p95_absolute": 4.590334403073815,
+        "observation_positive_fraction": 0.575503355704698,
+        "observation_ties": 0,
+        "observations": 596,
+        "participant_p90_absolute": 2.817806041115423,
+        "participant_p95_absolute": 3.1685247452121534,
+        "people": 149,
+        "person_negative_count": 67,
+        "person_negative_fraction": 0.44966442953020136,
+        "person_positive_count": 82,
+        "person_positive_fraction": 0.5503355704697986,
+        "person_ties": 0,
+        "policy": "bodyH",
+        "positive_favours": "P",
+        "sd_person_mean": 1.1303562408572092,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "all"
+      }
+    },
+    {
+      "label": "SMPL-NICP / actual",
+      "policy": "actual",
+      "mean": -0.21268888353273763,
+      "ci": [
+        -0.4709607620224632,
+        0.05379565978190787
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T4-pathway-state-effects.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": -0.21268888353273763,
+        "mean_absolute": 1.208683153548073,
+        "mean_absolute_ci95": [
+          1.0154746169134512,
+          1.415258962002872
+        ],
+        "mean_ci95": [
+          -0.4709607620224632,
+          0.05379565978190787
+        ],
+        "median": -0.033854227764709144,
+        "median_absolute": 0.7583292028525479,
+        "median_ci95": [
+          -0.18017063441115422,
+          0.041939882645674054
+        ],
+        "observation_median": 0.0007441909736938257,
+        "observation_negative_fraction": 0.5,
+        "observation_p90_absolute": 3.1214295392830946,
+        "observation_p95_absolute": 4.988277910072226,
+        "observation_positive_fraction": 0.5,
+        "observation_ties": 0,
+        "observations": 298,
+        "participant_p90_absolute": 2.9411241301379127,
+        "participant_p95_absolute": 3.6907699055216314,
+        "people": 149,
+        "person_negative_count": 80,
+        "person_negative_fraction": 0.5369127516778524,
+        "person_positive_count": 69,
+        "person_positive_fraction": 0.46308724832214765,
+        "person_ties": 0,
+        "policy": "actual",
+        "positive_favours": "P",
+        "sd_person_mean": 1.646197614316085,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "SMPL-NICP"
+      }
+    },
+    {
+      "label": "SMPL-NICP / sourceH",
+      "policy": "sourceH",
+      "mean": 0.650779645147513,
+      "ci": [
+        0.40610839795482484,
+        0.8966479560182534
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T4-pathway-state-effects.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": 0.650779645147513,
+        "mean_absolute": 1.2745440538224777,
+        "mean_absolute_ci95": [
+          1.0851501142060702,
+          1.47116245074764
+        ],
+        "mean_ci95": [
+          0.40610839795482484,
+          0.8966479560182534
+        ],
+        "median": 0.2607840859052124,
+        "median_absolute": 0.8822975622083651,
+        "median_ci95": [
+          0.1319575292901587,
+          0.5649937715166953
+        ],
+        "observation_median": 0.248387393345888,
+        "observation_negative_fraction": 0.3187919463087248,
+        "observation_p90_absolute": 3.5001544894362544,
+        "observation_p95_absolute": 4.504833979600055,
+        "observation_positive_fraction": 0.6812080536912751,
+        "observation_ties": 0,
+        "observations": 298,
+        "participant_p90_absolute": 3.250112595862478,
+        "participant_p95_absolute": 3.6264651131268297,
+        "people": 149,
+        "person_negative_count": 49,
+        "person_negative_fraction": 0.3288590604026846,
+        "person_positive_count": 100,
+        "person_positive_fraction": 0.6711409395973155,
+        "person_ties": 0,
+        "policy": "sourceH",
+        "positive_favours": "P",
+        "sd_person_mean": 1.5389980787408033,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "SMPL-NICP"
+      }
+    },
+    {
+      "label": "SMPL-NICP / bodyH",
+      "policy": "bodyH",
+      "mean": 0.67826344185398,
+      "ci": [
+        0.4250147640916535,
+        0.937500707062174
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T4-pathway-state-effects.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": 0.67826344185398,
+        "mean_absolute": 1.3224184908826184,
+        "mean_absolute_ci95": [
+          1.123123834301826,
+          1.5282414848048747
+        ],
+        "mean_ci95": [
+          0.4250147640916535,
+          0.937500707062174
+        ],
+        "median": 0.2569711084268267,
+        "median_absolute": 0.8912985485673253,
+        "median_ci95": [
+          0.1435321163527603,
+          0.5644658824048232
+        ],
+        "observation_median": 0.2525744786112316,
+        "observation_negative_fraction": 0.3187919463087248,
+        "observation_p90_absolute": 3.6984748954482156,
+        "observation_p95_absolute": 4.635616301808419,
+        "observation_positive_fraction": 0.6812080536912751,
+        "observation_ties": 0,
+        "observations": 298,
+        "participant_p90_absolute": 3.285115341203861,
+        "participant_p95_absolute": 3.83544849195389,
+        "people": 149,
+        "person_negative_count": 49,
+        "person_negative_fraction": 0.3288590604026846,
+        "person_positive_count": 100,
+        "person_positive_fraction": 0.6711409395973155,
+        "person_ties": 0,
+        "policy": "bodyH",
+        "positive_favours": "P",
+        "sd_person_mean": 1.5998827904478221,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "SMPL-NICP"
+      }
+    },
+    {
+      "label": "CAESAR-NICP / actual",
+      "policy": "actual",
+      "mean": -1.0912681979065408,
+      "ci": [
+        -1.3462177746565869,
+        -0.8514804998108672
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T4-pathway-state-effects.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": -1.0912681979065408,
+        "mean_absolute": 1.3753600511129864,
+        "mean_absolute_ci95": [
+          1.1480988545389081,
+          1.615999096116777
+        ],
+        "mean_ci95": [
+          -1.3462177746565869,
+          -0.8514804998108672
+        ],
+        "median": -0.4870820967495426,
+        "median_absolute": 0.7966851772763239,
+        "median_ci95": [
+          -0.884222922164295,
+          -0.292021228353061
+        ],
+        "observation_median": -0.33381922395812724,
+        "observation_negative_fraction": 0.7114093959731543,
+        "observation_p90_absolute": 4.492295992871176,
+        "observation_p95_absolute": 5.301226509299912,
+        "observation_positive_fraction": 0.28859060402684567,
+        "observation_ties": 0,
+        "observations": 298,
+        "participant_p90_absolute": 3.2830981616067434,
+        "participant_p95_absolute": 4.031480629253816,
+        "people": 149,
+        "person_negative_count": 118,
+        "person_negative_fraction": 0.7919463087248322,
+        "person_positive_count": 31,
+        "person_positive_fraction": 0.2080536912751678,
+        "person_ties": 0,
+        "policy": "actual",
+        "positive_favours": "P",
+        "sd_person_mean": 1.5490366864037617,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "CAESAR-NICP"
+      }
+    },
+    {
+      "label": "CAESAR-NICP / sourceH",
+      "policy": "sourceH",
+      "mean": -0.37128255300737467,
+      "ci": [
+        -0.5817590687691687,
+        -0.15613614274006632
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T4-pathway-state-effects.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": -0.37128255300737467,
+        "mean_absolute": 1.081722099054127,
+        "mean_absolute_ci95": [
+          0.9104114736694966,
+          1.2575862533889663
+        ],
+        "mean_ci95": [
+          -0.5817590687691687,
+          -0.15613614274006632
+        ],
+        "median": -0.19053081308380904,
+        "median_absolute": 0.7440074611096859,
+        "median_ci95": [
+          -0.33954972134519124,
+          -0.06611787966633198
+        ],
+        "observation_median": -0.03156884176429564,
+        "observation_negative_fraction": 0.5302013422818792,
+        "observation_p90_absolute": 3.0863870831886633,
+        "observation_p95_absolute": 4.445733189594547,
+        "observation_positive_fraction": 0.4697986577181208,
+        "observation_ties": 0,
+        "observations": 298,
+        "participant_p90_absolute": 2.6531065497351705,
+        "participant_p95_absolute": 3.195155392243237,
+        "people": 149,
+        "person_negative_count": 91,
+        "person_negative_fraction": 0.610738255033557,
+        "person_positive_count": 58,
+        "person_positive_fraction": 0.38926174496644295,
+        "person_ties": 0,
+        "policy": "sourceH",
+        "positive_favours": "P",
+        "sd_person_mean": 1.334971954725895,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "CAESAR-NICP"
+      }
+    },
+    {
+      "label": "CAESAR-NICP / bodyH",
+      "policy": "bodyH",
+      "mean": -0.37792319943078734,
+      "ci": [
+        -0.595368745848844,
+        -0.15428134169733942
+      ],
+      "people": 149,
+      "observations": 298,
+      "source_file": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T4-pathway-state-effects.json",
+      "source_row": {
+        "draws": 4000,
+        "first": "P",
+        "mean": -0.37792319943078734,
+        "mean_absolute": 1.1232001622212127,
+        "mean_absolute_ci95": [
+          0.9431808673875871,
+          1.309155084151602
+        ],
+        "mean_ci95": [
+          -0.595368745848844,
+          -0.15428134169733942
+        ],
+        "median": -0.18876738248714275,
+        "median_absolute": 0.7901174394829713,
+        "median_ci95": [
+          -0.33693469407706755,
+          -0.07097026369772497
+        ],
+        "observation_median": -0.031332992093537904,
+        "observation_negative_fraction": 0.5302013422818792,
+        "observation_p90_absolute": 3.279908151509888,
+        "observation_p95_absolute": 4.553552708315703,
+        "observation_positive_fraction": 0.4697986577181208,
+        "observation_ties": 0,
+        "observations": 298,
+        "participant_p90_absolute": 2.6799961123442597,
+        "participant_p95_absolute": 3.36049907592452,
+        "people": 149,
+        "person_negative_count": 91,
+        "person_negative_fraction": 0.610738255033557,
+        "person_positive_count": 58,
+        "person_positive_fraction": 0.38926174496644295,
+        "person_ties": 0,
+        "policy": "bodyH",
+        "positive_favours": "P",
+        "sd_person_mean": 1.3920768429910697,
+        "second": "B1",
+        "seed": 51812601,
+        "stratum": "CAESAR-NICP"
+      }
+    }
+  ]
+}

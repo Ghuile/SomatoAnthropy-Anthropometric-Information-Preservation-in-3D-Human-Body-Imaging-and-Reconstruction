@@ -1,0 +1,23 @@
+{
+  "title": "SomatoAnthropy: Anthropometric Information Preservation in 3D Human-Body Imaging and Reconstruction",
+  "upload_type": "software",
+  "version": "0.2.0",
+  "publication_date": "2026-10-19",
+  "license": "cc-by-4.0",
+  "doi": "10.5281/zenodo.23464423",
+  "creators": [
+    {
+      "name": "Nikolaou, Vasileios",
+      "affiliation": "London South Bank University"
+    },
+    {
+      "name": "Chen, Daqing",
+      "affiliation": "London South Bank University"
+    },
+    {
+      "name": "Xiao, Perry",
+      "affiliation": "London South Bank University"
+    }
+  ],
+  "description": "Research software and aggregate evidence; participant records and model binaries excluded. See NOTICE for licence scope."
+}

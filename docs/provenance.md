@@ -40,3 +40,6 @@ Git checkout, `--git-history` also verifies tracked files and all reachable or
 reflog-referenced blobs against each historical content manifest. This is a bounded release audit, not a guarantee against
 all possible future sensitive additions. Regenerate and review the manifest
 before any later publication.
+
+
+The 0.2.0 [audit update](audit-update.md) supersedes prior unresolved project-licence and Figure 2 statements: project-owned release material is CC BY 4.0 with LSBU approval reported by the lead author. Current manuscript Figure 2 has no participant imagery. Dataset restrictions and excluded historical imagery remain unchanged.

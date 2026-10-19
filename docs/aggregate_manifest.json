@@ -532,5 +532,234 @@
     "rows": 8,
     "source": "Current manuscript and supplement display cells; exact published rounding",
     "sha256": "8eecd9414cc9d5944616c2ee5ecb7f0dd11d697f5c33ff19c7116a57efd1d9ab"
+  },
+  {
+    "file": "results/aggregate/E5S1-T4-pathway-state-effects.json",
+    "rows": 72,
+    "sha256": "537ca2b958fd9386d6b990f936745f4be16cea51b19ba9fc40d05312cd38e637",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E5-S1/e5s1-20261018-01/E5S1-T4-pathway-state-effects.json",
+        "sha256": "537ca2b958fd9386d6b990f936745f4be16cea51b19ba9fc40d05312cd38e637"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Saved participant-mean paired method contrasts by pathway/state; original intervals",
+    "unit": "equation-response pp"
+  },
+  {
+    "file": "results/aggregate/canonical-offset-minus-P.json",
+    "rows": 1,
+    "sha256": "a67be0682afbc75c6b1a08640f85756c3f0af523c37d528d8171bec3c7742336",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E5-S2/e5s2-20261019-01/canonical-paired-policy-contrasts.json",
+        "sha256": "dda9d482864d5288705a87aef3446564ff0eed7021f908c962eafaf577ba1e67"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Paired-person difference of absolute canonical cross-path q disagreement, offset minus P, H2",
+    "unit": "equation-response pp"
+  },
+  {
+    "file": "results/aggregate/E5-T3-source-to-canonical.json",
+    "rows": 2,
+    "sha256": "4920dfb8ed7ab8d303dc65fe6fb18f1825fcd4940e10eafb8286057cedb975a5",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E5/e5-20261018-03/E5-T3-reconstruction-drift.json",
+        "sha256": "25cd692ee2f2d7398df466db181c80cdcb96822195113d0347a3db77f46803fe"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Mean absolute and signed historical source-to-canonical q response; original 2000-draw person bootstrap",
+    "unit": "equation-response pp"
+  },
+  {
+    "file": "results/aggregate/strict-height-mismatches.json",
+    "rows": 1,
+    "sha256": "071511d94344b0f6026223a9d42651b53ad44d2c275a75b52376f0878d920294",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E5-S2/e5s2-20261019-01/height-disagreement-distribution.json",
+        "sha256": "071511d94344b0f6026223a9d42651b53ad44d2c275a75b52376f0878d920294"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Strict-height eligibility and summary of absolute released-source extent disagreements among the 47 ineligible people",
+    "unit": "engineering cm; counts"
+  },
+  {
+    "file": "results/aggregate/UCSC-feet-before-after.json",
+    "rows": 1,
+    "sha256": "d6e1adbe5e26865e978b15cc59a4e586267d96da100300fd9e96e576bc224710",
+    "sources": [],
+    "private_source_sha256": [
+      "27b50954530e183c4c2e71ccc74b027f49bcf7b77ab70fae3dc9bcac4ec16ba8"
+    ],
+    "estimand": "Paired correction diagnostic, descriptive regional RMS means, not pooled vertex RMS",
+    "unit": "engineering cm"
+  },
+  {
+    "file": "results/aggregate/E2-1-height-all-arms.json",
+    "rows": 48,
+    "sha256": "7e9850c0d287f5a22c33b0fcc2c17096c74bbfd211bf17c1cda0a3192f067590",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E2-1/e2-1-20261018-01/E2-1-T4-height.csv",
+        "sha256": "ae02524ea3e13dd08513df3e143fa4409896839d5551eab0008c1be2838b29bc"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Source-defined between-person extent SD and fitted/source or canonical/source SD ratios; partitions remain separate",
+    "unit": "engineering cm; dimensionless ratios"
+  },
+  {
+    "file": "results/aggregate/E2-2-height-all-arms.json",
+    "rows": 88,
+    "sha256": "0c6487b2c9f08cebf52225ff788431a08e1e1d023244e124765815ee949cdd32",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2-T7-height.csv",
+        "sha256": "02a0748ae7faa2299cf10978313302a82e6bd8246b8e47ae743e370e0dc1d46b"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Source-defined between-person extent SD and fitted/source or canonical/source SD ratios; partitions remain separate",
+    "unit": "engineering cm; dimensionless ratios"
+  },
+  {
+    "file": "results/aggregate/E2-2-group-arms.json",
+    "rows": 72,
+    "sha256": "0caec3feb364c029306088139ca36e9d694fbb1472992c79e4a9f9a8b6cb3ec5",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2-T3-groups.csv",
+        "sha256": "31b6e0475417e005b70132fdffdee293c7adbc3668c1afca97f79308d07cb8b0"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Development-only source-surface fidelity for planned control and rig-prior arms; n=4, no heldout inference for G1-G4/R4",
+    "unit": "engineering cm"
+  },
+  {
+    "file": "results/aggregate/E2-2-regularization-arms.json",
+    "rows": 24,
+    "sha256": "02b41897a6486bced764a7d6ad2dd2d65a68b5cb3c2031e280c96c69e43c6e7f",
+    "sources": [
+      {
+        "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2-T4-regularization.csv",
+        "sha256": "ddf863c402262947d8afc4b213ab3f2f9a6f973f59f8dcc9d9314f1c4bbc4f9f"
+      }
+    ],
+    "private_source_sha256": [],
+    "estimand": "Development-only source-surface fidelity for planned control and rig-prior arms; n=4, no heldout inference for G1-G4/R4",
+    "unit": "engineering cm"
+  },
+  {
+    "file": "results/aggregate/E2-1-midpoint-waist.json",
+    "rows": 12,
+    "sha256": "8302ff20aaa60500bbb2eebe73ad3e1cc5c763c1e3832d1f5650e55246b4953c",
+    "sources": [],
+    "private_source_sha256": [
+      "059990d494197bb0c11cd6fd1833b9da6c8bf63629690e0cc4b063f8b7e1853e"
+    ],
+    "estimand": "Midpoint-proxy signed target-source errors and absolute errors by state/arm on valid paired subset; n=1 is a case summary without interval",
+    "unit": "engineering cm"
+  },
+  {
+    "file": "results/aggregate/E2-1-midpoint-waist-changes.json",
+    "rows": 4,
+    "sha256": "07c8702368326d11733c9da3ffffcb42ca33ce20b09ed04958f86f59e3a0bae2",
+    "sources": [],
+    "private_source_sha256": [
+      "059990d494197bb0c11cd6fd1833b9da6c8bf63629690e0cc4b063f8b7e1853e"
+    ],
+    "estimand": "Paired change in midpoint waist absolute error; C minus B unless contrast states otherwise; original intervals",
+    "unit": "engineering cm"
+  },
+  {
+    "file": "results/aggregate/E2-2-midpoint-waist.json",
+    "rows": 28,
+    "sha256": "e01ce141c2ae2d1e201041e5af95c3b8390056026e1b2e7429db0f0574bfe1b0",
+    "sources": [],
+    "private_source_sha256": [
+      "c23dcb1ebea20d1c56f1d1c064c249f1b341a6754a0db427c08893adb441a4e7"
+    ],
+    "estimand": "Midpoint-proxy signed target-source errors and absolute errors by state/arm on valid paired subset; n=1 is a case summary without interval",
+    "unit": "engineering cm"
+  },
+  {
+    "file": "results/aggregate/waist-fallback-counts.json",
+    "rows": 4,
+    "sha256": "e067186d34370e9f45cd27b93dfaec9604d98d2dc081ee1a1eff52adc9db67bf",
+    "sources": [],
+    "private_source_sha256": [
+      "6ec0f78e6e783258ef6e38cc41fa0d4185e1ace1b4ae9cd190e2b2c48458b0eb",
+      "bf25cc3ebe1499697152b00590e563b652e05421687f427e411c992bd1fca683"
+    ],
+    "estimand": "Saved flags on exact 149-person complete paired cohort. Source is reused across body states; state rows are not independent source observations",
+    "unit": "counts"
+  },
+  {
+    "file": "results/aggregate/agreement-extent-waist.json",
+    "rows": 8,
+    "sha256": "b941a1ef1407b875c87672e9a2664e2bcf1fa4e090ef31a663377193075f107b",
+    "sources": [],
+    "private_source_sha256": [
+      "5ec1a8a8d50ec73c1ec7a6c393249bb0fd8e0f684a3c21a02ed7ca5983951702"
+    ],
+    "estimand": "New descriptive audit extension: CCC population moments, Pearson r, and Bland-Altman target-source bias +/-1.96 sample SD; one value per person per stratum; no confidence intervals",
+    "unit": "engineering cm except correlations/CCC"
+  },
+  {
+    "file": "results/aggregate/agreement-waist-methods.json",
+    "rows": 12,
+    "sha256": "f14b7835023c512ec0df5d335b1fc3013d961b62796e6b1d00f651dd686a43ea",
+    "sources": [],
+    "private_source_sha256": [
+      "bf25cc3ebe1499697152b00590e563b652e05421687f427e411c992bd1fca683"
+    ],
+    "estimand": "New descriptive audit extension on the exact complete 149-person cohort: source versus body waist; state/pathway strata stay separate",
+    "unit": "engineering cm except correlations/CCC"
+  },
+  {
+    "file": "results/aggregate/NOMO-cohort-selection.json",
+    "rows": 3,
+    "sha256": "bd83e46ccf974eda38803cfc7fd67aa69005624921a0a47afd728279495e90b9",
+    "sources": [],
+    "private_source_sha256": [
+      "01cb365f993a0e16413c59564faeb599284bae004013958964bc7ed71610c509"
+    ],
+    "estimand": "Frozen 150-person selection, provider source sex-category labels; labels not inferred from geometry or independently clinically verified",
+    "unit": "people counts"
+  },
+  {
+    "file": "results/aggregate/E2-1-all-paired-effects.json",
+    "rows": 170,
+    "sha256": "692a1edeb13c902f5b48c24117b094fdc8ac55791395f44194767f0ad5b9ac81",
+    "private_source_sha256": "059990d494197bb0c11cd6fd1833b9da6c8bf63629690e0cc4b063f8b7e1853e",
+    "estimand": "Frozen paired-effect summaries with original intervals; partitions, metric, state and contrast specify denominator/sign",
+    "unit": "metric-dependent; cm, ratios or counts"
+  },
+  {
+    "file": "results/aggregate/E2-2-all-paired-effects.json",
+    "rows": 1236,
+    "sha256": "140cf3da0423ccd9eedadd26fd294375a0ebb05476d8da0c20ae1f14844c42ee",
+    "private_source_sha256": "c23dcb1ebea20d1c56f1d1c064c249f1b341a6754a0db427c08893adb441a4e7",
+    "estimand": "Frozen paired-effect summaries with original intervals; partitions, metric, state and contrast specify denominator/sign",
+    "unit": "metric-dependent; cm, ratios or counts"
+  },
+  {
+    "file": "results/aggregate/Figure2-manuscript-input.json",
+    "sha256": "aec86fad358210dd5d484e855250dfbd7bac0f413a77b60acee524b1e1869d72",
+    "estimand": "Exact frozen rows selected by original manuscript figure generator",
+    "unit": "engineering cm/metre strings"
+  },
+  {
+    "file": "results/aggregate/Figure5-manuscript-input.json",
+    "sha256": "022da0af211dfa592da10a18200bfd47fba84c5da7e29e7a14d5ccc296c282ab",
+    "estimand": "Exact frozen rows selected by original manuscript figure generator",
+    "unit": "panel_a cm; panel_b response pp"
   }
 ]

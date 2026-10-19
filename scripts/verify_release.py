@@ -11,7 +11,19 @@ from pathlib import Path
 from somatoanthropy.aggregate import check_anchors, check_paper_tables
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT_EXTENSIONS = {".py", ".md", ".json", ".toml", ".txt", ".cff", ".csv", ".svg", ".sha256"}
+TEXT_EXTENSIONS = {
+    ".py",
+    ".md",
+    ".json",
+    ".toml",
+    ".txt",
+    ".cff",
+    ".csv",
+    ".svg",
+    ".sha256",
+    ".yml",
+    ".yaml",
+}
 FORBIDDEN_COMPONENTS = {
     "agents.md",
     ".codex",
@@ -63,12 +75,18 @@ def scan(name: str, payload: bytes) -> None:
     ):
         raise ValueError("UNPERMITTED_RELEASE_PATH:" + name)
     if p.suffix.lower() in {".png", ".svg"} and not re.fullmatch(
-        r"results/figures/Figure[1-6]\.(png|svg)", name
+        r"results/(?:figures/Figure[1-6]\.(?:png|svg)|manuscript-figures/Figure[1-6]\.svg|template/template-controls\.png)",
+        name,
     ):
         raise ValueError("UNAPPROVED_FIGURE_PATH:" + name)
     if len(payload) > 2_000_000:
         raise ValueError("UNREVIEWED_LARGE_FILE:" + name)
-    if p.suffix.lower() in TEXT_EXTENSIONS or p.name in {".gitignore", ".gitattributes"}:
+    if p.suffix.lower() in TEXT_EXTENSIONS or p.name in {
+        ".gitignore",
+        ".gitattributes",
+        "LICENSE",
+        "NOTICE",
+    }:
         text = payload.decode("utf-8-sig")
         for label, pattern in CONTENT_PATTERNS:
             if pattern.search(text):
@@ -136,21 +154,26 @@ def history(root: Path, expected: dict[str, str]) -> int:
             if not re.fullmatch("[a-f0-9]{64}", digest) or name in previous:
                 raise ValueError("INVALID_HISTORICAL_MANIFEST")
             previous[name] = digest
-        if set(previous) != set(expected):
-            raise ValueError("HISTORICAL_FILE_SET_REQUIRES_REVIEW")
+        tree = set(git("ls-tree", "-r", "--name-only", commit).decode().splitlines())
+        if tree != set(previous) | {"MANIFEST.sha256"}:
+            raise ValueError("HISTORICAL_TREE_DIFFERS_FROM_ITS_MANIFEST")
         for name, digest in previous.items():
-            versions[name].add(digest)
+            data = git("show", commit + ":" + name)
+            scan(name, data)
+            if hashlib.sha256(data).hexdigest() != digest:
+                raise ValueError("HISTORICAL_MANIFEST_HASH_MISMATCH:" + name)
+            versions.setdefault(name, set()).add(digest)
     total = 0
     for line in git("rev-list", "--objects", "--all", "--reflog").decode().splitlines():
         oid, _, name = line.partition(" ")
         kind = git("cat-file", "-t", oid).decode().strip()
         if kind != "blob":
             continue
-        if name not in expected and name != "MANIFEST.sha256":
+        if name not in versions and name != "MANIFEST.sha256":
             raise ValueError("UNPERMITTED_HISTORICAL_FILE:" + name)
         data = git("cat-file", "blob", oid)
         scan(name, data)
-        if name in expected and hashlib.sha256(data).hexdigest() not in versions[name]:
+        if name in versions and hashlib.sha256(data).hexdigest() not in versions[name]:
             raise ValueError("UNREVIEWED_HISTORICAL_BLOB:" + name)
         total += 1
     return total
@@ -161,18 +184,35 @@ def artifact_provenance(root: Path) -> dict[str, int]:
     aggregate = json.loads((root / "docs/aggregate_manifest.json").read_text("utf-8"))
     figures = json.loads((root / "results/figures/captions_and_provenance.json").read_text("utf-8"))
     checks = [(r["file"], r["sha256"]) for r in aggregate]
+    figure_count = sum(len(r["outputs"]) for r in figures)
+    report_count = 0
     checks.extend(
         ("results/figures/" + name, digest)
         for r in figures
         for name, digest in r["outputs"].items()
     )
+    evidence = root / "docs/evidence_versions.json"
+    if evidence.exists():
+        reports = json.loads(evidence.read_text("utf-8"))
+        report_count = len(reports)
+        if len(reports) != 12 or any("original_sha256" not in r for r in reports):
+            raise ValueError("TWELVE_ORIGINAL_AND_REDACTED_REPORT_HASHES_REQUIRED")
+        checks.extend(("docs/experiments/" + r["path"], r["sha256"]) for r in reports)
+    manuscript = root / "docs/manuscript-figure-provenance.json"
+    if manuscript.exists():
+        outputs = json.loads(manuscript.read_text("utf-8"))["outputs"]
+        figure_count += len(outputs)
+        checks.extend(outputs.items())
     for name, digest in checks:
         path = (root / name).resolve()
         if not path.is_relative_to(root.resolve()):
             raise ValueError("ARTIFACT_PATH_ESCAPES_ROOT")
         if hashlib.sha256(path.read_bytes()).hexdigest() != digest:
             raise ValueError("ARTIFACT_PROVENANCE_MISMATCH:" + name)
-    return dict(aggregate_files=len(aggregate), figure_files=len(checks) - len(aggregate))
+    result = dict(aggregate_files=len(aggregate), figure_files=figure_count)
+    if report_count:
+        result["register_reports"] = report_count
+    return result
 
 
 def main():
