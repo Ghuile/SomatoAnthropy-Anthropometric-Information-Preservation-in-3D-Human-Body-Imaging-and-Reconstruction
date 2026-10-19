@@ -1,5 +1,6 @@
 """Independent numerical expectations on invented inputs and frozen aggregates."""
 
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
@@ -16,6 +17,25 @@ from somatoanthropy.repeated import geometry_summary
 from somatoanthropy.workflow import RecordStore
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_artifact_provenance_rejects_changed_figure_bytes(tmp_path):
+    import runpy
+
+    verify = runpy.run_path(str(ROOT / "scripts/verify_release.py"))["artifact_provenance"]
+    (tmp_path / "docs").mkdir()
+    (tmp_path / "docs/aggregate_manifest.json").write_text("[]")
+    figures = tmp_path / "results/figures"
+    figures.mkdir(parents=True)
+    data = b"<svg>invented fixture</svg>\n"
+    (figures / "Figure1.svg").write_bytes(data)
+    (figures / "captions_and_provenance.json").write_text(
+        json.dumps([dict(outputs={"Figure1.svg": hashlib.sha256(data).hexdigest()})])
+    )
+    assert verify(tmp_path) == dict(aggregate_files=0, figure_files=1)
+    (figures / "Figure1.svg").write_bytes(data.replace(b"\n", b"\r\n"))
+    with pytest.raises(ValueError, match="ARTIFACT_PROVENANCE_MISMATCH"):
+        verify(tmp_path)
 
 
 def test_frozen_publication_values_and_display_rounding():

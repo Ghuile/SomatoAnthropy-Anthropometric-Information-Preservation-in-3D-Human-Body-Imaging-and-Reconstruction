@@ -38,12 +38,12 @@
   "public_tests": [
     {
       "python": "3.11.17",
-      "passed": 136,
+      "passed": 137,
       "skipped": 2
     },
     {
       "python": "3.12.14",
-      "passed": 136,
+      "passed": 137,
       "skipped": 2,
       "independent_of_research_interpreter": true
     }
@@ -54,5 +54,6 @@
   },
   "dependency_check": "passed in both public environments",
   "lint_and_format": "passed",
-  "figure_reproduction": "All six PNG/SVG pairs and captions byte-identical across the two tested Python runtimes"
+  "figure_reproduction": "Canonical LF SVG writer; byte-identical PNG/SVG and captions checked across both public Python runtimes; internal output hashes verified.",
+  "release_correction": "SVG text now has canonical LF before output hashing; internal aggregate and figure hashes are checked directly; history verification accepts each reviewed commit manifest."
 }

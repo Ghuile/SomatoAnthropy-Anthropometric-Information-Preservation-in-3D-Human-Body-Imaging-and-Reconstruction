@@ -1,13 +1,34 @@
 """Research definitions extracted for SomatoAnthropy; provenance in docs/source_manifest.json."""
 
 from __future__ import annotations
+
 import numpy as np
 from scipy.spatial import ConvexHull
-from somatoanthropy.geometry.fit03_anthropometry.core import MeshMetrology, contains, project, simple_polygon
+
+from somatoanthropy.geometry.fit03_anthropometry.core import (
+    MeshMetrology,
+    contains,
+    project,
+    simple_polygon,
+)
+
 
 def unavailable(reason, **details):
-    check = details.pop('region_check', dict(valid=False, reason=reason))
-    return dict(geometry_quality='INVALID', engineering_value_cm=None, points_m=[], raw_points_m=[], tape_points_m=[], raw_contour_cm=None, tape_envelope_cm=None, reason=reason, region_check=check, scientific_margins_approved=False, **details)
+    check = details.pop("region_check", dict(valid=False, reason=reason))
+    return dict(
+        geometry_quality="INVALID",
+        engineering_value_cm=None,
+        points_m=[],
+        raw_points_m=[],
+        tape_points_m=[],
+        raw_contour_cm=None,
+        tape_envelope_cm=None,
+        reason=reason,
+        region_check=check,
+        scientific_margins_approved=False,
+        **details,
+    )
+
 
 class IndexedSections:
     """Do not weld a touching hand to a trunk with different mesh indices.
@@ -29,14 +50,19 @@ class IndexedSections:
                 parent[i] = parent[parent[i]]
                 i = parent[i]
             return i
+
         for a, b in edges[zero]:
             parent[find(b)] = find(a)
         if zero.any():
             mapping = np.array([find(i) for i in range(len(self.v))])
             original = mapping[original]
-        self.authored_zero_edge_equivalences = int(np.count_nonzero(parent != np.arange(len(self.v))))
+        self.authored_zero_edge_equivalences = int(
+            np.count_nonzero(parent != np.arange(len(self.v)))
+        )
         tri = self.v[original]
-        good = np.linalg.norm(np.cross(tri[:, 1] - tri[:, 0], tri[:, 2] - tri[:, 0]), axis=1) > 1e-18
+        good = (
+            np.linalg.norm(np.cross(tri[:, 1] - tri[:, 0], tri[:, 2] - tri[:, 0]), axis=1) > 1e-18
+        )
         self.ids = np.flatnonzero(good)
         self.f = original[good]
         self.ignored_degenerate_faces = int((~good).sum())
@@ -48,14 +74,16 @@ class IndexedSections:
         side = d[self.f]
         candidate = np.flatnonzero((side.min(1) <= 1e-10) & (side.max(1) >= -1e-10))
         if not len(candidate):
-            return unavailable('NO_INTERSECTION')
+            return unavailable("NO_INTERSECTION")
         if np.any(np.abs(side[candidate]) <= 1e-10):
-            q = MeshMetrology(dict(vertices=self.v, faces=self.f, length_units='m')).section(point, normal, seed)
-            if q['status'] != 'MEASURED':
-                return unavailable(q.get('reason', 'INVALID_INDEXED_SECTION'))
-            raw = np.asarray(q['points_m'])
-            supporting = self.ids[q['selected_face_ids']]
-            loops = q['closed_loop_count']
+            q = MeshMetrology(dict(vertices=self.v, faces=self.f, length_units="m")).section(
+                point, normal, seed
+            )
+            if q["status"] != "MEASURED":
+                return unavailable(q.get("reason", "INVALID_INDEXED_SECTION"))
+            raw = np.asarray(q["points_m"])
+            supporting = self.ids[q["selected_face_ids"]]
+            loops = q["closed_loop_count"]
         else:
             faces = self.f[candidate]
             edges = faces[:, [[0, 1], [1, 2], [2, 0]]]
@@ -64,7 +92,9 @@ class IndexedSections:
             nodes, inverse = np.unique(pairs, axis=0, return_inverse=True)
             segments = inverse.reshape(-1, 2)
             fraction = d[nodes[:, 0]] / (d[nodes[:, 0]] - d[nodes[:, 1]])
-            xyz = self.v[nodes[:, 0]] + fraction[:, None] * (self.v[nodes[:, 1]] - self.v[nodes[:, 0]])
+            xyz = self.v[nodes[:, 0]] + fraction[:, None] * (
+                self.v[nodes[:, 1]] - self.v[nodes[:, 0]]
+            )
             adjacency = [[] for _ in nodes]
             for i, (a, b) in enumerate(segments):
                 adjacency[a].append((int(b), i))
@@ -99,18 +129,43 @@ class IndexedSections:
                 if contains(xy, project((seed - point)[None], normal)[0]):
                     candidates.append((ring, self.ids[candidate[used]]))
             if len(candidates) != 1:
-                return unavailable('NO_UNIQUE_SIMPLE_INDEXED_TARGET_RING', closed_loop_count=loops)
+                return unavailable("NO_UNIQUE_SIMPLE_INDEXED_TARGET_RING", closed_loop_count=loops)
             raw, supporting = candidates[0]
         outside = supporting[~np.asarray(allowed, bool)[supporting]] if allowed is not None else []
-        check = dict(valid=not len(outside), supporting_face_count=len(supporting), outside_face_count=len(outside), outside_face_ids=np.asarray(outside, int).tolist())
+        check = dict(
+            valid=not len(outside),
+            supporting_face_count=len(supporting),
+            outside_face_count=len(outside),
+            outside_face_ids=np.asarray(outside, int).tolist(),
+        )
         if len(outside):
-            return unavailable('INDEXED_TARGET_RING_INCLUDES_EXCLUDED_REGION', region_check=check)
+            return unavailable("INDEXED_TARGET_RING_INCLUDES_EXCLUDED_REGION", region_check=check)
         xy = project(raw - point, normal)
         tape = raw[ConvexHull(xy).vertices]
 
         def girth(p):
             return float(np.linalg.norm(np.roll(p, -1, axis=0) - p, axis=1).sum() * 100)
-        return dict(geometry_quality='VALID', reason='CLOSED_INDEXED_TARGET_RING', points_m=raw.tolist(), raw_points_m=raw.tolist(), tape_points_m=tape.tolist(), raw_contour_cm=girth(raw), tape_envelope_cm=girth(tape), plane_origin_m=point.tolist(), plane_normal=normal.tolist(), selected_face_ids=np.asarray(supporting, int).tolist(), region_check=check, closed_loop_count=loops, surface_contour_closed=True, ignored_degenerate_faces=self.ignored_degenerate_faces, authored_zero_edge_equivalences=self.authored_zero_edge_equivalences, connectivity='ORIGINAL_INDEX_CONNECTIVITY_WITH_EXPLICIT_ZERO_EDGE_EQUIVALENCE_NO_SPATIAL_WELD', scientific_margins_approved=False)
+
+        return dict(
+            geometry_quality="VALID",
+            reason="CLOSED_INDEXED_TARGET_RING",
+            points_m=raw.tolist(),
+            raw_points_m=raw.tolist(),
+            tape_points_m=tape.tolist(),
+            raw_contour_cm=girth(raw),
+            tape_envelope_cm=girth(tape),
+            plane_origin_m=point.tolist(),
+            plane_normal=normal.tolist(),
+            selected_face_ids=np.asarray(supporting, int).tolist(),
+            region_check=check,
+            closed_loop_count=loops,
+            surface_contour_closed=True,
+            ignored_degenerate_faces=self.ignored_degenerate_faces,
+            authored_zero_edge_equivalences=self.authored_zero_edge_equivalences,
+            connectivity="ORIGINAL_INDEX_CONNECTIVITY_WITH_EXPLICIT_ZERO_EDGE_EQUIVALENCE_NO_SPATIAL_WELD",
+            scientific_margins_approved=False,
+        )
+
 
 def neck_section(engine, joints, allowed):
     """Smallest shoulder-free ring in a bounded neck-to-head search window.
@@ -118,20 +173,33 @@ def neck_section(engine, joints, allowed):
     The 45–95% window and 2.5% lattice are engineering settings, not anatomical
     constants or scientific preservation margins. Boundary minima are withheld.
     """
-    a, b = (joints['c_neck'], joints['c_head'])
+    a, b = (joints["c_neck"], joints["c_head"])
     normal = (b - a) / np.linalg.norm(b - a)
     profile, results = ([], [])
     for t in np.linspace(0.45, 0.95, 21):
         p = a + t * (b - a)
         q = engine.section(p, normal, p, allowed)
-        profile.append(dict(fraction=float(t), value_cm=q.get('tape_envelope_cm'), reason=q['reason']))
+        profile.append(
+            dict(fraction=float(t), value_cm=q.get("tape_envelope_cm"), reason=q["reason"])
+        )
         results.append(q)
-    eligible = [i for i, q in enumerate(results) if q['geometry_quality'] == 'VALID']
+    eligible = [i for i, q in enumerate(results) if q["geometry_quality"] == "VALID"]
     if not eligible:
-        return unavailable('NO_SHOULDER_FREE_CLOSED_NECK_RING', search_profile=profile)
-    chosen = min(eligible, key=lambda i: (results[i]['tape_envelope_cm'], i))
+        return unavailable("NO_SHOULDER_FREE_CLOSED_NECK_RING", search_profile=profile)
+    chosen = min(eligible, key=lambda i: (results[i]["tape_envelope_cm"], i))
     if chosen in (0, len(results) - 1):
-        return unavailable('NECK_MINIMUM_AT_SEARCH_BOUNDARY', search_profile=profile)
+        return unavailable("NECK_MINIMUM_AT_SEARCH_BOUNDARY", search_profile=profile)
     q = results[chosen]
-    q.update(points_m=q['tape_points_m'], engineering_value_cm=q['tape_envelope_cm'], quantity='tape_envelope_cm', reason='SHOULDER_EXCLUDED_NECK_PROFILE_MINIMUM', definition='BOUNDED_SHOULDER_FREE_NECK_PROFILE_TAPE_MINIMUM', selected_fraction=profile[chosen]['fraction'], search_profile=profile, interpretation_status='ENGINEERING_INTERPRETATION', clinical_validity='NOT_ESTABLISHED', iso_conformance_claim=False)
+    q.update(
+        points_m=q["tape_points_m"],
+        engineering_value_cm=q["tape_envelope_cm"],
+        quantity="tape_envelope_cm",
+        reason="SHOULDER_EXCLUDED_NECK_PROFILE_MINIMUM",
+        definition="BOUNDED_SHOULDER_FREE_NECK_PROFILE_TAPE_MINIMUM",
+        selected_fraction=profile[chosen]["fraction"],
+        search_profile=profile,
+        interpretation_status="ENGINEERING_INTERPRETATION",
+        clinical_validity="NOT_ESTABLISHED",
+        iso_conformance_claim=False,
+    )
     return q

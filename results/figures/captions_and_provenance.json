@@ -7,7 +7,7 @@
     ],
     "outputs": {
       "Figure1.png": "0b75d4bc2aae785e918b4a602e24434bbc37eaa2a766aef202bce58e82345eab",
-      "Figure1.svg": "17a898e5f21d0aa49e3f18b9f22060c033d762f4d15e04ecb4f20fbb85706800"
+      "Figure1.svg": "5b7edef4078e34b4575e36c24f9fba630a03697b7ab62be2a6fbbaf3d9dbdf07"
     },
     "bootstrap_recomputed": false,
     "individual_geometry": false
@@ -20,7 +20,7 @@
     ],
     "outputs": {
       "Figure2.png": "df5e77e3454150128e9a0d94556567787698fa5c7cb0e6141b82141b2cd8e69c",
-      "Figure2.svg": "d0a397389606b6f6572073192c9299ce7d11b19359fb65416b4a6236581a65ac"
+      "Figure2.svg": "d5f63fba0f397b9ed3d3fc23dd51e3d35815ea2eea7fd730ada84ee842b4bed0"
     },
     "bootstrap_recomputed": false,
     "individual_geometry": false
@@ -36,7 +36,7 @@
     ],
     "outputs": {
       "Figure3.png": "241ae0b3647a453aa143f0d7a982a5e477698e026f3029c4cd61152170b826f1",
-      "Figure3.svg": "2b22bf29b77fb492f4b7f70ca205d9662e5895b2776a19fc8fd3fbad1785e1b4"
+      "Figure3.svg": "d5d270e7d07be2d38e6af9957ef38b903e1c6f7474918488671884e0247e2f3e"
     },
     "bootstrap_recomputed": false,
     "individual_geometry": false
@@ -49,7 +49,7 @@
     ],
     "outputs": {
       "Figure4.png": "f9310ec81135ac95c8d60fd6a7325a72b1031b90250ca0aa27641d69d033fce8",
-      "Figure4.svg": "0c0db8398aff38d9a67f2bb9c3563c011d3f53b385e62900a89b53acd375f4f2"
+      "Figure4.svg": "4240423c5598b236d3a90af97930facfaab3da427ed8ece134043e17818f317d"
     },
     "bootstrap_recomputed": false,
     "individual_geometry": false
@@ -64,7 +64,7 @@
     ],
     "outputs": {
       "Figure5.png": "852187a4029fe0c12f44481a5d24405f4844b2711904341effcec0b88179a11f",
-      "Figure5.svg": "94234863b48203372dd945fd1f0927f0bb67b0894307165c6ae0130ba9db80d0"
+      "Figure5.svg": "0ea6dcfd980d2e12515c6dd8d1c17f7163445a4c5a1a194389660fecc17dfff7"
     },
     "bootstrap_recomputed": false,
     "individual_geometry": false
@@ -77,7 +77,7 @@
     ],
     "outputs": {
       "Figure6.png": "9f5003a1739e15da64eb115496f2473124ca08abfbaf2b4ebf632d27a2e72f99",
-      "Figure6.svg": "1628040400246f260c3d972f46d79726087803c9f1b38fd9c26d028e15cb7e30"
+      "Figure6.svg": "098c39df38d2136983e8dfca5b9ab421cabfe75190e3628a7b421002b7c1fe33"
     },
     "bootstrap_recomputed": false,
     "individual_geometry": false

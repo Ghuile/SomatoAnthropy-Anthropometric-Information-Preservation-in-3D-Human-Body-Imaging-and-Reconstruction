@@ -308,6 +308,8 @@ def main():
                 else {"Date": None, "Creator": "SomatoAnthropy"}
             )
             fig.savefig(p, dpi=180, metadata=metadata)
+            if ext == "svg":
+                p.write_text(p.read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
             outputs[p.name] = hashlib.sha256(p.read_bytes()).hexdigest()
         inventory.append(
             dict(
@@ -321,7 +323,7 @@ def main():
         )
         plt.close(fig)
     (args.output / "captions_and_provenance.json").write_text(
-        json.dumps(inventory, indent=2) + "\n", encoding="utf-8"
+        json.dumps(inventory, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     print("Six aggregate figures generated; original estimates and intervals retained.")
 

@@ -35,8 +35,8 @@ Saved E4 outputs retain their original hashes and intervals. The reconciliation
 report predates completed E5 work; its earlier deferral is not a later result.
 
 `MANIFEST.sha256` lists every distributed file except itself. The verifier checks
-hashes, permitted paths/content, imports and numerical anchors. In the curated
+hashes, internal figure/table provenance, permitted paths/content, imports and numerical anchors. In the curated
 Git checkout, `--git-history` also verifies tracked files and all reachable or
-reflog-referenced blobs. This is a bounded release audit, not a guarantee against
+reflog-referenced blobs against each historical content manifest. This is a bounded release audit, not a guarantee against
 all possible future sensitive additions. Regenerate and review the manifest
 before any later publication.

@@ -124,6 +124,22 @@ def history(root: Path, expected: dict[str, str]) -> int:
     tracked = set(git("ls-files", "-z").decode().strip("\0").split("\0"))
     if tracked != set(expected) | {"MANIFEST.sha256"}:
         raise ValueError("TRACKED_FILE_SET_DIFFERS_FROM_RELEASE_MANIFEST")
+    versions = {name: {digest} for name, digest in expected.items()}
+    commits = git("rev-list", "--all", "--reflog").decode().splitlines()
+    if not commits:
+        raise ValueError("COMMITTED_RELEASE_REQUIRED")
+    for commit in commits:
+        saved = git("show", commit + ":MANIFEST.sha256").decode("utf-8")
+        previous = {}
+        for line in saved.splitlines():
+            digest, name = line.split("  ", 1)
+            if not re.fullmatch("[a-f0-9]{64}", digest) or name in previous:
+                raise ValueError("INVALID_HISTORICAL_MANIFEST")
+            previous[name] = digest
+        if set(previous) != set(expected):
+            raise ValueError("HISTORICAL_FILE_SET_REQUIRES_REVIEW")
+        for name, digest in previous.items():
+            versions[name].add(digest)
     total = 0
     for line in git("rev-list", "--objects", "--all", "--reflog").decode().splitlines():
         oid, _, name = line.partition(" ")
@@ -134,10 +150,29 @@ def history(root: Path, expected: dict[str, str]) -> int:
             raise ValueError("UNPERMITTED_HISTORICAL_FILE:" + name)
         data = git("cat-file", "blob", oid)
         scan(name, data)
-        if name in expected and hashlib.sha256(data).hexdigest() != expected[name]:
+        if name in expected and hashlib.sha256(data).hexdigest() not in versions[name]:
             raise ValueError("UNREVIEWED_HISTORICAL_BLOB:" + name)
         total += 1
     return total
+
+
+def artifact_provenance(root: Path) -> dict[str, int]:
+    """Check internal artifact hashes as well as the outer release manifest."""
+    aggregate = json.loads((root / "docs/aggregate_manifest.json").read_text("utf-8"))
+    figures = json.loads((root / "results/figures/captions_and_provenance.json").read_text("utf-8"))
+    checks = [(r["file"], r["sha256"]) for r in aggregate]
+    checks.extend(
+        ("results/figures/" + name, digest)
+        for r in figures
+        for name, digest in r["outputs"].items()
+    )
+    for name, digest in checks:
+        path = (root / name).resolve()
+        if not path.is_relative_to(root.resolve()):
+            raise ValueError("ARTIFACT_PATH_ESCAPES_ROOT")
+        if hashlib.sha256(path.read_bytes()).hexdigest() != digest:
+            raise ValueError("ARTIFACT_PROVENANCE_MISMATCH:" + name)
+    return dict(aggregate_files=len(aggregate), figure_files=len(checks) - len(aggregate))
 
 
 def main():
@@ -149,6 +184,7 @@ def main():
     )
     args = parser.parse_args()
     manifest = content_manifest(ROOT)
+    artifacts = artifact_provenance(ROOT)
     source = json.loads((ROOT / "docs/source_manifest.json").read_text("utf-8"))
     for row in source["modules"]:
         name = (
@@ -167,6 +203,7 @@ def main():
         reconstructed_display_cells=cells,
         content_scan="passed",
         individual_results_included=False,
+        artifact_provenance=artifacts,
     )
     if args.git_history:
         result["historical_blobs_checked"] = history(ROOT, manifest)
