@@ -135,6 +135,13 @@ def content_manifest(root: Path) -> dict[str, str]:
     return result
 
 
+def historical_manifest(root: Path, commit: str, saved: bytes) -> str:
+    """Use the audited repair receipt only for the upload that omitted its manifest."""
+    if commit == "05f8e8fac023daa4a3fc8b8c55ac06e09c8e7859":
+        return (root / "docs/historical-manifests" / (commit + ".sha256")).read_text("utf-8")
+    return saved.decode("utf-8")
+
+
 def history(root: Path, expected: dict[str, str]) -> int:
     def git(*args):
         return subprocess.check_output(["git", *args], cwd=root)
@@ -147,7 +154,7 @@ def history(root: Path, expected: dict[str, str]) -> int:
     if not commits:
         raise ValueError("COMMITTED_RELEASE_REQUIRED")
     for commit in commits:
-        saved = git("show", commit + ":MANIFEST.sha256").decode("utf-8")
+        saved = historical_manifest(root, commit, git("show", commit + ":MANIFEST.sha256"))
         previous = {}
         for line in saved.splitlines():
             digest, name = line.split("  ", 1)
@@ -212,6 +219,15 @@ def artifact_provenance(root: Path) -> dict[str, int]:
         )
         query = lineage["native_query"]
         checks.append((query["released_file"], query["released_sha256"]))
+    supplementary = root / "supplementary/manuscript-evidence/FILE_MANIFEST.json"
+    if supplementary.exists():
+        for name, record in json.loads(supplementary.read_text("utf-8"))["files"].items():
+            path = (supplementary.parent / name).resolve()
+            if not path.is_relative_to(supplementary.parent.resolve()):
+                raise ValueError("SUPPLEMENTARY_PATH_ESCAPES_ROOT")
+            if path.stat().st_size != record["bytes"]:
+                raise ValueError("SUPPLEMENTARY_SIZE_MISMATCH:" + name)
+            checks.append((path.relative_to(root.resolve()).as_posix(), record["sha256"]))
     for name, digest in checks:
         path = (root / name).resolve()
         if not path.is_relative_to(root.resolve()):

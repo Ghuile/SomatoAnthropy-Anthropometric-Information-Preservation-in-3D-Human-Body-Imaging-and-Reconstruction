@@ -22,7 +22,7 @@ The saved Figure 3 renderer requires Python, NumPy, Pillow and the original Wind
 
     python <path-to-this-directory>/figures/waist/render_waist_figure.py --repo <staging-root>
 
-The original rendering source is preserved apart from line-ending normalisation in the GitHub copies; each distribution retains a manifest matching its actual file bytes. No mesh or conditioning record is added here. No new render or model execution was performed for this release.
+The rendering scripts are formatted for repository lint checks, with two assigned lambdas expressed as equivalent local functions. Rendering calculations and saved scientific inputs are unchanged. The original source remains available at commit `05f8e8fac023daa4a3fc8b8c55ac06e09c8e7859`; each distribution retains a manifest matching its actual bytes. No mesh or conditioning record is added here. No new render or model execution was performed for this release.
 
 The original unredacted report hashes differ from the public abridged copies. docs/evidence_versions.json at the repository root maps original_sha256 to each public sha256; original report hashes remain historical provenance pins. These exports do not make restricted participant analyses or their bootstrap inputs available.
 

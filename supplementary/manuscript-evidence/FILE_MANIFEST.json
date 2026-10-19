@@ -71,12 +71,12 @@
       "bytes": 4867
     },
     "figures/waist/mesh_io.py": {
-      "sha256": "a3347cd179d5760a13f89279988eecd0b3b0a3353de33c58da73f33bfe532136",
-      "bytes": 2740
+      "sha256": "b9f6bb1d1db3a2ee95b5bd659fa1e69c49ef9de1edf3d532700b79579415070e",
+      "bytes": 3140
     },
     "figures/waist/render_waist_figure.py": {
-      "sha256": "95f77074482f7246935546ff1aa089457a9b903614964ce758918a36eaec9dec",
-      "bytes": 9022
+      "sha256": "7b1ef14c22da95bb8cc46c6a1a74638905e1d3a3cb9288b1e202bff96ed43d1b",
+      "bytes": 10836
     },
     "figures/waist/waist_figure_provenance.json": {
       "sha256": "1ed0c43f6d02dbc2840207e718bd5a6f9700b37b08b27016de8ae72a4ffbdd4d",
