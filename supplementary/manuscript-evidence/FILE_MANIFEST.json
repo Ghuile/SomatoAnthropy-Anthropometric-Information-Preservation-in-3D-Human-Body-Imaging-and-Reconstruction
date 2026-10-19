@@ -1,0 +1,92 @@
+{
+  "scope": "Participant-free fixed native control/pose specifications, saved aggregate summaries and existing Figure 3 rendering source/inputs; not source participant geometry or anatomical validation",
+  "source_software_commit": "9354a1e6ea7c165334e1ea10892943fa46e29548",
+  "files": {
+    "evidence/articulation_associations.json": {
+      "sha256": "c4b22ddb722412a58cd6e2bb56f1f6b1b4d24c4bec156e9bcff27d535fb810c8",
+      "bytes": 86308
+    },
+    "evidence/development_and_rank_manifest.json": {
+      "sha256": "8c16788b913aaff9735bbcedf90b21c77726bf14c2b292f209a2bbcff554095f",
+      "bytes": 3593
+    },
+    "evidence/development_control_comparison.csv": {
+      "sha256": "7429fa6c39b00f0e3eb010d2c706f5eda04efeed6f5d8947472b32b757e14ea4",
+      "bytes": 2664
+    },
+    "evidence/development_cross_path_paired_effects.csv": {
+      "sha256": "df37b2e50bc1397b008932973c9270941c866cda7f13f7686abbe497ca5429cd",
+      "bytes": 1957
+    },
+    "evidence/development_cross_path_summary.csv": {
+      "sha256": "2b10cf1fcda2fa1adbaaa04428ccb2bce99806ddbd1a8dde39cd943e0b7ce497",
+      "bytes": 861
+    },
+    "evidence/development_paired_effects.csv": {
+      "sha256": "ce598b1fb2119175beb6242254633f7b13e83df7dd54beec0114e2616c863140",
+      "bytes": 8754
+    },
+    "evidence/extent_agreement.json": {
+      "sha256": "ba739027a68e97fa98442ed705692693db1ee37150440823474aa797aeb02856",
+      "bytes": 2405
+    },
+    "evidence/height_rank_correlations.csv": {
+      "sha256": "c1302741841f23ab2146b301d151cb275fdba09fc0c1e745ac9d2e715e1d091c",
+      "bytes": 2723
+    },
+    "evidence/native_control_bounds.csv": {
+      "sha256": "a184249c5b6186a40c2783c04dc4edbb274b40450b4eb779f519942f25904b17",
+      "bytes": 2467
+    },
+    "evidence/native_control_sparse_mappings.csv": {
+      "sha256": "5a4b3607f965f27e8b08120b0b96db3eda47cd49eec66811fe9b0c3599f9a2f4",
+      "bytes": 16741
+    },
+    "evidence/native_controls_9_and_zero_domains.json": {
+      "sha256": "99247748d5032c4437529a34165876a2a3d11b4f2cca5ef0c1c97242a3480cc4",
+      "bytes": 28865
+    },
+    "evidence/specification_manifest.json": {
+      "sha256": "4883783236b19e90d36186d05819dcac2fb1a58ccb58747629745a127a32afba",
+      "bytes": 3510
+    },
+    "evidence/t90_reference_130.csv": {
+      "sha256": "dfefcc140524c7cbff1847c18eb02c8865755598b2c6269ee5b426117d46b569",
+      "bytes": 11553
+    },
+    "evidence/t90_reference_130.json": {
+      "sha256": "d0b818751c15f7d9b38d9806caa5b4b9c1e344b100e013307b708c020cb65b2c",
+      "bytes": 41035
+    },
+    "evidence/t90_reference_sparse16.csv": {
+      "sha256": "021daf30646119f20a4d2ef72fb27e371dcf18012c53946fb875df35b40280df",
+      "bytes": 1685
+    },
+    "evidence/template_control_provenance.json": {
+      "sha256": "61520bb4029380a966c6e4f433f8cc88ff400396ede640840e3c73a4fb14d1de",
+      "bytes": 1245
+    },
+    "evidence/waist_fallback_strata.json": {
+      "sha256": "ebb6fc2e3591a986e17c2ba0bf1b6d8ed13276f7e437a7c570dfa8b466ab353d",
+      "bytes": 5002
+    },
+    "figures/waist/mesh_io.py": {
+      "sha256": "a3347cd179d5760a13f89279988eecd0b3b0a3353de33c58da73f33bfe532136",
+      "bytes": 2740
+    },
+    "figures/waist/render_waist_figure.py": {
+      "sha256": "13fb14cc08b845e5776cf16be1834362466152da7cf21db558015a6d2dde5b4b",
+      "bytes": 9152
+    },
+    "figures/waist/waist_figure_provenance.json": {
+      "sha256": "995f4b66fdc4d7f1cb291a5afe6a8c325980e3c48571cc0227b866cc9d447c24",
+      "bytes": 3035
+    },
+    "figures/waist/waist_illustration_data.json": {
+      "sha256": "6ac4b1392fd69a5d82b52c2d0cd49bc8b60b0674526521333ee06171c28065d8",
+      "bytes": 70893
+    }
+  },
+  "no_new_estimation_or_model_execution": true,
+  "source_participant_records_included": false
+}

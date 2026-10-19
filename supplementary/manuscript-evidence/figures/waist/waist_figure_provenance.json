@@ -1,0 +1,41 @@
+{
+  "asset": "Waist_selection_and_fallback.png",
+  "sha256": "5f8eb473e1b9b874e7f892aba22645752c6c2223221d9a538163e30fcebadd36",
+  "pixels": [
+    3700,
+    3182
+  ],
+  "dpi": 500,
+  "rendering": "Orthographic front and profile torso crops. Common engineering-coordinate scale and anchor-relative vertical window; no per-body scale or shape normalization.",
+  "inputs": [
+    {
+      "sample_id": "synthetic_demo_001",
+      "mesh_relative_path": "publication/somatoanthropy-huggingface-companion/meshes/synthetic_demo_001.glb",
+      "mesh_sha256": "e8432574e8d65bb235a9d4d5cc330e2de7c4a6375a864d1191f9de62dba96dca",
+      "measurement_details_sha256": "878d885f82d9f0d13c7e9435aceadbe358ac2da3bcfc05d22145e09f041ff548",
+      "selector_version": "MHR-UMBILICAL-ADAPTIVE-WAIST-v4",
+      "fallback_applied": false,
+      "quality_state": "PROXY_VALID",
+      "reason": "RESEARCHER_ADAPTIVE_EXTREMUM",
+      "frame_check_max_saved_point_to_selected_mesh_edge_m": 5.486202305522521e-08,
+      "frame_check_max_plane_residual_m": 0.0
+    },
+    {
+      "sample_id": "synthetic_demo_002",
+      "mesh_relative_path": "publication/somatoanthropy-huggingface-companion/meshes/synthetic_demo_002.glb",
+      "mesh_sha256": "d7c970c15331b0e64c1f12b2e1b83bd646697bb2606a184e5730fcad01d27d78",
+      "measurement_details_sha256": "adad828ffc0fa74b07d17c18b9e8f62439632ddcd21fff80eb1393af585c5bbf",
+      "selector_version": "MHR-UMBILICAL-ADAPTIVE-WAIST-v4",
+      "fallback_applied": true,
+      "quality_state": "SITE_AMBIGUOUS",
+      "reason": "UNRESOLVED_WAIST_ABOVE_ABDOMEN_FALLBACK",
+      "frame_check_max_saved_point_to_selected_mesh_edge_m": 5.427752827680494e-08,
+      "frame_check_max_plane_residual_m": 0.0
+    }
+  ],
+  "saved_data_sha256": "6ac4b1392fd69a5d82b52c2d0cd49bc8b60b0674526521333ee06171c28065d8",
+  "meaning": "Illustrations from measurement-conditioned generated model surfaces outside evaluation cohorts. Saved contours and search profiles; no participant scans, new fitting, native forwards or measurement reruns.",
+  "privacy": "No source conditioning values, respondent identifiers, private locations or participant linkage included.",
+  "interpretation": "PROXY_VALID is a saved selector quality state, not anatomical or clinical validation. The fallback retains the saved SITE_AMBIGUOUS label.",
+  "caption": "Waist selection on two saved measurement-conditioned MHR model surfaces outside the evaluation cohorts. Front and profile torso views share an engineering-coordinate display scale. The shaded band is the retained lower-half umbilicus-to-chest search interval; the dashed line marks the umbilicus anchor. Colored lines project the stored selected three-dimensional sections. Saved circumference profiles show (a) an interior extremum retained by the adaptive selector and (b) a boundary extremum marked ambiguous, with the explicit 0.5 cm offset section used instead. These are method illustrations, not participant scans or evidence of anatomical accuracy."
+}

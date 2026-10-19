@@ -1,0 +1,91 @@
+{
+  "model_revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32",
+  "sources": {
+    "native_probe": {
+      "source_filename": "native-probe-20261018-01.json",
+      "sha256": "d755de95256d8d2658278712fbb3fff6e0a7e2f75f2bc9cbb0cfab7eb7012059",
+      "bytes": 108175
+    },
+    "E2_1_parameter_table": {
+      "source_filename": "E2-1-T2-parameters.csv",
+      "sha256": "eac03f6bb2b3a7b3698ebae481295f14afddc56914f1b1b280750cd93d9a38b3",
+      "bytes": 114225
+    },
+    "E2_2_group_table": {
+      "source_filename": "E2-2-T2-controls.csv",
+      "sha256": "600bea163dc8005d7e14ab26a3173a298d1fecfbb1a6916a94ab787a30b176a9",
+      "bytes": 9543
+    },
+    "T90_reference_archive": {
+      "source_filename": "t90-reference.npz",
+      "sha256": "4d77e07b05a4ddc21e1e36a3304bb1acf05d104334ccfc28b8458d6ac3e263b3",
+      "bytes": 2564
+    },
+    "production_reference_pin": {
+      "source_filename": "production-defaults.json",
+      "sha256": "4c13533cdbadf31d6ac23d97e9ed03c7c6bbfd3e5d571a1bb033853090593df7",
+      "bytes": 601
+    },
+    "transfer_implementation": {
+      "source_filename": "t90_remeasurement.py",
+      "sha256": "f47c99c65b905c3cab7bdd3e2cacf5c5b8acd5fb7cb937af9fe18e6ac0285907",
+      "bytes": 1575
+    },
+    "rotation_implementation": {
+      "source_filename": "utils.py",
+      "sha256": "5be32c278aa8a8cc52f8abf578b34aa863125970ad0d148d1f6ebc913de24be6",
+      "bytes": 5056
+    }
+  },
+  "index_convention": "zero_based; slice endpoints are half_open",
+  "scope": "Participant-free native parameter metadata and the fixed transferred T90 articulation block only.",
+  "created_utc": "2026-10-19T05:19:22.454094+00:00",
+  "operation": "Copy and cross-verify saved parameter metadata; no native model execution or scientific estimation.",
+  "counts": {
+    "T90_coordinates": 130,
+    "T90_nonzero_coordinates": 16,
+    "released_controls": 9,
+    "released_sparse_joint_channel_terms": 67,
+    "zero_domain_controls": 8,
+    "all_exported_sparse_joint_channel_terms": 130
+  },
+  "checks": {
+    "all_204_parameter_names_and_sparse_mappings_match_probe_and_T2": true,
+    "released_bounds_and_mappings_match_E2_2_group_table": true,
+    "all_eight_authored_zero_domains_verified_in_probe": true,
+    "T90_source_hash_matches_production_pin": true,
+    "T90_CSV_float32_roundtrip_exact": true,
+    "source_file_hashes_unchanged": true,
+    "identity_expression_and_retained_block_values_exported": false,
+    "participant_records_exported": false,
+    "native_forward_executed": false,
+    "fitting_executed": false,
+    "scientific_estimation_executed": false
+  },
+  "outputs": {
+    "t90_reference_130.csv": {
+      "sha256": "dfefcc140524c7cbff1847c18eb02c8865755598b2c6269ee5b426117d46b569",
+      "bytes": 11553
+    },
+    "t90_reference_130.json": {
+      "sha256": "d0b818751c15f7d9b38d9806caa5b4b9c1e344b100e013307b708c020cb65b2c",
+      "bytes": 41035
+    },
+    "t90_reference_sparse16.csv": {
+      "sha256": "021daf30646119f20a4d2ef72fb27e371dcf18012c53946fb875df35b40280df",
+      "bytes": 1685
+    },
+    "native_controls_9_and_zero_domains.json": {
+      "sha256": "99247748d5032c4437529a34165876a2a3d11b4f2cca5ef0c1c97242a3480cc4",
+      "bytes": 28865
+    },
+    "native_control_bounds.csv": {
+      "sha256": "a184249c5b6186a40c2783c04dc4edbb274b40450b4eb779f519942f25904b17",
+      "bytes": 2467
+    },
+    "native_control_sparse_mappings.csv": {
+      "sha256": "5a4b3607f965f27e8b08120b0b96db3eda47cd49eec66811fe9b0c3599f9a2f4",
+      "bytes": 16741
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "MHR_template_control.png",
+  "sha256": "b645b05ad5124a421eefe3e097511f6ec0a8c52db82c14e9d4ab4ebbfa4bd9b1",
+  "pixels": [
+    3000,
+    1800
+  ],
+  "source_array_sha256": "4b0dbe2781944ecf4b0d7386e0935323ce8495d1ef6c7971b545a79a0d1b6a5e",
+  "source_description": "Saved canonical-neutral-native.npz from NHANES-FIT09 generation programme; native cached template, not a participant",
+  "native_vertices": 73639,
+  "triangular_faces": 147274,
+  "control_definition": "Zero identity (45), zero expression (72), zero model coordinates [130:204]; pinned T90 [0:130], per archived worker matching original generation receipt",
+  "historical_worker_sha256": "9f8532114e5f9e2df37e7b50c807e47d1a3a7c6784415d544ddacd8ec9381fd1",
+  "historical_source_snapshot_match": true,
+  "display": "Native vertices multiplied by 0.01; vertical rigid floor translation; same orthographic pixel-per-metre scale in both views; fixed front/profile orientations",
+  "no_new_native_forward_fitting_measurement_or_experiment": true,
+  "role": "Visual template control; not an adiposity experiment or an evaluation observation",
+  "licence": "MHR model assets retain their Apache-2.0 terms; no raw model arrays or participant data included"
+}

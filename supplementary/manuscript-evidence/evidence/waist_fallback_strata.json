@@ -1,0 +1,135 @@
+{
+  "experiment_version": "waist01-20261018-02",
+  "source_aggregate_filename": "subgroup-statistics-v2.json",
+  "source_aggregate_sha256": "6ac3c431b4633e1cbbeafe39866fe47bb72e684073c8510e7ae96beec8c85b5c",
+  "source_report_version": "EXP-WAIST-01/waist01-20261018-02",
+  "source_report_sha256": "ef91744e7d0a9fdfe56da8b444ef4cfaf91f820dab6ab510b6b56a573d42413e",
+  "unit": "cm in the saved numerical working frame; physical calibration not independently verified",
+  "reference": "dependent released-source waist proxy; not anatomical ground truth",
+  "fallback_definition": "P-side fallback_applied flag of the reconstructed canonical measurement; not source-side fallback",
+  "estimator": "mean of within-participant mean paired absolute-error differences over valid observations in the named stratum",
+  "uncertainty": {
+    "method": "original exploratory unadjusted percentile participant bootstrap",
+    "draws": 2000,
+    "seed": 18012601
+  },
+  "denominator_notes": "Candidate denominators include 60 canonical LBFGSB bodies lacking eligible source references. Valid comparisons are NICP observations; people may contribute to both fallback strata. Strata are not independent and do not use pooled-estimand weights.",
+  "no_new_estimation": true,
+  "participant_identifiers_included": false,
+  "rows": [
+    {
+      "source_zero_based_row": 72,
+      "dataset": "NOMO",
+      "state": "canonical",
+      "P_side_fallback": false,
+      "saved_mode": "end_to_end",
+      "comparator": "clad_body_default",
+      "eligible_people": 59,
+      "eligible_observations": 99,
+      "complete_people": 39,
+      "complete_observations": 69,
+      "P_MAE_cm": 3.1226072121614252,
+      "comparator_MAE_cm": 3.3199623964802365,
+      "comparator_minus_P_absolute_error_cm": 0.19735518431881113,
+      "original_unadjusted_95pct_CI_cm": [
+        -0.9153832325431245,
+        1.338758142478817
+      ]
+    },
+    {
+      "source_zero_based_row": 73,
+      "dataset": "NOMO",
+      "state": "canonical",
+      "P_side_fallback": true,
+      "saved_mode": "end_to_end",
+      "comparator": "clad_body_default",
+      "eligible_people": 125,
+      "eligible_observations": 261,
+      "complete_people": 119,
+      "complete_observations": 229,
+      "P_MAE_cm": 2.8636452158795707,
+      "comparator_MAE_cm": 3.585679525449239,
+      "comparator_minus_P_absolute_error_cm": 0.7220343095696682,
+      "original_unadjusted_95pct_CI_cm": [
+        0.47311168828820915,
+        0.9931705389038205
+      ]
+    },
+    {
+      "source_zero_based_row": 76,
+      "dataset": "NOMO",
+      "state": "canonical",
+      "P_side_fallback": false,
+      "saved_mode": "site_raw",
+      "comparator": "clad_body_default",
+      "eligible_people": 59,
+      "eligible_observations": 99,
+      "complete_people": 39,
+      "complete_observations": 69,
+      "P_MAE_cm": 3.1226072121614274,
+      "comparator_MAE_cm": 3.3210175512129316,
+      "comparator_minus_P_absolute_error_cm": 0.1984103390515045,
+      "original_unadjusted_95pct_CI_cm": [
+        -0.916112438047157,
+        1.3411967677061436
+      ]
+    },
+    {
+      "source_zero_based_row": 77,
+      "dataset": "NOMO",
+      "state": "canonical",
+      "P_side_fallback": true,
+      "saved_mode": "site_raw",
+      "comparator": "clad_body_default",
+      "eligible_people": 125,
+      "eligible_observations": 261,
+      "complete_people": 119,
+      "complete_observations": 229,
+      "P_MAE_cm": 2.8636452158795715,
+      "comparator_MAE_cm": 3.589354423956414,
+      "comparator_minus_P_absolute_error_cm": 0.7257092080768435,
+      "original_unadjusted_95pct_CI_cm": [
+        0.4759393455736993,
+        0.9958819013207526
+      ]
+    },
+    {
+      "source_zero_based_row": 80,
+      "dataset": "NOMO",
+      "state": "canonical",
+      "P_side_fallback": false,
+      "saved_mode": "umbilicus_offset_raw",
+      "comparator": "umbilical_offset_raw",
+      "eligible_people": 59,
+      "eligible_observations": 99,
+      "complete_people": 39,
+      "complete_observations": 69,
+      "P_MAE_cm": 3.1226072121614274,
+      "comparator_MAE_cm": 2.2090330823979047,
+      "comparator_minus_P_absolute_error_cm": -0.9135741297635224,
+      "original_unadjusted_95pct_CI_cm": [
+        -1.7998482446748183,
+        -0.05284691901155904
+      ]
+    },
+    {
+      "source_zero_based_row": 81,
+      "dataset": "NOMO",
+      "state": "canonical",
+      "P_side_fallback": true,
+      "saved_mode": "umbilicus_offset_raw",
+      "comparator": "umbilical_offset_raw",
+      "eligible_people": 125,
+      "eligible_observations": 261,
+      "complete_people": 119,
+      "complete_observations": 229,
+      "P_MAE_cm": 2.8636452158795715,
+      "comparator_MAE_cm": 2.8636452158795715,
+      "comparator_minus_P_absolute_error_cm": 0.0,
+      "original_unadjusted_95pct_CI_cm": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

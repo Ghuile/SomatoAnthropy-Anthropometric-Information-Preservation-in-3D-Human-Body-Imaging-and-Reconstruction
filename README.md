@@ -124,3 +124,8 @@ provenance. It performs no upload. See [the package guide](docs/huggingface-pack
 ```text
 python scripts/prepare_huggingface.py --source-commit COMMIT_SHA --output reproduced/huggingface --archive reproduced/huggingface-private.zip
 ```
+
+
+## Supplementary manuscript evidence
+
+The [supplementary manuscript evidence](supplementary/manuscript-evidence/README.md) provides the exact fixed T90/control exports, saved fallback-stratum and articulation summaries, extent-agreement arithmetic, and Figure 3 rendering source/inputs cited in the paper. These participant-free files are also supplied as Supplementary Data S1; no fits or new scientific estimates were run to release them.

@@ -1,0 +1,70 @@
+{
+  "scope": "Participant-free exact projections of saved aggregate tables; no new fits, native forwards, measurements, statistical estimates, or confidence intervals.",
+  "development_n_people": 4,
+  "rank_n_people_per_evaluation": 12,
+  "rank_evaluations_disjoint": true,
+  "saved_values_retained_as_strings": true,
+  "condition_aliases": {
+    "A": "historical",
+    "B": "matched locked continuation",
+    "C": "matched nine-control released continuation",
+    "R025": "quarter-strength prior in development; called D in held-out evaluation",
+    "R4": "fourfold skeletal-prior strength"
+  },
+  "baseline_note": "G1/G2/G3/G4 paired effects use B; noG1/noG2/R025/R4 use C. A stale generic source statistic label is preserved separately from the actual named contrast.",
+  "cross_path_note": "Each saved absolute cross-path RMS is one paired-path summary over the same four people. No absolute B cross-path aggregate was located or inferred.",
+  "multiplicity_note": "Four-person results are descriptive. Percentile confidence intervals are omitted from the manuscript and publication projections; historical reports are unchanged.",
+  "sources": {
+    "groups": {
+      "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2-T3-groups.csv",
+      "sha256": "31b6e0475417e005b70132fdffdee293c7adbc3668c1afca97f79308d07cb8b0"
+    },
+    "regularization": {
+      "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2-T4-regularization.csv",
+      "sha256": "ddf863c402262947d8afc4b213ab3f2f9a6f973f59f8dcc9d9314f1c4bbc4f9f"
+    },
+    "height_replication": {
+      "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2-T7-height.csv",
+      "sha256": "02a0748ae7faa2299cf10978313302a82e6bd8246b8e47ae743e370e0dc1d46b"
+    },
+    "height_first": {
+      "path": "docs/experiments/EXP-E2-1/e2-1-20261018-01/E2-1-T4-height.csv",
+      "sha256": "ae02524ea3e13dd08513df3e143fa4409896839d5551eab0008c1be2838b29bc"
+    },
+    "development_cross_path": {
+      "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/development-Pareto-selection.csv",
+      "sha256": "2d7444d080089557512adb7cb3378f247327f4fa9e95be859ec2a999c0c88e86"
+    },
+    "paired_effects": {
+      "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/paired-effects.csv",
+      "sha256": "eee37c5089289e817023103a76919d9b6cfd12977bfc99b36633b2d87211f13f"
+    },
+    "cross_path_effects": {
+      "path": "docs/experiments/EXP-E2-2/e2-2-20261018-01/presentation-v2/E2-2-T9-cross-path.csv",
+      "sha256": "cee961b696af4dff9901b2e864cf571b328d83876e32b2ea628545c8805e481c"
+    }
+  },
+  "outputs": {
+    "development_control_comparison.csv": {
+      "rows": 20,
+      "sha256": "7429fa6c39b00f0e3eb010d2c706f5eda04efeed6f5d8947472b32b757e14ea4"
+    },
+    "development_cross_path_summary.csv": {
+      "rows": 9,
+      "sha256": "2b10cf1fcda2fa1adbaaa04428ccb2bce99806ddbd1a8dde39cd943e0b7ce497"
+    },
+    "development_paired_effects.csv": {
+      "rows": 36,
+      "sha256": "ce598b1fb2119175beb6242254633f7b13e83df7dd54beec0114e2616c863140"
+    },
+    "development_cross_path_paired_effects.csv": {
+      "rows": 8,
+      "sha256": "df37b2e50bc1397b008932973c9270941c866cda7f13f7686abbe497ca5429cd"
+    },
+    "height_rank_correlations.csv": {
+      "rows": 28,
+      "sha256": "c1302741841f23ab2146b301d151cb275fdba09fc0c1e745ac9d2e715e1d091c"
+    }
+  },
+  "publication_revision": "Four-person interval columns removed; all retained point-estimate fields are byte-identical strings."
+}

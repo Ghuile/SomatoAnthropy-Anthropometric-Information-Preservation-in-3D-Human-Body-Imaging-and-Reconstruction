@@ -1,0 +1,1063 @@
+{
+  "model_revision": "4998cec385b1aaa07abdefba71bfba2f83c7db32",
+  "sources": {
+    "native_probe": {
+      "source_filename": "native-probe-20261018-01.json",
+      "sha256": "d755de95256d8d2658278712fbb3fff6e0a7e2f75f2bc9cbb0cfab7eb7012059",
+      "bytes": 108175
+    },
+    "E2_1_parameter_table": {
+      "source_filename": "E2-1-T2-parameters.csv",
+      "sha256": "eac03f6bb2b3a7b3698ebae481295f14afddc56914f1b1b280750cd93d9a38b3",
+      "bytes": 114225
+    },
+    "E2_2_group_table": {
+      "source_filename": "E2-2-T2-controls.csv",
+      "sha256": "600bea163dc8005d7e14ab26a3173a298d1fecfbb1a6916a94ab787a30b176a9",
+      "bytes": 9543
+    },
+    "T90_reference_archive": {
+      "source_filename": "t90-reference.npz",
+      "sha256": "4d77e07b05a4ddc21e1e36a3304bb1acf05d104334ccfc28b8458d6ac3e263b3",
+      "bytes": 2564
+    },
+    "production_reference_pin": {
+      "source_filename": "production-defaults.json",
+      "sha256": "4c13533cdbadf31d6ac23d97e9ed03c7c6bbfd3e5d571a1bb033853090593df7",
+      "bytes": 601
+    },
+    "transfer_implementation": {
+      "source_filename": "t90_remeasurement.py",
+      "sha256": "f47c99c65b905c3cab7bdd3e2cacf5c5b8acd5fb7cb937af9fe18e6ac0285907",
+      "bytes": 1575
+    },
+    "rotation_implementation": {
+      "source_filename": "utils.py",
+      "sha256": "5be32c278aa8a8cc52f8abf578b34aa863125970ad0d148d1f6ebc913de24be6",
+      "bytes": 5056
+    }
+  },
+  "index_convention": "zero_based; slice endpoints are half_open",
+  "scope": "Participant-free native parameter metadata and the fixed transferred T90 articulation block only.",
+  "released_control_indices": [
+    139,
+    140,
+    141,
+    142,
+    143,
+    146,
+    149,
+    150,
+    153
+  ],
+  "zero_domain_control_indices": [
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    147,
+    152
+  ],
+  "bound_weight_semantics": "Authored native MinMax limit metadata; not the experiment skeletal regularization coefficient or a clinical prior.",
+  "controls": [
+    {
+      "index_zero_based": 139,
+      "name": "scale_spine_length",
+      "role": "released_skeletal_control",
+      "development_group": "G1",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 1.1,
+        "minimum": -1.1,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=139, min=-1.1, max=1.1)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 2.2100000381469727,
+          "joint": "c_spine1"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.2300000190734863,
+          "joint": "c_spine2"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 3.7100000381469727,
+          "joint": "c_spine3"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.850000023841858,
+          "joint": "c_neck"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.850000023841858,
+          "joint": "c_neck_twist0_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 140,
+      "name": "scale_neck_length",
+      "role": "released_skeletal_control",
+      "development_group": "G1",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.4,
+        "minimum": -0.4,
+        "source": "ParameterLimit(type=MinMax, weight=0.1, param=140, min=-0.4, max=0.4)",
+        "weight": 0.1
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "c_neck_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "c_head"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 141,
+      "name": "scale_shoulder_width",
+      "role": "released_skeletal_control",
+      "development_group": "G4",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.2,
+        "minimum": -0.2,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=141, min=-0.2, max=0.2)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": -8.359999656677246,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -5.440000057220459,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -0.6299999952316284,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 8.359999656677246,
+          "joint": "l_uparm"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 5.440000057220459,
+          "joint": "l_uparm"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 0.6299999952316284,
+          "joint": "l_uparm"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 142,
+      "name": "scale_uparms",
+      "role": "released_skeletal_control",
+      "development_group": "G3",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 1.0,
+        "minimum": -1.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=142, min=-1, max=1)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_lowarm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.5,
+          "joint": "r_uparm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_uparm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -7.5,
+          "joint": "r_uparm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_uparm_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_lowarm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.5,
+          "joint": "l_uparm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_uparm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 7.5,
+          "joint": "l_uparm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_uparm_twist4_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 143,
+      "name": "scale_lowarms",
+      "role": "released_skeletal_control",
+      "development_group": "G3",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 1.0,
+        "minimum": -1.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=143, min=-1, max=1)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_wrist_twist"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.0,
+          "joint": "r_lowarm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -4.0,
+          "joint": "r_lowarm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -6.0,
+          "joint": "r_lowarm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -8.0,
+          "joint": "r_lowarm_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_wrist_twist"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.0,
+          "joint": "l_lowarm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 4.0,
+          "joint": "l_lowarm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 6.0,
+          "joint": "l_lowarm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 8.0,
+          "joint": "l_lowarm_twist4_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 146,
+      "name": "scale_hip_width",
+      "role": "released_skeletal_control",
+      "development_group": "G4",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.5,
+        "minimum": -0.5,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=146, min=-0.5, max=0.5)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_upleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_upleg"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 149,
+      "name": "scale_uplegs",
+      "role": "released_skeletal_control",
+      "development_group": "G2",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.5,
+        "minimum": -0.5,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=149, min=-0.5, max=0.5)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_lowleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.5,
+          "joint": "l_upleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_upleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 7.5,
+          "joint": "l_upleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_upleg_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_lowleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.5,
+          "joint": "r_upleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_upleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -7.5,
+          "joint": "r_upleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_upleg_twist4_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 150,
+      "name": "scale_lowlegs",
+      "role": "released_skeletal_control",
+      "development_group": "G2",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 1.0,
+        "minimum": -1.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=150, min=-1, max=1)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_foot"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.0,
+          "joint": "l_lowleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 4.0,
+          "joint": "l_lowleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 6.0,
+          "joint": "l_lowleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 8.0,
+          "joint": "l_lowleg_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_foot"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.0,
+          "joint": "r_lowleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -4.0,
+          "joint": "r_lowleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -6.0,
+          "joint": "r_lowleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -8.0,
+          "joint": "r_lowleg_twist4_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 153,
+      "name": "scale_foot_length",
+      "role": "released_skeletal_control",
+      "development_group": "G2",
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.1,
+        "minimum": -0.1,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=153, min=-0.1, max=0.1)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 9.3100004196167,
+          "joint": "l_talocrural"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 1.6100000143051147,
+          "joint": "l_talocrural"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 0.10000000149011612,
+          "joint": "l_talocrural"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_ball"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 1.7400000095367432,
+          "joint": "l_ball"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -0.10999999940395355,
+          "joint": "l_ball"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -9.3100004196167,
+          "joint": "r_talocrural"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -1.6100000143051147,
+          "joint": "r_talocrural"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -0.10000000149011612,
+          "joint": "r_talocrural"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_ball"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -1.7400000095367432,
+          "joint": "r_ball"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 0.10999999940395355,
+          "joint": "r_ball"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 130,
+      "name": "spine_length_flexible",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": 0.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=130, min=0, max=0)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 2.2100000381469727,
+          "joint": "c_spine1"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.2300000190734863,
+          "joint": "c_spine2"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 3.7100000381469727,
+          "joint": "c_spine3"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.850000023841858,
+          "joint": "c_neck"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.850000023841858,
+          "joint": "c_neck_twist0_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 131,
+      "name": "neck_length_flexible",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": 0.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=131, min=0, max=0)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "c_neck_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "c_head"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 132,
+      "name": "shoulder_width_flexible",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": 0.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=132, min=0, max=0)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": -8.359999656677246,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -5.440000057220459,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -0.6299999952316284,
+          "joint": "r_uparm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 8.359999656677246,
+          "joint": "l_uparm"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 5.440000057220459,
+          "joint": "l_uparm"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 0.6299999952316284,
+          "joint": "l_uparm"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 133,
+      "name": "arm_length_flexible",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": 0.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=133, min=0, max=0)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_lowarm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_wrist_twist"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -1.0,
+          "joint": "r_lowarm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.0,
+          "joint": "r_lowarm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -3.0,
+          "joint": "r_lowarm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -4.0,
+          "joint": "r_lowarm_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -1.25,
+          "joint": "r_uparm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.5,
+          "joint": "r_uparm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -3.75,
+          "joint": "r_uparm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_uparm_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_lowarm"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_wrist_twist"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.0,
+          "joint": "l_lowarm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.0,
+          "joint": "l_lowarm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 3.0,
+          "joint": "l_lowarm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 4.0,
+          "joint": "l_lowarm_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.25,
+          "joint": "l_uparm_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.5,
+          "joint": "l_uparm_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 3.75,
+          "joint": "l_uparm_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_uparm_twist4_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 134,
+      "name": "hip_width_flexible",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": 0.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=134, min=0, max=0)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "l_upleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "r_upleg"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 135,
+      "name": "leg_length_flexible",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": 0.0,
+        "source": "ParameterLimit(type=MinMax, weight=1, param=135, min=0, max=0)",
+        "weight": 1.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_lowleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_foot"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.0,
+          "joint": "l_lowleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.0,
+          "joint": "l_lowleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 3.0,
+          "joint": "l_lowleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 4.0,
+          "joint": "l_lowleg_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 1.25,
+          "joint": "l_upleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 2.5,
+          "joint": "l_upleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 3.75,
+          "joint": "l_upleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 5.0,
+          "joint": "l_upleg_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_lowleg"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_foot"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -1.0,
+          "joint": "r_lowleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.0,
+          "joint": "r_lowleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -3.0,
+          "joint": "r_lowleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -4.0,
+          "joint": "r_lowleg_twist4_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -1.25,
+          "joint": "r_upleg_twist1_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -2.5,
+          "joint": "r_upleg_twist2_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -3.75,
+          "joint": "r_upleg_twist3_proc"
+        },
+        {
+          "channel": "tx",
+          "coefficient": -5.0,
+          "joint": "r_upleg_twist4_proc"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 147,
+      "name": "scale_hip_height",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": 0.0,
+        "source": "ParameterLimit(type=MinMax, weight=0.1, param=147, min=0, max=0)",
+        "weight": 0.1
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "ty",
+          "coefficient": 10.0,
+          "joint": "l_upleg"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 10.0,
+          "joint": "r_upleg"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    },
+    {
+      "index_zero_based": 152,
+      "name": "scale_ankle_height",
+      "role": "excluded_zero_domain_control",
+      "development_group": null,
+      "native_coordinate_units": "native_model_control_coordinate",
+      "authored_MinMax": {
+        "maximum": 0.0,
+        "minimum": -0.0,
+        "source": "ParameterLimit(type=MinMax, weight=10, param=152, min=-0, max=0)",
+        "weight": 10.0
+      },
+      "sparse_joint_channel_mapping": [
+        {
+          "channel": "tx",
+          "coefficient": -10.0,
+          "joint": "l_subtalar"
+        },
+        {
+          "channel": "ty",
+          "coefficient": -1.0,
+          "joint": "l_subtalar"
+        },
+        {
+          "channel": "tz",
+          "coefficient": 1.1699999570846558,
+          "joint": "l_subtalar"
+        },
+        {
+          "channel": "tx",
+          "coefficient": 10.0,
+          "joint": "r_subtalar"
+        },
+        {
+          "channel": "ty",
+          "coefficient": 1.0,
+          "joint": "r_subtalar"
+        },
+        {
+          "channel": "tz",
+          "coefficient": -1.1699999570846558,
+          "joint": "r_subtalar"
+        }
+      ],
+      "mapped_translation_units": "native_cm",
+      "coefficient_units": "native_cm_per_native_control_coordinate"
+    }
+  ],
+  "verified_zero_domain_checks": [
+    {
+      "index_zero_based": 130,
+      "name": "spine_length_flexible",
+      "minimum_native": 0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    },
+    {
+      "index_zero_based": 131,
+      "name": "neck_length_flexible",
+      "minimum_native": 0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    },
+    {
+      "index_zero_based": 132,
+      "name": "shoulder_width_flexible",
+      "minimum_native": 0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    },
+    {
+      "index_zero_based": 133,
+      "name": "arm_length_flexible",
+      "minimum_native": 0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    },
+    {
+      "index_zero_based": 134,
+      "name": "hip_width_flexible",
+      "minimum_native": 0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    },
+    {
+      "index_zero_based": 135,
+      "name": "leg_length_flexible",
+      "minimum_native": 0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    },
+    {
+      "index_zero_based": 147,
+      "name": "scale_hip_height",
+      "minimum_native": 0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    },
+    {
+      "index_zero_based": 152,
+      "name": "scale_ankle_height",
+      "minimum_native": -0.0,
+      "maximum_native": 0.0,
+      "authored_limit_present_in_native_probe": true
+    }
+  ]
+}

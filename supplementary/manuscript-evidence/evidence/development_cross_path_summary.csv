@@ -1,0 +1,10 @@
+partition,condition,collection,n_people,canonical_cross_path_rms_cm,source_table
+development,C,PAIRED_PATHWAYS,4,0.7599348592405617,development-Pareto-selection.csv
+development,G1,PAIRED_PATHWAYS,4,0.4505188599776653,development-Pareto-selection.csv
+development,G2,PAIRED_PATHWAYS,4,0.5302260992880873,development-Pareto-selection.csv
+development,G3,PAIRED_PATHWAYS,4,0.33187574088764815,development-Pareto-selection.csv
+development,G4,PAIRED_PATHWAYS,4,0.27262264388419344,development-Pareto-selection.csv
+development,noG1,PAIRED_PATHWAYS,4,0.699128201805011,development-Pareto-selection.csv
+development,noG2,PAIRED_PATHWAYS,4,0.5542292361684245,development-Pareto-selection.csv
+development,R025,PAIRED_PATHWAYS,4,0.653188889419134,development-Pareto-selection.csv
+development,R4,PAIRED_PATHWAYS,4,0.6665167085969675,development-Pareto-selection.csv

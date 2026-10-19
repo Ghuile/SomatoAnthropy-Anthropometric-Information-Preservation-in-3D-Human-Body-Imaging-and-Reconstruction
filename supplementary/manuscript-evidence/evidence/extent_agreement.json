@@ -1,0 +1,61 @@
+{
+  "analysis": "Deterministic aggregate-moment arithmetic; no participant estimation, refitting or bootstrap rerun",
+  "source_table": "docs/experiments/EXP-E2/e2-20261018-01/report03/E2-T5-height-diagnostics.csv",
+  "source_sha256": "496f746b2ed81be099a7006916ee166277a531220d0f625e91d78b0038b1c8d9",
+  "formula": "cov_sample=(s_source^2+s_body^2-s_difference^2)/2; CCC=2*((n-1)/n)*cov_sample / [((n-1)/n)*(s_source^2+s_body^2)+mean_difference^2]",
+  "loa": "Original saved bias +/- 1.96 sample SD of paired differences; descriptive limits, not confidence intervals",
+  "results": [
+    {
+      "collection": "SMPL-NICP",
+      "state": "fitted",
+      "n": 150,
+      "ccc": 0.8201155219742925,
+      "bias_cm": 3.149359936917214,
+      "loa_lower_cm": -5.831780632241294,
+      "loa_upper_cm": 12.130500506075723,
+      "source_sample_sd_cm": 10.784036508974308,
+      "body_sample_sd_cm": 6.778698549361821,
+      "difference_sample_sd_cm": 4.58221457610128,
+      "sample_covariance_cm2": 70.6247535142879
+    },
+    {
+      "collection": "SMPL-NICP",
+      "state": "canonical",
+      "n": 150,
+      "ccc": 0.22781227159573175,
+      "bias_cm": 4.8517929241066,
+      "loa_lower_cm": -13.438738813102898,
+      "loa_upper_cm": 23.1423246613161,
+      "source_sample_sd_cm": 10.784036508974308,
+      "body_sample_sd_cm": 1.8633821937610318,
+      "difference_sample_sd_cm": 9.331903947555867,
+      "sample_covariance_cm2": 16.34160267025384
+    },
+    {
+      "collection": "CAESAR-NICP",
+      "state": "fitted",
+      "n": 150,
+      "ccc": 0.8164194693206954,
+      "bias_cm": 3.2186141586000168,
+      "loa_lower_cm": -5.812087747307247,
+      "loa_upper_cm": 12.249316064507282,
+      "source_sample_sd_cm": 10.794045797692752,
+      "body_sample_sd_cm": 6.74591935837203,
+      "difference_sample_sd_cm": 4.607500972401666,
+      "sample_covariance_cm2": 70.39489373083237
+    },
+    {
+      "collection": "CAESAR-NICP",
+      "state": "canonical",
+      "n": 150,
+      "ccc": 0.22642836617236758,
+      "bias_cm": 4.893865298697791,
+      "loa_lower_cm": -13.422434740911136,
+      "loa_upper_cm": 23.210165338306716,
+      "source_sample_sd_cm": 10.794045797692752,
+      "body_sample_sd_cm": 1.8541296581567994,
+      "difference_sample_sd_cm": 9.345051040616799,
+      "sample_covariance_cm2": 16.30962126010604
+    }
+  ]
+}
